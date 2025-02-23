@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Our Etsy</title>
-    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link href="../CSS/HomePage.css" rel="stylesheet">
 </head>
 <body>
-    <div id="header-div">
-        <header id="header" class="large-screen">
-            <div id="logo" href="#">
+    <!-- <div id="header-div">
+        <header id="header" class="etsy-header">
+            <div id="logo" href="#" class="top-nav">
                 <a href="#">
-                    <img src="../Resources/etsy_logo.png" alt="logo">
+                    <img src="../Resources/Images/etsy_logo.png" alt="logo">
                 </a>
             </div>
-            <nav>
+            <nav class="bottom-nav">
                 <div id="categories" class="dropdown">
                     <button type="button" class="dropbtn">
                         <span>
-                            <img class="navbar-icons" src="../Resources/hamburger_icon.png" alt="menu icon">
+                            <img class="navbar-icons" src="../Resources/Images/hamburger_icon.png" alt="menu icon">
                         </span>
                         Categories
                     </button>
@@ -43,29 +45,41 @@
                         <a class="dropdown-item" href="#">Weddings</a>
                     </div>
                 </div>
+                <div class="dropdown-overlay"></div>
             </nav>
-            <div id="search-container">
-                <input type="text" placeholder="Search for anything..." id="search-input">
-                <button id="search-button" type="submit">
-                    <img class="navbar-icons" src="../Resources/search_icon.png">
+            <div id="search-container" class="bottom-nav"> 
+                <input type="text" placeholder="Search for anything..." id="search-input" class="search-box">
+                <button id="search-button" type="submit" class="search-button">
+                    <img class="navbar-icons" src="../Resources/Images/search_icon.png">
                 </button>
             </div>
-            <div id="right-header">
+            <div id="right-header" class="top-nav">
                 <div id="favs">
                     <button href="#" type="button">
-                        <img class="navbar-icons" src="../Resources/favorite_icon.png" alt="favorites">
+                        <img class="navbar-icons" src="../Resources/Images/favorite_icon.png" alt="favorites">
                     </button>
+                    <p class="tooltip">Favorites</p>
                 </div>
                 <div id="cart">
-                    <button href="#" type="button">
-                        <img class="navbar-icons" src="../Resources/shopping_cart_icon.png" alt="shopping cart">
+                    <button  onclick="location.href='../HTML/CartPage.html'" type="button">
+                        <img class="navbar-icons" src="../Resources/Images/shopping_cart_icon.png" alt="shopping cart">
                     </button>
+                    <p class="tooltip">Cart</p>
                 </div>
             </div>
         </header>
-    </div>
+    </div> -->
+    <div id="header-placeholder"></div>
+    <script>
+        fetch('header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header-placeholder').innerHTML = data;
+            });
+    </script>
+    <!-- <div class="dropdown-overlay"></div> -->
     <div id="main-content" class="px-5">
-        <div id="banner" class="row py-5 justify-content-center">
+        <!-- <div id="banner" class="row py-5 justify-content-center">
             <div id="banner-left" class="col-md-8 d-flex align-items-center">
                 <div class="px-5 text-center">
                     <h2>Refresh your closet!</h2>
@@ -77,14 +91,42 @@
                 </div>
             </div>
 
-            <div id="banner-right" class="row justify-content-center col-md-4 d-flex align-items-center">
-                <div class="d-flex align-items-center">
+            <div id="banner-right" class="col-md-4 d-flex justify-content-center">
+                <div class="banner-right-content position-relative">
                     <img src="../Resources/hats.png" alt="banner right" class="img-fluid">
+                    <div class="overlay"></div>
+                    <div class="banner-right-text position-absolute">
+                        <p class="text-white">Hats</p>
+                        <span class="text-white">
+                            Shop Now
+                        </span>
+                    </div>
                 </div>
-                <!-- <div class="overlay">
-                    <h3>Hair Accessories</h3>
-                    <a href="#">Shop Now</a>
-                </div> -->
+            </div>
+        </div> -->
+        <div id="banner">
+            <div id="banner-left" class="col-md-8 d-flex align-items-center">
+                <div class="px-5 text-center">
+                    <h2>Refresh your closet!</h2>
+                    <p>Outfit yourself with original style pieces</p>
+                    <a href="#" class="btn">Shop now</a>
+                </div>
+                <div class="flex-fill">
+                    <img src="../Resources/Images/banner-left.jpg" alt="left banner" class="img-fluid">
+                </div>
+            </div>
+
+            <div id="banner-right">
+                <div class="banner-right-content position-relative">
+                    <img src="../Resources/Images/hats.png" alt="banner right" class="img-fluid">
+                    <div class="overlay"></div>
+                    <div class="banner-right-text position-absolute">
+                        <p class="text-white">Hats</p>
+                        <span class="text-white">
+                            Shop Now
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="discover" class="row justify-content-center">
@@ -92,72 +134,258 @@
                 <h2>Discover gifts for every occasion</h2>
             </div>
             <div id="cards-container" class="row justify-content-center">
-                <div class="card col-1 d-flex align-items-center">
-                    <img src="../Resources/discover-1.png" alt="card">
+                <div class="card col-2 d-flex align-items-center">
+                    <img src="../Resources/Images/discover-1.png" alt="card">
                     <div class="container">
                         <p class="text-center">Gifts for Her</p>
                     </div>
                 </div>
-                <div class="card col-1 d-flex align-items-center">
-                    <img src="../Resources/discover-2.png" alt="card">
+                <div class="card col-2 d-flex align-items-center">
+                    <img src="../Resources/Images/discover-2.png" alt="card">
                     <div class="container">
                         <p class="text-center">Gifts for Him</p>
                     </div>
                 </div>
-                <div class="card col-1 d-flex align-items-center">
-                    <img src="../Resources/discover-3.png" alt="card">
+                <div class="card col-2 d-flex align-items-center">
+                    <img src="../Resources/Images/discover-3.png" alt="card">
                     <div class="container">
                         <p class="text-center">Engagement Gifts</p>
                     </div>
                 </div>
-                <div class="card col-1 d-flex align-items-center">
-                    <img src="../Resources/discover-4.png" alt="card">
+                <div class="card col-2 d-flex align-items-center">
+                    <img src="../Resources/Images/discover-4.png" alt="card">
                     <div class="container">
                         <p class="text-center">Baby Gifts</p>
                     </div>
                 </div>
-                <div class="card col-1 d-flex align-items-center">
-                    <img src="../Resources/discover-5.png" alt="card">
+                <div class="card col-2 d-flex align-items-center">
+                    <img src="../Resources/Images/discover-5.png" alt="card">
                     <div class="container">
                         <p class="text-center">Personalized Jewelery</p>
                     </div>
                 </div>
-                <div class="card col-1 d-flex align-items-center">
-                    <img src="../Resources/discover-6.png" alt="card">
+                <div class="card col-2 d-flex align-items-center">
+                    <img src="../Resources/Images/discover-6.png" alt="card">
                     <div class="container">
                         <p class="text-center">Flower Gifts</p>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- <div id="most-popular-categories" class="row justify-content-center">
+            <div class="col-12 text-start">
+                <h2>Shop our most popular categories</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="most-popular-card col-md-2 row d-flex align-items-center">
+                    <img src="../Resources/most-pop-1.png" alt="card">
+                    <p class="text-start col-12">Necklaces</p>
+                </div>
+                <div class="most-popular-card col-md-2 row d-flex align-items-center">
+                    <img src="../Resources/most-pop-2.png" alt="card">
+                    <div>
+                        <p class="text-start col-12">Digital prints</p>
+                    </div>
+                </div>
+                <li class="most-popular-card col-md-2 d-flex align-items-center">
+                    <img src="../Resources/most-pop-3.png" alt="card">
+                    <p class="text-start">Women's dresses</p>
+                </li>
+                <li class="most-popular-card col-md-2 d-flex align-items-center">
+                    <img src="../Resources/most-pop-4.png" alt="card">
+                    <p class="text-start">Clothing</p>
+                </li>
+                <li class="most-popular-card col-md-2 d-flex align-items-center">
+                    <img src="../Resources/most-pop-5.png" alt="card">
+                    <p class="text-start">Sewing patterns</p>
+                </li>
+                <li class="most-popular-card col-md-2 d-flex align-items-center">
+                    <img src="../Resources/most-pop-6.png" alt="card">
+                    <p class="text-start">Men's t-shirts</p>
+                </li>
+            </div>
+        </div> -->
+        <div id="most-popular-categories">
+            <div>
+                <h2>Shop our most popular categories</h2>
+            </div>
+            <div class="most-pop-categ-content">
+                <div class="most-popular-card">
+                    <img src="../Resources/Images/most-pop-1.png" alt="card">
+                    <p>Necklaces</p>
+                </div>
+                <div class="most-popular-card">
+                    <img src="../Resources/Images/most-pop-2.png" alt="card">
+                    <div>
+                        <p>Digital prints</p>
+                    </div>
+                </div>
+                <div class="most-popular-card">
+                    <img src="../Resources/Images/most-pop-3.png" alt="card">
+                    <p>Women's dresses</p>
+                </div>
+                <div class="most-popular-card">
+                    <img src="../Resources/Images/most-pop-4.png" alt="card">
+                    <p>Clothing</p>
+                </div>
+                <div class="most-popular-card">
+                    <img src="../Resources/Images/most-pop-5.png" alt="card">
+                    <p>Sewing patterns</p>
+                </div>
+                <div class="most-popular-card">
+                    <img src="../Resources/Images/most-pop-6.png" alt="card">
+                    <p>Men's t-shirts</p>
+                </div>
+            </div>
+        </div>
+        <div id="personalized-gifts">
+            <div class="grid-container">
+                <div class="personalized-gifts-text grid-item1">
+                    <p class="">Editors’ Picks</p>
+                    <h2 class="my-2">Personalized Gifts</h2>
+                    <p class="text-p-2">Create custom gifts with extraordinary sellers.</p>
+                    <button class="shop-btn">Shop these unique finds</button>
+                </div>
+                <div class="grid-item">
+                    <div class="gift-grid-card"> 
+                        <div class="fav-btn">
+                            <button href="#" type="button">
+                                <img src="../Resources/Images/fav-icon-2.png" alt="favorites">
+                            </button>
+                        </div>
+                        <img src="../Resources/Images/grid-item-1.png">
+                        <div class="price-badge">
+                            <div class="price-badge-2">
+                                <span>
+                                    <span class="currency-symbol fw-bold">USD </span>
+                                    <span class="currency-value fw-bold">12.54</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="gift-grid-card">
+                        <div class="fav-btn">
+                            <button href="#" type="button">
+                                <img src="../Resources/Images/fav-icon-2.png" alt="favorites">
+                            </button>
+                        </div>
+                        <img src="../Resources/Images/grid-item-2.png">
+                        <div class="price-badge">
+                            <div class="price-badge-2">
+                                <span>
+                                    <span class="currency-symbol fw-bold">USD </span>
+                                    <span class="currency-value fw-bold">16.00</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="gift-grid-card">
+                        <div class="fav-btn">
+                            <button href="#" type="button">
+                                <img src="../Resources/Images/fav-icon-2.png" alt="favorites">
+                            </button>
+                        </div>
+                        <img src="../Resources/Images/grid-item-3.png">
+                        <div class="price-badge">
+                            <div class="price-badge-2">
+                                <span>
+                                    <span class="currency-symbol fw-bold">USD </span>
+                                    <span class="currency-value fw-bold">39.60</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="gift-grid-card">
+                        <div class="fav-btn">
+                            <button href="#" type="button">
+                                <img src="../Resources/Images/fav-icon-2.png" alt="favorites">
+                            </button>
+                        </div>
+                        <img src="../Resources/Images/grid-item-4.png">
+                        <div class="price-badge">
+                            <div class="price-badge-2">
+                                <span>
+                                    <span class="currency-symbol fw-bold">USD </span>
+                                    <span class="currency-value fw-bold">26.18</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="gift-grid-card">
+                        <div class="fav-btn">
+                            <button href="#" type="button">
+                                <img src="../Resources/Images/fav-icon-2.png" alt="favorites">
+                            </button>
+                        </div>
+                        <img src="../Resources/Images/grid-item-5.png">
+                        <div class="price-badge">
+                            <div class="price-badge-2">
+                                <span>
+                                    <span class="currency-symbol fw-bold">USD </span>
+                                    <span class="currency-value fw-bold">33.55</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="gift-grid-card">
+                        <div class="fav-btn">
+                            <button href="#" type="button">
+                                <img src="../Resources/Images/fav-icon-2.png" alt="favorites">
+                            </button>
+                        </div>
+                        <img src="../Resources/Images/grid-item-6.png">
+                        <div class="price-badge">
+                            <div class="price-badge-2">
+                                <span>
+                                    <span class="currency-symbol fw-bold">USD </span>
+                                    <span class="currency-value fw-bold">20.00</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!-- <div id="footer-div">
-        <footer class="row flex-wrap justify-content-around text-center">
-            <div class="col-12 py-4">
-                <h1>What is Etsy?</h1>
+    <div id="footer-div">
+        <div class="footer-content">
+            <div class="row flex-wrap justify-content-around text-center mx-0">
+                <div class="footer-title col-12 py-4">
+                    <h1>What is Etsy?</h1>
+                </div>
+                <div class="col-md-4 text-start">
+                    <h2 class="py-3">A community doing good</h2>
+                    <p>Etsy is a global online marketplace, where people come together to make, sell, buy, and collect unique items. 
+                        We’re also a community pushing for positive change for small businesses, people, and the planet.
+                        <span>Here are some of the ways we’re making a positive impact, together.</span>
+                    </p>
+                </div>
+                <div class="col-md-4 text-start">
+                    <h2 class="py-3">Support independent creators</h2>
+                    <p>There’s no Etsy warehouse – just millions of people selling the things they love. 
+                        We make the whole process easy, helping you connect directly with makers to find something extraordinary.
+                    </p>
+                </div>
+                <div class="col-md-4 text-start">
+                    <h2 class="py-3">Peace of mind</h2>
+                    <p>Your privacy is the highest priority of our dedicated team. And if you ever need assistance, 
+                        we are always ready to step in for support.
+                    </p>
+                </div>
             </div>
-            <div class="col-md-4 text-start">
-                <h2 class="py-3">A community doing good</h2>
-                <p>Etsy is a global online marketplace, where people come together to make, sell, buy, and collect unique items. 
-                    We’re also a community pushing for positive change for small businesses, people, and the planet.
-                    <span>Here are some of the ways we’re making a positive impact, together.</span>
-                </p>
-            </div>
-            <div class="col-md-4 text-start">
-                <h2 class="py-3">Support independent creators</h2>
-                <p>There’s no Etsy warehouse – just millions of people selling the things they love. 
-                    We make the whole process easy, helping you connect directly with makers to find something extraordinary.
-                </p>
-            </div>
-            <div class="col-md-4 text-start">
-                <h2 class="py-3">Peace of mind</h2>
-                <p>Your privacy is the highest priority of our dedicated team. And if you ever need assistance, 
-                    we are always ready to step in for support.
-                </p>
-            </div>
-        </footer>
-    </div> -->
-    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+        </div>
+    </div>
+    <!-- <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script> -->
     <script src="../JS/HomePage.js"></script>
 </body>
 </html>

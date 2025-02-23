@@ -3,34 +3,99 @@
     padding: 0;
 }
 
-body {
+body, .footer-content {
+    margin: 0;
+    padding: 0;
     color: #222;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; */
+    /* font-family: 'Inter', system-ui, sans-serif; */
+    font-family: 'Roboto', 'Inter', system-ui, sans-serif;
     font-size: 14px;
     line-height: 1.4;
 }
+
+h2, .footer-content h2 {
+    font-size: 20px; /* Etsy’s category heading size */
+    font-weight: 700; /* Bold for emphasis */
+    margin: 0;
+    letter-spacing: 0.5px; /* Gives a premium feel */
+}
+
+p, .footer-content p {
+    font-size: 14px; /* Etsy’s "Shop Now" size */
+    font-weight: 500; /* Medium weight for subtlety */
+    margin: 5px 0 0;
+    line-height: 1.25;
+    letter-spacing: 0.08px;
+    margin-top: 6px !important;
+    /* opacity: 0.9; Slightly transparent for subtlety */
+}
+
+/* Header */
 
 #header-div {
     display: block;
     position: relative;
     background-color: white;
-    border: rgb(223, 220, 220) solid;
-    padding: 12px 36px;
-    height: 110px;
+    border-bottom: rgb(223, 220, 220) solid;
+    padding: 15px 36px;
+    /* height: 10%; */
+    width: 100%;
+    margin-bottom: 30px;
 }
 
 #header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 10px;
     width: 100%;
 }
 
-@media only screen and (min-width: 900px) {
-    .large-screen {
-        padding-top: 12px;
-        padding-left: 36px;
-        padding-right: 36px;
+/* Responsive Design */
+/* @media (max-width: 600px) {
+    .etsy-header {
+        align-items: stretch;
+    }
+
+    .top-nav, .bottom-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .bottom-nav {
+        margin-top: 5px;
+    }
+
+    .search-box {
+        flex-grow: 1;
+    }
+} */
+
+/* Responsive Adjustments */
+@media (max-width: 1197px) {
+    .etsy-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* .bottom-nav {
+        display: flex;
+        flex-grow: 1;
+        max-width: 600px;
+        margin-left: 15px;
+    } */
+
+    #banner-right {
+        display: none;
+    }
+
+    #banner-left {
+        width: 100%;
+        flex-grow: 1;  /* Ensure the first shape fills the container */
     }
 }
 
@@ -79,7 +144,8 @@ button:hover {
     height: 500px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+    /* z-index: 1; */
+    z-index: 999;  /* Ensure dropdown is above the overlay */
     border-radius: 5px;
     top: 150%;
 }
@@ -110,6 +176,29 @@ button:hover {
 /* .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 } */
+
+.dropdown-overlay {
+    position: fixed;
+    top: 82px; /* check header height? */
+    left: 0;
+    width: 100vw;
+    /* height: 100vh; */
+    height: calc(100% - 82px); /* Full height minus header */
+    background: rgba(0, 0, 0, 0.5);
+    display: none;  /* Hidden by default */
+    z-index: 1; /* Make sure it's behind the dropdown */
+    /* transition: opacity 0.3s ease-in-out;
+    opacity: 0; */
+    display: none;
+    overscroll-behavior: contain;
+    overflow: hidden auto;
+    /* transition: visibility linear 0.3s, z-index linear 0.3s, background 0.3s ease-out; */
+}
+
+.dropdown.show .dropdown-overlay {
+    display: block;
+    opacity: 1; 
+}
 
 .navbar-icons {
     width: 20px;
@@ -172,22 +261,30 @@ button:hover {
 
 #right-header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* justify-content: space-between; */
+    /* justify-content: flex-end; Aligns items to the right */
+    /* align-items: center; */
+    gap: 5px; /* Space between icons */
+}
+
+/* Button styles */
+#favs, #cart {
+    position: relative; /* Important: This makes the tooltip position relative to the button */
 }
 
 #favs button, #cart button {
     background-color: white;
     border: none;
-    /* color: black; */
     padding: 10px;
-    /* text-align: center; */
-    text-decoration: none;
-    display: inline-block;
-    /* font-size: 16px; */
+    /* text-decoration: none; */
+    /* display: inline-block; */
     border-radius: 50%;
     transition-duration: 0.4s;
     cursor: pointer;
+    position: relative; /* Needed for tooltip positioning */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #favs button:hover, #cart button:hover {
@@ -195,37 +292,83 @@ button:hover {
     /* color: #090088; */
 }
 
-/* #div-left{
-    width: 60%;
-    border: 10px solid black;
+/* Tooltip styling */
+.tooltip {
+    position: absolute;
+    background-color: #0A2C64; /* Dark blue */
+    color: white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 13px;
+    bottom: -45px; /* Position below the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-#div-right {
-    width: 40%;
-    border: 10px solid black;
-} */
-
-/*---------------Intro--------------*/
-
-/* #div-left {
-    background: #467612 url("../Images/intro_background.png") repeat-x;
-    background-size: 100%;
-    background-color: #fffcdb;
-} */
-
-/* #div-left h2 {
-    color: #fff;
+/* Tooltip arrow */
+.tooltip::after {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent #0A2C64 transparent;
 }
 
-#intro p {
-    color: #d9f499;
-} */
+/* Show tooltip on hover */
+#favs:hover .tooltip, #cart:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(-5px); /* Smooth hover effect */
+}
+
+.cart-badge {
+    position: absolute;
+    top: 1px; /* Adjust as necessary */
+    right: 1px; /* Adjust as necessary */
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    text-align: center;
+    /* padding: 5px; Remove padding */
+}
+
+#cart button:hover .cart-badge {
+    background-color: #0A2C64;
+    border-color: #c9eaff;
+}
+
+/* Banners */ 
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    padding: 0px 18px;
+}
 
 /* Left Banner */
 #banner-left {
     /* background-color: #fdf4d9; */
     padding: 0;
-    width: 900px;
+    /* width: 900px; */
+    width: 65vw;
     background-color: #FFFBD8;
     border-radius: 12px;
     transition: 0.3s;
@@ -239,9 +382,10 @@ button:hover {
 #banner-left img {
     width: 100%;
     height: 400px;
+    object-fit: cover;
     border-radius: 0px 12px 12px 0px;
     /* Elliptical shape 90% wide 100% tall centered at the right middle of the image. */
-    clip-path: ellipse(90% 100% at 100% 50%); 
+    clip-path: ellipse(95% 100% at 100% 50%); 
 }
 
 #banner h2 {
@@ -273,41 +417,75 @@ button:hover {
 }
 
 /* Right Banner */
+#banner-right {
+    width: 30vw;
+}
+
 #banner-right img {
-    width: 400px;
+    width: 100%;
     height: 400px;
+    object-fit: cover;
     border-radius: 12px;
     cursor: pointer;
     transition: 0.3s;
+    background-size: cover;
 }
 
-#banner-right img:hover {
+.banner-right-text {
+    padding: 0px 18px 18px 18px;
+    /* position: absolute; */
+    top: 325px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.banner-right-text p {
+    margin-bottom: 0px !important;
+    letter-spacing: 0.13505px !important;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 27.01px !important;
+    font-weight: 500 !important;
+    line-height: 1.3 !important;
+}
+
+.banner-right-text span {
+    letter-spacing: 0.08px !important;
+    font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    line-height: 1.25 !important;
+}
+
+.banner-right-content {
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.banner-right-content:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-/* .overlay {
+.overlay {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40%; /* Adjust the height of the shadow effect */
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
+    /* padding: 10px; */
+    border-radius: 12px;
 }
 
-.overlay a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-} */
+/* Dsicover Gifts */
 
 #discover {
-    margin: 40px 0;
+    /* margin: 40px 0; */
+    margin-bottom: 30px;
 }
 
 h2 {
     /* font-size: 24px; */
-    margin-bottom: 20px;
+    /* margin-bottom: 10px; */
     letter-spacing: .13505px;
     font-family: Graphik Webfont, -apple-system, Helvetica Neue, Droid Sans, Arial, "sans-serif";
     font-size: 27.01px;
@@ -316,7 +494,9 @@ h2 {
 }
 
 #cards-container {
-    padding: 2px 16px;
+    /* padding: 2px 16px; */
+    padding: 0px 36px;
+    margin: 0px 60px;
 }
 
 #cards-container div {
@@ -329,17 +509,19 @@ h2 {
     transition: 0.3s;
     text-align: center;
     width: 160px;
+    padding: 0px;
     /* height: 192px; */
     height: fit-content;
-    /* margin: 5px; */
-    transition: all 0.3s ease;
-    border-radius: 5px;
+    margin: 5px;
+    /* transition: all 0.3s ease; */
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
     /* background-color: #ffffff00; */
 }
 
 .card img {
     width: 160px;
-    height: 160px;
+    height: 100%;
     /* background-color: #eaeaea;
     border: 1px solid; */
     border-radius: 50%;
@@ -361,14 +543,281 @@ h2 {
     border-radius: 10px;
     /* border: 2px solid black; */
     background-color: white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+    box-shadow: 0px 4px 8px 3px #00000026;
     cursor: pointer;
 }
 
+/* Most Popular Categories */
+
+#most-popular-categories {
+    padding: 0px 50px;
+    margin-bottom: 50px;
+}
+
+.most-pop-categ-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 18px;
+    /* margin-bottom: 30px; */
+}
+
+.most-popular-card {
+    border: none;
+    /* transition: 0.3s; */
+    /* min-width: 130px; */
+    /* padding: 0px; */
+    height: fit-content;
+    /* margin: 5px; */
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+.most-popular-card img {
+    width: 100%;
+    height: 245px;
+    border-radius: 10px;
+    padding: 0;
+    /* transition: opacity 0.2s ease-out; */
+}
+
+.most-popular-card:hover img {
+    box-shadow: 0px 4px 8px 3px #00000026;
+    cursor: pointer;
+}
+
+/* Personalized Gifts */
+
+#personalized-gifts {
+    /* flex-wrap: wrap;
+    display: flex !important; */
+    margin: 0px 25px;
+    padding: 0px 18px;
+}
+
+.personalized-gifts-text {
+    align-self: center;
+    /* justify-content: flex-end; */
+    padding-left: 42px;
+}
+
+.personalized-gifts-text p {
+    color: #595959 !important;
+}
+
+.text-p-2 {
+    padding-bottom: 24px;
+    padding-right: 42%;
+}
+
+.shop-btn {
+    cursor: pointer;
+    text-align: center;
+    border-radius: 24px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    background-color: #0e0e0e17;
+    color: #222;
+    transition: transform 0.2s cubic-bezier(0.37, 0.23, 1, -1.51), opacity 0.15s ease-out;
+}
+
+.shop-btn:hover {
+    background-color: #0e0e0e2e;
+    box-shadow: 0px 4px 8px 3px #00000026;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100vw; /* Viewport width */
+    max-width: 100%; /* Prevents extra space */
+    margin-bottom: 50px;
+}
+
+.grid-item1 {
+    grid-column: span 2;
+    width: 100%;
+}
+
+.grid-item {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+}
+
+.grid-item img {
+    object-fit: cover;
+    width: 100%; 
+    height: 100%; 
+    transition: 0.3s ease-in-out;
+    border-radius: 12px;
+}
+
+.gift-grid-card {
+    position: relative;
+    border: none;
+    overflow: hidden; /* Prevents image from overflowing */
+    /* height: fit-content; */
+    height: 314px;
+    width: 100;
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 12px;
+}
+
+.fav-btn button {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center; /* Centers the icon horizontally */
+    align-items: center; /* Centers the icon vertically */
+    top: 5px;
+    right: 5px;
+    background-color: white;
+    border: 1px solid #949494;
+    padding: 6px;
+    margin-top: 6px;
+    margin-right: 4px;
+    /* text-decoration: none; */
+    /* display: inline-block; */
+    border-radius: 50%;
+    transition: 0.15s ease-in-out;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.fav-btn button:hover {
+    box-shadow: 0px 4px 8px 3px #00000026;
+}
+
+.fav-btn img {
+    width: 18px !important;
+}
+
+.price-badge {
+    padding: 0px 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.price-badge-2 {
+    /* display: none !important; */
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 275px;
+    right: 230px;
+    border: 1px solid #949494;
+    background-color: #fff;
+    color: #222;
+    word-break: break-word;
+    min-width: 25px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1;
+    display: inline-block;
+    border-radius: 12px;
+    padding: 6px 8px;
+    transition: visibility 0s, opacity 0.3s ease-in-out; 
+}
+
+.gift-grid-card:hover {
+    display: block;
+    box-shadow: 0px 4px 8px 3px #00000026;
+}
+
+.gift-grid-card:hover .price-badge-2 {
+    /* display: block !important; */
+    visibility: visible;
+    opacity: 1;
+}
+
+.gift-grid-card:hover .fav-btn button {
+    visibility: visible;
+    opacity: 1;
+}
+
+.gift-grid-card img:hover {
+    transform: scale(1.08); /* Zoom in by 10% */
+}
+
+/* Footer */
+#footer-div {
+    position: relative;
+    /* width: 100%; */
+    width: 100vw;
+    margin: 0;
+}
+
+.footer-title {
+    letter-spacing: 0px;
+    font-family: Guardian-EgypTT, Charter, "Charter Bitstream", Cambria, "Noto Serif Light", "Droid Serif", Georgia, "serif";
+    font-size: 42px;
+    font-weight: 300;
+    line-height: 1.1;
+}
+
+.footer-content {
+    padding: 36px 54px !important;
+    /* margin: 0px !important; */
+    background-color: #fffcdb;
+    background-size: 100%;
+    width: 100%;
+}
+
+.footer-content h2, .footer-content p {
+    padding: 0px 50px;
+}
+
+.footer-content p {
+    letter-spacing: 0.16px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
 footer {
-    font-family: 'Helvetica Neue', Arial, sans-serif !important;
     position: absolute;
     background-color: #fffcdb;
-    padding: 50px;
+    /* padding: 50px; */
     bottom: 0px;
+    left: 0;
+    right: 0;
+    /* width: 100%; */
+    width: 100vw;
+}
+
+/* Cart */
+#cart-page {
+    /* padding-top: 24px; */
+    font-family: 'Roboto', 'Inter', system-ui, sans-serif;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin: 0px 60px;
+}
+
+.cart-text-1 span {
+    font-size: 16;
+    line-height: 1.7;
+    letter-spacing: 0.16px;
+}
+
+#card-empty {
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.1;
+    /* padding: 12px 0px; */
+    /* margin-top: 24px;
+    margin-bottom: 36px; */
 }
