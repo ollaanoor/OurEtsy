@@ -1,0 +1,67 @@
+<div id="header-div">
+    <header id="header" class="etsy-header">
+        <div id="logo" href="#" class="top-nav">
+            <a href="../HTML/HomePage.html">
+                <img src="../Resources/Images/etsy_logo.png" alt="logo">
+            </a>
+        </div>
+        <nav class="bottom-nav">
+            <div id="categories" class="dropdown">
+                <button type="button" class="dropbtn">
+                    <span>
+                        <img class="navbar-icons" src="../Resources/Images/hamburger_icon.png" alt="menu icon">
+                    </span>
+                    Categories
+                </button>
+                <div class="dropdown-content">
+                    <a class="dropdown-item" href="#">Accessories</a>
+                    <a class="dropdown-item" href="#">Art & Collectibles</a>
+                    <a class="dropdown-item" href="#">Baby</a>
+                    <a class="dropdown-item" href="#">Bags & Purses</a>
+                    <a class="dropdown-item" href="#">Bath & Beauty</a>
+                    <a class="dropdown-item" href="#">Books, Movies & Music</a>
+                    <a class="dropdown-item" href="#">Clothing</a>
+                    <a class="dropdown-item" href="#">Craft Supplies & Tools</a>
+                    <a class="dropdown-item" href="#">Electronics & Accessories</a>
+                    <a class="dropdown-item" href="#">Gifts</a>
+                    <a class="dropdown-item" href="#">Home & Living</a>
+                    <a class="dropdown-item" href="#">Jewelery</a>
+                    <a class="dropdown-item" href="#">Paper & Party Supplies</a>
+                    <a class="dropdown-item" href="#">Pet Supplies</a>
+                    <a class="dropdown-item" href="#">Shoes</a>
+                    <a class="dropdown-item" href="#">Toys & Games</a>
+                    <a class="dropdown-item" href="#">Weddings</a>
+                </div>
+            </div>
+        </nav>
+        <div id="search-container" class="bottom-nav"> 
+            <input type="text" placeholder="Search for anything..." id="search-input" class="search-box">
+            <datalist id="suggestions">
+                <option value="Handmade Jewelry">
+                <option value="Personalized Gifts">
+                <option value="Home Decor">
+                <option value="Vintage Items">
+                <option value="Craft Supplies">
+            </datalist>
+            <button id="search-button" type="submit" class="search-button">
+                <img class="navbar-icons" src="../Resources/Images/search_icon.png">
+            </button>
+        </div>
+        <div id="right-header" class="top-nav">
+            <div id="favs">
+                <button href="#" onclick="location.href='../HTML/FavPage.html'" type="button">
+                    <img class="navbar-icons" src="../Resources/Images/favorite_icon.png" alt="favorites">
+                </button>
+                <p class="tooltip">Favorites</p>
+            </div>
+            <div id="cart">
+                <button  onclick="location.href='../HTML/CartPage.html'" type="button" class="position-relative">
+                    <img class="navbar-icons" src="../Resources/Images/shopping_cart_icon.png" alt="shopping cart">
+                    <div class="cart-badge" id="cart-badge">1</div>
+                </button>
+                <p class="tooltip">Cart</p>
+            </div>
+        </div>
+    </header>
+</div>
+<div class="dropdown-overlay"></div>

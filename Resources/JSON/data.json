@@ -1,0 +1,201 @@
+{
+    "results": [
+      {
+        "listing_id": 123456789,
+        "title": "Handmade Wooden Necklace",
+        "description": "A beautifully crafted wooden necklace made from sustainable materials.",
+        "price": "25.00",
+        "currency_code": "USD",
+        "quantity": 10,
+        "tags": ["handmade", "wooden", "necklace"],
+        "image_url": "https://example.com/images/wooden-necklace.jpg",
+        "url": "https://www.etsy.com/listing/123456789/handmade-wooden-necklace"
+      },
+      {
+        "listing_id": 987654321,
+        "title": "Vintage Ceramic Mug",
+        "description": "A charming vintage ceramic mug perfect for your morning coffee.",
+        "price": "15.00",
+        "currency_code": "USD",
+        "quantity": 5,
+        "tags": ["vintage", "ceramic", "mug"],
+        "image_url": "https://example.com/images/ceramic-mug.jpg",
+        "url": "https://www.etsy.com/listing/987654321/vintage-ceramic-mug"
+      },
+      {
+        "listing_id": 246813579,
+        "title": "Eco-friendly Tote Bag",
+        "description": "A large, sturdy tote bag made from recycled materials, perfect for your daily essentials.",
+        "price": "18.00",
+        "currency_code": "USD",
+        "quantity": 15,
+        "tags": ["eco-friendly", "tote", "recycled"],
+        "image_url": "https://example.com/images/eco-tote-bag.jpg",
+        "url": "https://www.etsy.com/listing/246813579/eco-friendly-tote-bag"
+      },
+      {
+        "listing_id": 135792468,
+        "title": "Handmade Pottery Vase",
+        "description": "A unique, handcrafted pottery vase that adds a rustic charm to any room.",
+        "price": "35.00",
+        "currency_code": "USD",
+        "quantity": 7,
+        "tags": ["pottery", "vase", "handmade"],
+        "image_url": "https://example.com/images/pottery-vase.jpg",
+        "url": "https://www.etsy.com/listing/135792468/handmade-pottery-vase"
+      },
+      {
+        "listing_id": 567890123,
+        "title": "Organic Lavender Soap",
+        "description": "A soothing and calming lavender-scented soap made with 100% organic ingredients.",
+        "price": "8.00",
+        "currency_code": "USD",
+        "quantity": 20,
+        "tags": ["soap", "lavender", "organic"],
+        "image_url": "https://example.com/images/lavender-soap.jpg",
+        "url": "https://www.etsy.com/listing/567890123/organic-lavender-soap"
+      },
+      {
+        "listing_id": 678901234,
+        "title": "Crochet Baby Blanket",
+        "description": "A soft, warm, and handmade crochet blanket for your little one.",
+        "price": "45.00",
+        "currency_code": "USD",
+        "quantity": 8,
+        "tags": ["crochet", "baby", "blanket"],
+        "image_url": "https://example.com/images/crochet-baby-blanket.jpg",
+        "url": "https://www.etsy.com/listing/678901234/crochet-baby-blanket"
+      },
+      {
+        "listing_id": 789012345,
+        "title": "Handcrafted Leather Wallet",
+        "description": "A stylish and durable leather wallet, handmade with precision and care.",
+        "price": "50.00",
+        "currency_code": "USD",
+        "quantity": 12,
+        "tags": ["leather", "wallet", "handcrafted"],
+        "image_url": "https://example.com/images/leather-wallet.jpg",
+        "url": "https://www.etsy.com/listing/789012345/handcrafted-leather-wallet"
+      },
+      {
+        "listing_id": 890123456,
+        "title": "Sterling Silver Earrings",
+        "description": "Elegant sterling silver earrings with a modern design.",
+        "price": "30.00",
+        "currency_code": "USD",
+        "quantity": 25,
+        "tags": ["silver", "earrings", "sterling"],
+        "image_url": "https://example.com/images/silver-earrings.jpg",
+        "url": "https://www.etsy.com/listing/890123456/sterling-silver-earrings"
+      },
+      {
+        "listing_id": 901234567,
+        "title": "Wooden Picture Frame",
+        "description": "A hand-carved wooden frame that adds a rustic touch to your photos.",
+        "price": "22.00",
+        "currency_code": "USD",
+        "quantity": 18,
+        "tags": ["wooden", "frame", "hand-carved"],
+        "image_url": "https://example.com/images/wooden-frame.jpg",
+        "url": "https://www.etsy.com/listing/901234567/wooden-picture-frame"
+      },
+      {
+        "listing_id": 112233445,
+        "title": "Vintage Leather Journal",
+        "description": "A vintage-style leather journal for writing your thoughts and memories.",
+        "price": "28.00",
+        "currency_code": "USD",
+        "quantity": 10,
+        "tags": ["journal", "leather", "vintage"],
+        "image_url": "https://example.com/images/leather-journal.jpg",
+        "url": "https://www.etsy.com/listing/112233445/vintage-leather-journal"
+      },
+      {
+        "listing_id": 223344556,
+        "title": "Personalized Wooden Keychain",
+        "description": "A customized wooden keychain that can be personalized with your name.",
+        "price": "12.00",
+        "currency_code": "USD",
+        "quantity": 50,
+        "tags": ["personalized", "keychain", "wooden"],
+        "image_url": "https://example.com/images/wooden-keychain.jpg",
+        "url": "https://www.etsy.com/listing/223344556/personalized-wooden-keychain"
+      },
+      {
+        "listing_id": 334455667,
+        "title": "Knitted Wool Scarf",
+        "description": "A soft and cozy wool scarf, hand-knitted for warmth during the winter months.",
+        "price": "40.00",
+        "currency_code": "USD",
+        "quantity": 30,
+        "tags": ["knitted", "wool", "scarf"],
+        "image_url": "https://example.com/images/wool-scarf.jpg",
+        "url": "https://www.etsy.com/listing/334455667/knitted-wool-scarf"
+      },
+      {
+        "listing_id": 445566778,
+        "title": "Antique Brass Candle Holder",
+        "description": "An elegant brass candle holder with an antique finish, perfect for your home.",
+        "price": "60.00",
+        "currency_code": "USD",
+        "quantity": 6,
+        "tags": ["candle", "brass", "antique"],
+        "image_url": "https://example.com/images/brass-candle-holder.jpg",
+        "url": "https://www.etsy.com/listing/445566778/antique-brass-candle-holder"
+      },
+      {
+        "listing_id": 556677889,
+        "title": "Handmade Ceramic Plate",
+        "description": "A handmade ceramic plate that can be used for serving or decoration.",
+        "price": "18.00",
+        "currency_code": "USD",
+        "quantity": 20,
+        "tags": ["ceramic", "plate", "handmade"],
+        "image_url": "https://example.com/images/ceramic-plate.jpg",
+        "url": "https://www.etsy.com/listing/556677889/handmade-ceramic-plate"
+      },
+      {
+        "listing_id": 667788990,
+        "title": "Artisan Chocolate Truffles",
+        "description": "Delicious handmade chocolate truffles with a variety of fillings.",
+        "price": "25.00",
+        "currency_code": "USD",
+        "quantity": 35,
+        "tags": ["chocolate", "truffles", "artisan"],
+        "image_url": "https://example.com/images/chocolate-truffles.jpg",
+        "url": "https://www.etsy.com/listing/667788990/artisan-chocolate-truffles"
+      },
+      {
+        "listing_id": 778899001,
+        "title": "Custom Engraved Wooden Spoon",
+        "description": "A personalized wooden spoon engraved with a special message.",
+        "price": "15.00",
+        "currency_code": "USD",
+        "quantity": 18,
+        "tags": ["engraved", "wooden", "spoon"],
+        "image_url": "https://example.com/images/wooden-spoon.jpg",
+        "url": "https://www.etsy.com/listing/778899001/custom-engraved-wooden-spoon"
+      },
+      {
+        "listing_id": 889900112,
+        "title": "Handmade Quilted Pillow",
+        "description": "A beautifully handmade quilted pillow, perfect for adding color to any room.",
+        "price": "35.00",
+        "currency_code": "USD",
+        "quantity": 22,
+        "tags": ["quilted", "pillow", "handmade"],
+        "image_url": "https://example.com/images/quilted-pillow.jpg",
+        "url": "https://www.etsy.com/listing/889900112/handmade-quilted-pillow"
+      },
+      {
+        "listing_id": 990011223,
+        "title": "Eco-friendly Bamboo Toothbrush",
+        "description": "A sustainable and eco-friendly bamboo toothbrush that helps reduce plastic waste.",
+        "price": "5.00",
+        "currency_code": "USD",
+        "quantity": 100,
+        "tags": ["eco-friendly", "bamboo", "toothbrush"],
+        "image_url": "https://example.com/images/bamboo-toothbrush.jpg",
+        "url": "https://www.etsy.com/listing/990011223/eco-friendly-bamboo-toothbrush"
+      },
+  

@@ -1,0 +1,22 @@
+#cart-empty {
+    display: none;
+}
+
+.cart-content-left {
+    padding-right: 18px;
+    margin-top: 30px;
+}
+
+.product-vendor {
+    padding: 24px 24px 6px 24px;
+    margin-bottom: 18px;
+}
+
+.vendor-name {
+    padding-left: 6px;
+}
+
+.menu {
+    margin-top: 6px;
+    margin-left: 6px;
+}

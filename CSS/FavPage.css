@@ -1,0 +1,96 @@
+
+.fav-page-content {
+    padding: 0px 36px;
+    margin: 0px 60px;
+}
+
+.fav-content-title {
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.fav-content-text {
+    padding-top: 18px;
+    font-weight: bold;
+    /* font-size: 14px; */
+}
+
+.fav-content-text img {
+    width: 30px;
+    align-items: baseline;
+}
+
+.fav-items-container {
+    padding-top: 30px;
+}
+
+.grid-container {
+    justify-content: center;
+    grid-template-columns: repeat(5,1fr);
+    gap: 0;
+}
+
+/* .fav-items-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5,1fr);
+    width: 100vw; 
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+
+.fav-items {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+} */
+
+.fav-card {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    position: relative;
+    padding: 9px;
+    margin-bottom: 12px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.fav-card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+}
+
+/* On mouse-over, add a deeper shadow */
+.fav-card:hover img {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Add some padding inside the card container */
+.fav-card-info {
+    padding-top: 2px;
+}
+
+.fav-card-info {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* min-width: 0px; */
+    max-width: 200px;
+    overflow: hidden;
+}
+
+.fav-card-info h3 {
+    font-size: 12.99px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.fav-card-info p {
+    margin-bottom: 6px;
+}
+
+.fav-btn button {
+    visibility: visible !important;
+    opacity: 1;
+    top: 10px;
+    right: 10px;
+}
