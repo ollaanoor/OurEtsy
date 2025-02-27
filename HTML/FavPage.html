@@ -28,8 +28,26 @@
                 <span>Favorites are only saved to your device for 7 days, or until you clear your cache.</span>
             </div>
             <div class="fav-items-container">
-                <div class="grid-container">
-                    <div class="grid-item fav-card">
+                <div id="favorites-list" class="grid-container">
+                    <!-- <div class="grid-item fav-card">
+                        <div class="fav-btn">
+                            <button href="#" type="button">
+                                <img src="../Resources/Images/fav-icon-2-fill.png" alt="favorites">
+                            </button>
+                        </div>
+                        <img src="../Resources/Images/grid-item-1.png">
+                        <div class="fav-card-info">
+                            <h3>
+                                14k Solid Gold Mother's Ring / 3 Stone Gold Birthstone Ring for Mom / Personalized Gift Ring for Women / Gifts for Grandma / Birthday Gift
+                            </h3>
+                            <p>Juvalin</p>
+                            <div>
+                                <span class="currency-symbol">USD</span>
+                                <span class="currency-value">189.00</span>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="grid-item fav-card">
                         <div class="fav-btn">
                             <button href="#" type="button">
                                 <img src="../Resources/Images/fav-icon-2-fill.png" alt="favorites">
@@ -136,29 +154,20 @@
                                 <span class="currency-value">189.00</span>
                             </div>
                         </div>
-                    </div>
-                    <div class="grid-item fav-card">
-                        <div class="fav-btn">
-                            <button href="#" type="button">
-                                <img src="../Resources/Images/fav-icon-2-fill.png" alt="favorites">
-                            </button>
-                        </div>
-                        <img src="../Resources/Images/grid-item-1.png">
-                        <div class="fav-card-info">
-                            <h3>
-                                14k Solid Gold Mother's Ring / 3 Stone Gold Birthstone Ring for Mom / Personalized Gift Ring for Women / Gifts for Grandma / Birthday Gift
-                            </h3>
-                            <p>Juvalin</p>
-                            <div>
-                                <span class="currency-symbol">USD</span>
-                                <span class="currency-value">189.00</span>
-                            </div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
+    </script>
     <script src="../JS/HomePage.js"></script>
+    <script src="../JS/FavPage.js"></script>
 </body>
 </html>
