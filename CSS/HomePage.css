@@ -153,25 +153,31 @@ button:hover {
     min-width: 350px;
     height: 500px;
     overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(121, 43, 43, 0.2);
     /* z-index: 1; */
-    z-index: 999;  /* Ensure dropdown is above the overlay */
+    z-index: 99;  /* Ensure dropdown is above the overlay */
     border-radius: 5px;
-    top: 150%;
+    border: 1px solid #0e0e0e2e !important;
+    top: 130%;
+    padding: 12px 0px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    /* padding: 12px 18px; */
+    padding: 12px 6px 12px 18px;
     text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s;
     display: block;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
     background-color: rgb(223, 220, 220);
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 /* Show the dropdown menu on click */
@@ -179,12 +185,12 @@ button:hover {
     display: block;
 } */
 .show {
-    display: block;
+    display: block !important;
 }
 
 .dropdown-arrow {
     display: none;
-    bottom: -24px;
+    bottom: -19px;
     content: "";
     opacity: 1;
     width: 12px;
@@ -194,7 +200,8 @@ button:hover {
     left: calc(50% - 6px);
     transform: rotate(45deg);
     z-index: 100;
-    background-color: white;
+    background-color: #f9f9f9;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
     border-bottom: none;
     border-right: none;
     border-left: 1px solid #0e0e0e2e !important;
@@ -244,6 +251,7 @@ button:hover {
     border-radius: 70px;
     width: 70%;
     height: 50px;
+    position: relative; /* Important for absolute positioning of the dropdown */
 }
 
 #search-input {
@@ -287,6 +295,49 @@ button:hover {
     padding-right: 1px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+#search-suggestions {
+    display: none; /* Initially hidden */
+    position: absolute;
+    top: 48px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 12px;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px, rgba(0, 0, 0, 0.15) 0px 4px 8px 3px;
+    z-index: 70;
+    opacity: 1;
+    visibility: visible;
+    transition: opacity .18s ease-out;
+}
+
+.screen-reader-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+.suggestions-list {
+    list-style: none;
+    padding: 12px 0px;
+    margin: 0;
+}
+
+.suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestions-list li:hover {
+    background-color: #f0f0f0;
 }
 
 #right-header {

@@ -36,18 +36,24 @@
             </div>
         </nav>
         <div id="search-container" class="bottom-nav"> 
-            <input type="text" placeholder="Search for anything..." id="search-input" class="search-box">
-            <datalist id="suggestions">
+            <input type="text" placeholder="Search for anything..." id="search-input" class="search-box" aria-autocomplete="list">
+            <!-- <datalist id="suggestions">
                 <option value="Handmade Jewelry">
                 <option value="Personalized Gifts">
                 <option value="Home Decor">
                 <option value="Vintage Items">
                 <option value="Craft Supplies">
-            </datalist>
+            </datalist> -->
+            <div id="search-suggestions" class="search-suggestions-container">
+                <div class="screen-reader-only">Search Suggestions</div>
+                <ul class="suggestions-list">
+                </ul>
+            </div>
             <button id="search-button" type="submit" class="search-button">
                 <img class="navbar-icons" src="../Resources/Images/search_icon.png">
             </button>
         </div>
+        <div class="dropdown-overlay"></div>
         <div id="right-header" class="top-nav">
             <div id="favs">
                 <button href="#" onclick="location.href='../HTML/FavPage.html'" type="button">
