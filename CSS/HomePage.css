@@ -308,12 +308,14 @@ button:hover {
     margin-top: 12px;
     font-size: 16px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 3px 0px, rgba(0, 0, 0, 0.15) 0px 4px 8px 3px;
-    z-index: 70;
+    /* z-index: 70; */
+    z-index: 100;
     opacity: 1;
     visibility: visible;
     transition: opacity .18s ease-out;
 }
 
+/* 
 .screen-reader-only {
     position: absolute;
     width: 1px;
@@ -323,7 +325,7 @@ button:hover {
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
-}
+} */
 
 .suggestions-list {
     list-style: none;
@@ -338,6 +340,24 @@ button:hover {
 
 .suggestions-list li:hover {
     background-color: #f0f0f0;
+}
+
+.search-overlay {
+    position: fixed;
+    top: 0px; /* check header height? */
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;  /* Hidden by default */
+    z-index: 1; /* Make sure it's behind the list */
+    display: none;
+    overscroll-behavior: contain;
+    overflow: hidden auto;
+}
+
+.search-overlay.show {
+    display: block; /* Shown when the 'show' class is added */
 }
 
 #right-header {

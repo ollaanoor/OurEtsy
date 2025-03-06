@@ -3,12 +3,14 @@
         {
             "title": "Get the looks!",
             "text": "Chic pieces and accessories to liven up your wardrobe",
-            "image": "../Resources/Images/banner-left-couch.webp"
+            "image": [ "../Resources/Images/banner-left-couch.webp",
+                        "../Resources/Images/banner-left-colorful.png" ]
         },
         {
             "title": "Refresh your closet",
             "text": "Outfit yourself with original style pieces",
-            "image": "../Resources/Images/banner-left-carly.webp"
+            "image": [ "../Resources/Images/banner-left-carly.webp",
+                        "../Resources/Images/banner-left0.jpg" ]
         }
     ]
 }

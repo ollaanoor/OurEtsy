@@ -36,7 +36,7 @@
             </div>
         </nav>
         <div id="search-container" class="bottom-nav"> 
-            <input type="text" placeholder="Search for anything..." id="search-input" class="search-box" aria-autocomplete="list">
+            <input type="text" placeholder="Search for anything..." id="search-input" class="search-box" aria-autocomplete="list" autocomplete="off">
             <!-- <datalist id="suggestions">
                 <option value="Handmade Jewelry">
                 <option value="Personalized Gifts">
@@ -45,7 +45,7 @@
                 <option value="Craft Supplies">
             </datalist> -->
             <div id="search-suggestions" class="search-suggestions-container">
-                <div class="screen-reader-only">Search Suggestions</div>
+                <!-- <div class="screen-reader-only">Search Suggestions</div> -->
                 <ul class="suggestions-list">
                 </ul>
             </div>
@@ -53,7 +53,7 @@
                 <img class="navbar-icons" src="../Resources/Images/search_icon.png">
             </button>
         </div>
-        <div class="dropdown-overlay"></div>
+        <!-- <div class="search-overlay"></div> -->
         <div id="right-header" class="top-nav">
             <div id="favs">
                 <button href="#" onclick="location.href='../HTML/FavPage.html'" type="button">
@@ -71,4 +71,5 @@
         </div>
     </header>
 </div>
+<div class="search-overlay"></div>
 <div class="dropdown-overlay"></div>

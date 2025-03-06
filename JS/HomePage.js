@@ -10,7 +10,7 @@ dataService.fetchData()
     //     return response.json(); // Parse JSON
     // })
     .then(data => {
-        console.log(data); // Log the JSON data
+        // console.log(data); // Log the JSON data
         var randomIndexCat = Math.floor(Math.random() * data.categories.length);
         const cat = data.categories[randomIndexCat].subcategories;
         
@@ -40,11 +40,12 @@ fetch('../Resources/JSON/banner.json')
         // Pick a random banner on each refresh
         const randomIndex = Math.floor(Math.random() * banners.length);
         const selectedBanner = banners[randomIndex];
+        const imgRandomIndex = Math.floor(Math.random() * banners[randomIndex].image.length);
 
         // Update the HTML content
         document.getElementById('banner-left-title').textContent = selectedBanner.title;
         document.getElementById('banner-left-text').textContent = selectedBanner.text;
-        document.getElementById('banner-left-img').src = selectedBanner.image;
+        document.getElementById('banner-left-img').src = selectedBanner.image[imgRandomIndex];
     })
     .catch(error => console.error('Error loading the JSON file:', error));
 

@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Jewelry",
+      "title":"Elevate your everyday jewelry",
       "subcategories": [
         {
           "id": 11,
@@ -181,6 +182,7 @@
     {
       "id": 2,
       "name": "Home & Living",
+      "title":"Where comfort meets stylish",
       "subcategories": [
         {
           "id": 21,
@@ -287,6 +289,7 @@
     {
       "id": 3,
       "name": "Art & Collectibles",
+      "title":"Explore masterpieces",
       "subcategories": [
         {
           "id": 31,
@@ -393,6 +396,7 @@
     {
       "id": 4,
       "name": "Clothing",
+      "title":"Elevate your look",
       "subcategories": [
         {
           "id": 41,
@@ -524,6 +528,7 @@
     {
       "id": 5,
       "name": "Baby",
+      "title":"All you need for your little bean",
       "subcategories": [
         {
           "id": 51,
@@ -617,6 +622,7 @@
     {
       "id": 6,
       "name": "Bath & Beauty",
+      "title":"Explore the best options for your me-time",
       "subcategories": [
         {
           "id": 61,
@@ -768,6 +774,7 @@
     {
       "id": 7,
       "name": "Pet Supplies",
+      "title": "",
       "subcategories": [
         {
           "id": 71,
@@ -919,6 +926,7 @@
     {
       "id": 8,
       "name": "Gifts",
+      "title":"Create custom gifts with extraordinary sellers.",
       "subcategories": [
         {
           "id": 81,
