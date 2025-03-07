@@ -1,0 +1,77 @@
+#shipping-form {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#shipping-form label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#shipping-form input, #shipping-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #949494;
+    border-radius: 6px;
+    box-sizing: border-box;
+    box-shadow: 1px 4px 0px inset #0e0e0e05;
+    outline: 3px solid #0000;
+    width: 100%;
+    min-width: 0;
+    height: 48px;
+    padding: 9px 12px;
+    /* font-family: inherit;
+    font-size: 16px;
+    line-height: 1.7; */
+}
+
+#shipping-form button {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+    /* z-index: 10;
+    background: 0 0; */
+    outline: none;
+    min-height: 48px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#shipping-form button:hover {
+    /* transition: scale(1.2); */
+    box-shadow: 0px 1px 4px 0px #0e0e0e17;
+    /* background-color: #c85a0a; */
+}
+
+/* Error styling */
+#shipping-form input:invalid {
+    border: 1px solid #9a0027;
+    background-color: #ffeaf0;
+}
+
+.error-message {
+    color: #9a0027;
+    font-size: 14px;
+    display: none;
+}
+
+/* Required and optional indicators */
+.required {
+    color: #9a0027;
+    font-weight: bold;
+}
+
+.optional {
+    color: #999;
+    font-weight: normal;
+}

@@ -78,6 +78,16 @@ function toggleFav(button,categoryId,subcategoryId,productId) {
     // console.log('Favorited item:', button);
 }
 
+// function showNotification() {
+//     var notification = document.getElementById('notification');
+//     notification.classList.add('show');
+
+//     // Hide the notification after 3 seconds
+//     setTimeout(() => {
+//         notification.classList.remove('show');
+//     }, 3000);
+// }
+
 // makes the function available to the other scripts.
 export default {
     fetchData,
