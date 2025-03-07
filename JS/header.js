@@ -1,11 +1,14 @@
 import dataService from './dataService.js';
+
 var data;
+
 // Fetch the JSON file for products data 
 dataService.fetchData()
     .then(mydata => {
         // console.log(data); // Log the JSON data
         data = mydata;
-        // console.log(typeof data);
+        // Populate dropdown dynamically
+        populateDropdown();
 
     })
     .catch(error => {
@@ -32,6 +35,11 @@ if (headerContainer) {
         if (!event.target.closest('#search-input') && !event.target.closest('#search-suggestions')) {
             closeSearchSuggestions();
         }
+
+        // Handle search when clicking again on search box and there is already something typed
+        if (event.target.closest('#search-input')) {
+            handleSearchInput();
+        }
     });
 
     // Handle input for search suggestions
@@ -43,6 +51,18 @@ if (headerContainer) {
 
 } else {
     console.error("Header container element not found.");
+}
+
+// Function to populate dropdown
+function populateDropdown() {
+    var content = document.getElementsByClassName('dropdown-content')[0];
+    data.categories.forEach(cat => {
+        var dropItem = document.createElement('a');
+        dropItem.textContent = cat.name;
+        dropItem.classList.add('dropdown-item');
+        dropItem.href = "#"; // Assign html page
+        content.appendChild(dropItem);
+    })
 }
 
 // Function to handle search suggestions
@@ -110,7 +130,7 @@ function closeDropdown() {
 // Simulate fetching suggestions (replace with actual data)
 function getSuggestions(searchTerm) {
     var allSuggestions = [];
-    console.log(data);
+
     // Collect category, subcategory, and product names
     data.categories.forEach(category => {
         // Add category name
@@ -126,7 +146,7 @@ function getSuggestions(searchTerm) {
             });
         });
     });
-    console.log(allSuggestions);
+    // console.log(allSuggestions);
     return allSuggestions.filter(suggestion =>
         suggestion.toLowerCase().startsWith(searchTerm)
     ).slice(0,5); // Limit to the first 5 suggestions
