@@ -9,44 +9,392 @@
                     "name": "Earrings",
                     "image": "../Resources/Images/jewelry-earrings.webp",
                     "products": [
-                        { 
-                            "id": 111, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 111,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
-                            "vendor": "LewsinGemstone"
+                            "vendor": "LewsinGemstone",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Colorless",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-03-17",
+                                    "end": "2025-04-09"
+                                },
+                                "cost": 20.00,
+                                "shipsFrom": "United States",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviewsNum": 604,
+                            "reviews": [
+                                {
+                                    "stars": 3,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "mariette",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 3,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 2,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Alice James",
+                                    "date": "2025-01-15",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 2,
+                                        "shipping": 3,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         },
-                        { 
-                            "id": 112, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 112,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 "../Resources/Images/earrings31.webp",
                                 "../Resources/Images/earrings32.webp",
                                 "../Resources/Images/earrings33.webp"
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
-                            "vendor": "OuferJewelry"
+                            "vendor": "OuferJewelry",
+                            "materials": [
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Colorless",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": false,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-02-17",
+                                    "end": "2025-03-09"
+                                },
+                                "cost": 20.00,
+                                "shipsFrom": "United States",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviewsNum": 100,
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-earring.avif",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-earring.avif",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-earring.avif",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         },
-                        { 
-                            "id": 113, 
-                            "name": "Dainty Split Star Earrings, Cute Silver Star Earrings, Asymmetrical Star Earrings, Minimalist Earrings, Unique Girls Earrings, Gift for Her", 
+                        {
+                            "id": 113,
+                            "name": "Dainty Split Star Earrings, Cute Silver Star Earrings, Asymmetrical Star Earrings, Minimalist Earrings, Unique Girls Earrings, Gift for Her",
                             "image": [
                                 "../Resources/Images/earrings21.webp",
                                 "../Resources/Images/earrings22.webp",
                                 "../Resources/Images/earrings23.webp"
                             ],
-                            "price": 28.53, 
+                            "price": 28.53,
                             "discPrice": null,
                             "discount": null,
-                            "vendor": "LoveandKissesCoSCO"
+                            "vendor": "LoveandKissesCoSCO",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "materials": [
+                                "Rose gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Blue",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-05-17",
+                                    "end": "2025-06-09"
+                                },
+                                "cost": 35.00,
+                                "shipsFrom": "France",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviewsNum": 56,
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-earring.avif",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -55,32 +403,342 @@
                     "name": "Necklaces",
                     "image": "../Resources/Images/jewelry-necklaces.webp",
                     "products": [
-                        { 
-                            "id": 121, 
-                            "name": "Pendant Necklace, 18K Gold Necklace, Wedding Necklace, Anniversary Gift, Bridal Gift, Grandma Gift, Christmas Gift for Her", 
+                        {
+                            "id": 121,
+                            "name": "Pendant Necklace, 18K Gold Necklace, Wedding Necklace, Anniversary Gift, Bridal Gift, Grandma Gift, Christmas Gift for Her",
                             "image": "../Resources/Images/neck1.png",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
-                            "vendor": "LewsinGemstone"
+                            "vendor": "LewsinGemstone",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "materials": [
+                                "Rose gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Blue",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-05-17",
+                                    "end": "2025-06-09"
+                                },
+                                "cost": 35.00,
+                                "shipsFrom": "France",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviewsNum": 305,
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review2-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": null,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/Reviews/review3-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         },
-                        { 
-                            "id": 122, 
-                            "name": "Butterfly Birthstone Necklace, 18K Gold Necklace, Wedding Necklace, Anniversary Gift, Bridal Gift, Grandma Gift, Christmas Gift for Her", 
+                        {
+                            "id": 122,
+                            "name": "Butterfly Birthstone Necklace, 18K Gold Necklace, Wedding Necklace, Anniversary Gift, Bridal Gift, Grandma Gift, Christmas Gift for Her",
                             "image": "../Resources/Images/neck2.png",
-                            "price": "26.99", 
+                            "price": "26.99",
                             "discPrice": 26.24,
                             "discount": 25,
-                            "vendor": "OuferJewelry"
+                            "vendor": "OuferJewelry",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "reviewsNum": 45,
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Colorless",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-03-17",
+                                    "end": "2025-04-09"
+                                },
+                                "cost": 20.00,
+                                "shipsFrom": "United States",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": null,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/Reviews/review2-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "photoUrl": "../Resources/Images/Reviews/review3-necklace.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "date": "2025-02-05",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         },
-                        { 
-                            "id": 123, 
-                            "name": "Sun and Moon Necklace, Sunshine and Moonlight Necklace, Gold Sun Necklace, Silver Moon Necklace, Couple Matching Jewelry, Best Gift for Her", 
+                        {
+                            "id": 123,
+                            "name": "Sun and Moon Necklace, Sunshine and Moonlight Necklace, Gold Sun Necklace, Silver Moon Necklace, Couple Matching Jewelry, Best Gift for Her",
                             "image": "../Resources/Images/neck3.png",
-                            "price": "116.99", 
+                            "price": "116.99",
                             "discPrice": 16.24,
                             "discount": 25,
-                            "vendor": "OuferJewelry"
+                            "vendor": "OuferJewelry",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "reviewsNum": 10,
+                            "materials": [
+                                "Rose gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Blue",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-05-17",
+                                    "end": "2025-06-09"
+                                },
+                                "cost": 35.00,
+                                "shipsFrom": "France",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review2-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -89,29 +747,237 @@
                     "name": "Rings",
                     "image": "../Resources/Images/jewelry-rings2.webp",
                     "products": [
-                        { 
-                            "id": 131, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 131,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
-                            "vendor": "LewsinGemstone"
+                            "vendor": "LewsinGemstone",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "reviewsNum": 24,
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Colorless",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-03-17",
+                                    "end": "2025-04-09"
+                                },
+                                "cost": 20.00,
+                                "shipsFrom": "United States",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/review4-ring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": null,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review3-ring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/reviews2-ring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-ring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-ring.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         },
-                        { 
-                            "id": 132, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 132,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
-                            "vendor": "OuferJewelry"
+                            "vendor": "OuferJewelry",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "reviewsNum": 30,
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Colorless",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-03-17",
+                                    "end": "2025-04-09"
+                                },
+                                "cost": 20.00,
+                                "shipsFrom": "United States",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-ring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-ring.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/review1.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": null
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -120,29 +986,236 @@
                     "name": "Bracelets",
                     "image": "../Resources/Images/jewelry-bracelets.webp",
                     "products": [
-                        { 
-                            "id": 141, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 141,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
-                            "vendor": "LewsinGemstone"
+                            "vendor": "LewsinGemstone",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "reviewsNum": 25,
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Colorless",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-03-17",
+                                    "end": "2025-04-09"
+                                },
+                                "cost": 20.00,
+                                "shipsFrom": "United States",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review2-bracelet.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review3-bracelet.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-bracelet.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": null,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         },
-                        { 
-                            "id": 142, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 142,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
-                            "vendor": "OuferJewelry"
+                            "vendor": "OuferJewelry",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "reviewsNum": 70,
+                            "materials": [
+                                "Rose gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Blue",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-05-17",
+                                    "end": "2025-06-09"
+                                },
+                                "cost": 35.00,
+                                "shipsFrom": "France",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review3-bracelet.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review4-bracelet.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -151,32 +1224,343 @@
                     "name": "Watches",
                     "image": "../Resources/Images/watch4.png",
                     "products": [
-                        { 
-                            "id": 151, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 151,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "../Resources/Images/watch1.png",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
-                            "vendor": "LewsinGemstone"
+                            "vendor": "LewsinGemstone",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "reviewsNum": 50,
+                            "materials": [
+                                "Rose gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Blue",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-05-17",
+                                    "end": "2025-06-09"
+                                },
+                                "cost": 35.00,
+                                "shipsFrom": "France",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": "../Resources/Images/Reviews/review2-bracelet.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         },
-                        { 
-                            "id": 152, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 152,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "../Resources/Images/watch2.png",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
-                            "vendor": "OuferJewelry"
+                            "vendor": "OuferJewelry",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "reviewsNum": 54,
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Colorless",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-03-17",
+                                    "end": "2025-04-09"
+                                },
+                                "cost": 20.00,
+                                "shipsFrom": "United States",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         },
-                        { 
-                            "id": 152, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 152,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "../Resources/Images/watch4.png",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
-                            "vendor": "OuferJewelry"
+                            "vendor": "OuferJewelry",
+                            "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+                            "reviewsNum": 66,
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "gemColor": "Colorless",
+                            "bandColor": "Rose gold",
+                            "style": "Art Deco",
+                            "personalized": true,
+                            "recycled": true,
+                            "madeToOrder": true,
+                            "shipping": {
+                                "estimatedDelivery": {
+                                    "start": "2025-03-17",
+                                    "end": "2025-04-09"
+                                },
+                                "cost": 20.00,
+                                "shipsFrom": "United States",
+                                "returnsAcceptedWithinDays": 21
+                            },
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Nada Ameen",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Resources/Images/review1.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 4,
+                                        "customerService": null
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
                         }
                     ]
                 }
@@ -191,20 +1575,20 @@
                     "name": "Furniture",
                     "image": "../Resources/Images/furniture.png",
                     "products": [
-                        { 
-                            "id": 211, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 211,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 212, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 212,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -216,20 +1600,20 @@
                     "name": "Home Decor",
                     "image": "../Resources/Images/homeDecor.png",
                     "products": [
-                        { 
-                            "id": 221, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 221,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 222, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 222,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -241,20 +1625,20 @@
                     "name": "Kitchen & Dining",
                     "image": "../Resources/Images/kitchen.png",
                     "products": [
-                        { 
-                            "id": 231, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 231,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 232, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 232,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -266,20 +1650,20 @@
                     "name": "Outdoor & Gardening",
                     "image": "../Resources/Images/gardening.png",
                     "products": [
-                        { 
-                            "id": 241, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 241,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 242, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 242,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -289,28 +1673,28 @@
             ]
         },
         {
-            "id": 3, 
+            "id": 3,
             "name": "Art & Collectibles",
             "subcategories": [
                 {
-                    "id": 31, 
+                    "id": 31,
                     "name": "Painting",
                     "image": "../Resources/Images/painting.png",
                     "products": [
-                        { 
-                            "id": 311, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 311,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 312, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 312,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -318,24 +1702,24 @@
                     ]
                 },
                 {
-                    "id": 32, 
+                    "id": 32,
                     "name": "Collectibles",
                     "image": "../Resources/Images/collectibles.png",
                     "products": [
-                        { 
-                            "id": 321, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 321,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 322, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 322,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -343,24 +1727,24 @@
                     ]
                 },
                 {
-                    "id": 33, 
+                    "id": 33,
                     "name": "Prints",
                     "image": "../Resources/Images/print.png",
                     "products": [
-                        { 
-                            "id": 331, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 331,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 332, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 332,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -368,24 +1752,24 @@
                     ]
                 },
                 {
-                    "id": 34, 
+                    "id": 34,
                     "name": "Drawing & Illustration",
                     "image": "../Resources/Images/illustration.png",
                     "products": [
-                        { 
-                            "id": 341, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 341,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 342, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 342,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -395,28 +1779,28 @@
             ]
         },
         {
-            "id": 4, 
+            "id": 4,
             "name": "Clothing",
             "subcategories": [
                 {
-                    "id": 41, 
+                    "id": 41,
                     "name": "Women's Clothing",
                     "image": "../Resources/Images/most-pop-3.png",
                     "products": [
-                        { 
-                            "id": 411, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 411,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 412, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 412,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -424,24 +1808,24 @@
                     ]
                 },
                 {
-                    "id": 42, 
+                    "id": 42,
                     "name": "Kids's Clothing",
                     "image": "../Resources/Images/kidsClothing.png",
                     "products": [
-                        { 
-                            "id": 421, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 421,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 422, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 422,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -449,24 +1833,24 @@
                     ]
                 },
                 {
-                    "id": 43, 
+                    "id": 43,
                     "name": "Bags",
                     "image": "../Resources/Images/bags.png",
                     "products": [
-                        { 
-                            "id": 431, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 431,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 432, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 432,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -474,24 +1858,24 @@
                     ]
                 },
                 {
-                    "id": 44, 
+                    "id": 44,
                     "name": "Shoes",
                     "image": "../Resources/Images/shoes.png",
                     "products": [
-                        { 
-                            "id": 441, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 441,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 442, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 442,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -499,24 +1883,24 @@
                     ]
                 },
                 {
-                    "id": 45, 
+                    "id": 45,
                     "name": "Hats",
                     "image": "../Resources/Images/hats.png",
                     "products": [
-                        { 
-                            "id": 451, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 451,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "",
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 452, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 452,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "",
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -526,34 +1910,34 @@
             ]
         },
         {
-            "id": 5, 
+            "id": 5,
             "name": "Baby",
             "subcategories": [
                 {
-                    "id": 51, 
+                    "id": 51,
                     "name": "Baby Clothes",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 511, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 511,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 512, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 512,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -561,30 +1945,30 @@
                     ]
                 },
                 {
-                    "id": 52, 
+                    "id": 52,
                     "name": "Nursery Decor",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 521, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 521,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 522, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 522,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -592,30 +1976,30 @@
                     ]
                 },
                 {
-                    "id": 53, 
+                    "id": 53,
                     "name": "Baby Toys",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 531, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 531,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 532, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 532,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -625,34 +2009,34 @@
             ]
         },
         {
-            "id": 6, 
+            "id": 6,
             "name": "Bath & Beauty",
             "subcategories": [
                 {
-                    "id": 61, 
+                    "id": 61,
                     "name": "Bath Accessories",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 611, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 611,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 612, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 612,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -660,30 +2044,30 @@
                     ]
                 },
                 {
-                    "id": 62, 
+                    "id": 62,
                     "name": "Skin Care",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 621, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 621,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 622, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 622,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -691,30 +2075,30 @@
                     ]
                 },
                 {
-                    "id": 63, 
+                    "id": 63,
                     "name": "Fragrances",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 631, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 631,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 632, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 632,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -722,30 +2106,30 @@
                     ]
                 },
                 {
-                    "id": 64, 
+                    "id": 64,
                     "name": "Makeup & Cosmetics",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 641, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 641,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 642, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 642,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -753,30 +2137,30 @@
                     ]
                 },
                 {
-                    "id": 65, 
+                    "id": 65,
                     "name": "Personal Care",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 651, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 651,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 652, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 652,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -786,34 +2170,34 @@
             ]
         },
         {
-            "id": 7, 
+            "id": 7,
             "name": "Pet Supplies",
             "subcategories": [
                 {
-                    "id": 71, 
+                    "id": 71,
                     "name": "Pet Collars & Leashes",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 711, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 711,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 712, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 712,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -821,30 +2205,30 @@
                     ]
                 },
                 {
-                    "id": 72, 
+                    "id": 72,
                     "name": "Pet Furniture",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 721, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 721,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 722, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 722,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -852,30 +2236,30 @@
                     ]
                 },
                 {
-                    "id": 73, 
+                    "id": 73,
                     "name": "Pet Toys",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 731, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 731,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 732, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 732,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -883,30 +2267,30 @@
                     ]
                 },
                 {
-                    "id": 74, 
+                    "id": 74,
                     "name": "Pet Bedding",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 741, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 741,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 742, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 742,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -914,30 +2298,30 @@
                     ]
                 },
                 {
-                    "id": 75, 
+                    "id": 75,
                     "name": "Pet Clothing",
                     "image": "../Resources/Images/jewelry-watches.webp",
                     "products": [
-                        { 
-                            "id": 751, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 751,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 "../Resources/Images/earrings1.webp",
                                 "../Resources/Images/earrings2.webp",
                                 "../Resources/Images/earrings3.webp"
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 752, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 752,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -947,32 +2331,32 @@
             ]
         },
         {
-            "id": 8, 
+            "id": 8,
             "name": "Gifts",
             "subcategories": [
                 {
-                    "id": 81, 
+                    "id": 81,
                     "name": "Gifts for Her",
                     "image": "../Resources/Images/discover-1.png",
                     "products": [
-                        { 
-                            "id": 811, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 811,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 ""
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 812, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 812,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -980,28 +2364,28 @@
                     ]
                 },
                 {
-                    "id": 82, 
+                    "id": 82,
                     "name": "Gifts for Him",
                     "image": "../Resources/Images/discover-2.png",
                     "products": [
-                        { 
-                            "id": 821, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 821,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 ""
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 822, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 822,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": 14.99, 
+                            "price": 14.99,
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -1009,28 +2393,28 @@
                     ]
                 },
                 {
-                    "id": 83, 
+                    "id": 83,
                     "name": "Engagement Gifts",
                     "image": "../Resources/Images/discover-3.png",
                     "products": [
-                        { 
-                            "id": 831, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 831,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 ""
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": "15.40",
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 832, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 832,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -1038,28 +2422,28 @@
                     ]
                 },
                 {
-                    "id": 83, 
+                    "id": 83,
                     "name": "Baby Gifts",
                     "image": "../Resources/Images/discover-4.png",
                     "products": [
-                        { 
-                            "id": 831, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 831,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 ""
                             ],
-                            "price": 22.00, 
+                            "price": 22.00,
                             "discPrice": "15.40",
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 832, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 832,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -1067,60 +2451,60 @@
                     ]
                 },
                 {
-                    "id": 84, 
+                    "id": 84,
                     "name": "Personalized Gifts",
                     "image": "../Resources/Images/discover-5.png",
                     "products": [
-                        { 
-                            "id": 841, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 841,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": "../Resources/Images/grid-item-1.png",
-                            "price": "12.54", 
+                            "price": "12.54",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 842, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 842,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "../Resources/Images/grid-item-2.png",
-                            "price": "16.00", 
+                            "price": "16.00",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
                         },
-                        { 
-                            "id": 842, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 842,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "../Resources/Images/grid-item-3.png",
-                            "price": "39.60", 
+                            "price": "39.60",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
                         },
-                        { 
-                            "id": 842, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 842,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "../Resources/Images/grid-item-4.png",
-                            "price": "26.18", 
+                            "price": "26.18",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
                         },
-                        { 
-                            "id": 842, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 842,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "../Resources/Images/grid-item-5.png",
-                            "price": "33.55", 
+                            "price": "33.55",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
                         },
-                        { 
-                            "id": 842, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 842,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": "../Resources/Images/grid-item-6.png",
-                            "price": "20.00", 
+                            "price": "20.00",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -1128,28 +2512,28 @@
                     ]
                 },
                 {
-                    "id": 85, 
+                    "id": 85,
                     "name": "Flower Gifts",
                     "image": "../Resources/Images/discover-6.png",
                     "products": [
-                        { 
-                            "id": 851, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 851,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 ""
                             ],
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 852, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 852,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -1157,28 +2541,28 @@
                     ]
                 },
                 {
-                    "id": 86, 
+                    "id": 86,
                     "name": "Gifts for Kids",
                     "image": "../Resources/Images/kidsgift.png",
                     "products": [
-                        { 
-                            "id": 861, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 861,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 ""
                             ],
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 862, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 862,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -1186,28 +2570,28 @@
                     ]
                 },
                 {
-                    "id": 87, 
+                    "id": 87,
                     "name": "Gifts for Friends",
                     "image": "../Resources/Images/friendsgifts.png",
                     "products": [
-                        { 
-                            "id": 871, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 871,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 ""
                             ],
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 872, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 872,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"
@@ -1215,28 +2599,28 @@
                     ]
                 },
                 {
-                    "id": 88, 
+                    "id": 88,
                     "name": "Anniversary Gifts",
                     "image": "../Resources/Images/anngifts.png",
                     "products": [
-                        { 
-                            "id": 881, 
-                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set", 
+                        {
+                            "id": 881,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
                             "image": [
                                 ""
                             ],
-                            "price": "22.00", 
+                            "price": "22.00",
                             "discPrice": 15.40,
                             "discount": 30,
                             "vendor": "LewsinGemstone"
                         },
-                        { 
-                            "id": 882, 
-                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold", 
+                        {
+                            "id": 882,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
                             "image": [
                                 ""
                             ],
-                            "price": "14.99", 
+                            "price": "14.99",
                             "discPrice": 11.24,
                             "discount": 25,
                             "vendor": "OuferJewelry"

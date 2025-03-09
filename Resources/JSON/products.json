@@ -1,0 +1,893 @@
+{
+    "categories": [
+        {
+            "name": "Jewelry",
+            "subcategories": [
+                {
+                    "name": "Earrings",
+                    "image": "../Resources/Images/jewelry-earrings.webp",
+                    "products": [
+                        {
+                            "id": 1,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+                            "image": [
+                                "../Resources/Images/earrings1.webp",
+                                "../Resources/Images/earrings2.webp",
+                                "../Resources/Images/earrings3.webp"
+                            ],
+                            "price": 22.00,
+                            "discPrice": 15.40,
+                            "discount": 30,
+                            "vendor": "LewsinGemstone",
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "reviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Images/Reviews/review1-earring.avif",
+                                    "reviewerPhotoUrl": "../Images/Users/Jane_Doe.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": "../Images/Reviews/review2-earring.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Images/Reviews/review3-earring.webp",
+                                    "reviewerPhotoUrl": "../Images/Users/Nada_Amen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Images/Users/John_Smith.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 2,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+                            "image": [
+                                "../Resources/Images/earrings31.webp",
+                                "../Resources/Images/earrings32.webp",
+                                "../Resources/Images/earrings33.webp"
+                            ],
+                            "price": 14.99,
+                            "discPrice": 11.24,
+                            "discount": 25,
+                            "vendor": "OuferJewelry",
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "reviews": [
+                                {
+                                    "stars": 4,
+                                    "text": "Beautiful and delicate. Just what I was looking for!",
+                                    "author": "Alice Green",
+                                    "date": "2025-01-25",
+                                    "photoUrl": "../Images/Reviews/review4-earring.avif",
+                                    "reviewerPhotoUrl": "../Images/Users/Alice_James.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 3,
+                                    "text": "Good quality but smaller than expected.",
+                                    "author": "David White",
+                                    "date": "2025-02-12",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Images/Users/John_Smith.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "stars": 5,
+                                    "text": "OuferJewelry has a great selection and excellent customer service.",
+                                    "author": "Sophia Black",
+                                    "date": "2025-01-30",
+                                    "photoUrl": "../Images/Reviews/review2-earring.webp",
+                                    "reviewerPhotoUrl": null,
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": 5
+                                    }
+                                },
+                                {
+                                    "stars": 5,
+                                    "text": "Fast shipping and good quality products.",
+                                    "author": "James Wilson",
+                                    "date": "2025-02-08",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Images/Users/John_Smith.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": 5,
+                                        "customerService": null
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "id": 3,
+                            "name": "Dainty Split Star Earrings, Cute Silver Star Earrings, Asymmetrical Star Earrings, Minimalist Earrings, Unique Girls Earrings, Gift for Her",
+                            "image": [
+                                "../Resources/Images/earrings21.webp",
+                                "../Resources/Images/earrings22.webp",
+                                "../Resources/Images/earrings23.webp"
+                            ],
+                            "price": 28.53,
+                            "discPrice": null,
+                            "discount": null,
+                            "vendor": "LoveandKissesCoSCO",
+                            "materials": [
+                                "Rose gold",
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "reviews": [
+                                {
+                                    "stars": 4,
+                                    "text": "These earrings are so cute and unique! Love them!",
+                                    "author": "Olivia Blue",
+                                    "date": "2025-01-18",
+                                    "photoUrl": "../Images/Reviews/review3-earring.webp",
+                                    "reviewerPhotoUrl": "../Images/Users/Nada_Amen.jpg",
+                                    "ratings": {
+                                        "itemQuality": 5,
+                                        "shipping": null,
+                                        "customerService": 5
+                                    }
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "text": "LoveandKissesCoSCO has beautiful and unique jewelry pieces.",
+                                    "author": "Charlotte Pink",
+                                    "date": "2025-01-22",
+                                    "photoUrl": "../Resources/Images/vendorReview3.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer11.webp"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Necklaces",
+                    "image": "../Resources/Images/jewelry-necklaces.webp",
+                    "products": [
+                        {
+                            "id": 4,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+                            "image": [
+                                "../Resources/Images/earrings1.webp",
+                                "../Resources/Images/earrings2.webp",
+                                "../Resources/Images/earrings3.webp"
+                            ],
+                            "price": 22.00,
+                            "discPrice": 15.40,
+                            "discount": 30,
+                            "vendor": "LewsinGemstone",
+                            "materials": [
+                                "Rose gold",
+                                "Pure gold",
+                                "Yellow gold"
+                            ],
+                            "reviews": [
+                                {
+                                    "text": "Lovely necklace set. Perfect for gifting.",
+                                    "author": "Emma Purple",
+                                    "date": "2025-01-17",
+                                    "photoUrl": "../Resources/Images/review4.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer13.webp"
+                                },
+                                {
+                                    "text": "Good quality but the clasp is a bit tricky.",
+                                    "author": "William Orange",
+                                    "date": "2025-02-11",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer14.webp"
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "text": "LewsinGemstone never disappoints. Great products!",
+                                    "author": "Isabella Brown",
+                                    "date": "2025-01-21",
+                                    "photoUrl": "../Resources/Images/vendorReview4.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer15.webp"
+                                },
+                                {
+                                    "text": "Fast shipping and excellent quality.",
+                                    "author": "Ethan Gray",
+                                    "date": "2025-02-07",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer16.webp"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 5,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+                            "image": [
+                                ""
+                            ],
+                            "price": 14.99,
+                            "discPrice": 11.24,
+                            "discount": 25,
+                            "vendor": "OuferJewelry",
+                            "materials": [
+                                "Rose gold",
+                                "White gold"
+                            ],
+                            "reviews": null,
+                            "vendorReviews": [
+                                {
+                                    "text": "OuferJewelry has a great selection and fast shipping.",
+                                    "author": "Amelia Black",
+                                    "date": "2025-01-31",
+                                    "photoUrl": "../Resources/Images/vendorReview5.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer17.webp"
+                                },
+                                {
+                                    "text": "Very satisfied with my purchase.",
+                                    "author": "Benjamin Wilson",
+                                    "date": "2025-02-09",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer18.webp"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Rings",
+                    "image": "../Resources/Images/jewelry-rings.webp",
+                    "products": [
+                        {
+                            "id": 6,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+                            "image": [
+                                "../Resources/Images/earrings1.webp",
+                                "../Resources/Images/earrings2.webp",
+                                "../Resources/Images/earrings3.webp"
+                            ],
+                            "price": 22.00,
+                            "discPrice": 15.40,
+                            "discount": 30,
+                            "vendor": "LewsinGemstone",
+                            "materials": [
+                                "Rose gold"
+                            ],
+                            "reviews": [
+                                {
+                                    "stars": 4,
+                                    "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                                    "author": "Jane Doe",
+                                    "date": "2025-01-15",
+                                    "photoUrl": "../Images/Reviews/review1-earring.avif",
+                                    "reviewerPhotoUrl": "../Images/Users/Jane_Doe.jpg"
+                                },
+                                {
+                                    "text": "Great quality and fast shipping. Highly recommend!",
+                                    "author": "John Smith",
+                                    "date": "2025-02-10",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Images/Users/John_Smith.jpg"
+                                },
+                                {
+                                    "text": "Beautiful design and very comfortable to wear.",
+                                    "author": "Alice Brown",
+                                    "date": "2025-02-20",
+                                    "photoUrl": "../Resources/Images/review2.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer3.webp"
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "text": "LewsinGemstone always provides excellent service and quality products.",
+                                    "author": "Emily Johnson",
+                                    "date": "2025-01-20",
+                                    "photoUrl": "../Resources/Images/vendorReview1.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer4.webp"
+                                },
+                                {
+                                    "text": "Very satisfied with my purchase. Will buy again!",
+                                    "author": "Michael Brown",
+                                    "date": "2025-02-05",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer5.webp"
+                                },
+                                {
+                                    "text": "Excellent customer service and fast shipping.",
+                                    "author": "Sarah Green",
+                                    "date": "2025-02-15",
+                                    "photoUrl": "../Resources/Images/vendorReview2.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer6.webp"
+                                }
+                            ]
+                        },
+                        {
+                            "id": 7,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+                            "image": [
+                                ""
+                            ],
+                            "price": 14.99,
+                            "discPrice": 11.24,
+                            "discount": 25,
+                            "vendor": "OuferJewelry",
+                            "materials": [
+                                "White gold",
+                                "Yellow gold"
+                            ],
+                            "reviews": [
+                                {
+                                    "text": "Beautiful and delicate. Just what I was looking for!",
+                                    "author": "Alice Green",
+                                    "date": "2025-01-25",
+                                    "photoUrl": "../Resources/Images/review3.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer7.webp"
+                                },
+                                {
+                                    "text": "Good quality but smaller than expected.",
+                                    "author": "David White",
+                                    "date": "2025-02-12",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer8.webp"
+                                },
+                                {
+                                    "text": "Nice earrings, but the color is slightly different from the picture.",
+                                    "author": "Emma Black",
+                                    "date": "2025-02-18",
+                                    "photoUrl": "../Resources/Images/review4.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer9.webp"
+                                }
+                            ],
+                            "vendorReviews": [
+                                {
+                                    "text": "OuferJewelry has a great selection and excellent customer service.",
+                                    "author": "Sophia Black",
+                                    "date": "2025-01-30",
+                                    "photoUrl": "../Resources/Images/vendorReview3.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer10.webp"
+                                },
+                                {
+                                    "text": "Fast shipping and good quality products.",
+                                    "author": "James Wilson",
+                                    "date": "2025-02-08",
+                                    "photoUrl": null,
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer11.webp"
+                                },
+                                {
+                                    "text": "Very happy with my purchase. Will buy again!",
+                                    "author": "Olivia White",
+                                    "date": "2025-02-22",
+                                    "photoUrl": "../Resources/Images/vendorReview4.webp",
+                                    "reviewerPhotoUrl": "../Resources/Images/reviewer12.webp"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Bracelets",
+                    "image": "../Resources/Images/jewelry-bracelets.webp",
+                    "products": [
+                        {
+                            "id": 8,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+                            "image": [
+                                "../Resources/Images/earrings1.webp",
+                                "../Resources/Images/earrings2.webp",
+                                "../Resources/Images/earrings3.webp"
+                            ],
+                            "price": 22.00,
+                            "discPrice": 15.40,
+                            "discount": 30,
+                            "vendor": "LewsinGemstone"
+                        },
+                        {
+                            "id": 9,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+                            "image": [
+                                ""
+                            ],
+                            "price": 14.99,
+                            "discPrice": 11.24,
+                            "discount": 25,
+                            "vendor": "OuferJewelry"
+                        }
+                    ]
+                },
+                {
+                    "name": "Watches",
+                    "image": "../Resources/Images/jewelry-watches.webp",
+                    "products": [
+                        {
+                            "id": 12,
+                            "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+                            "image": [
+                                "../Resources/Images/earrings1.webp",
+                                "../Resources/Images/earrings2.webp",
+                                "../Resources/Images/earrings3.webp"
+                            ],
+                            "price": 22.00,
+                            "discPrice": 15.40,
+                            "discount": 30,
+                            "vendor": "LewsinGemstone"
+                        },
+                        {
+                            "id": 13,
+                            "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+                            "image": [
+                                ""
+                            ],
+                            "price": 14.99,
+                            "discPrice": 11.24,
+                            "discount": 25,
+                            "vendor": "OuferJewelry"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Home & Living",
+            "subcategories": [
+                {
+                    "name": "Furniture",
+                    "products": [
+                        {
+                            "name": "Wooden Table",
+                            "price": 120.00,
+                            "stock": 20
+                        },
+                        {
+                            "name": "Velvet Armchair",
+                            "price": 200.00,
+                            "stock": 15
+                        }
+                    ]
+                },
+                {
+                    "name": "Home Decor",
+                    "products": [
+                        {
+                            "name": "Wall Art Print",
+                            "price": 25.00,
+                            "stock": 40
+                        },
+                        {
+                            "name": "Ceramic Vase",
+                            "price": 35.00,
+                            "stock": 25
+                        }
+                    ]
+                },
+                {
+                    "name": "Kitchen & Dining",
+                    "products": [
+                        {
+                            "name": "Wall Art Print",
+                            "price": 25.00,
+                            "stock": 40
+                        },
+                        {
+                            "name": "Ceramic Vase",
+                            "price": 35.00,
+                            "stock": 25
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Art & Collectibles",
+            "subcategories": [
+                {
+                    "name": "Painting & Prints",
+                    "products": [
+                        {
+                            "name": "Moisturizer Cream",
+                            "price": 20.00,
+                            "stock": 60
+                        },
+                        {
+                            "name": "Facial Cleanser",
+                            "price": 15.00,
+                            "stock": 80
+                        }
+                    ]
+                },
+                {
+                    "name": "Sculpture",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Clothing",
+            "subcategories": [
+                {
+                    "name": "Women's Clothing",
+                    "products": [
+                        {
+                            "name": "Moisturizer Cream",
+                            "price": 20.00,
+                            "stock": 60
+                        },
+                        {
+                            "name": "Facial Cleanser",
+                            "price": 15.00,
+                            "stock": 80
+                        }
+                    ]
+                },
+                {
+                    "name": "Girl's Clothing",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Baby",
+            "subcategories": [
+                {
+                    "name": "Baby Clothes",
+                    "products": [
+                        {
+                            "name": "Moisturizer Cream",
+                            "price": 20.00,
+                            "stock": 60
+                        },
+                        {
+                            "name": "Facial Cleanser",
+                            "price": 15.00,
+                            "stock": 80
+                        }
+                    ]
+                },
+                {
+                    "name": "Nursery Decor",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Baby Toys",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Bath & Beauty",
+            "subcategories": [
+                {
+                    "name": "Bath Accessories",
+                    "products": [
+                        {
+                            "name": "Moisturizer Cream",
+                            "price": 20.00,
+                            "stock": 60
+                        },
+                        {
+                            "name": "Facial Cleanser",
+                            "price": 15.00,
+                            "stock": 80
+                        }
+                    ]
+                },
+                {
+                    "name": "Skin Care",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Fragrances",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Makeup & Cosmetics",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Personal Care",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Pet Supplies",
+            "subcategories": [
+                {
+                    "name": "Pet Collars & Leashes",
+                    "products": [
+                        {
+                            "name": "Moisturizer Cream",
+                            "price": 20.00,
+                            "stock": 60
+                        },
+                        {
+                            "name": "Facial Cleanser",
+                            "price": 15.00,
+                            "stock": 80
+                        }
+                    ]
+                },
+                {
+                    "name": "Pet Furniture",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Pet Toys",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Pet Bedding",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Pet Clothing",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Gifts",
+            "subcategories": [
+                {
+                    "name": "Gifts for Her",
+                    "products": [
+                        {
+                            "name": "Moisturizer Cream",
+                            "price": 20.00,
+                            "stock": 60
+                        },
+                        {
+                            "name": "Facial Cleanser",
+                            "price": 15.00,
+                            "stock": 80
+                        }
+                    ]
+                },
+                {
+                    "name": "Gifts for Him",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Engagement Gifts",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Personalized Gifts",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                },
+                {
+                    "name": "Flower Gifts",
+                    "products": [
+                        {
+                            "name": "Matte Lipstick",
+                            "price": 12.00,
+                            "stock": 100
+                        },
+                        {
+                            "name": "Eyeshadow Palette",
+                            "price": 30.00,
+                            "stock": 50
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
