@@ -1,3 +1,7 @@
+#header {
+    justify-content: flex-start;
+}
+
 #shipping-form {
     max-width: 800px;
     margin: 0 auto;
@@ -27,6 +31,17 @@
     line-height: 1.7; */
 }
 
+#shipping-form select {
+    padding-left: 12px;
+    padding-right: 36px;
+    transition: border-color .2s ease-out, box-shadow .2s ease-out;
+}
+
+#shipping-form select:hover {
+     border-color: #0e0e0e91;
+     box-shadow: 0px 2px 6px 2px #00000026;
+}
+
 #shipping-form button {
     width: 100%;
     background-color: black;
@@ -45,16 +60,16 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
+    transition: transform .2s cubic-bezier(.345,.115,.135,1.42), opacity .15s ease-out;
 }
 
 #shipping-form button:hover {
-    /* transition: scale(1.2); */
-    box-shadow: 0px 1px 4px 0px #0e0e0e17;
-    /* background-color: #c85a0a; */
+    box-shadow: 0px 4px 8px 3px #00000026;
 }
 
 /* Error styling */
-#shipping-form input:invalid {
+#shipping-form input:user-invalid,
+#shipping-form select:user-invalid {
     border: 1px solid #9a0027;
     background-color: #ffeaf0;
 }

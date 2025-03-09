@@ -21,7 +21,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 112,
@@ -34,7 +35,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 113,
@@ -47,7 +49,8 @@
               "price": 28.53,
               "discPrice": null,
               "discount": null,
-              "vendor": "LoveandKissesCoSCO"
+              "vendor": "LoveandKissesCoSCO",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -63,7 +66,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 122,
@@ -72,7 +76,8 @@
               "price": "26.99",
               "discPrice": 26.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 123,
@@ -81,7 +86,8 @@
               "price": "116.99",
               "discPrice": 16.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -101,7 +107,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 132,
@@ -110,7 +117,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -130,7 +138,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 142,
@@ -139,7 +148,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -155,7 +165,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 152,
@@ -164,7 +175,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 153,
@@ -173,7 +185,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         }
@@ -196,7 +209,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 212,
@@ -205,7 +219,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -221,7 +236,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 222,
@@ -230,7 +246,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -246,7 +263,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 232,
@@ -255,7 +273,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -271,7 +290,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 242,
@@ -280,7 +300,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         }
@@ -303,7 +324,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 312,
@@ -312,7 +334,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -328,7 +351,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 322,
@@ -337,7 +361,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -353,7 +378,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 332,
@@ -362,7 +388,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -378,7 +405,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 342,
@@ -387,7 +415,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         }
@@ -410,7 +439,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 412,
@@ -419,7 +449,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -435,7 +466,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 422,
@@ -444,7 +476,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -460,7 +493,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 432,
@@ -469,7 +503,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -485,7 +520,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 442,
@@ -494,7 +530,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -510,7 +547,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 452,
@@ -519,7 +557,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         }
@@ -546,7 +585,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 512,
@@ -555,7 +595,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -575,7 +616,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 522,
@@ -584,7 +626,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -604,7 +647,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 532,
@@ -613,7 +657,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         }
@@ -640,7 +685,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 612,
@@ -649,7 +695,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -669,7 +716,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 622,
@@ -678,7 +726,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -698,7 +747,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 632,
@@ -707,7 +757,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -727,7 +778,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 642,
@@ -736,7 +788,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -756,7 +809,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 652,
@@ -765,7 +819,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         }
@@ -792,7 +847,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 712,
@@ -801,7 +857,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -821,7 +878,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 722,
@@ -830,7 +888,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -850,7 +909,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 732,
@@ -859,7 +919,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -879,7 +940,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 742,
@@ -888,7 +950,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -908,7 +971,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 752,
@@ -917,7 +981,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         }
@@ -940,7 +1005,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 812,
@@ -949,7 +1015,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -965,7 +1032,8 @@
               "price": 22.0,
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 822,
@@ -974,7 +1042,8 @@
               "price": 14.99,
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -990,7 +1059,8 @@
               "price": 22.0,
               "discPrice": "15.40",
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 832,
@@ -999,7 +1069,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -1015,7 +1086,8 @@
               "price": 22.0,
               "discPrice": "15.40",
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 832,
@@ -1024,7 +1096,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -1040,7 +1113,8 @@
               "price": "12.54",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 842,
@@ -1049,7 +1123,8 @@
               "price": "16.00",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 843,
@@ -1058,7 +1133,8 @@
               "price": "39.60",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 844,
@@ -1067,7 +1143,8 @@
               "price": "26.18",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 845,
@@ -1076,7 +1153,8 @@
               "price": "33.55",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 846,
@@ -1085,7 +1163,8 @@
               "price": "20.00",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -1101,7 +1180,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 852,
@@ -1110,7 +1190,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -1126,7 +1207,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 862,
@@ -1135,7 +1217,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -1151,7 +1234,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 872,
@@ -1160,7 +1244,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         },
@@ -1176,7 +1261,8 @@
               "price": "22.00",
               "discPrice": 15.4,
               "discount": 30,
-              "vendor": "LewsinGemstone"
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png"
             },
             {
               "id": 882,
@@ -1185,7 +1271,8 @@
               "price": "14.99",
               "discPrice": 11.24,
               "discount": 25,
-              "vendor": "OuferJewelry"
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png"
             }
           ]
         }

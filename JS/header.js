@@ -20,6 +20,10 @@ const headerContainer = document.getElementById('header-placeholder');
 
 // Ensure the header container exists before proceeding
 if (headerContainer) {
+
+    // Initialize the cart badge on page load
+    updateCartBadge();
+
     // Listen for clicks on the document
     document.addEventListener('click', function(event) {
         /* Dropdown */
@@ -48,6 +52,24 @@ if (headerContainer) {
             handleSearchInput();
         }
     });
+
+    // var addToCartBtn = document.getElementById('add-to-cart');
+    // var removeFromCartBtn = document.getElementById('remove-from-cart');
+    // For testing purposes:
+    // var addToCartBtn = document.getElementById('search-button');
+    // var removeFromCartBtn = document.getElementById('search-button');
+
+    // addToCartBtn.addEventListener('click', () => {
+    //     cartCount++;
+    //     updateCartBadge();
+    // });
+
+    // removeFromCartBtn.addEventListener('click', () => {
+    //     if (cartCount > 0) {
+    //         cartCount--;
+    //     }
+    //     updateCartBadge();
+    // });
 
 } else {
     console.error("Header container element not found.");
@@ -150,4 +172,22 @@ function getSuggestions(searchTerm) {
     return allSuggestions.filter(suggestion =>
         suggestion.toLowerCase().startsWith(searchTerm)
     ).slice(0,5); // Limit to the first 5 suggestions
+}
+
+function updateCartBadge() {
+    var cartBadge = document.getElementById('cart-badge');
+    // Load cart count from localStorage (or set to 0 if not found)
+    var cartCount = localStorage.getItem('cartCount') ? parseInt(localStorage.getItem('cartCount')) : 0;
+    
+    if (cartCount > 0) {
+        // cartBadge.style.display = 'inline-block';
+        cartBadge.style.display = 'block';
+        cartBadge.textContent = cartCount;
+    } else {
+        // cartBadge.style.display = 'none';
+        cartBadge.style.display = 'none';
+    }
+
+    // Save the updated count to localStorage
+    localStorage.setItem('cartCount', cartCount);
 }

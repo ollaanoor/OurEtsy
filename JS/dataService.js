@@ -88,10 +88,45 @@ function toggleFav(button,categoryId,subcategoryId,productId) {
 //     }, 3000);
 // }
 
+// Function to add item to cart
+function addToCart(cId, sId, pId, quantity) {
+    let cartItems = JSON.parse(localStorage.getItem("cartItems"));
+    // let newItem = {
+    //     id: pId, 
+    //     quantity: quantity,
+    // };
+    cartItems.push({cId,sId,pId,quantity});
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    
+    cartCount++;
+    updateCartBadge();
+}
+
+// Function to remove item from cart
+function removeFromCart(pId) { // cId, sId, 
+    let cartItems = JSON.parse(localStorage.getItem("cartItems"));
+    cartItems = cartItems.filter((item) => item.productId !== pId);
+    if (cartCount > 0) {
+        cartCount--;
+    }
+    updateCartBadge();
+}
+
+// Function to update quantity
+function updateQuantity(itemId, newQuantity) {
+    const item = cartItems.find((item) => item.id === itemId);
+    if (item) {
+        item.quantity = parseInt(newQuantity, 10);
+    }
+    renderCart();
+}
+
 // makes the function available to the other scripts.
 export default {
     fetchData,
     addFavorite,
     removeFavorite,
     toggleFav,
+    addToCart,
+    removeFromCart,
 };
