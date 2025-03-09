@@ -1,5 +1,28 @@
 #header {
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#secure {
+    margin-left: 18px;
+    margin-top: 6px;
+    color: #595959;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#secure img {
+    width: 18px;
+    height: 18px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 #shipping-form {
