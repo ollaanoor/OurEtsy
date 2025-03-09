@@ -71,21 +71,24 @@
 }
 
 .fav-card-info {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    /* min-width: 0px; */
-    max-width: 200px;
-    overflow: hidden;
+    max-width: 300px;
+    /* font-size: 12.99px;
+    font-weight: 400;
+    line-height: 1.4; */
 }
 
 .fav-card-info h3 {
     font-size: 12.99px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 1.4;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .fav-card-info p {
     margin-bottom: 6px;
+    color: #595959;
 }
 
 .fav-btn button {
@@ -93,4 +96,16 @@
     opacity: 1;
     top: 10px;
     right: 10px;
+}
+
+.currency-symbol,
+.currency-value {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    /* color: #222; */
+}
+
+#empty-fav {
+    display: none;
 }

@@ -1,11 +1,14 @@
+import dataService from './dataService.js';
+
 // Fetch the JSON file for products data 
-fetch('../Resources/JSON/data.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-        return response.json(); // Parse JSON
-    })
+// fetch('../Resources/JSON/data.json')
+dataService.fetchData()
+    // .then(response => {
+    //     if (!response.ok) {
+    //         throw new Error('Network response was not ok');
+    //     }
+    //     return response.json(); // Parse JSON
+    // })
     .then(data => {
         console.log(data); // Log the JSON data
         var randomIndexCat = Math.floor(Math.random() * data.categories.length);
@@ -48,35 +51,35 @@ fetch('../Resources/JSON/banner.json')
 // document.addEventListener('DOMContentLoaded', function () {
 window.onload = function() {
     /* Dropdown */
-    var dropdowns = document.getElementsByClassName('dropbtn')[0];
-    var overlay = document.getElementsByClassName('dropdown-overlay')[0];
+    // var dropdowns = document.getElementsByClassName('dropbtn')[0];
+    // var overlay = document.getElementsByClassName('dropdown-overlay')[0];
     
-    console.log(dropdowns);
+    // console.log(dropdowns);
 
-    dropdowns.addEventListener('click', (event)=>{
-        var content = document.querySelector('.dropdown-content');
-        var droparrow = document.getElementsByClassName('dropdown-arrow')[0];
-        content.classList.toggle('show');
-        droparrow.classList.toggle('show');
+    // dropdowns.addEventListener('click', (event)=>{
+    //     var content = document.querySelector('.dropdown-content');
+    //     var droparrow = document.getElementsByClassName('dropdown-arrow')[0];
+    //     content.classList.toggle('show');
+    //     droparrow.classList.toggle('show');
 
-        overlay.style.display = overlay.style.display === 'block' ? 'none' : 'block';
+    //     overlay.style.display = overlay.style.display === 'block' ? 'none' : 'block';
 
-         // Prevent the click from bubbling to the document
-        event.stopPropagation();
-    })
+    //      // Prevent the click from bubbling to the document
+    //     event.stopPropagation();
+    // })
 
     // Close the dropdown if the user clicks outside of it
-    document.addEventListener('click', function(event){
-        if (!event.target.matches('.dropbtn')) {
-            var openDropdown = document.getElementsByClassName("dropdown-content")[0];
-            // var droparrow = document.getElementsByClassName('dropdown-arrow')[0];
-            if(openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-                // droparrow.classList.remove('show');
-            }
-            overlay.style.display = 'none';
-        }
-    })
+    // document.addEventListener('click', function(event){
+    //     if (!event.target.matches('.dropbtn')) {
+    //         var openDropdown = document.getElementsByClassName("dropdown-content")[0];
+    //         // var droparrow = document.getElementsByClassName('dropdown-arrow')[0];
+    //         if(openDropdown.classList.contains('show')) {
+    //             openDropdown.classList.remove('show');
+    //             // droparrow.classList.remove('show');
+    //         }
+    //         overlay.style.display = 'none';
+    //     }
+    // })
 
     /* Personalized Gifts Favorite Icons */
     // Event Delegation 
@@ -90,58 +93,78 @@ window.onload = function() {
         if (event.target.closest('.fav-btn button')) {
             // Handle the click event for the favorite button
             const button = event.target.closest('.fav-btn button');
-            toggleFav(button);
+            const item = event.target.closest('.gift-grid-card');
+            // if(item){
+            //     console.log(item);
+            //     console.log(item.dataset.categoryId); // Access 'data-category-id'
+            //     console.log(item.dataset.productId);  // Access 'data-product-id'
+            // }
+            dataService.toggleFav(button,item.dataset.categoryId,item.dataset.subcategoryId,item.dataset.productId);
         }
     });
 // });
 }
 
-function toggleFav(button) {
+// function toggleFav(button,categoryId,subcategoryId,productId) {
         
-    const icon = button.querySelector('img');
+//     const icon = button.querySelector('img');
 
-    // Toggle the icon to indicate if the item is favorited or not
-    if (icon.src.includes('fav-icon-2.png')) {
-        icon.src = '../Resources/Images/fav-icon-2-fill.png';  // Change to filled icon
-        addFavorite(1); //itemID
-    } else {
-        icon.src = '../Resources/Images/fav-icon-2.png';  // Change back to unfilled icon
-        removeFavorite(1); //itemID
-    }
+//     // Toggle the icon to indicate if the item is favorited or not
+//     if (icon.src.includes('fav-icon-2.png')) {
+//         icon.src = '../Resources/Images/fav-icon-2-fill.png';  // Change to filled icon
+//         addFavorite(categoryId,subcategoryId,productId); 
+//     } else {
+//         icon.src = '../Resources/Images/fav-icon-2.png';  // Change back to unfilled icon
+//         removeFavorite(categoryId,subcategoryId,productId); 
+//     }
 
-    // Log which item was favorited
-    // console.log('Favorited item:', button);
-}
+//     // Log which item was favorited
+//     // console.log('Favorited item:', button);
+// }
 
-function addFavorite(categoryId,productId) {
-    let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+// Remove product to favorites
+// function addFavorite(categoryId,subcategoryId,productId) {
+//     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
-    if (favorites.includes({categoryId, productId})) {
-        favorites = favorites.filter(item => item[0] !== categoryId && item[1] !== productId);
-        alert(itemId + " removed from favorites!");
-    } else {
-        favorites.push({categoryId, productId});
-        alert(itemId + " added to favorites!");
-    }
+//     // if(favorites.includes({categoryId, productId})) {
+//     //     favorites = favorites.filter(item => item[0] !== categoryId && item[1] !== productId);
+//     //     alert(productId + " removed from favorites!");
+//     // } else {
+//     //     favorites.push({categoryId, productId});
+//     //     alert(productId + " added to favorites!");
+//     // }
 
-    localStorage.setItem('favorites', JSON.stringify(favorites));
-}
+//     if(!favorites.includes({categoryId, subcategoryId, productId})) {
+//         favorites.push({categoryId, subcategoryId, productId});
+//         alert(productId + " added to favorites!");
+//     }
+
+//     localStorage.setItem('favorites', JSON.stringify(favorites));
+// }
 
 // Remove product from favorites
-function removeFavorite(index) {
-    const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    favorites.splice(index, 1);
-    localStorage.setItem('favorites', JSON.stringify(favorites));
-}
+// function removeFavorite(index) {
+//     const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+//     favorites.splice(index, 1);
+//     localStorage.setItem('favorites', JSON.stringify(favorites));
+// }
+// function removeFavorite(cId,sId,pId) {
+//     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+//     let index = favorites.findIndex(f => f.categoryId == cId && f.subcategoryId == sId && f.productId == pId);
+//     favorites.splice(index, 1);
+//     localStorage.setItem('favorites', JSON.stringify(favorites));
+//     alert(pId + " removed from favorites!");
+// }
 
 // Function to render products
 function renderProducts(data) {
-    var products3 = data.categories[7].subcategories[4].products;
+    // var products3 = data.categories[7].subcategories[4].products;
 
     var productList1 = document.getElementById('discover-gifts-section');
     var productList2 = document.getElementById('most-popular-section');
     var productList3 = document.getElementById('personalized-gifts-list');
 
+    /* Render Discover Gifts Section */
     var arrIdx = [];
     for(let i=0; i<6; i++){
         var products1 = data.categories[7].subcategories;
@@ -166,6 +189,7 @@ function renderProducts(data) {
         productList1.appendChild(productCard1);
     }
 
+    /* Render Most Popular Categories Section */
     for(let i = 0; i < 6; i++){
         var randomIndexCat = Math.floor(Math.random() * data.categories.length);
         var products2 = data.categories[randomIndexCat].subcategories;
@@ -214,13 +238,15 @@ function renderProducts(data) {
     //     productList2.appendChild(productCard2);
     // });
 
+    /* Render Personalized Gifts Grid Section */
+    var products3 = data.categories[7].subcategories[4].products;
     products3.forEach(product => {
         var productCard3 = document.createElement('div');
         productCard3.className = 'grid-item';
 
         // Fill the product card with data
         productCard3.innerHTML = `
-            <div class="gift-grid-card" data-category-id="${product.categoryId}" data-product-id="${product.productId}" data-name="${product.name}" data-price="${product.price}"> 
+            <div class="gift-grid-card" data-category-id="${data.categories[7].id}" data-subcategory-id="${data.categories[7].subcategories[4].id}" data-product-id="${product.id}" data-name="${product.name}" data-price="${product.price}"> 
                 <div class="fav-btn">
                     <button href="#" type="button">
                         <img src="../Resources/Images/fav-icon-2.png" alt="favorites">
