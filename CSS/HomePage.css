@@ -114,6 +114,10 @@ p, .footer-content p {
     height: 40px;
 }
 
+#logo a {
+    text-decoration: none;
+}
+
 /* Style The Dropdown Button */
 .dropbtn {
     background-color: white;

@@ -71,7 +71,7 @@ function displayFavorites(data) {
         var product = sub.products.find(prod => prod.id === pId);
         // var product = data.categories.find(cat => cat.id === cId).subcategories.find(sub => sub.id === sId).products.find(prod => prod.id === pId);
         // console.log(product);
-
+        
         favoritesList.innerHTML += `
             <div class="grid-item fav-card" data-category-id="${cat.id}" data-subcategory-id="${sub.id}" data-product-id="${product.id}" data-name="${product.name}" data-price="${product.price}">
                         <div class="fav-btn">

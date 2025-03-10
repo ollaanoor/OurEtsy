@@ -5,31 +5,47 @@ dataService.fetchData()
     .then(data => {
         console.log(data); // Log the JSON data
         displayCartItems(data);
-        // setupEventListeners(data);
+        setupEventListeners(data);
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
     });
 
+// passing data??? 
 function setupEventListeners(data) {
-    /* Favorite Products Add & Remove */
     // Event Delegation 
-    /* We attach a single click event listener to the .grid-container div, which is the parent of all the fav-btn elements. */
-    // Get the parent container of the favorite buttons
-    // var gridContainer = document.querySelector('.grid-container');
+    /* We attach a single click event listener to the .cart-remove div, which is the parent of the remove button element. */
+    // Get the parent container of the remove button
+    var container = document.querySelector('.cart-remove');
     
-    // // Add event listener for click on the container
-    // gridContainer.addEventListener('click', function (event) {
-    //     // Check if the clicked element is a button inside the fav-btn div
-    //     if (event.target.closest('.fav-btn button')) {
-    //         // Handle the click event for the favorite button
-    //         const button = event.target.closest('.fav-btn button');
-    //         const item = event.target.closest('.fav-card');
-    //         // console.log(item);
-    //         dataService.toggleFav(button,item.dataset.categoryId,item.dataset.subcategoryId,item.dataset.productId);
-    //         displayFavorites(data);
-    //     }
-    // });
+    // Add event listener for click on the container
+    container.addEventListener('click', function (event) {
+        // Check if the clicked element is a button inside the .cart-remove div
+        if (event.target.closest('#remove-from-cart')) {
+            // Handle the click event for the remove button
+            const button = event.target.closest('#remove-from-cart');
+            const item = event.target.closest('.cart-product');
+            // console.log(item);
+            dataService.removeFromCart(item.dataset.productId);
+            displayCartItems(data);
+        }
+    });
+
+    var selectQtyContainer = document.getElementById('cart-items');
+    // Attach a single event listener to the cart items container (event delegation)
+    selectQtyContainer.addEventListener('change', function (event) {
+        // Get the closest cart item element ie. the user clicked on
+        const item = event.target.closest('.cart-product');
+
+        // Get the quantity of this specific cart item
+        const itemQty = event.target.closest('.select-element');
+        
+        // Update quantity in local storage 
+        dataService.updateQuantity(item.dataset.productId,itemQty.value);
+
+        // Re-render to update areas in cart that are affected by quantity
+        displayCartItems(data);
+    });
 }
 
 // Function to render the cart
@@ -40,10 +56,14 @@ function displayCartItems(data) {
     var cartItemsdiv = document.getElementById("cart-items");
     cartItemsdiv.innerHTML = ''; // Clear previous content
     
+    var itemSTotal = 0;
+    var totalDisc = 0;
     var subtotal = 0;
     var shipping = 18.08;
+    var totalQty = 0;
 
-    cartItems.forEach((item) => {
+    cartItems.forEach((item, index) => {
+        // console.log(index);
         var cId = parseInt(item.categoryId);
         var sId = parseInt(item.subcategoryId);
         var pId = parseInt(item.productId);
@@ -56,11 +76,21 @@ function displayCartItems(data) {
         // let itemData = data.categories[cId].subcategories[sId].products[pId];
         var itemData = product;
 
-        var itemTotal = itemData.price * item.quantity;
-        subtotal += itemTotal;
+        var itemTotal = parseFloat(itemData.price) * quantity;
+        var itemDiscPrice = (parseFloat(itemData.discPrice) -  parseFloat(itemData.price)) * quantity;
+        
+        itemSTotal += itemTotal;
+        totalDisc += itemDiscPrice;
+        subtotal = itemSTotal - totalDisc;
+        totalQty += quantity;
+        // console.log(totalQty);
 
         var itemElement = document.createElement("div");
-        itemElement.classList = "grid-item cart-content-left";
+        itemElement.classList = "cart-product grid-item cart-content-left";
+        itemElement.setAttribute("data-category-id", cat.id);
+        itemElement.setAttribute("data-subcategory-id", sub.id);
+        itemElement.setAttribute("data-product-id", product.id);
+
         itemElement.innerHTML = `
             <div class="product-vendor">
                         <div class="vendor-img">
@@ -106,15 +136,18 @@ function displayCartItems(data) {
                                                 </select>
                                             </div>
                                             <div class="cart-item-buttons">
+                                                <div class="cart-edit">
+                                                    <button>Edit</button>
+                                                </div>
                                                 <div class="cart-remove">
-                                                    <button id="remove-from-cart" onclick="removeFromCart(${itemData.id})">Remove</button>
+                                                    <button id="remove-from-cart">Remove</button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="product-price">
-                                    <div class="badge-text"><span>30% off</span></div>
+                                    <div class="badge-text"><span>${itemData.discount}% off</span></div>
                                     <div class="current-price">
                                         <span class="money">
                                             <span class="currency-symbol">USD</span>
@@ -124,7 +157,7 @@ function displayCartItems(data) {
                                     <div class="old-price">
                                         <span class="money price-strikethrough">
                                             <span class="currency-symbol">USD</span>
-                                            <span class="currency-value">${itemData.discount}</span>
+                                            <span class="currency-value">${itemData.discPrice}</span>
                                         </span>
                                     </div>
                                 </div>
@@ -135,14 +168,18 @@ function displayCartItems(data) {
         // cartContainer.insertBefore(itemElement,cartContainer.firstChild);
         cartItemsdiv.appendChild(itemElement);
 
-        document.getElementsByClassName("select-element")[0].value = quantity;
+        document.getElementsByClassName("select-element")[index].value = quantity;
 
     });
 
     var total = subtotal + shipping;
 
-    document.getElementById("subtotal").innerText = `$${subtotal.toFixed(2)}`;
+    document.getElementById("items-total").innerText = itemSTotal.toFixed(2);
+    document.getElementById("total-discount").innerText = totalDisc.toFixed(2);
+    document.getElementById("subtotal").innerText = subtotal.toFixed(2);
     // document.getElementById("shipping").innerText = `$${shipping.toFixed(2)}`;
     document.getElementById("shipping").innerText = shipping.toFixed(2);
-    document.getElementById("total").innerText = `$${total.toFixed(2)}`;
+    document.getElementById("total").innerText = total.toFixed(2);
+
+    document.getElementById("total-qty").innerText = totalQty;
 }

@@ -90,6 +90,7 @@ function toggleFav(button,categoryId,subcategoryId,productId) {
 
 // Function to add item to cart
 function addToCart(cId, sId, pId, quantity) {
+    let cartCount = JSON.parse(localStorage.getItem("cartCount"));
     let cartItems = JSON.parse(localStorage.getItem("cartItems"));
     // let newItem = {
     //     id: pId, 
@@ -99,26 +100,53 @@ function addToCart(cId, sId, pId, quantity) {
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
     
     cartCount++;
+    localStorage.setItem("cartCount", JSON.stringify(cartCount));
     updateCartBadge();
 }
 
 // Function to remove item from cart
 function removeFromCart(pId) { // cId, sId, 
+    let cartCount = JSON.parse(localStorage.getItem("cartCount"));
     let cartItems = JSON.parse(localStorage.getItem("cartItems"));
+
     cartItems = cartItems.filter((item) => item.productId !== pId);
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    
     if (cartCount > 0) {
         cartCount--;
+        localStorage.setItem("cartCount", JSON.stringify(cartCount));
     }
     updateCartBadge();
 }
 
+function updateCartBadge() {
+    var cartBadge = document.getElementById('cart-badge');
+    // Load cart count from localStorage (or set to 0 if not found)
+    var cartCount = localStorage.getItem('cartCount') ? parseInt(localStorage.getItem('cartCount')) : 0;
+    
+    if (cartCount > 0) {
+        // cartBadge.style.display = 'inline-block';
+        cartBadge.style.display = 'block';
+        cartBadge.textContent = cartCount;
+    } else {
+        // cartBadge.style.display = 'none';
+        cartBadge.style.display = 'none';
+    }
+
+    // Save the updated count to localStorage
+    // localStorage.setItem('cartCount', cartCount);
+}
+
 // Function to update quantity
 function updateQuantity(itemId, newQuantity) {
-    const item = cartItems.find((item) => item.id === itemId);
+    let cartItems = JSON.parse(localStorage.getItem("cartItems"));
+    let item = cartItems.find((item) => item.productId === itemId);
+
     if (item) {
-        item.quantity = parseInt(newQuantity, 10);
+        item.quantity = parseInt(newQuantity);
     }
-    renderCart();
+
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
 }
 
 // makes the function available to the other scripts.
@@ -129,4 +157,6 @@ export default {
     toggleFav,
     addToCart,
     removeFromCart,
+    updateCartBadge,
+    updateQuantity,
 };

@@ -125,6 +125,8 @@ function validateField(input, errorElement) {
 
     if (!input.validity.valid) {
         errorElement.style.display = "block";
+    } else {
+        errorElement.style.display = "none";
     }
 
     // // Validate email match
