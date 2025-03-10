@@ -97,16 +97,27 @@
             ></button>
           </div>
           <div class="offcanvas-body">
-            <select class="font-filter-header" id="category-select">
+            <select id="category-select" class="categFilter">
               <option value="">All Categories</option>
             </select>
 
-            <select id="subcategory-select" class="inactive">
+            <select id="subcategory-select" class="inactive categFilter">
               <option value="">All Subcategories</option>
             </select>
             <!---->
 
             <fieldset class="filter-section">
+              <legend class="font-filter-header">Special offers</legend>
+
+              <div>
+                <input type="checkbox" id="free-shipping" name="best" />
+                <label for="pick">Free Shipping</label>
+              </div>
+
+              <div>
+                <input type="checkbox" id="on-sale" name="best" />
+                <label for="horns">On sale </label>
+              </div>
               <legend class="font-filter-header">Etsy's best</legend>
 
               <div>
