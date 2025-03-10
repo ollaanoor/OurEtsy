@@ -14,13 +14,12 @@ dataService.fetchData()
 // passing data??? 
 function setupEventListeners(data) {
     // Event Delegation 
-    /* We attach a single click event listener to the .cart-remove div, which is the parent of the remove button element. */
-    // Get the parent container of the remove button
-    var container = document.querySelector('.cart-remove');
-    
+    /* We attach a single click event listener to the .cart-items div, which is the parent of all the remove buttons element. */
+    // Get the parent container of all the remove buttons
+    var cartItemsContainer = document.getElementById('cart-items');
     // Add event listener for click on the container
-    container.addEventListener('click', function (event) {
-        // Check if the clicked element is a button inside the .cart-remove div
+    cartItemsContainer.addEventListener('click', function (event) {
+        // Check if the clicked element is a button inside the .cart-items div
         if (event.target.closest('#remove-from-cart')) {
             // Handle the click event for the remove button
             const button = event.target.closest('#remove-from-cart');
@@ -31,9 +30,22 @@ function setupEventListeners(data) {
         }
     });
 
-    var selectQtyContainer = document.getElementById('cart-items');
+    // var editBtnContainer = document.querySelector('.cart-edit');
+
+    // editBtnContainer.addEventListener('click', function (event) {
+    //     // Check if the clicked element is a button inside the .cart-remove div
+    //     if (event.target.closest('#edit-cart-item')) {
+    //         // Handle the click event for the remove button
+    //         const button = event.target.closest('#remove-from-cart');
+    //         const item = event.target.closest('.cart-product');
+    //         // console.log(item);
+    //         dataService.removeFromCart(item.dataset.productId);
+    //         displayCartItems(data);
+    //     }
+    // });
+
     // Attach a single event listener to the cart items container (event delegation)
-    selectQtyContainer.addEventListener('change', function (event) {
+    cartItemsContainer.addEventListener('change', function (event) {
         // Get the closest cart item element ie. the user clicked on
         const item = event.target.closest('.cart-product');
 
