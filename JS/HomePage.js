@@ -240,8 +240,9 @@ function renderProducts(data) {
     // });
 
     /* Render Personalized Gifts Grid Section */
+    var favorites = JSON.parse(localStorage.getItem('favorites'));
     var products3 = data.categories[7].subcategories[4].products;
-    products3.forEach(product => {
+    products3.forEach((product,idx) => {
         var productCard3 = document.createElement('div');
         productCard3.className = 'grid-item';
 
@@ -250,7 +251,7 @@ function renderProducts(data) {
             <div class="gift-grid-card" data-category-id="${data.categories[7].id}" data-subcategory-id="${data.categories[7].subcategories[4].id}" data-product-id="${product.id}" data-name="${product.name}" data-price="${product.price}"> 
                 <div class="fav-btn">
                     <button href="#" type="button">
-                        <img src="../Resources/Images/fav-icon-2.png" alt="favorites">
+                        <img class="favbtn" src="../Resources/Images/fav-icon-2.png" alt="favorites">
                     </button>
                 </div>
                 <img src="${product.image}" alt="${product.name}">
@@ -267,5 +268,11 @@ function renderProducts(data) {
 
         // Append the product card to the list
         productList3.appendChild(productCard3);
+
+        // Keep the hearts red even after refreshing
+        if(favorites.find((item) => item.productId == product.id)){
+            var favbtn = document.getElementsByClassName("favbtn")[idx];
+            favbtn.src = '../Resources/Images/fav-icon-2-fill.png';
+        }
     });
 }
