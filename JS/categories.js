@@ -12,6 +12,7 @@ function filterProduct(
   const categoryIndex = myData2.categories.findIndex(
     (cat) => cat.id === categoryId
   );
+
   //No Match
   if (categoryIndex === -1) {
     // console.error("Category not found");
@@ -19,6 +20,22 @@ function filterProduct(
     notFoundimg.src = "../Resources/Images/notfound.jpeg";
     mainPag.appendChild(notFoundimg);
     return;
+  }
+  /***title and Desc**/
+  //Get categories & subcategories name, and Categories desc
+  const categoryName = myData2.categories[categoryIndex].name;
+  const categoryDesc = myData2.categories[categoryIndex].title;
+
+  if (subcategoryId) {
+    // console.log(subcategoryId);---> becarful 22 not 2
+    var temp = (subcategoryId % 10) - 1;
+    // console.log(temp);
+    const subCategoryName =
+      myData2.categories[categoryId - 1].subcategories[temp].name;
+    document.getElementById("tiltlePage").innerText = subCategoryName;
+  } else {
+    document.getElementById("tiltlePage").innerText = categoryName;
+    document.getElementById("page-caption").innerText = categoryDesc;
   }
 
   // Get the subcategories to display
@@ -37,7 +54,7 @@ function filterProduct(
       return;
     }
   } else {
-    // Otherwise show all subcategories in this category
+    // if no sub cat selected show all subcategories in this category
     subcategoriesToShow = myData2.categories[categoryIndex].subcategories;
   }
 
@@ -61,6 +78,18 @@ function filterProduct(
       this.classList.toggle("active");
     });
   });
+  //Set up event listener on card
+  const productCard = document.querySelectorAll(".product-card");
+  productCard.forEach((fav) => {
+    fav.addEventListener("click", function () {
+      // console.log(this.getAttribute("product-id"));
+      localStorage.setItem(
+        "subcategory-id",
+        this.getAttribute("subcategory-id")
+      );
+      localStorage.setItem("product-id", this.getAttribute("product-id"));
+    });
+  });
 }
 
 // Extract the product card rendering logic into a separate function for reuse
@@ -69,7 +98,20 @@ function renderProductCard(container, categoryIndex, subcategory, product) {
   let priceCard = [product.discPrice, product.price, product.discount];
   let namCard = product.name;
   let vendorCard = product.vendor;
+  let viewNumber = product.reviewsNum;
+  let starsNumber; //make sure that u have review
+  if (product.hasOwnProperty("reviews")) {
+    starsNumber =
+      product.reviews.length != 0 //may be there with no element in there
+        ? product.reviews.reduce((sum, rev) => sum + rev.stars, 0) /
+          product.reviews.length
+        : 0;
+  } else {
+    starsNumber = 0;
+    console.log("No");
+  }
 
+  console.log(starsNumber);
   let cardContain = document.createElement("div");
   let imgContain = document.createElement("img");
   let favbtn = document.createElement("div");
@@ -93,7 +135,7 @@ function renderProductCard(container, categoryIndex, subcategory, product) {
                 <span class="fa fa-star checked"></span>
                 <span class="fa fa-star"></span
               ></span>
-              <span class="number">(4,336)</span>`;
+              <span class="number">(${viewNumber})</span>`;
   cardVendor.innerText = `ad by ${vendorCard}`;
   /*********Check if product has offer or not*****/
   if (priceCard[2] == null) {
@@ -126,7 +168,7 @@ function renderProductCard(container, categoryIndex, subcategory, product) {
   cardContain.setAttribute("price", product.price);
 
   /*Class List */
-  cardContain.classList.add("product-card"); //Just to get it
+  // cardContain.classList.add("product-card"); //Just to get it
   imgContain.classList.add("card-img-top");
   favbtn.classList.add("favorite-btn");
   cardBody.classList.add("card-body", "card-text");
@@ -156,10 +198,10 @@ onload = function () {
     myData2 = await res.json();
 
     /*Fill subCat */
-    fillsubProduct();
+    // fillsubProduct();
 
     /*Fill product */
-    fillProduct();
+    // fillProduct();
 
     // Set up favorite buttons
     var btnsFav = document.querySelectorAll(".favorite-btn");
@@ -168,10 +210,8 @@ onload = function () {
         this.classList.toggle("active");
       });
     });
-    //Set up show prodct
-    var card =
-      // Set up category filter buttons (you need to add these to your HTML)
-      setupFilterControls();
+    //Set up show prodct, and git element to sort
+    var card = setupFilterControls();
   }
 };
 
