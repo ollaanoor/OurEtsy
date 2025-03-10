@@ -115,13 +115,18 @@ function renderProductCard(container, categoryIndex, subcategory, product) {
     "product-card"
   );
 
-  // Add data attributes for easier filtering later if needed
-  cardContain.dataset.categoryId = myData2.categories[categoryIndex].id;
-  cardContain.dataset.subcategoryId = subcategory.id;
-  cardContain.dataset.productId = product.id;
-  cardContain.dataset.price = product.price;
+  /*Set attribute */
+  // card.setAttribute("P-ID", product.id);
+  cardContain.setAttribute(
+    "data-category-id",
+    myData2.categories[categoryIndex].id
+  );
+  cardContain.setAttribute("subcategory-id", subcategory.id);
+  cardContain.setAttribute("product-id", product.id);
+  cardContain.setAttribute("price", product.price);
 
   /*Class List */
+  cardContain.classList.add("product-card"); //Just to get it
   imgContain.classList.add("card-img-top");
   favbtn.classList.add("favorite-btn");
   cardBody.classList.add("card-body", "card-text");
@@ -163,22 +168,21 @@ onload = function () {
         this.classList.toggle("active");
       });
     });
-
-    // Set up category filter buttons (you need to add these to your HTML)
-    setupFilterControls();
+    //Set up show prodct
+    var card =
+      // Set up category filter buttons (you need to add these to your HTML)
+      setupFilterControls();
   }
 };
 
-// Example of how to set up filter controls
 function setupFilterControls() {
-  // Assuming you have form elements with these IDs in your HTML
   const categorySelect = document.getElementById("category-select");
   const subcategorySelect = document.getElementById("subcategory-select");
   const minPriceInput = document.getElementById("min-price");
   const maxPriceInput = document.getElementById("max-price");
   const filterButton = document.getElementById("btn-apply");
+  /* Drop down*/
   if (categorySelect) {
-    // Populate category dropdown
     myData2.categories.forEach((category) => {
       const option = document.createElement("option");
       option.value = category.id;
@@ -310,6 +314,7 @@ function fillProduct(cat = 0) {
         "card",
         "product-card"
       );
+      // dont need to add attribute
       /*Class List */
       imgContain.classList.add("card-img-top");
       favbtn.classList.add("favorite-btn");
