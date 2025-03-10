@@ -19,30 +19,28 @@ function setupEventListeners(data) {
     var cartItemsContainer = document.getElementById('cart-items');
     // Add event listener for click on the container
     cartItemsContainer.addEventListener('click', function (event) {
-        // Check if the clicked element is a button inside the .cart-items div
+        // Check if the clicked element is a remove button inside the .cart-items div
         if (event.target.closest('#remove-from-cart')) {
             // Handle the click event for the remove button
-            const button = event.target.closest('#remove-from-cart');
+            // const button = event.target.closest('#remove-from-cart');
             const item = event.target.closest('.cart-product');
             // console.log(item);
             dataService.removeFromCart(item.dataset.productId);
             displayCartItems(data);
         }
+
+        // Check if the clicked element is an edit button inside the .cart-items div
+        if (event.target.closest('#edit-cart-item')) {
+            // Handle the click event for the remove button
+            // const button = event.target.closest('#edit-cart-item');
+            const item = event.target.closest('.cart-product');
+            // Remove the item the user want to edit 
+            dataService.removeFromCart(item.dataset.productId);
+            // Redirect user back to product page so they can edit and re-add the product to cart
+            console.log(item.dataset.productId);
+            displayCartItems(data);
+        }
     });
-
-    // var editBtnContainer = document.querySelector('.cart-edit');
-
-    // editBtnContainer.addEventListener('click', function (event) {
-    //     // Check if the clicked element is a button inside the .cart-remove div
-    //     if (event.target.closest('#edit-cart-item')) {
-    //         // Handle the click event for the remove button
-    //         const button = event.target.closest('#remove-from-cart');
-    //         const item = event.target.closest('.cart-product');
-    //         // console.log(item);
-    //         dataService.removeFromCart(item.dataset.productId);
-    //         displayCartItems(data);
-    //     }
-    // });
 
     // Attach a single event listener to the cart items container (event delegation)
     cartItemsContainer.addEventListener('change', function (event) {
@@ -67,6 +65,18 @@ function displayCartItems(data) {
     
     var cartItemsdiv = document.getElementById("cart-items");
     cartItemsdiv.innerHTML = ''; // Clear previous content
+
+    // If cart is empty
+    var cartEmptydiv = document.getElementById("cart-empty");
+    var orderPricediv = document.getElementById("order-price");
+    if(cartItems.length == 0){
+        cartEmptydiv.style.display = "block";
+        orderPricediv.style.display = "none";
+        return;
+    } else {
+        cartEmptydiv.style.display = "none";
+        orderPricediv.style.display = "block";
+    }
     
     var itemSTotal = 0;
     var totalDisc = 0;
@@ -149,7 +159,7 @@ function displayCartItems(data) {
                                             </div>
                                             <div class="cart-item-buttons">
                                                 <div class="cart-edit">
-                                                    <button>Edit</button>
+                                                    <button id="edit-cart-item">Edit</button>
                                                 </div>
                                                 <div class="cart-remove">
                                                     <button id="remove-from-cart">Remove</button>
