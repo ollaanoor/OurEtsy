@@ -25,18 +25,21 @@
     display: inline-block;
 }
 
-#shipping-form {
+#shipping-form,
+#payment-form {
     max-width: 800px;
     margin: 0 auto;
 }
 
-#shipping-form label {
+#shipping-form label,
+#credit-card-fields label {
     display: block;
     margin-top: 20px;
     font-weight: bold;
 }
 
-#shipping-form input, #shipping-form select {
+#shipping-form input, #shipping-form select,
+#credit-card-fields input, #credit-card-fields select {
     width: 100%;
     padding: 10px;
     margin-top: 5px;
@@ -45,7 +48,6 @@
     box-sizing: border-box;
     box-shadow: 1px 4px 0px inset #0e0e0e05;
     outline: 3px solid #0000;
-    width: 100%;
     min-width: 0;
     height: 48px;
     padding: 9px 12px;
@@ -54,18 +56,21 @@
     line-height: 1.7; */
 }
 
-#shipping-form select {
+#shipping-form select,
+#credit-card-fields select {
     padding-left: 12px;
     padding-right: 36px;
     transition: border-color .2s ease-out, box-shadow .2s ease-out;
 }
 
-#shipping-form select:hover {
-     border-color: #0e0e0e91;
-     box-shadow: 0px 2px 6px 2px #00000026;
+#shipping-form select:hover,
+#credit-card-fields select:hover {
+    border-color: #0e0e0e91;
+    box-shadow: 0px 2px 6px 2px #00000026;
 }
 
-#shipping-form button {
+#shipping-form button,
+#payment-form button {
     width: 100%;
     background-color: black;
     color: white;
@@ -86,13 +91,14 @@
     transition: transform .2s cubic-bezier(.345,.115,.135,1.42), opacity .15s ease-out;
 }
 
-#shipping-form button:hover {
+#shipping-form button:hover,
+#payment-form button:hover {
     box-shadow: 0px 4px 8px 3px #00000026;
 }
 
 /* Error styling */
-#shipping-form input:user-invalid,
-#shipping-form select:user-invalid {
+#shipping-form input:user-invalid, #shipping-form select:user-invalid,
+#payment-form input:user-invalid, #payment-form select:user-invalid {
     border: 1px solid #9a0027;
     background-color: #ffeaf0;
 }
@@ -100,12 +106,14 @@
 .error-message {
     color: #9a0027;
     font-size: 14px;
+    font-weight: 600;
     display: none;
 }
 
 /* Required and optional indicators */
 .required {
     color: #9a0027;
+    font-size: 20px;
     font-weight: bold;
 }
 
