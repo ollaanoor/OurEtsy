@@ -224,15 +224,25 @@ onload = function () {
     const cid = urlParams.get("cid");
     const sid = urlParams.get("sid");
     const categoryIndex = myData2.categories.findIndex((cat) => cat.id == cid);
+    const categoryName = myData2.categories[categoryIndex].name;
+    const categoryDesc = myData2.categories[categoryIndex].title;
     if (categoryIndex !== -1) {
       const mainPag = document.getElementById("productsec");
       if (sid) {
+        var temp = (sid % 10) - 1;
+        fillsubProduct(-1);
+        const subCategoryName =
+          myData2.categories[cid - 1].subcategories[temp].name;
+        document.getElementById("tiltlePage").innerText = subCategoryName;
         const subcategory = myData2.categories[categoryIndex].subcategories //subcateg obj not just index
           .find((sub) => sub.id == sid);
         subcategory.products.forEach((p) => {
           renderProductCard(mainPag, categoryIndex, subcategory, p);
         });
       } else {
+        document.getElementById("tiltlePage").innerText = categoryName;
+        document.getElementById("page-caption").innerText = categoryDesc;
+        fillsubProduct(categoryIndex);
         myData2.categories[categoryIndex].subcategories.forEach((subcat) => {
           subcat.products.forEach((p) => {
             renderProductCard(mainPag, categoryIndex, subcat, p);
