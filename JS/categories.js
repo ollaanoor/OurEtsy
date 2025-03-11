@@ -223,18 +223,19 @@ onload = function () {
     const urlParams = new URLSearchParams(window.location.search);
     const cid = urlParams.get("cid");
     const sid = urlParams.get("sid");
-    if (cid !== -1) {
+    const categoryIndex = myData2.categories.findIndex((cat) => cat.id == cid);
+    if (categoryIndex !== -1) {
       const mainPag = document.getElementById("productsec");
       if (sid) {
-        myData2.categories[cid - 1].subcategories[sid - 1].products.forEach(
-          (p) => {
-            renderProductCard(mainPag, cid, sid, p);
-          }
-        );
+        const subcategory = myData2.categories[categoryIndex].subcategories //subcateg obj not just index
+          .find((sub) => sub.id == sid);
+        subcategory.products.forEach((p) => {
+          renderProductCard(mainPag, categoryIndex, subcategory, p);
+        });
       } else {
-        myData2.categories[cid].subcategories.forEach((subcat) => {
+        myData2.categories[categoryIndex].subcategories.forEach((subcat) => {
           subcat.products.forEach((p) => {
-            renderProductCard(mainPag, cid, subcat, p);
+            renderProductCard(mainPag, categoryIndex, subcat, p);
           });
         });
       }
