@@ -1,8 +1,10 @@
+import dataService from './dataService.js';
+
 var form = document.getElementById("shipping-form");
 
 // Input fields
-// var emailInput = document.getElementById("email");
-// var confirmEmailInput = document.getElementById("confirm-email");
+var emailInput = document.getElementById("email");
+var confirmEmailInput = document.getElementById("confirm-email");
 // var countryInput = document.getElementById("country");
 // var nameInput = document.getElementById("full-name");
 // var streetInput = document.getElementById("street-address");
@@ -18,12 +20,28 @@ var form = document.getElementById("shipping-form");
 
 var inputs = form.querySelectorAll('input');
 var errorMessages = form.querySelectorAll('.error-message');
+var selects = form.querySelectorAll('select');
+var selectErrorMessages = form.querySelectorAll('.select-error-message');
 
 inputs.forEach((input, index) => {
     var errorMessage = errorMessages[index];
 
-    var handleValidation = () => validateField(input, errorMessage);
+    // Validate email match
+    if(input.id == 'confirm-email') {
+        var handleValidation = () => validateEmailMatch(emailInput, confirmEmailInput, errorMessage);
+    } else {
+        var handleValidation = () => dataService.validateField(input, errorMessage);
+    }
 
+    input.addEventListener('blur', handleValidation);
+    input.addEventListener('input', handleValidation);
+});
+
+selects.forEach((input, index) => {
+    var selectErrorMessage = selectErrorMessages[index];
+
+    var handleValidation = () => dataService.validateField(input, selectErrorMessage);
+    
     input.addEventListener('blur', handleValidation);
     input.addEventListener('input', handleValidation);
 });
@@ -33,106 +51,71 @@ form.addEventListener("submit", (e) => {
     // Prevent form submission if there are errors
     e.preventDefault();
 
+    let isValid = true;
+
     inputs.forEach((input, index) => {
-        validateField(input, errorMessages[index]);
+        // Validate email match
+        if(input.id == 'confirm-email') {
+            isValid = validateEmailMatch(emailInput, confirmEmailInput, errorMessages[index]);
+        } else {
+            isValid = dataService.validateField(input, errorMessages[index]);
+        }
     });
 
-    // let isValid = true;
+    selects.forEach((input, index) => {
+        isValid = dataService.validateField(input, selectErrorMessages[index]);
+    });
 
     // Clear previous error messages
     // clearErrors();
 
-    // Validate email
-    // if (!emailInput.validity.valid) {
-    //     emailError.style.display = "block";
-    // }
-
-    // if (!emailInput.validity.valid) {
-    //     // emailError.textContent = 'Email is required.';
-    //     emailError.style.display = "block";
-    //     isValid = false;
-    // } 
-
-    // else if (emailInput.validity.typeMismatch) {
-    //     emailError.textContent = 'Please enter a valid email address.';
-    //     isValid = false;
-    // }
-
-    // Validate email match
-    // if (!confirmEmailInput.validity.valid || emailInput.value !== confirmEmailInput.value) {
-    //     confirmEmailError.style.display = "block";
-    //     isValid = false;
-    // }
-
-    // Validate country
-    // if (!countryInput.validity.valid) {
-    //     countryError.style.display = "block";
-    //     isValid = false;
-    // }
-
-    // Validate full name
-    // if (!nameInput.validity.valid) {
-    //     nameError.style.display = "block";
-    //     isValid = false;
-    // }
-
-    // Validate street address
-    // if (!streetInput.validity.valid) {
-    //     addressError.style.display = "block";
-    //     isValid = false;
-    // }
-
-    // Validate city 
-    // if (!cityInput.validity.valid) {
-    //     cityError.style.display = "block";
-    //     isValid = false;
-    // }
-
-    // Prevent form submission if validation fails
-    // if (!isValid || emailInput.value !== confirmEmailInput.value) {
-    //     e.preventDefault();
-    // }
-
-    // Submit form if everything is valid
-    // if (isValid) {
-    //     form.submit();
-    // }
-    if (form.validity.valid) {
+    // Submit form if validation succeeds
+    if (isValid) {
         form.submit();
+        window.location.href = '../HTML/Payment.html';
     }
     
 });
 
-// Clear error messages
-function clearErrors() {
-    emailError.style.display = "none";
-    confirmEmailError.style.display = "none";
-    countryError.style.display = "none";
-    nameError.style.display = "none";
-    addressError.style.display = "none";
-}
-
-// Email validation function
-function validateEmail(email) {
-    const re = /^[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]+$/;
-    console.log(re.test(email));
-    return re.test(email);
-}
+// // Clear error messages
+// function clearErrors() {
+//     emailError.style.display = "none";
+//     confirmEmailError.style.display = "none";
+//     countryError.style.display = "none";
+//     nameError.style.display = "none";
+//     addressError.style.display = "none";
+// }
 
 // Validate a field and show error message
-function validateField(input, errorElement) {
-    // errorElement.textContent = '';
+// function validateField(input, errorElement) {
+//     // errorElement.textContent = '';
+//     if(errorElement){
+//         if (!input.validity.valid) {
+//             errorElement.style.display = "block";
+//         } else {
+//             errorElement.style.display = "none";
+//         }
+//     }
 
-    if (!input.validity.valid) {
+//     // // Validate email match
+//     // if (!confirmEmailInput.validity.valid || emailInput.value !== confirmEmailInput.value) {
+//     //     confirmEmailError.style.display = "block";
+//     //     isValid = false;
+//     // }
+// }
+
+// Validate confirm email 
+function validateEmailMatch(emailInput, confirmEmailInput, errorElement){
+    if (!confirmEmailInput.validity.valid) {
+        errorElement.textContent = 'Please enter a valid email address';
         errorElement.style.display = "block";
+        return false;
+    } else if (emailInput.value !== confirmEmailInput.value) {
+        errorElement.textContent = 'Emails do not match';
+        errorElement.style.display = "block";
+        return false;
     } else {
         errorElement.style.display = "none";
+        return true;
     }
-
-    // // Validate email match
-    // if (!confirmEmailInput.validity.valid || emailInput.value !== confirmEmailInput.value) {
-    //     confirmEmailError.style.display = "block";
-    //     isValid = false;
-    // }
-
 }

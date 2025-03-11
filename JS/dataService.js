@@ -149,6 +149,19 @@ function updateQuantity(itemId, newQuantity) {
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
 }
 
+// Validate a field and show error message in cart forms
+function validateField(input, errorElement) {
+    if(errorElement){
+        if (!input.validity.valid) {
+            errorElement.style.display = "block";
+            return false;
+        } else {
+            errorElement.style.display = "none";
+            return true;
+        }
+    }
+}
+
 // makes the function available to the other scripts.
 export default {
     fetchData,
@@ -159,4 +172,5 @@ export default {
     removeFromCart,
     updateCartBadge,
     updateQuantity,
+    validateField,
 };

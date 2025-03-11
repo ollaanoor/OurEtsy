@@ -103,7 +103,8 @@
     background-color: #ffeaf0;
 }
 
-.error-message {
+.error-message,
+.select-error-message {
     color: #9a0027;
     font-size: 14px;
     font-weight: 600;

@@ -82,34 +82,39 @@
                     <div id="credit-card-fields">
                         <label>
                             Name on Card<span class="required"> *</span>
-                            <input type="text" id="card-name" placeholder="" required>
-                            <span class="error-message" id="name-error"></span>
+                            <div class="name-text">Make sure to enter the full name that's on your card.</div>
+                            <input type="text" id="card-name" minlength="2" required>
+                            <!-- <span class="error-message" id="name-error"></span> -->
+                            <div class="error-message" id="card-name-error">You must enter a valid name.</div>
                         </label>
                         
                         <label>
                             Card Number<span class="required"> *</span>
                             <div class="card-number-div">
                                 <img id="card-num" src="../Resources/Images/card-icon.png">
-                                <input type="text" id="card-number" placeholder="XXXX-XXXX-XXXX-XXXX" maxlength="16" required>
+                                <input type="text" id="card-number" minlength="16" maxlength="16" required>
                                 <img id="card-num-lock" src="../Resources/Images/black-lock.png">
                             </div>
-                            <span class="error-message" id="number-error"></span>
+                            <!-- <span class="error-message" id="number-error"></span> -->
+                            <div class="error-message" id="card-number-error">Please enter a valid card number.</div>
                         </label>
                         
                         <div style="display: flex; gap:20px;">
                             <label style="width:50%;">
                                 Expiry Date<span class="required"> *</span>  
                                 <input type="month" id="card-expiry" required>
-                                <span class="error-message" id="expiry-error"></span>
+                                <!-- <span class="error-message" id="expiry-error"></span> -->
+                                <div class="error-message" id="card-expiry-error">You must enter a valid expiration date</div>
                             </label>
                             
                             <label style="width:50%;">
                                 CVV<span class="required"> *</span> 
                                 <div class="card-number-div">
-                                    <input type="text" id="card-cvv" placeholder="" maxlength="3" required>
+                                    <input type="text" id="card-cvv" placeholder="" minlength="3" maxlength="3" required>
                                     <img id="card-num-lock" src="../Resources/Images/black-lock.png">
                                 </div>
-                                <span class="error-message" id="cvv-error"></span>
+                                <!-- <span class="error-message" id="cvv-error"></span> -->
+                                <div class="error-message" id="card-cvv-error">Please enter a valid security code.</div>
                             </label>
                         </div>
                     </div>
@@ -133,6 +138,6 @@
                 document.getElementById('footer-placeholder').innerHTML = data;
             });
     </script>
-    <script src="../JS/Payment.js"></script>
+    <script src="../JS/Payment.js" type="module"></script>
 </body>
 </html>
