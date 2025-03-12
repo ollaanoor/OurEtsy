@@ -11,8 +11,8 @@ prevBtn.classList.add("arrow", "prev");
 nextBtn.classList.add("arrow", "next");
 prevBtn.innerHTML = `<i class="fa-solid fa-arrow-left"></i>`;
 nextBtn.innerHTML = `<i class="fa-solid fa-arrow-right"></i>`;
-const fixedURL = "?cid=1&sid=11&pid=111";
-window.history.pushState({}, "", fixedURL);
+// const fixedURL = "?cid=1&sid=11&pid=111";
+// window.history.pushState({}, "", fixedURL);
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchData();
@@ -25,7 +25,6 @@ async function fetchData() {
     const categoryId = dataService.getCid();
     const subcategoryId = dataService.getSid();
     const productId = dataService.getPid();
-    console.log(dataService.getCid()); // Should print "1"
 
     const category = data.categories.find((cat) => cat.id === categoryId);
     if (!category) return console.error("Category not found!");
@@ -36,6 +35,7 @@ async function fetchData() {
 
     const product = subcategory.products.find((prod) => prod.id === productId);
     if (!product) return console.error("Product not found!");
+    console.log("Loading product:", subcategory.products);
 
     // Load carousel images
     fetchCarouselImages(product);
@@ -380,7 +380,7 @@ function updateCollapsible(product) {
   const vendorName = product.vendor;
   // console.log(vendorName);
   const vendorElement = document.querySelector(
-    ".highlight-list li:first-child strong"
+    ".highlight-list .vendorName strong"
   );
 
   if (vendorElement) {
@@ -390,7 +390,7 @@ function updateCollapsible(product) {
   const materials = product.materials;
 
   const materialsElement = document.querySelector(
-    ".highlight-list li:nth-child(2)"
+    ".highlight-list .materials "
   );
   if (materials && materials.length > 0) {
     materialsElement.append(` ${materials.join(", ")}`);
@@ -399,9 +399,7 @@ function updateCollapsible(product) {
   }
   //gemcolor
   const gemColor = product.gemColor;
-  const gemColorElement = document.querySelector(
-    ".highlight-list li:nth-child(3)"
-  );
+  const gemColorElement = document.querySelector(".highlight-list .gemColor");
   if (gemColor) {
     gemColorElement.append(gemColor);
   } else {
@@ -409,9 +407,7 @@ function updateCollapsible(product) {
   }
   //band color
   const bandColor = product.bandColor;
-  const bandColorElement = document.querySelector(
-    ".highlight-list li:nth-child(4)"
-  );
+  const bandColorElement = document.querySelector(".highlight-list .bandColor");
   if (bandColor) {
     bandColorElement.append(bandColor);
   } else {
@@ -419,9 +415,7 @@ function updateCollapsible(product) {
   }
   //style
   const Style = product.style;
-  const styleElement = document.querySelector(
-    ".highlight-list li:nth-child(5)"
-  );
+  const styleElement = document.querySelector(".highlight-list .style");
   if (Style) {
     styleElement.append(Style);
   } else {
@@ -430,7 +424,7 @@ function updateCollapsible(product) {
   //personalized
   const personalized = product.personalized;
   const personalizedElement = document.querySelector(
-    ".highlight-list li:nth-child(6)"
+    ".highlight-list .personalized"
   );
   if (personalized === true) {
     personalizedElement.append("Can be personalized");
@@ -440,21 +434,20 @@ function updateCollapsible(product) {
 
   //recycled
   const recycled = product.recycled;
-  const recyledElement = document.querySelector(
-    ".highlight-list li:nth-child(7)"
-  );
+  const recyledElement = document.querySelector(".highlight-list .recycled");
   if (recycled) {
     recyledElement.append("Recycled");
   } else {
+    console.log(recyledElement);
     recyledElement.remove();
   }
   //made To Order
   const madeToOrder = product.madeToOrder;
   const madeToOrderElement = document.querySelector(
-    ".highlight-list li:nth-child(8)"
+    ".highlight-list .made-to-order"
   );
   if (madeToOrder) {
-    madeToOrderElement.append("Made to Order");
+    madeToOrderElement.innerHTML = `<i class="fa fa-clipboard-list"></i> Made to Order`;
   } else {
     madeToOrderElement.remove();
   }
@@ -495,17 +488,31 @@ function fetchProduct(product, categoryName, subcategoryName) {
 
   const price = parseFloat(product.price);
   const discPrice = parseFloat(product.discPrice);
+  const discount = parseInt(product.discount);
+
   document.querySelector(".views").textContent = subcategoryName;
-  document.querySelector(".discount-tag").textContent = product.discount + "%";
-  document.querySelector(".price").innerHTML = `USD ${discPrice.toFixed(2)}+ 
+
+  const discountTag = document.querySelector(".discount-tag");
+  const priceElement = document.querySelector(".price");
+
+  //handle if there is no discount
+  if (isNaN(discPrice) || isNaN(discount)) {
+    discountTag.style.display = "none";
+    priceElement.innerHTML = `USD ${price.toFixed(2)}`;
+  } else {
+    discountTag.textContent = product.discount + "%";
+    priceElement.innerHTML = `USD ${discPrice.toFixed(2)}+ 
       <span class="color-span text-decoration-line-through before-discount">USD ${price.toFixed(
         2
       )}</span>`;
+  }
+
   document.querySelector(".taxes").textContent =
     "Local taxes included (where applicable)";
   document.querySelector(".col-md-4 p:nth-of-type(2)").textContent =
     product.description;
   document.querySelector(".col-md-4 a").textContent = product.vendor;
+  console.log("fetchProduct -> subcategoryName:", subcategoryName);
 }
 
 //form
