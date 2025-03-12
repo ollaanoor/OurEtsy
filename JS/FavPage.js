@@ -10,7 +10,7 @@ dataService.fetchData()
     //     return response.json(); // Parse JSON
     // })
     .then(data => {
-        console.log(data); // Log the JSON data
+        // console.log(data); // Log the JSON data
         displayFavorites(data);
         setupEventListeners(data);
     })
@@ -30,11 +30,17 @@ function setupEventListeners(data) {
         // Check if the clicked element is a button inside the fav-btn div
         if (event.target.closest('.fav-btn button')) {
             // Handle the click event for the favorite button
-            const button = event.target.closest('.fav-btn button');
-            const item = event.target.closest('.fav-card');
+            var button = event.target.closest('.fav-btn button');
+            var item = event.target.closest('.fav-card');
             // console.log(item);
             dataService.toggleFav(button,item.dataset.categoryId,item.dataset.subcategoryId,item.dataset.productId);
             displayFavorites(data);
+        }
+         // Redirecting to product page when clicking on a grid item
+        else if (event.target.closest('.fav-card')) { 
+            // Check if the clicked element is inside the most popular categories div
+            var favCard = event.target.closest('.fav-card');
+            window.location.href = `../HTML/productDetails.html?cid=${favCard.dataset.categoryId}&sid=${favCard.dataset.subcategoryId}&pid=${favCard.dataset.productId}`;
         }
     });
 }
@@ -67,12 +73,12 @@ function displayFavorites(data) {
         // map the above values to get the products from json
         // var product = data.categories[cId].subcategories[sId].products[pId];
         var cat = data.categories.find(cat => cat.id === cId);
-        console.log(cat);
+        // console.log(cat);
         var sub = cat.subcategories.find(sub => sub.id === sId);
-        console.log(sub);
+        // console.log(sub);
         var product = sub.products.find(prod => prod.id === pId);
         // var product = data.categories.find(cat => cat.id === cId).subcategories.find(sub => sub.id === sId).products.find(prod => prod.id === pId);
-        console.log(product);
+        // console.log(product);
         
         favoritesList.innerHTML += `
             <div class="grid-item fav-card" data-category-id="${cat.id}" data-subcategory-id="${sub.id}" data-product-id="${product.id}" data-name="${product.name}" data-price="${product.price}">

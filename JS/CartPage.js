@@ -41,6 +41,22 @@ function setupEventListeners(data) {
             // console.log(item.dataset.productId);
             displayCartItems(data);
         }
+
+        // Check if the clicked element is an image in the .cart-items div
+        if (event.target.closest('.product-img')) {
+            // Handle the click event for the image
+            const item = event.target.closest('.cart-product');
+            // Redirect user to product page
+            window.location.href = `../HTML/productDetails.html?cid=${item.dataset.categoryId}&sid=${item.dataset.subcategoryId}&pid=${item.dataset.productId}`;
+            // console.log(item.dataset.productId);
+        }
+
+        // if (event.target.closest('.product-name p a')) {
+        //     const item = event.target.closest('.cart-product');
+        //     // Redirect user to product page 
+        //     // window.location.href = `../HTML/productDetails.html?cid=${item.dataset.categoryId}&sid=${item.dataset.subcategoryId}&pid=${item.dataset.productId}`;
+        //     console.log(item.dataset.productId);
+        // }
     });
 
     // Attach a single event listener to the cart items container (event delegation)
@@ -82,7 +98,7 @@ function displayCartItems(data) {
     var itemSTotal = 0;
     var totalDisc = 0;
     var subtotal = 0;
-    var shipping = 18.08;
+    var shipping = 18.08; // default shipping value
     var totalQty = 0;
 
     cartItems.forEach((item, index) => {
@@ -98,6 +114,12 @@ function displayCartItems(data) {
 
         // let itemData = data.categories[cId].subcategories[sId].products[pId];
         var itemData = product;
+
+        if(itemData.shipping.cost) {
+            if(shipping < itemData.shipping.cost) {
+                shipping = itemData.shipping.cost;
+            } 
+        }
 
         var itemTotal = parseFloat(itemData.price) * quantity;
         var itemDiscPrice = (parseFloat(itemData.discPrice) -  parseFloat(itemData.price)) * quantity;
@@ -130,7 +152,7 @@ function displayCartItems(data) {
                         <div class="product-details-2">
                                 <div class="product-details-3">
                                     <div class="product-name">
-                                        <p><a href="#">${itemData.name}</a></p>
+                                        <p><a href="../HTML/productDetails.html?cid=${cat.id}&sid=${sub.id}&pid=${product.id}">${itemData.name}</a></p>
                                     </div>
                                     <div class="product-details-4">
                                         <div class="cart-item-details">

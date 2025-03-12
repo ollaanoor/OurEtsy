@@ -78,10 +78,6 @@ paymentForm.addEventListener("submit", (e) => {
     
 });
 
-// document.getElementById('submit-btn').addEventListener('click', function(){
-//     showPopup();
-// });
-
 document.querySelector('.close-popup').addEventListener('click', function(){
     closePopup();
 });
