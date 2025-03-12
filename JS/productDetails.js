@@ -1,3 +1,4 @@
+import dataService from "./dataService.js";
 //pagination for reviews -> adding buttons for pages dynamically dependinfg on number of reviews
 let reviews = [];
 const reviewsPerPage = 3;
@@ -10,6 +11,8 @@ prevBtn.classList.add("arrow", "prev");
 nextBtn.classList.add("arrow", "next");
 prevBtn.innerHTML = `<i class="fa-solid fa-arrow-left"></i>`;
 nextBtn.innerHTML = `<i class="fa-solid fa-arrow-right"></i>`;
+const fixedURL = "?cid=1&sid=11&pid=111";
+window.history.pushState({}, "", fixedURL);
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchData();
@@ -19,30 +22,72 @@ async function fetchData() {
   try {
     const response = await fetch("../Resources/JSON/data.json");
     const data = await response.json();
-    reviews = data.categories[0].subcategories[0].products[1].reviews || [];
+    const categoryId = dataService.getCid();
+    const subcategoryId = dataService.getSid();
+    const productId = dataService.getPid();
+    console.log(dataService.getCid()); // Should print "1"
+
+    const category = data.categories.find((cat) => cat.id === categoryId);
+    if (!category) return console.error("Category not found!");
+    const subcategory = category.subcategories.find(
+      (sub) => sub.id === subcategoryId
+    );
+    if (!subcategory) return console.error("Subcategory not found!");
+
+    const product = subcategory.products.find((prod) => prod.id === productId);
+    if (!product) return console.error("Product not found!");
+
     // Load carousel images
-    fetchCarouselImages(data);
+    fetchCarouselImages(product);
     // Load reviews and initialize pagination
-    await fetchReviews(data);
-    updateCollapsible(data); // to update collapsible details
-    fetchProduct(data);
+    await fetchReviews(product);
+    updateCollapsible(product); // to update collapsible details
+    fetchProduct(product, category.name, subcategory.name);
+    populateForm(category.name, subcategory.name, data);
+
+    //local storage with form
+    document
+      .getElementById("addTocart")
+      .addEventListener("click", function (event) {
+        //prevent default behavior-> reload the page
+        event.preventDefault();
+
+        let dropdown1 = document.querySelectorAll(".dropdown select")[0].value;
+        let dropdown2 = document.querySelectorAll(".dropdown select")[1].value;
+        let personalization = document.querySelector("textarea").value;
+
+        let cartItem = {
+          productId: productId,
+          subcategoryId: subcategoryId,
+          categoryId: categoryId,
+          option1: dropdown1,
+          option2: dropdown2,
+          personalization: personalization,
+        };
+
+        let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+        cartItems.push(cartItem);
+        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+
+        window.location.href = `CartPage.html?cid=${categoryId}&sid=${subcategoryId}&pid=${productId}`;
+        dataService.addToCart(categoryId, subcategoryId, productId, 1);
+      });
   } catch (error) {
     console.error("Failed to fetch JSON:", error);
   }
 }
-function fetchCarouselImages(data) {
+function fetchCarouselImages(product) {
   var carouselInner = document.querySelector(
     "#productCarousel .carousel-inner"
   );
   var thumbnailList = document.querySelector(".thumbnail-list");
-  var images = data.categories[0].subcategories[0].products[1].image;
 
   // Clear HTML
   carouselInner.innerHTML = "";
   thumbnailList.innerHTML = "";
   carouselInner.classList.add("d-block", "w-100");
 
-  images.forEach((imgSrc, index) => {
+  product.image.forEach((imgSrc, index) => {
     const isActive = index === 0 ? "active" : "";
     const carouselItem = `<div class="carousel-item ${isActive}">
       <img class="productImg d-block w-100" src=${imgSrc} alt="Product Image ${
@@ -54,13 +99,22 @@ function fetchCarouselImages(data) {
       index + 1
     }">`;
   });
+  let thumbnails = document.querySelectorAll(".thumbnail");
+  let carousel = new bootstrap.Carousel(
+    document.querySelector("#productCarousel")
+  );
+  changePagination(thumbnails, carousel);
 }
 
 // Function to fetch reviews and initialize pagination
-async function fetchReviews(data) {
+async function fetchReviews(product) {
   const reviewsDiv = document.getElementById("item-reviews");
+  const reviewImagesContainer = document.getElementById(
+    "reviewImagesContainer"
+  );
+  reviewImagesContainer.innerHTML = "";
   reviewsDiv.innerHTML = "";
-  reviews = data.categories[0].subcategories[0].products[0].reviews;
+  reviews = product.reviews || [];
   reviews.forEach((review) => {
     const reviewHTML = `<div class="review" data-rating=${
       review.stars
@@ -69,7 +123,7 @@ async function fetchReviews(data) {
       <p>${review.text}</p>
       <div class="reviewer">
         <img src="${
-          review.reviewerPhotoUrl || "../Resources/Images/User2.jpg"
+          review.reviewerPhotoUrl || "../Resources/Images/Users/User2.jpg"
         }" alt="User Image">
         <span class="name">${review.author}</span>
         <span class="date">${new Date(review.date).toDateString()}</span>
@@ -87,11 +141,36 @@ async function fetchReviews(data) {
       </div>
     </div>`;
     reviewsDiv.innerHTML += reviewHTML;
+
+    if (review.photoUrl) {
+      const slide = document.createElement("div");
+      slide.classList.add(
+        "swiper-slide",
+        "subcat-item",
+        "col-12",
+        "col-sm-6",
+        "col-md-3"
+      );
+      slide.innerHTML = `<img src="${review.photoUrl}" alt="Review Image"/>`;
+      reviewImagesContainer.appendChild(slide);
+    }
+  });
+
+  new Swiper(".mySwiper", {
+    loop: false,
+    autoplay: false,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    slidesPerView: "auto",
+    spaceBetween: 0,
   });
 
   // Initialize pagination after reviews are loaded
   initializeReviewsAndPagination();
 }
+
 function initializeReviewsAndPagination() {
   const reviews = document.querySelectorAll(".review");
   totalPages = Math.ceil(reviews.length / reviewsPerPage);
@@ -130,8 +209,8 @@ document.querySelectorAll(".dropdown select").forEach((select) => {
 let carousel = new bootstrap.Carousel(
   document.querySelector("#productCarousel")
 );
-let thumbnails = document.querySelectorAll(".thumbnail");
-changePagination(thumbnails, carousel);
+// let thumbnails = document.querySelectorAll(".thumbnail");
+// changePagination(thumbnails, carousel);
 function changePagination(thumbnails, carousel) {
   thumbnails.forEach((thumb, index) => {
     thumb.addEventListener("click", function () {
@@ -165,25 +244,6 @@ document.querySelectorAll(".tab").forEach((tab) => {
     document.getElementById(this.dataset.target).style.display = "block";
   });
 });
-//sort dropdown menu
-
-// const dropdownBtn = document.getElementById("customDropdownButton");
-// const dropdownMenu = document.querySelector(".custom-dropdown-menu");
-
-// // Toggle dropdown menu on button click
-// dropdownBtn.addEventListener("click", function () {
-//   dropdownMenu.classList.toggle("show");
-// });
-
-// // Close dropdown when clicking outside
-// document.addEventListener("click", function (event) {
-//   if (
-//     !dropdownBtn.contains(event.target) &&
-//     !dropdownMenu.contains(event.target)
-//   ) {
-//     dropdownMenu.classList.remove("show");
-//   }
-// });
 
 //create pages dynamically based on number of reviews
 function createPaginationButtons() {
@@ -249,20 +309,6 @@ nextBtn.addEventListener("click", function () {
     currentPage++;
     showReviews(currentPage);
   }
-});
-// //create button pagination
-// createPaginationButtons();
-// //showing the first page by default
-// showReviews(currentPage);
-
-const swiper = new Swiper(".mySwiper", {
-  loop: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  slidesPerView: "auto",
-  spaceBetween: 0,
 });
 
 //heart button on carousel
@@ -330,8 +376,7 @@ function sortReviews(criteria) {
 }
 
 //item details &shipping
-function updateCollapsible(data) {
-  const product = data.categories[0].subcategories[0].products[0];
+function updateCollapsible(product) {
   const vendorName = product.vendor;
   // console.log(vendorName);
   const vendorElement = document.querySelector(
@@ -445,16 +490,15 @@ function updateCollapsible(data) {
   }
 }
 
-function fetchProduct(data) {
+function fetchProduct(product, categoryName, subcategoryName) {
   // fill product description before form
-  const product = data.categories[0].subcategories[0].products[0];
-  document.querySelector(".views").textContent =
-    data.categories[0].subcategories[0].name;
+
+  const price = parseFloat(product.price);
+  const discPrice = parseFloat(product.discPrice);
+  document.querySelector(".views").textContent = subcategoryName;
   document.querySelector(".discount-tag").textContent = product.discount + "%";
-  document.querySelector(".price").innerHTML = `USD ${product.discPrice.toFixed(
-    2
-  )}+ 
-      <span class="color-span text-decoration-line-through before-discount">USD ${product.price.toFixed(
+  document.querySelector(".price").innerHTML = `USD ${discPrice.toFixed(2)}+ 
+      <span class="color-span text-decoration-line-through before-discount">USD ${price.toFixed(
         2
       )}</span>`;
   document.querySelector(".taxes").textContent =
@@ -462,4 +506,40 @@ function fetchProduct(data) {
   document.querySelector(".col-md-4 p:nth-of-type(2)").textContent =
     product.description;
   document.querySelector(".col-md-4 a").textContent = product.vendor;
+}
+
+//form
+function populateForm(categoryName, subcategoryName, data) {
+  const category = data.categories.find((cat) => cat.name === categoryName);
+  const subcategory = category.subcategories.find(
+    (sub) => sub.name === subcategoryName
+  );
+  const form = document.querySelector(".productForm form");
+  const labels = form.querySelectorAll("label");
+  const selects = form.querySelectorAll("select");
+
+  let labelIndex = 0;
+
+  Object.keys(subcategory.formFields).forEach((fieldId, index) => {
+    const fieldData = subcategory.formFields[fieldId];
+    while (
+      labels[labelIndex] &&
+      labels[labelIndex].textContent.includes("Add your personalization")
+    ) {
+      labelIndex++; //skip this label as it is static html
+    }
+    if (labels[labelIndex]) {
+      labels[labelIndex].textContent = fieldData.label;
+      labelIndex++;
+    }
+    const select = selects[index];
+    if (select) {
+      fieldData.options.forEach((option) => {
+        const optionElement = document.createElement("option");
+        optionElement.value = option.value;
+        optionElement.textContent = option.text;
+        select.appendChild(optionElement);
+      });
+    }
+  });
 }
