@@ -172,6 +172,8 @@ function renderProductCard(container, categoryIndex, subcategory, product) {
   cardContain.setAttribute("subcategory-id", subcategory.id);
   cardContain.setAttribute("product-id", product.id);
   cardContain.setAttribute("price", product.price);
+  cardContain.setAttribute("rating", starsNumber.toFixed(2));
+  console.log(starsNumber.toFixed(2));
 
   /*Class List */
   // cardContain.classList.add("product-card"); //Just to get it
@@ -303,6 +305,35 @@ function setupEventListeners() {
       // filterProduct(parseInt(breadlink.getAttribute("cid")));
     });
   }
+  //menu appear
+  // // drop down sorting
+  console.log("Script starting");
+  let sortDropdownBtn = document.getElementById("sortDropdownButton");
+  console.log("Dropdown button found:", sortDropdownBtn);
+  // let sortDropdownMenu = document.querySelector(".custom-dropdown-menu");
+  let sortDropdown = document.querySelector(".custom-dropdown");
+  let items = document.querySelectorAll(".custom-dropdown-item");
+  let poductpContainer = document.getElementById("productsec");
+
+  sortDropdownBtn.addEventListener("click", () => {
+    sortDropdown.classList.toggle("active");
+  });
+
+  // Close dropdown when clicking outside
+  document.addEventListener("click", (event) => {
+    if (!sortDropdown.contains(event.target)) {
+      sortDropdown.classList.remove("active");
+    }
+  });
+
+  items.forEach((item) => {
+    item.addEventListener("click", (event) => {
+      const selectedSort = event.target.getAttribute("data-sort"); // Get sorting type
+      sortDropdownBtn.innerHTML = `<strong>Sort by: ${event.target.innerText}</strong><i class="fa fa-chevron-down collapsible-icon"></i>`;
+      sortDropdown.classList.remove("active"); // Close dropdown
+      sortProduct(selectedSort, poductpContainer); // Call sorting function
+    });
+  });
 }
 
 function setupFilterControls() {
@@ -428,4 +459,33 @@ function fillsubProduct(cat = 0) {
       });
     });
   }
+}
+function sortProduct(sortelement, poductpContainer) {
+  const productArray = Array.from(document.querySelectorAll(".product-card"));
+  switch (sortelement) {
+    case "highp":
+      productArray.sort(
+        (a, b) => b.getAttribute("price") - a.getAttribute("price")
+      );
+
+      break;
+    case "lowp":
+      productArray.sort(
+        (a, b) => a.getAttribute("price") - b.getAttribute("price")
+      );
+
+      break;
+    case "highr":
+      productArray.sort(
+        (a, b) => b.getAttribute("rating") - a.getAttribute("rating")
+      );
+      break;
+    default:
+      productArray.sort(
+        (a, b) => a.getAttribute("product-id") - b.getAttribute("product-id")
+      );
+  }
+  productArray.forEach((product) => {
+    poductpContainer.appendChild(product);
+  });
 }

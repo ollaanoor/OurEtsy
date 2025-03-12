@@ -34,15 +34,19 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <!--Home page-->
+    <!-- <link rel="stylesheet" href="../CSS/HomePage.css" /> -->
     <!-- Product Page Css-->
     <link rel="stylesheet" href="../CSS/ProductsPageStyle.css" />
     <!--Subcategori Css-->
     <link rel="stylesheet" href="../CSS/subcat-style.css" />
 
-    <link href="../CSS/header.css" rel="stylesheet">
-    <link href="../CSS/footer.css" rel="stylesheet">
+    <link href="../CSS/header.css" rel="stylesheet" />
+    <link href="../CSS/footer.css" rel="stylesheet" />
     <!--Header nav-->
     <!-- <script src="../Js/header.js"></script> -->
+    <!--footer nav-->
+    <link rel="stylesheet" href="../CSS/header.css" />
   </head>
   <body>
     <!--Header-->
@@ -55,152 +59,209 @@
         });
     </script>
     <div id="cat-page">
-    <div class="container-fluid">
-      <!--sub Category-->
-      <div class="row page-title">
-        <div id="breadpath"></div>
-        <h3 class="col-12" id="tiltlePage"></h3>
-      </div>
-      <div
-        class="d-none d-md-block col-12 page-caption"
-        id="page-caption"
-      ></div>
-      <section class="subcat-container" id="subcat-container">
-        <div class="swiper mySwiper" id="mySwiper">
-          <div class="swiper-wrapper" id="swiper-wrapper"></div>
-
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+      <div class="container-fluid">
+        <!--sub Category-->
+        <div class="row page-title">
+          <div id="breadpath"></div>
+          <h3 class="col-12" id="tiltlePage"></h3>
         </div>
-      </section>
-      <!--Filter-->
-      <div class="filter-page">
-        <button
-          type="button"
-          class="btn btn-light"
-          id="btn-filter"
-          data-bs-toggle="offcanvas"
-          href="#offcanvasExample"
-          role="button"
-          aria-controls="offcanvasExample"
-        >
-          <i class="fa fa-solid fa-sliders"></i> All Filter
-        </button>
         <div
-          class="offcanvas offcanvas-start"
-          tabindex="-1"
-          id="offcanvasExample"
-          aria-labelledby="offcanvasExampleLabel"
-        >
-          <div class="offcanvas-header">
-            <h3 class="offcanvas-title" id="offcanvasExampleLabel">Filter</h3>
+          class="d-none d-md-block col-12 page-caption"
+          id="page-caption"
+        ></div>
+        <section class="subcat-container" id="subcat-container">
+          <div class="swiper mySwiper" id="mySwiper">
+            <div class="swiper-wrapper" id="swiper-wrapper"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </section>
+        <!--Filter-->
+        <div class="filter-page">
+          <div class="buttonsCont">
             <button
               type="button"
-              class="btn-close text-reset"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="offcanvas-body">
-            <select id="category-select" class="categFilter">
-              <option value="">All Categories</option>
-            </select>
+              class="btn btn-light"
+              id="btn-filter"
+              data-bs-toggle="offcanvas"
+              href="#offcanvasExample"
+              role="button"
+              aria-controls="offcanvasExample"
+            >
+              <i class="fa fa-solid fa-sliders"></i> All Filter
+            </button>
+            <!--sorting-->
+            <div class="dropdown-container">
+              <div class="custom-dropdown">
+                <button
+                  class="custom-dropdown-toggle"
+                  type="button"
+                  id="sortDropdownButton"
+                  data-toggle="dropdown"
+                >
+                  <strong>Sort by: Relevancy</strong
+                  ><i class="fa fa-chevron-down collapsible-icon"></i>
+                </button>
+                <div class="custom-dropdown-menu">
+                  <button
+                    class="custom-dropdown-item"
+                    data-sort="relevancy"
+                    type="button"
+                  >
+                    Relevancy
+                  </button>
 
-            <select id="subcategory-select" class="inactive categFilter">
-              <option value="">All Subcategories</option>
-            </select>
-            <!---->
-
-            <fieldset class="filter-section">
-              <legend class="font-filter-header">Special offers</legend>
-
-              <div>
-                <input type="checkbox" id="free-shipping" name="best" />
-                <label for="pick">Free Shipping</label>
-              </div>
-
-              <div>
-                <input type="checkbox" id="on-sale" name="best" />
-                <label for="horns">On sale </label>
-              </div>
-              <legend class="font-filter-header">Etsy's best</legend>
-
-              <div>
-                <input type="checkbox" id="pick" name="best" />
-                <label for="scales">Etsy's Pick </label>
-              </div>
-
-              <div>
-                <input type="checkbox" id="star" name="best" />
-                <label for="horns">Star Seller </label>
-              </div>
-            </fieldset>
-            <!--Price Filter-->
-            <fieldset class="filter-section">
-              <legend class="font-filter-header">
-                Price(<span>&#163;</span>)
-              </legend>
-
-              <div>
-                <div class="price-range">
-                  <input
-                    type="number"
-                    class="col-12 col-md-5"
-                    id="min-price"
-                    placeholder="Min Price LE"
-                    value="0"
-                  />
-                  <span class="col-md-2">to</span>
-
-                  <input
-                    type="number"
-                    class="col-12 col-md-5"
-                    id="max-price"
-                    value="100000"
-                    placeholder="Max Price LE"
-                  />
+                  <button
+                    class="custom-dropdown-item"
+                    data-sort="lowp"
+                    type="button"
+                  >
+                    Lowst Price
+                  </button>
+                  <button
+                    class="custom-dropdown-item"
+                    data-sort="highp"
+                    type="button"
+                  >
+                    Highest Price
+                  </button>
+                  <button
+                    class="custom-dropdown-item"
+                    data-sort="highr"
+                    type="button"
+                  >
+                    Top Rated
+                  </button>
                 </div>
               </div>
-            </fieldset>
+            </div>
           </div>
-          <div class="filter-apply">
-            <button type="button" class="btn-apply" id="btn-apply">
-              Apply
-            </button>
+
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel"
+          >
+            <div class="offcanvas-header">
+              <h3 class="offcanvas-title" id="offcanvasExampleLabel">Filter</h3>
+              <button
+                type="button"
+                class="btn-close text-reset"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <select id="category-select" class="categFilter">
+                <option value="">All Categories</option>
+              </select>
+
+              <select id="subcategory-select" class="inactive categFilter">
+                <option value="">All Subcategories</option>
+              </select>
+              <!---->
+
+              <fieldset class="filter-section">
+                <legend class="font-filter-header">Special offers</legend>
+
+                <div>
+                  <input type="checkbox" id="free-shipping" name="best" />
+                  <label for="pick">Free Shipping</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="on-sale" name="best" />
+                  <label for="horns">On sale </label>
+                </div>
+                <legend class="font-filter-header">Etsy's best</legend>
+
+                <div>
+                  <input type="checkbox" id="pick" name="best" />
+                  <label for="scales">Etsy's Pick </label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="star" name="best" />
+                  <label for="horns">Star Seller </label>
+                </div>
+              </fieldset>
+              <!--Price Filter-->
+              <fieldset class="filter-section">
+                <legend class="font-filter-header">
+                  Price(<span>&#163;</span>)
+                </legend>
+
+                <div>
+                  <div class="price-range">
+                    <input
+                      type="number"
+                      class="col-12 col-md-5"
+                      id="min-price"
+                      placeholder="Min Price LE"
+                      value="0"
+                    />
+                    <span class="col-md-2">to</span>
+
+                    <input
+                      type="number"
+                      class="col-12 col-md-5"
+                      id="max-price"
+                      value="100000"
+                      placeholder="Max Price LE"
+                    />
+                  </div>
+                </div>
+              </fieldset>
+            </div>
+            <div class="filter-apply">
+              <button type="button" class="btn-apply" id="btn-apply">
+                Apply
+              </button>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!--Filter tags-->
-      <div class="filter-tags-container" id="filter-tags-container"></div>
-      <!--Products Card-->
-      <div class="row" id="productsec"></div>
-    </div>
-    <!--JS-->
-    <script>
-      const swiper = new Swiper(".mySwiper", {
-        loop: false,
-        autoplay: false, //false not disable
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        slidesPerView: "auto",
-        spaceBetween: 7,
-        // speed: 600,----> Dont need it
-      });
-    </script>
+        <!--Filter tags-->
+        <div class="filter-tags-container" id="filter-tags-container"></div>
+        <!--Products Card-->
+        <div class="row" id="productsec"></div>
+      </div>
+      <!--JS-->
+
+      <script>
+        const swiper = new Swiper(".mySwiper", {
+          loop: false,
+          autoplay: false, //false not disable
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          slidesPerView: "auto",
+          spaceBetween: 7,
+          // speed: 600,----> Dont need it
+        });
+      </script>
     </div>
     <div id="footer-placeholder"></div>
     <script>
-        fetch('footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer-placeholder').innerHTML = data;
-            });
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+        });
     </script>
     <!-- Page Java script-->
     <script src="../JS/categories.js"></script>
     <script src="../JS/header.js" type="module"></script>
+    <div id="footer-placeholder"></div>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
   </body>
 </html>
