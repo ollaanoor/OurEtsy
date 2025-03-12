@@ -55,6 +55,11 @@ async function fetchData() {
         let dropdown1 = document.querySelectorAll(".dropdown select")[0].value;
         let dropdown2 = document.querySelectorAll(".dropdown select")[1].value;
         let personalization = document.querySelector("textarea").value;
+        if (!dropdown1 || !dropdown2) {
+          document.getElementById("error-message").textContent =
+            "Please select an option from both dropdowns.";
+          return; // Stop execution if validation fails
+        }
 
         let cartItem = {
           productId: productId,
@@ -313,13 +318,18 @@ nextBtn.addEventListener("click", function () {
 
 //heart button on carousel
 document.querySelector(".heart-btn").addEventListener("click", function () {
+  const categoryId = dataService.getCid();
+  const subcategoryId = dataService.getSid();
+  const productId = dataService.getPid();
   const heartIcon = this.querySelector("i");
   if (heartIcon.classList.contains("fa-regular")) {
     heartIcon.classList.remove("fa-regular");
     heartIcon.classList.add("fa-solid");
+    dataService.addFavorite(categoryId, subcategoryId, productId);
   } else {
     heartIcon.classList.remove("fa-solid");
     heartIcon.classList.add("fa-regular");
+    dataService.removeFavorite(categoryId, subcategoryId, productId);
   }
   this.classList.toggle("active");
 });
