@@ -233,6 +233,7 @@
                 "White gold",
                 "Yellow gold"
               ],
+              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "gemColor": "Colorless",
               "bandColor": "Rose gold",
               "style": "Art Deco",
@@ -857,6 +858,55 @@
           "id": 13,
           "name": "Rings",
           "image": "../Resources/Images/jewelry-rings2.webp",
+          "formFields": {
+            "gemstone": {
+              "label": "Gemstone",
+              "options": [
+                {
+                  "value": "diamond",
+                  "text": "Lab Grown Diamond (USD 382.90 - USD 808.50)"
+                },
+                {
+                  "value": "moissanite",
+                  "text": "Moissanite (USD 277.20 - USD 525.00)"
+                }
+              ]
+            },
+            "chainLength": {
+              "label": "Chain Length",
+              "options": [
+                {
+                  "value": "16",
+                  "text": "16 inches"
+                },
+                {
+                  "value": "18",
+                  "text": "18 inches"
+                },
+                {
+                  "value": "20",
+                  "text": "20 inches"
+                }
+              ]
+            },
+            "metalType": {
+              "label": "Metal Type",
+              "options": [
+                {
+                  "value": "gold",
+                  "text": "Gold"
+                },
+                {
+                  "value": "silver",
+                  "text": "Silver"
+                },
+                {
+                  "value": "platinum",
+                  "text": "Platinum"
+                }
+              ]
+            }
+          },
           "products": [
             {
               "id": 131,
@@ -899,7 +949,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/review4-ring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/review4-ring.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -938,7 +988,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/reviews2-ring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/review2-ring.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -1054,7 +1104,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/review1.webp",
+                  "photoUrl": "../Resources/Images/Reviews/review1.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
@@ -1737,7 +1787,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/review1.webp",
+                  "photoUrl": "../Resources/Images/Reviews/review1.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -3221,82 +3271,83 @@
           "id": 32,
           "name": "Collectibles",
           "image": "../Resources/Images/collectibles.png",
-          "formFields": {},
-          "category": {
-            "label": "Category",
-            "options": [
-              {
-                "value": "coins",
-                "text": "Coins"
-              },
-              {
-                "value": "stamps",
-                "text": "Stamps"
-              },
-              {
-                "value": "figures",
-                "text": "Action Figures"
-              },
-              {
-                "value": "antiques",
-                "text": "Antiques"
-              }
-            ]
-          },
-          "material": {
-            "label": "Material",
-            "options": [
-              {
-                "value": "metal",
-                "text": "Metal"
-              },
-              {
-                "value": "ceramic",
-                "text": "Ceramic"
-              },
-              {
-                "value": "plastic",
-                "text": "Plastic"
-              },
-              {
-                "value": "wood",
-                "text": "Wood"
-              }
-            ]
-          },
-          "condition": {
-            "label": "Condition",
-            "options": [
-              {
-                "value": "new",
-                "text": "New"
-              },
-              {
-                "value": "used",
-                "text": "Used"
-              },
-              {
-                "value": "mint",
-                "text": "Mint Condition"
-              }
-            ]
-          },
-          "era": {
-            "label": "Era",
-            "options": [
-              {
-                "value": "vintage",
-                "text": "Vintage (20+ years old)"
-              },
-              {
-                "value": "modern",
-                "text": "Modern"
-              },
-              {
-                "value": "antique",
-                "text": "Antique (100+ years old)"
-              }
-            ]
+          "formFields": {
+            "category": {
+              "label": "Category",
+              "options": [
+                {
+                  "value": "coins",
+                  "text": "Coins"
+                },
+                {
+                  "value": "stamps",
+                  "text": "Stamps"
+                },
+                {
+                  "value": "figures",
+                  "text": "Action Figures"
+                },
+                {
+                  "value": "antiques",
+                  "text": "Antiques"
+                }
+              ]
+            },
+            "material": {
+              "label": "Material",
+              "options": [
+                {
+                  "value": "metal",
+                  "text": "Metal"
+                },
+                {
+                  "value": "ceramic",
+                  "text": "Ceramic"
+                },
+                {
+                  "value": "plastic",
+                  "text": "Plastic"
+                },
+                {
+                  "value": "wood",
+                  "text": "Wood"
+                }
+              ]
+            },
+            "condition": {
+              "label": "Condition",
+              "options": [
+                {
+                  "value": "new",
+                  "text": "New"
+                },
+                {
+                  "value": "used",
+                  "text": "Used"
+                },
+                {
+                  "value": "mint",
+                  "text": "Mint Condition"
+                }
+              ]
+            },
+            "era": {
+              "label": "Era",
+              "options": [
+                {
+                  "value": "vintage",
+                  "text": "Vintage (20+ years old)"
+                },
+                {
+                  "value": "modern",
+                  "text": "Modern"
+                },
+                {
+                  "value": "antique",
+                  "text": "Antique (100+ years old)"
+                }
+              ]
+            }
           },
           "products": [
             {
