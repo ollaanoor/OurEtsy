@@ -227,7 +227,7 @@ onload = function () {
 
         document.getElementById(
           "breadpath"
-        ).innerHTML = `<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        ).innerHTML = `<nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
       <ol class="breadcrumb col-12">
         <li class="breadcrumb-item" id="breadcrumb-item-head"><a href="#">${categoryName}</a></li>
         <li class="breadcrumb-item active" aria-current="page">${subCategoryName}</li>

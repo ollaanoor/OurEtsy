@@ -95,55 +95,60 @@ function toggleFav(button, categoryId, subcategoryId, productId) {
 // }
 
 // Function to add item to cart
-function addToCart(cId, sId, pId, quantity) {
-  let cartCount = JSON.parse(localStorage.getItem("cartCount"));
-  let cartItems = JSON.parse(localStorage.getItem("cartItems"));
-  // let newItem = {
-  //     id: pId,
-  //     quantity: quantity,
-  // };
-  cartItems.push({ cId, sId, pId, quantity });
-  localStorage.setItem("cartItems", JSON.stringify(cartItems));
+// function addToCart(cId, sId, pId, quantity) {
+function addToCart(item) {
+    let cartCount = JSON.parse(localStorage.getItem("cartCount")) || 0;
+    let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
 
-  cartCount++;
-  localStorage.setItem("cartCount", JSON.stringify(cartCount));
-  updateCartBadge();
+    // cartItems.push({ cId, sId, pId, quantity });
+    let product = cartItems.find(prod => prod.productId === item.productId);
+    console.log(product);
+    if(product) {
+        product.quantity = String(parseInt(product.quantity) + 1);
+    } else {
+        cartItems.push(item);
 
+        cartCount++;
+        localStorage.setItem("cartCount", JSON.stringify(cartCount));
+        updateCartBadge();
+    }
+
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
     showNotification("Product added to cart",'cart');
 }
 
 // Function to remove item from cart
 function removeFromCart(pId) {
-  // cId, sId,
-  let cartCount = JSON.parse(localStorage.getItem("cartCount"));
-  let cartItems = JSON.parse(localStorage.getItem("cartItems"));
+    // cId, sId,
+    let cartCount = JSON.parse(localStorage.getItem("cartCount")) || 0;
+    let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
 
-  cartItems = cartItems.filter((item) => item.productId !== pId);
-  localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    cartItems = cartItems.filter((item) => item.productId !== pId);
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
 
-  if (cartCount > 0) {
-    cartCount--;
-    localStorage.setItem("cartCount", JSON.stringify(cartCount));
-  }
-  updateCartBadge();
+    if (cartCount > 0) {
+        cartCount--;
+        localStorage.setItem("cartCount", JSON.stringify(cartCount));
+    }
+    updateCartBadge();
 
 }
 
 function updateCartBadge() {
-  var cartBadge = document.getElementById("cart-badge");
-  // Load cart count from localStorage (or set to 0 if not found)
-  var cartCount = localStorage.getItem("cartCount")
-    ? parseInt(localStorage.getItem("cartCount"))
-    : 0;
+    var cartBadge = document.getElementById("cart-badge");
+    // Load cart count from localStorage (or set to 0 if not found)
+    var cartCount = localStorage.getItem("cartCount")
+        ? parseInt(localStorage.getItem("cartCount"))
+        : 0;
 
-  if (cartCount > 0) {
-    // cartBadge.style.display = 'inline-block';
-    cartBadge.style.display = "block";
-    cartBadge.textContent = cartCount;
-  } else {
-    // cartBadge.style.display = 'none';
-    cartBadge.style.display = "none";
-  }
+    if (cartCount > 0) {
+        // cartBadge.style.display = 'inline-block';
+        cartBadge.style.display = "block";
+        cartBadge.textContent = cartCount;
+    } else {
+        // cartBadge.style.display = 'none';
+        cartBadge.style.display = "none";
+    }
 
   // Save the updated count to localStorage
   // localStorage.setItem('cartCount', cartCount);
@@ -151,27 +156,27 @@ function updateCartBadge() {
 
 // Function to update quantity
 function updateQuantity(itemId, newQuantity) {
-  let cartItems = JSON.parse(localStorage.getItem("cartItems"));
-  let item = cartItems.find((item) => item.productId === itemId);
+    let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+    let item = cartItems.find((item) => item.productId === itemId);
 
-  if (item) {
-    item.quantity = parseInt(newQuantity);
-  }
+    if (item) {
+        item.quantity = parseInt(newQuantity);
+    }
 
-  localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    localStorage.setItem("cartItems", JSON.stringify(cartItems));
 }
 
 // Validate a field and show error message in cart forms
 function validateField(input, errorElement) {
-  if (errorElement) {
-    if (!input.validity.valid) {
-      errorElement.style.display = "block";
-      return false;
-    } else {
-      errorElement.style.display = "none";
-      return true;
+    if (errorElement) {
+        if (!input.validity.valid) {
+        errorElement.style.display = "block";
+        return false;
+        } else {
+        errorElement.style.display = "none";
+        return true;
+        }
     }
-  }
 }
 
 // function showNotification() {
@@ -188,13 +193,20 @@ function showNotification(message, type) {
     // Create the popup element
     const popup = document.createElement('div');
     popup.className = 'notification';
-    var img;
+    let img, btntxt, btnURL;
     if(type == 'fav'){
         img = 'https://img.icons8.com/ios-filled/50/FFFFFF/like--v1.png'
+        btntxt = 'Go to Favorites';
+        btnURL = '../HTML/FavPage.html'
     } else if(type == 'cart'){
         img = 'https://img.icons8.com/ios-glyphs/30/FFFFFF/shopping-cart--v1.png'
+        btntxt = 'Go to Cart';
+        btnURL = '../HTML/CartPage.html'
     }
-    popup.innerHTML = `<img src='${img}'><span>${message}</span>`;
+    popup.innerHTML = `<img src="${img}"><span>${message}</span>`;
+    if(!window.location.href.includes("/HTML/CartPage.html") && !window.location.href.includes("/HTML/FavPage.html")) {
+        popup.innerHTML += `<button onclick="location.href='${btnURL}'">${btntxt}</button>`;
+    }
 
     // Add the popup to the body
     document.body.appendChild(popup);
@@ -210,22 +222,22 @@ function showNotification(message, type) {
         setTimeout(() => {
             popup.remove();
         }, 300); // Wait for animation to finish before removing
-    }, 3000);
+    }, 5000);
 }
 
 function getCid() {
-  const params = new URLSearchParams(window.location.search);
-  return parseInt(params.get("cid"));
+    const params = new URLSearchParams(window.location.search);
+    return parseInt(params.get("cid"));
 }
 
 function getSid() {
-  const params = new URLSearchParams(window.location.search);
-  return parseInt(params.get("sid"));
+    const params = new URLSearchParams(window.location.search);
+    return parseInt(params.get("sid"));
 }
 
 function getPid() {
-  const params = new URLSearchParams(window.location.search);
-  return parseInt(params.get("pid"));
+    const params = new URLSearchParams(window.location.search);
+    return parseInt(params.get("pid"));
 }
 
 // makes the function available to the other scripts.

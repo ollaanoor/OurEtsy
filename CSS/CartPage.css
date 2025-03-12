@@ -3,6 +3,32 @@
     flex-wrap: wrap;
 } */
 
+/* Cart */
+#cart-page {
+    /* padding-top: 24px; */
+    font-family: 'Roboto', 'Inter', system-ui, sans-serif;
+    padding-left: 36px;
+    padding-right: 36px;
+    margin: 0px 60px;
+}
+
+.cart-text-1 span {
+    font-size: 16;
+    line-height: 1.7;
+    letter-spacing: 0.16px;
+}
+
+#card-empty {
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.1;
+    /* padding: 12px 0px; */
+    /* margin-top: 24px;
+    margin-bottom: 36px; */
+}
+
 #cart-content .grid-container {
     grid-template-columns: 2fr 1fr;
     gap: 50px;

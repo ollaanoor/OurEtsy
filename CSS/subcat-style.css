@@ -1,3 +1,9 @@
+#cat-page {
+    padding-left: 36px;
+    padding-right: 36px;
+    margin: 0px 60px;
+}
+
 .subcat-container {
   display: flex;
   align-items: center;
@@ -55,4 +61,8 @@
 }
 .breadcrumb-item {
   font-size: calc(0.9rem + 0.3vw);
+}
+.breadcrumb-item a {
+  color: rgba(33, 37, 41, 0.75);
+  text-decoration: none;
 }

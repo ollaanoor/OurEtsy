@@ -11,8 +11,8 @@ prevBtn.classList.add("arrow", "prev");
 nextBtn.classList.add("arrow", "next");
 prevBtn.innerHTML = `<i class="fa-solid fa-arrow-left"></i>`;
 nextBtn.innerHTML = `<i class="fa-solid fa-arrow-right"></i>`;
-const fixedURL = "?cid=1&sid=11&pid=111";
-window.history.pushState({}, "", fixedURL);
+// const fixedURL = "?cid=1&sid=11&pid=111";
+// window.history.pushState({}, "", fixedURL);
 
 document.addEventListener("DOMContentLoaded", () => {
   fetchData();
@@ -53,24 +53,30 @@ async function fetchData() {
         event.preventDefault();
 
         let dropdown1 = document.querySelectorAll(".dropdown select")[0].value;
+        let option1 = document.querySelector("#dropdown1-label").textContent;
         let dropdown2 = document.querySelectorAll(".dropdown select")[1].value;
+        let option2 = document.querySelector("#dropdown2-label").textContent;
         let personalization = document.querySelector("textarea").value;
 
         let cartItem = {
-          productId: productId,
-          subcategoryId: subcategoryId,
-          categoryId: categoryId,
-          option1: dropdown1,
-          option2: dropdown2,
-          personalization: personalization,
+          categoryId: String(categoryId),
+          subcategoryId: String(subcategoryId),
+          productId: String(productId),
+          options: {
+            [option1]: dropdown1,
+            [option2]: dropdown2,
+            personalization: personalization,
+          },
+          quantity: "1",
         };
 
-        let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
-        cartItems.push(cartItem);
-        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+        // let cartItems = JSON.parse(localStorage.getItem("cartItems")) || [];
+        // cartItems.push(cartItem);
+        // localStorage.setItem("cartItems", JSON.stringify(cartItems));
 
-        window.location.href = `CartPage.html?cid=${categoryId}&sid=${subcategoryId}&pid=${productId}`;
-        dataService.addToCart(categoryId, subcategoryId, productId, 1);
+        // window.location.href = `CartPage.html?cid=${categoryId}&sid=${subcategoryId}&pid=${productId}`;
+        // dataService.addToCart(categoryId, subcategoryId, productId, 1);
+        dataService.addToCart(cartItem);
       });
   } catch (error) {
     console.error("Failed to fetch JSON:", error);

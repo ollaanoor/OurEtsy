@@ -38,20 +38,24 @@
     <link rel="stylesheet" href="../CSS/ProductsPageStyle.css" />
     <!--Subcategori Css-->
     <link rel="stylesheet" href="../CSS/subcat-style.css" />
+
+    <link href="../CSS/header.css" rel="stylesheet">
+    <link href="../CSS/footer.css" rel="stylesheet">
     <!--Header nav-->
     <!-- <script src="../Js/header.js"></script> -->
   </head>
   <body>
+    <!--Header-->
+    <div id="header-placeholder"></div>
+    <script>
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header-placeholder").innerHTML = data;
+        });
+    </script>
+    <div id="cat-page">
     <div class="container-fluid">
-      <!--Header-->
-      <div id="header-placeholder"></div>
-      <script>
-        fetch("header.html")
-          .then((response) => response.text())
-          .then((data) => {
-            document.getElementById("header-placeholder").innerHTML = data;
-          });
-      </script>
       <!--sub Category-->
       <div class="row page-title">
         <div id="breadpath"></div>
@@ -185,6 +189,15 @@
         spaceBetween: 7,
         // speed: 600,----> Dont need it
       });
+    </script>
+    </div>
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            });
     </script>
     <!-- Page Java script-->
     <script src="../JS/categories.js"></script>

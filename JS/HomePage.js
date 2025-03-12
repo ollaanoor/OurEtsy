@@ -317,7 +317,7 @@ function renderProducts(data) {
 
     /* Render Personalized Gifts Grid Section */
     // Update: Render it dynamic from any subcategory
-    var favorites = JSON.parse(localStorage.getItem('favorites'));
+    var favorites = JSON.parse(localStorage.getItem('favorites')) || [];
     
     for(let i = 0; i < 6; i++){
         // var products3 = data.categories[7].subcategories[4].products;
