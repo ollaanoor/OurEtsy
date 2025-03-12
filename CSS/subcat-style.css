@@ -48,3 +48,11 @@
 .swiper-button-next:hover {
   color: darkgrey !important;
 }
+.breadcrumb {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  text-align: center;
+}
+.breadcrumb-item {
+  font-size: calc(0.9rem + 0.3vw);
+}

@@ -11,7 +11,8 @@ function filterProduct(
   categoryId = 0,
   subcategoryId = null,
   minPrice = 0,
-  maxPrice = 100000
+  maxPrice = 100000,
+  discountprice = false
 ) {
   // Clear the current products display
   const mainPag = document.getElementById("productsec");
@@ -40,9 +41,21 @@ function filterProduct(
     var temp = (subcategoryId % 10) - 1;
     // console.log("temp");
     fillsubProduct(-1);
+
     const subCategoryName =
       myData2.categories[categoryId - 1].subcategories[temp].name;
     document.getElementById("tiltlePage").innerText = subCategoryName;
+    document.getElementById(
+      "breadpath"
+    ).innerHTML = `<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb col-12">
+        <li class="breadcrumb-item" id="breadcrumb-item-head"><a href="#">${categoryName}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">${subCategoryName}</li>
+      </ol>
+    </nav>`;
+    document
+      .getElementById("breadcrumb-item-head")
+      .setAttribute("cidcrumb", categoryId);
   } else {
     document.getElementById("tiltlePage").innerText = categoryName;
     document.getElementById("page-caption").innerText = categoryDesc;
@@ -71,53 +84,21 @@ function filterProduct(
   // Loop through each relevant subcategory and filter products by price
   subcategoriesToShow.forEach((subcategory) => {
     // Filter products by price range
-    const filteredProducts = subcategory.products.filter(
+    let filteredProducts = subcategory.products.filter(
       (product) => product.price >= minPrice && product.price <= maxPrice
     );
+    if (discountprice) {
+      filteredProducts = filteredProducts.filter(
+        (product) => product.discount != null
+      );
+    }
 
     // Render the filtered products
     filteredProducts.forEach((product) => {
       renderProductCard(mainPag, categoryIndex, subcategory, product);
     });
   });
-
-  // //Set up event listener on card
-  // const productCard = document.querySelectorAll(".product-card");
-  // productCard.forEach((card) => {
-  //   card.addEventListener("click", function () {
-  //     // console.log(this.getAttribute("product-id"));
-  //     //new method with link
-  //     const cid = this.getAttribute("category-id");
-  //     const sid = this.getAttribute("subcategory-id");
-  //     const pid = this.getAttribute("product-id");
-  //     window.location.href = `productDetails.html?cid=${cid}&sid=${sid}&pid=${pid}`;
-  //   });
-  // });
-
-  // // Set up favorite button functionality for the newly rendered cards
-  // const btnsFav = document.querySelectorAll(".favorite-btn");
-  // btnsFav.forEach((fav) => {
-  //   fav.addEventListener("click", function (e) {
-  //     // Stop the event from bubbling up to the card
-  //     e.stopPropagation();
-  //     this.classList.toggle("active");
-  //     loadModule().then(() => {
-  //       if (fav.classList.contains("active")) {
-  //         dataService.addFavorite(
-  //           fav.parentElement.getAttribute("product-id"),
-  //           fav.parentElement.getAttribute("subcategory-id"),
-  //           fav.parentElement.getAttribute("category-id")
-  //         );
-  //       } else {
-  //         dataService.removeFavorite(
-  //           fav.parentElement.getAttribute("product-id"),
-  //           fav.parentElement.getAttribute("subcategory-id"),
-  //           fav.parentElement.getAttribute("category-id")
-  //         );
-  //       }
-  //     });
-  //   });
-  // });
+  setupEventListeners();
 }
 
 // Extract the product card rendering logic into a separate function for reuse
@@ -231,6 +212,7 @@ onload = function () {
       if (sid) {
         var temp = (sid % 10) - 1;
         fillsubProduct(-1);
+
         const subCategoryName =
           myData2.categories[cid - 1].subcategories[temp].name;
         document.getElementById("tiltlePage").innerText = subCategoryName;
@@ -239,6 +221,21 @@ onload = function () {
         subcategory.products.forEach((p) => {
           renderProductCard(mainPag, categoryIndex, subcategory, p);
         });
+        var temp = (sid % 10) - 1;
+        // console.log("temp");
+        fillsubProduct(-1);
+
+        document.getElementById(
+          "breadpath"
+        ).innerHTML = `<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb col-12">
+        <li class="breadcrumb-item" id="breadcrumb-item-head"><a href="#">${categoryName}</a></li>
+        <li class="breadcrumb-item active" aria-current="page">${subCategoryName}</li>
+      </ol>
+    </nav>`;
+        document
+          .getElementById("breadcrumb-item-head")
+          .setAttribute("cidcrumb", cid);
       } else {
         document.getElementById("tiltlePage").innerText = categoryName;
         document.getElementById("page-caption").innerText = categoryDesc;
@@ -252,6 +249,7 @@ onload = function () {
       setupEventListeners();
     }
     //Set up show prodct, and git element to sort
+
     var card = setupFilterControls();
   }
 };
@@ -293,6 +291,18 @@ function setupEventListeners() {
       });
     });
   });
+
+  //breadcrumb
+  const breadlink = document.getElementById("breadcrumb-item-head");
+  if (breadlink) {
+    breadlink.addEventListener("click", () => {
+      breadlink.parentElement.innerHTML = "";
+      window.location.href = `categorypage.html?cid=${parseInt(
+        breadlink.getAttribute("cidcrumb")
+      )}`;
+      // filterProduct(parseInt(breadlink.getAttribute("cid")));
+    });
+  }
 }
 
 function setupFilterControls() {
@@ -300,7 +310,9 @@ function setupFilterControls() {
   const subcategorySelect = document.getElementById("subcategory-select");
   const minPriceInput = document.getElementById("min-price");
   const maxPriceInput = document.getElementById("max-price");
+  const discountinput = document.getElementById("on-sale");
   const filterButton = document.getElementById("btn-apply");
+
   /* Drop down*/
   if (categorySelect) {
     myData2.categories.forEach((category) => {
@@ -347,8 +359,8 @@ function setupFilterControls() {
         : null;
       const minPrice = parseFloat(minPriceInput.value) || 0;
       const maxPrice = parseFloat(maxPriceInput.value) || 100000;
-
-      filterProduct(categoryId, subcategoryId, minPrice, maxPrice);
+      const discount = discountinput.checked;
+      filterProduct(categoryId, subcategoryId, minPrice, maxPrice, discount);
       const offcanvasElement = document.getElementById("offcanvasExample");
       const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
       offcanvas.hide();
@@ -368,6 +380,7 @@ function fillsubProduct(cat = 0) {
   //Already in one of sub cat
   if (cat == -1) {
     subcatSlider.innerText = "";
+
     return;
   }
   /**Make sure that empty */
@@ -409,10 +422,9 @@ function fillsubProduct(cat = 0) {
     // console.log(subCatCard);
     subCatCard.forEach((card) => {
       card.addEventListener("click", function () {
-        filterProduct(
-          parseInt(card.getAttribute("cat-id")),
-          parseInt(card.getAttribute("subcat-id"))
-        );
+        const cid = parseInt(card.getAttribute("cat-id"));
+        const sid = parseInt(card.getAttribute("subcat-id"));
+        window.location.href = `categorypage.html?cid=${cid}&sid=${sid}`;
       });
     });
   }
