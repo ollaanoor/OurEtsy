@@ -1,5 +1,6 @@
 import dataService from './dataService.js';
 
+var mydata;
 // Fetch the JSON file for products data 
 // fetch('../Resources/JSON/data.json')
 dataService.fetchData()
@@ -12,20 +13,24 @@ dataService.fetchData()
     .then(data => {
         // console.log(data); // Log the JSON data
         var randomIndexCat = Math.floor(Math.random() * data.categories.length);
-        const cat = data.categories[randomIndexCat].subcategories;
+        var cat = data.categories[randomIndexCat].subcategories;
         
         // Pick a random product to display on right banner on each refresh
-        const randomIndexSub = Math.floor(Math.random() * cat.length);
-        const selectedBanner = cat[randomIndexSub];
+        var randomIndexSub = Math.floor(Math.random() * cat.length);
+        var selectedBanner = cat[randomIndexSub];
 
         // Update the HTML content
         document.getElementById('banner-right-title').textContent = selectedBanner.name;
         document.getElementById('banner-right-img').src = selectedBanner.image;
 
+        document.getElementById('banner-right').setAttribute('data-category-id', data.categories[randomIndexCat].id);
+        document.getElementById('banner-right').setAttribute('data-subcategory-id', cat[randomIndexSub].id);
+
         // Render Personalized Gifts Sections
         // renderProducts(data.categories[7].subcategories[3].products);
         renderProducts(data);
 
+        mydata = data;
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
@@ -35,17 +40,26 @@ dataService.fetchData()
 fetch('../Resources/JSON/banner.json')
     .then(response => response.json())
     .then(data => {
-        const banners = data.LeftBanner;
+        var banners = data.LeftBanner;
 
-        // Pick a random banner on each refresh
-        const randomIndex = Math.floor(Math.random() * banners.length);
-        const selectedBanner = banners[randomIndex];
-        const imgRandomIndex = Math.floor(Math.random() * banners[randomIndex].image.length);
+        // Pick a random left banner on each refresh
+        var randomIndex = Math.floor(Math.random() * banners.length);
+        var selectedBanner = banners[randomIndex];
+        var imgRandomIndex = Math.floor(Math.random() * banners[randomIndex].image.length);
 
         // Update the HTML content
         document.getElementById('banner-left-title').textContent = selectedBanner.title;
         document.getElementById('banner-left-text').textContent = selectedBanner.text;
         document.getElementById('banner-left-img').src = selectedBanner.image[imgRandomIndex];
+        document.getElementById('banner-left').style.backgroundColor = selectedBanner.bgcolor;
+        document.querySelector('.btn').textContent = selectedBanner.btnText;
+
+        // Redirecting to category pages when clicking on left banner button
+        document.querySelector('#banner-left').addEventListener('click', function() {
+            // console.log(mydata.categories);
+            var cat = mydata.categories.find( cat => selectedBanner.category == cat.name);
+            window.location.href = `../HTML/categorypage.html?cid=${cat.id}`;
+        });
     })
     .catch(error => console.error('Error loading the JSON file:', error));
 
@@ -86,7 +100,7 @@ window.onload = function() {
     // Event Delegation 
     /* We attach a single click event listener to the .grid-container div, which is the parent of all the fav-btn elements. */
     // Get the parent container of the favorite buttons
-    const gridContainer = document.querySelector('.grid-container');
+    var gridContainer = document.querySelector('.grid-container');
 
     // Add event listener for click on the container
     gridContainer.addEventListener('click', function (event) {
@@ -101,8 +115,66 @@ window.onload = function() {
             //     console.log(item.dataset.productId);  // Access 'data-product-id'
             // }
             dataService.toggleFav(button,item.dataset.categoryId,item.dataset.subcategoryId,item.dataset.productId);
+
+        // Redirecting to product page when clicking on a grid item
+        } else if (event.target.closest('.gift-grid-card')) { 
+            // Check if the clicked element is inside the most popular categories div
+            var personalizedCard = event.target.closest('.gift-grid-card');
+            window.location.href = `../HTML/productDetails.html?cid=${personalizedCard.dataset.categoryId}&sid=${personalizedCard.dataset.subcategoryId}&pid=${personalizedCard.dataset.productId}`;
+        
+        // Redirecting to subcategory page on click on shop these unique finds button
+        } else if(event.target.closest('.shop-btn')) {
+            var personalizedCard = document.querySelector('.gift-grid-card');
+            window.location.href = `../HTML/categorypage.html?cid=${personalizedCard.dataset.categoryId}&sid=${personalizedCard.dataset.subcategoryId}`;
         }
     });
+
+    // Redirecting to subcategory page on click on right banner
+    var banner = document.getElementById('banner');
+    banner.addEventListener('click', function(event) {
+        // Check if the clicked element is inside the banner-right div
+        if (event.target.closest('#banner-right')) {
+            var bannerR = event.target.closest('#banner-right');
+            window.location.href = `../HTML/categorypage.html?cid=${bannerR.dataset.categoryId}&sid=${bannerR.dataset.subcategoryId}`;
+        }
+    });
+
+    // Redirecting to subcategory page on click on discover gifts section
+    var discover = document.getElementById('discover');
+    discover.addEventListener('click', function(event) {
+        // Check if the clicked element is inside the discover div
+        if (event.target.closest('.card')) {
+            var discoverCard = event.target.closest('.card');
+            window.location.href = `../HTML/categorypage.html?cid=${discoverCard.dataset.categoryId}&sid=${discoverCard.dataset.subcategoryId}`;
+        }
+    });
+
+    // Redirecting to subcategory page on click on most popular categories section
+    var popular = document.getElementById('most-popular-categories');
+    popular.addEventListener('click', function(event) {
+        // Check if the clicked element is inside the most popular categories div
+        if (event.target.closest('.most-popular-card')) {
+            var popularCard = event.target.closest('.most-popular-card');
+            window.location.href = `../HTML/categorypage.html?cid=${popularCard.dataset.categoryId}&sid=${popularCard.dataset.subcategoryId}`;
+        }
+    });
+
+    // Redirecting to product page when clicking on a grid item
+    // var personalized = document.getElementById('personalized-gifts');
+    // personalized.addEventListener('click', function(event) {
+    //     // Check if the clicked element is inside the most popular categories div
+    //     if (event.target.closest('.gift-grid-card')) {
+    //         var personalizedCard = event.target.closest('.gift-grid-card');
+    //         window.location.href = `../HTML/productDetails.html?cid=${personalizedCard.dataset.categoryId}&sid=${personalizedCard.dataset.subcategoryId}&pid=${personalizedCard.dataset.productId}`;
+    //     // Redirecting to subcategory page on click on shop these unique finds button
+    //     } else if(event.target.closest('.shop-btn')) {
+    //         var personalizedCard = document.querySelector('.gift-grid-card');
+    //         window.location.href = `../HTML/categorypage.html?cid=${personalizedCard.dataset.categoryId}&sid=${personalizedCard.dataset.subcategoryId}`;
+    //     }
+    // });
+
+
+
 // });
 }
 
@@ -168,7 +240,7 @@ function renderProducts(data) {
     /* Render Discover Gifts Section */
     var arrIdx = [];
     for(let i=0; i<6; i++){
-        var products1 = data.categories[7].subcategories;
+        var products1 = data.categories[7].subcategories; // make dynamic using find?
         var randomIndexCat = Math.floor(Math.random() * products1.length);
         
         if(arrIdx.includes(randomIndexCat)){
@@ -179,6 +251,8 @@ function renderProducts(data) {
 
         var productCard1 = document.createElement('div');
         productCard1.classList = 'card col-2 d-flex align-items-center';
+        productCard1.setAttribute('data-category-id', data.categories[7].id);
+        productCard1.setAttribute('data-subcategory-id', products1[randomIndexCat].id);
 
         productCard1.innerHTML = `
             <img src="${products1[randomIndexCat].image}" alt="${products1[randomIndexCat].name}">
@@ -203,6 +277,8 @@ function renderProducts(data) {
 
         var productCard2 = document.createElement('div');
         productCard2.className = 'most-popular-card';
+        productCard2.setAttribute('data-category-id', data.categories[randomIndexCat].id);
+        productCard2.setAttribute('data-subcategory-id', products2[i].id);
 
         productCard2.innerHTML = `
             <img src="${products2[i].image}" alt="${products2[i].name}">
@@ -240,39 +316,57 @@ function renderProducts(data) {
     // });
 
     /* Render Personalized Gifts Grid Section */
+    // Update: Render it dynamic from any subcategory
     var favorites = JSON.parse(localStorage.getItem('favorites'));
-    var products3 = data.categories[7].subcategories[4].products;
-    products3.forEach((product,idx) => {
-        var productCard3 = document.createElement('div');
-        productCard3.className = 'grid-item';
+    
+    for(let i = 0; i < 6; i++){
+        // var products3 = data.categories[7].subcategories[4].products;
+        var randomIndexCat = Math.floor(Math.random() * data.categories.length);
+        var randomIndexSub = Math.floor(Math.random() * data.categories[randomIndexCat].subcategories.length);
+        var products3 = data.categories[randomIndexCat].subcategories[randomIndexSub].products;
 
-        // Fill the product card with data
-        productCard3.innerHTML = `
-            <div class="gift-grid-card" data-category-id="${data.categories[7].id}" data-subcategory-id="${data.categories[7].subcategories[4].id}" data-product-id="${product.id}" data-name="${product.name}" data-price="${product.price}"> 
-                <div class="fav-btn">
-                    <button href="#" type="button">
-                        <img class="favbtn" src="../Resources/Images/fav-icon-2.png" alt="favorites">
-                    </button>
-                </div>
-                <img src="${product.image}" alt="${product.name}">
-                <div class="price-badge">
-                    <div class="price-badge-2">
-                        <span>
-                            <span class="currency-symbol fw-bold">USD </span>
-                            <span class="currency-value fw-bold">${product.price}</span>
-                        </span>
+        // Make sure products has enough elements
+        if (i >= products3.length) {
+            i--;
+            continue; // Skip this iteration if not
+        }
+
+        // Used for loop instead of forEach to make sure to render 6 pics
+        // products3.forEach((product,idx) => {
+            var productCard3 = document.createElement('div');
+            productCard3.className = 'grid-item';
+
+            // Fill the product card with data
+            productCard3.innerHTML = `
+                <div class="gift-grid-card" data-category-id="${data.categories[randomIndexCat].id}" data-subcategory-id="${data.categories[randomIndexCat].subcategories[randomIndexSub].id}" data-product-id="${products3[i].id}" data-name="${products3[i].name}" data-price="${products3[i].price}"> 
+                    <div class="fav-btn">
+                        <button href="#" type="button">
+                            <img class="favbtn" src="../Resources/Images/fav-icon-2.png" alt="favorites">
+                        </button>
+                    </div>
+                    <img src="${products3[i].image}" alt="${products3[i].name}">
+                    <div class="price-badge">
+                        <div class="price-badge-2">
+                            <span>
+                                <span class="currency-symbol fw-bold">USD </span>
+                                <span class="currency-value fw-bold">${products3[i].price}</span>
+                            </span>
+                        </div>
                     </div>
                 </div>
-            </div>
-        `;
+            `;
 
-        // Append the product card to the list
-        productList3.appendChild(productCard3);
+            // Append the product card to the list
+            productList3.appendChild(productCard3);
 
-        // Keep the hearts red even after refreshing
-        if(favorites.find((item) => item.productId == product.id)){
-            var favbtn = document.getElementsByClassName("favbtn")[idx];
-            favbtn.src = '../Resources/Images/fav-icon-2-fill.png';
-        }
-    });
+            document.getElementById('subcat-name').textContent = data.categories[randomIndexCat].subcategories[randomIndexSub].name;
+            document.getElementById('cat-title').textContent = data.categories[randomIndexCat].title;
+
+            // Keep the hearts red even after refreshing
+            if(favorites.find((item) => item.productId == products3[i].id)){
+                var favbtn = document.getElementsByClassName("favbtn")[i];
+                favbtn.src = '../Resources/Images/fav-icon-2-fill.png';
+            }
+        // });
+    }
 }

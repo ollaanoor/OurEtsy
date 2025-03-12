@@ -155,6 +155,19 @@ function updateQuantity(itemId, newQuantity) {
   localStorage.setItem("cartItems", JSON.stringify(cartItems));
 }
 
+// Validate a field and show error message in cart forms
+function validateField(input, errorElement) {
+  if (errorElement) {
+    if (!input.validity.valid) {
+      errorElement.style.display = "block";
+      return false;
+    } else {
+      errorElement.style.display = "none";
+      return true;
+    }
+  }
+}
+
 function getCid() {
   const params = new URLSearchParams(window.location.search);
   return parseInt(params.get("cid"));
@@ -183,4 +196,5 @@ export default {
   getCid,
   getSid,
   getPid,
+  validateField,
 };

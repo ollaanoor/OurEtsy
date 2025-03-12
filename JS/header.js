@@ -44,6 +44,19 @@ if (headerContainer) {
         if (event.target.closest('#search-input')) {
             handleSearchInput();
         }
+
+        // Redirecting to pages according to search item 
+        if (event.target.closest('.suggestions-list li')) {
+            var searchItem = event.target.closest('.suggestions-list li');
+            console.log(searchItem.dataset);
+            if (searchItem.dataset.type == 'category') {
+                window.location.href = `../HTML/categorypage.html?cid=${searchItem.dataset.id}`;
+            } else if (searchItem.dataset.type == 'subcategory') {
+                window.location.href = `../HTML/categorypage.html?cid=${searchItem.dataset.categoryId}&sid=${searchItem.dataset.id}`;
+            } else if (searchItem.dataset.type == 'product') {
+                window.location.href = `../HTML/productDetails.html?cid=${searchItem.dataset.categoryId}&sid=${searchItem.dataset.subcategoryId}&pid=${searchItem.dataset.id}`;
+            }
+        }
     });
 
     // Handle input for search suggestions
@@ -82,7 +95,7 @@ function populateDropdown() {
         var dropItem = document.createElement('a');
         dropItem.textContent = cat.name;
         dropItem.classList.add('dropdown-item');
-        dropItem.href = "#"; // Assign html page
+        dropItem.href = `../HTML/categorypage.html?cid=${cat.id}`; // Assign html page
         content.appendChild(dropItem);
     })
 }
@@ -103,8 +116,15 @@ function handleSearchInput() {
     if (searchTerm.trim() !== '') {
         if (suggestions.length > 0) {
             suggestions.forEach(suggestion => {
-                const li = document.createElement('li');
-                li.textContent = suggestion;
+                var li = document.createElement('li');
+                li.textContent = suggestion.name;
+
+                // Add data attributes for IDs and type
+                li.setAttribute('data-id', suggestion.id);
+                li.setAttribute('data-type', suggestion.type);
+                li.setAttribute('data-category-id', suggestion.categoryId || '');
+                li.setAttribute('data-subcategory-id', suggestion.subcategoryId || '');
+
                 suggestionsList.appendChild(li);
             });
             suggestionsContainer.classList.add('show');
@@ -156,20 +176,38 @@ function getSuggestions(searchTerm) {
     // Collect category, subcategory, and product names
     data.categories.forEach(category => {
         // Add category name
-        allSuggestions.push(category.name);
+        // allSuggestions.push(category.name);
+        allSuggestions.push({
+            id: category.id,
+            name: category.name,
+            type: 'category'
+        });
 
         // Loop through subcategories
         category.subcategories.forEach(subcategory => {
-            allSuggestions.push(subcategory.name);
+            // allSuggestions.push(subcategory.name);
+            allSuggestions.push({
+                id: subcategory.id,
+                name: subcategory.name,
+                type: 'subcategory',
+                categoryId: category.id
+            });
 
             // Add product names
             subcategory.products.forEach(product => {
-                allSuggestions.push(product.name);
+                // allSuggestions.push(product.name);
+                allSuggestions.push({
+                    id: product.id,
+                    name: product.name,
+                    type: 'product',
+                    categoryId: category.id,
+                    subcategoryId: subcategory.id
+                });
             });
         });
     });
     // console.log(allSuggestions);
     return allSuggestions.filter(suggestion =>
-        suggestion.toLowerCase().startsWith(searchTerm)
+        suggestion.name.toLowerCase().startsWith(searchTerm)
     ).slice(0,5); // Limit to the first 5 suggestions
 }

@@ -8765,7 +8765,7 @@
     {
       "id": 8,
       "name": "Gifts",
-      "title": "Create custom gifts with extraordinary sellers.",
+      "title": "Buy gifts from extraordinary sellers.",
       "subcategories": [
         {
           "id": 81,
@@ -9484,7 +9484,7 @@
           ]
         },
         {
-          "id": 83,
+          "id": 84,
           "name": "Baby Gifts",
           "image": "../Resources/Images/discover-4.png",
           "formFields": {
@@ -9508,7 +9508,7 @@
           },
           "products": [
             {
-              "id": 831,
+              "id": 841,
               "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
               "image": [
                 ""
@@ -9722,7 +9722,7 @@
           ]
         },
         {
-          "id": 84,
+          "id": 85,
           "name": "Personalized Gifts",
           "image": "../Resources/Images/discover-5.png",
           "formFields": {
@@ -9746,7 +9746,7 @@
           },
           "products": [
             {
-              "id": 841,
+              "id": 851,
               "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
               "image": [
                 "../Resources/Images/grid-item-1.png"
@@ -10384,7 +10384,7 @@
           ]
         },
         {
-          "id": 85,
+          "id": 86,
           "name": "Flower Gifts",
           "image": "../Resources/Images/discover-6.png",
           "formFields": {
@@ -10403,244 +10403,6 @@
                 "Bouquet",
                 "Vase Arrangement",
                 "Box Arrangement"
-              ]
-            }
-          },
-          "products": [
-            {
-              "id": 851,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
-              "image": [
-                ""
-              ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
-              "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
-              "reviews": [
-                {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "mariette",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 3,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 2,
-                    "shipping": 3,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 852,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
-              "image": [
-                ""
-              ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
-              "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
-              "reviews": [
-                {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "mariette",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 3,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 2,
-                    "shipping": 3,
-                    "customerService": 5
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": 86,
-          "name": "Gifts for Kids",
-          "image": "../Resources/Images/kidsgift.png",
-          "formFields": {
-            "giftType": {
-              "label": "Gift Type",
-              "options": [
-                "Toys & Games",
-                "Storybooks",
-                "Puzzles",
-                "Arts & Crafts"
-              ]
-            },
-            "ageGroup": {
-              "label": "Age Group",
-              "options": [
-                "3-5 years",
-                "6-8 years",
-                "9-12 years"
               ]
             }
           },
@@ -10861,6 +10623,244 @@
         },
         {
           "id": 87,
+          "name": "Gifts for Kids",
+          "image": "../Resources/Images/kidsgift.png",
+          "formFields": {
+            "giftType": {
+              "label": "Gift Type",
+              "options": [
+                "Toys & Games",
+                "Storybooks",
+                "Puzzles",
+                "Arts & Crafts"
+              ]
+            },
+            "ageGroup": {
+              "label": "Age Group",
+              "options": [
+                "3-5 years",
+                "6-8 years",
+                "9-12 years"
+              ]
+            }
+          },
+          "products": [
+            {
+              "id": 871,
+              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "image": [
+                ""
+              ],
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "30",
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "reviewsNum": 604,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 862,
+              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "image": [
+                ""
+              ],
+              "price": "11.24",
+              "discPrice": "14.99",
+              "discount": "25",
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "reviewsNum": 604,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 88,
           "name": "Gifts for Friends",
           "image": "../Resources/Images/friendsgifts.png",
           "formFields": {
@@ -10884,7 +10884,7 @@
           },
           "products": [
             {
-              "id": 871,
+              "id": 881,
               "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
               "image": [
                 ""
@@ -11098,7 +11098,7 @@
           ]
         },
         {
-          "id": 88,
+          "id": 89,
           "name": "Anniversary Gifts",
           "image": "../Resources/Images/anngifts.png",
           "formFields": {
@@ -11123,7 +11123,7 @@
           },
           "products": [
             {
-              "id": 881,
+              "id": 891,
               "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
               "image": [
                 ""
