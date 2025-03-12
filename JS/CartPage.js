@@ -26,6 +26,7 @@ function setupEventListeners(data) {
             const item = event.target.closest('.cart-product');
             // console.log(item);
             dataService.removeFromCart(item.dataset.productId);
+            dataService.showNotification("Product removed from cart",'cart');
             displayCartItems(data);
         }
 

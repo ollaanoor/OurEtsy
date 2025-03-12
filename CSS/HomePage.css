@@ -939,3 +939,40 @@ footer {
     /* margin-top: 24px;
     margin-bottom: 36px; */
 }
+
+/* Popup notification styling */
+.notification {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 500px;
+    height: auto;
+    background-color: #0A2C64;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+
+/* Show popup notification */
+.notification .show {
+    display: block;
+}
+
+.notification span {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+    line-height: 1.5;
+}
+
+.notification img {
+    vertical-align: middle;
+    margin-bottom: 5px;
+    width: 25px;
+    height: 25px;
+}
