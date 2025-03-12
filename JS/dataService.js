@@ -50,6 +50,8 @@ function addFavorite(categoryId,subcategoryId,productId) {
     }
 
     localStorage.setItem('favorites', JSON.stringify(favorites));
+
+    showNotification("Product added to favorites",'fav');
 }
 
 // Remove product from favorites
@@ -59,6 +61,7 @@ function removeFavorite(cId,sId,pId) {
     favorites.splice(index, 1);
     localStorage.setItem('favorites', JSON.stringify(favorites));
     // alert(pId + " removed from favorites!");
+    showNotification("Product removed from favorites",'fav');
 }
 
 function toggleFav(button,categoryId,subcategoryId,productId) {
@@ -102,6 +105,8 @@ function addToCart(cId, sId, pId, quantity) {
     cartCount++;
     localStorage.setItem("cartCount", JSON.stringify(cartCount));
     updateCartBadge();
+
+    showNotification("Product added to cart",'cart');
 }
 
 // Function to remove item from cart
@@ -117,6 +122,7 @@ function removeFromCart(pId) { // cId, sId,
         localStorage.setItem("cartCount", JSON.stringify(cartCount));
     }
     updateCartBadge();
+
 }
 
 function updateCartBadge() {
@@ -162,6 +168,45 @@ function validateField(input, errorElement) {
     }
 }
 
+// function showNotification() {
+//     const popup = document.getElementById('popup');
+//     popup.classList.add('show');
+
+//     // Hide the notification after 3 seconds
+//     setTimeout(() => {
+//         popup.classList.remove('show');
+//     }, 3000);
+// }
+
+function showNotification(message, type) {
+    // Create the popup element
+    const popup = document.createElement('div');
+    popup.className = 'notification';
+    var img;
+    if(type == 'fav'){
+        img = 'https://img.icons8.com/ios-filled/50/FFFFFF/like--v1.png'
+    } else if(type == 'cart'){
+        img = 'https://img.icons8.com/ios-glyphs/30/FFFFFF/shopping-cart--v1.png'
+    }
+    popup.innerHTML = `<img src='${img}'><span>${message}</span>`;
+
+    // Add the popup to the body
+    document.body.appendChild(popup);
+
+    // Trigger show animation
+    setTimeout(() => {
+        popup.classList.add('show');
+    }, 10);
+
+    // Auto-hide the popup after 3 seconds
+    setTimeout(() => {
+        popup.classList.remove('show');
+        setTimeout(() => {
+            popup.remove();
+        }, 300); // Wait for animation to finish before removing
+    }, 3000);
+}
+
 // makes the function available to the other scripts.
 export default {
     fetchData,
@@ -173,4 +218,5 @@ export default {
     updateCartBadge,
     updateQuantity,
     validateField,
+    showNotification,
 };

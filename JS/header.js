@@ -21,9 +21,6 @@ const headerContainer = document.getElementById('header-placeholder');
 // Ensure the header container exists before proceeding
 if (headerContainer) {
 
-    // Initialize the cart badge on page load
-    dataService.updateCartBadge();
-
     // Listen for clicks on the document
     document.addEventListener('click', function(event) {
         /* Dropdown */
@@ -64,6 +61,11 @@ if (headerContainer) {
         if (event.target.closest('#search-input')) {
             handleSearchInput();
         }
+    });
+
+    document.addEventListener('DOMContentLoaded', function(){
+        // Initialize the cart badge on page load
+        dataService.updateCartBadge();
     });
 
     // var addToCartBtn = document.getElementById('add-to-cart');
