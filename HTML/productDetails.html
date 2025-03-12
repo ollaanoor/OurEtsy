@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -12,8 +15,8 @@
       crossorigin="anonymous"
     />
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
     <script
@@ -23,9 +26,18 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Product Details</title>
-  <link rel="stylesheet" href="../CSS/productDetails.css"/>
+    <link rel="stylesheet" href="../CSS/productDetails.css" />
+    <link href="../CSS/HomePage.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="productDetails">
+    <div id="header-placeholder"></div>
+    <script>
+      fetch("header.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("header-placeholder").innerHTML = data;
+        });
+    </script>
     <div class="container mt-5">
       <div class="row">
         <div class="col-md-8 d-flex justify-content-center">
@@ -36,10 +48,12 @@
             <img class="thumbnail  mb-2 "src="../Resources/Images/jewellery.png" alt="Third slide"> -->
           </div>
 
-            <div id="productCarousel" class="carousel slide carousel-fade" >
-              <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
-              <div class="carousel-inner"></div>  
-                <!-- <div class="carousel-inner">
+          <div id="productCarousel" class="carousel slide carousel-fade">
+            <button class="heart-btn">
+              <i class="fa-regular fa-heart"></i>
+            </button>
+            <div class="carousel-inner"></div>
+            <!-- <div class="carousel-inner">
                   <div class="carousel-item active">
                     <img class="productImg d-block w-100 " src="../Resources/Images/jewellery.png" alt="First slide">
                   </div>
@@ -50,23 +64,42 @@
                     <img class=" productImg d-block w-100 " src="../Resources/Images/jewellery2.png" alt="Third slide">
                   </div>
                 </div> -->
-                <a class="carousel-control-prev" href="#productCarousel" role="button" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#productCarousel" role="button" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </a>
-              </div>
+            <a
+              class="carousel-control-prev"
+              href="#productCarousel"
+              role="button"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a
+              class="carousel-control-next"
+              href="#productCarousel"
+              role="button"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
         </div>
         <div class="col-md-4">
-          <span class="views"></span><span class="discount-tag">20%</span>
-          <h1 class="price"><span class="color-span text-decoration-line-through before-discount">price before discount</span></h1>
+          <span class="views"></span><span class="m-3 discount-tag">20%</span>
+          <h1 class="price">
+            <span
+              class="color-span text-decoration-line-through before-discount"
+              >price before discount</span
+            >
+          </h1>
           <p class="taxes">Local taxes included (where applicable)</p>
-          <p>
-           
-          </p>
+          <p></p>
           <a href="#">ManhattanBox </a>
           <div>
             <i class="fa fa-star" aria-hidden="true"></i>
@@ -77,314 +110,205 @@
           </div>
           <p>
             <i class="fa fa-check" aria-hidden="true"></i>
-            <span class="color-span small-span">Returns & exchanges accepted</span>
+            <span class="color-span small-span"
+              >Returns & exchanges accepted</span
+            >
           </p>
 
           <div class="productForm">
             <form class="position-relative">
-              <label for="gemstone">Gemstone </label>
+              <label></label>
               <div class="dropdown">
-               <select id="gemstone"class="form-control" required>
-                  <option value=""disabled selected>Select an option</option>
-                  <option value="diamaond">Lab Grown Diamond (USD 382.90 - USD 808.50)</option>
-                  <option value="Moissanite">Moissanite (USD 277.20 - USD 525.00)</option>
-               </select>
-             <i class="fa fa-chevron-down arrow-icon" id="arrow-gemstone"></i>
-            </div>
-
-              <label for="metalStoneSize">Metal+Stone Size</label>
+                <select class="form-control" required>
+                  <option value="" disabled selected>Select an option</option>
+                </select>
+                <i class="fa fa-chevron-down arrow-icon arrow-gemstone"></i>
+              </div>
+              <label></label>
               <div class="dropdown">
-              <select id="metalStoneSize" class="form-control" required>
-                <option value=""disabled selected>Select an option</option>
-                <option value="small">Small</option>
-                <option value="large">Large</option>
-                <option value="medium">Medium</option>
-              </select>
-              <i class="fa fa-chevron-down arrow-icon" id="arrow-gemstone"></i>
-
-            </div>
-            
+                <select class="form-control" required>
+                  <option value="" disabled selected>Select an option</option>
+                </select>
+                <i class="fa fa-chevron-down arrow-icon arrow-gemstone"></i>
+              </div>
               <label>Add your personalization </label><br />
-              <span class=" small-span color-span">Let me know your ring size! Thanks! </span>
-              <div class="position-relative ">
+              <span class="small-span color-span"
+                >Let me know your ring size! Thanks!
+              </span>
+              <div class="position-relative">
                 <textarea
-                  type="text"
                   class="form-control"
                   placeholder="Select an option"
                   required
                   rows="3"
                 ></textarea>
-                </div>
-                <span class="charNum mb-3">256</span>
               </div>
-              <button id="addTocart" type="submit" class="btn btn-secondary btn-lg w-100">
+              <span class="charNum mb-3">256</span>
+              <button
+                id="addTocart"
+                type="submit"
+                class="btn btn-secondary btn-lg w-100"
+              >
                 Add to cart
               </button>
             </form>
+          </div>
           <div class="p-2 d-flex align-items-center">
-              <i class="fa fa-cloud fa-2x me-4"></i>           
-              <p class="star-seller mb-0"><strong>Star Seller.</strong>This seller consistently earned 5-star reviews, shipped on time, and replied quickly to any messages they received.</p>
+            <i class="fa fa-cloud fa-2x me-4"></i>
+            <p class="star-seller mb-0">
+              <strong>Star Seller.</strong>This seller consistently earned
+              5-star reviews, shipped on time, and replied quickly to any
+              messages they received.
+            </p>
           </div>
         </div>
-        <!-- div for second part items details and comments-->
-          <div class="reviews-section">
-            <h2>604 reviews <span class="stars"> <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i>
-              <i class="fa-solid fa-star"></i></span></h2>
-            <div class="collapsible">
-              <div class="collapsible-section">
-                <button class="collapsible-btn">
-                <span class="span-title">Item details</span>
-                  <i class="fa fa-chevron-down collapsible-icon"></i>
-                </button>
-                <!--Items details-->
-                <div class="collapsible-content">
-                  <h3>Highlights</h3>
-                <ul class="highlight-list">
-                  <li><i class="fa fa-handshake"></i> Made by <strong></strong></li>
-                  <li><i class="fa fa-gem"></i> Materials: </li>
-                  <li><i class="fa fa-palette"></i> Gem color: </li>
-                  <li><i class="fa fa-ring"></i> Band color: </li>
-                  <li><i class="fa fa-shapes"></i> Style: </li>
-                  <li><i class="fa fa-edit"></i></li>
-                  <li><i class="fa fa-recycle"></i></li>
-                  <li><i class="fa fa-clipboard-list"></i></li>
-                </ul>
-              </div>
-              </div>
-              <!--shipping-->
-              <div class="collapsible-section">
-                <button class="collapsible-btn">
-                  <span class="span-title">Shipping and return policies</span>
-                  <i class="fa fa-chevron-down collapsible-icon"></i>
-                </button>
-                <div class="collapsible-content">
-                <ul class="highlight-list">
-                  <li><i class="fa fa-calendar"></i>Order today to get by<strong class="underlined-text"> Mar 17-Apr 9</strong></li>
-                  <li><i class="fa fa-box-open"></i><span class="underlined-text">Returns accepted within </span><strong>21 days</strong></li>
-                  <li><i class="fa fa-truck"></i> Cost to ship:<strong>USD 20.00</strong></li>
-                  <li><i class="fa fa-location-dot"></i> Ships from:<strong>United States</strong> </li>
-                </ul>
-              </div>
-              </div>
+      </div>
+      <!-- div for second part items details and comments-->
+      <div class="reviews-section">
+        <h2>
+          604 reviews
+          <span class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i
+          ></span>
+        </h2>
+        <div class="collapsible">
+          <div class="collapsible-section">
+            <button class="collapsible-btn">
+              <span class="span-title">Item details</span>
+              <i class="fa fa-chevron-down collapsible-icon"></i>
+            </button>
+            <!--Items details-->
+            <div class="collapsible-content">
+              <h3>Highlights</h3>
+              <ul class="highlight-list">
+                <li>
+                  <i class="fa fa-handshake"></i> Made by <strong></strong>
+                </li>
+                <li><i class="fa fa-gem"></i> Materials:</li>
+                <li><i class="fa fa-palette"></i> Gem color:</li>
+                <li><i class="fa fa-ring"></i> Band color:</li>
+                <li><i class="fa fa-shapes"></i> Style:</li>
+                <li><i class="fa fa-edit"></i></li>
+                <li><i class="fa fa-recycle"></i></li>
+                <li><i class="fa fa-clipboard-list"></i></li>
+              </ul>
             </div>
-            <!--tabs-->
-            <div class="tabs">
-              <button class="tab active" data-target="item-reviews">Review for this item<span class="count">18</span></button>
-              <button class="tab" data-target="vendor-reviews">Reviews for this shop<span class="count">604</span></button> 
-            </div> 
-              <!--sorting-->
-              <div class="dropdown-container">
-                <div class="custom-dropdown">
-                <button class="custom-dropdown-toggle" type="button" id="sortDropdownButton" data-toggle="dropdown">
-                  <strong>Sort by: Suggested</strong><i class="fa fa-chevron-down collapsible-icon"></i>
-                </button>
-                <div class="custom-dropdown-menu">
-                  <button class="custom-dropdown-item" data-sort="suggested" type="button">Suggested</button>
-                  <button class="custom-dropdown-item" data-sort="recent" type="button">Most recent</button>
-                  <button class="custom-dropdown-item" data-sort="high" type="button">Highest Rating</button>
-                  <button class="custom-dropdown-item" data-sort="low" type="button">Lowest Rating</button>
-               </div>
-              </div>     
-            </div>
-            <div class="reviews-list"id="item-reviews">
-              <!-- <div class="review" data-rating="4" data-date="2024-11-24">
-                <div class="stars-black"><span class="stars-black"><i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i></span></div>
-                <p>It's the most beautiful ring I've ever seen, and it's perfect for her.</p>
-                <div class="reviewer">
-                  <img src="../Resources/Images/User2.jpg" alt="UserImage">
-                  <span class="name">John </span><span class="date">Nov 24, 2024</span>
-                </div>
-                 <div class="ratings">
-                    <span>Item quality <span class="stars"><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i></span></span>
-                    <span>Shipping<span class="stars"><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i></span></span>
-                    <span>Customer service <span class="stars"><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i></span></span>
-                 </div>
-              </div>
-              <div class="review"data-rating="5" data-date="2024-12-24">
-                <div class="stars-black"><span class="stars-black"><i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i></span></div>
-                <p>It's the most beautiful ring I've ever seen, and it's perfect for her.</p>
-                <div class="reviewer">
-                  <img src="../Resources/Images/User2.jpg" alt="UserImage">
-                  <span class="name">John </span><span class="date">Dec 24, 2024</span>
-                </div>
-                 <div class="ratings">
-                    <span>Item quality <span class="stars"><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i></span></span>
-                    <span>Shipping <span class="stars"><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i></span></span>
-                    <span>Customer service <span class="stars"><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i></span></span>
-                 </div>
-              </div>
-              <div class="review" data-rating="1" data-date="2024-12-6">
-                <div class="stars-black"><span class="stars-black"><i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i></span></div>
-                <p>It's the most beautiful ring I've ever seen, and it's perfect for her.</p>
-                <div class="reviewer">
-                  <img src="../Resources/Users/User2.jpg" alt="UserImage">
-                  <span class="name">John </span><span class="date">Nov 24, 2024</span>
-                </div>
-                 <div class="ratings">
-                    <span>Item quality <span class="stars"><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i></span></span>
-                    <span>Shipping <span class="stars"><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i></span></span>
-                    <span>Customer service <span class="stars"><i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i>
-                      <i class="fa-solid fa-star"></i></span></span>
-                 </div>
-              </div>
-              <div class="review" data-rating="5" data-date="2024-10-6">
-                <div class="stars-black"><span class="stars-black"><i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i></span></div>
-                <p>It's the most beautiful ring I've ever seen, and it's perfect for her.</p>
-                <div class="reviewer">
-                  <img src="../Resources/Images/User2.jpg" alt="UserImage">
-                  <span class="name">John </span><span class="date">Nov 24, 2024</span>
-                </div>
-                 <div class="ratings">
-                    <span>Item quality ⭐⭐⭐⭐⭐</span>
-                    <span>Shipping ⭐⭐⭐⭐⭐</span>
-                    <span>Customer service ⭐⭐⭐⭐⭐</span>
-                 </div>
-              </div>
-              <div class="review" data-rating="4" data-date="2025-1-7">
-                <div class="stars-black">★★★★★</div>
-                <p>It's the most beautiful ring I've ever seen, and it's perfect for her.</p>
-                <div class="reviewer">
-                  <img src="../Resources/Images/User2.jpg" alt="UserImage">
-                  <span class="name">John </span><span class="date">Nov 24, 2024</span>
-                </div>
-                 <div class="ratings">
-                    <span>Item quality ⭐⭐⭐⭐⭐</span>
-                    <span>Shipping ⭐⭐⭐⭐⭐</span>
-                    <span>Customer service ⭐⭐⭐⭐⭐</span>
-                 </div>
-              </div>
-              <div class="review" data-rating="3" data-date="2024-8-8">
-                <div class="stars-black">★★★★★</div>
-                <p>It's the most beautiful ring I've ever seen, and it's perfect for her.</p>
-                <div class="reviewer">
-                  <img src="../Resources/Images/User2.jpg" alt="UserImage">
-                  <span class="name">John </span><span class="date">Nov 24, 2024</span>
-                </div>
-                 <div class="ratings">
-                    <span>Item quality ⭐⭐⭐⭐⭐</span>
-                    <span>Shipping ⭐⭐⭐⭐⭐</span>
-                    <span>Customer service ⭐⭐⭐⭐⭐</span>
-                 </div>
-              </div>
-              <div class="review" data-rating="5" data-date="2024-6-6">
-                <div class="stars-black">★★★★★</div>
-                <p>It's the most beautiful ring I've ever seen, and it's perfect for her.</p>
-                <div class="reviewer">
-                  <img src="../Resources/Images/User2.jpg" alt="UserImage">
-                  <span class="name">John </span><span class="date">Nov 24, 2024</span>
-                </div>
-                 <div class="ratings">
-                    <span>Item quality ⭐⭐⭐⭐⭐</span>
-                    <span>Shipping ⭐⭐⭐⭐⭐</span>
-                    <span>Customer service ⭐⭐⭐⭐⭐</span>
-                 </div> -->
-            </div>
-            <div class="reviews-list" id="vendor-reviews">
-            </div>
-              <!--pagination for reviews  handled dynamically using javascript-->
-            <div class="pagination"></div>
-            <div class="container-fluid">
-              <!-- <div class="row"> -->
-              <section class="subcat-container">
-                <!--container -->
-                <div class="swiper mySwiper">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide subcat-item col-12 col-sm-6 col-md-3">
-                      <img src="../Resources/Images/ring1.jpg" alt="cat1" />
-                    </div>
-        
-                    <div class="swiper-slide subcat-item col-12 col-sm-6 col-md-3">
-                      <img src="../Resources/Images/ring2.jpg" alt="cat1" />
-                    </div>
-        
-                    <div class="swiper-slide subcat-item col-12 col-sm-6 col-md-3">
-                      <img src="../Resources/Images/ring3.jpg" alt="cat1" />
-                    </div>
-                    <div class="swiper-slide subcat-item col-12 col-sm-6 col-md-3">
-                      <img src="../Resources/Images/ring4.jpg" alt="cat1" />
-                    </div>
-                    <div class="swiper-slide subcat-item col-12 col-sm-6 col-md-3">
-                      <img src="../Resources/Images/ring1.jpg" alt="cat1" />
-                    </div>
-                    <div class="swiper-slide subcat-item col-12 col-sm-6 col-md-3">
-                      <img src="./Resources/Images/ring2.jpg" alt="cat1" />
-                    </div>
-                    <div class="swiper-slide subcat-item col-12 col-sm-6 col-md-3">
-                      <img src="../Resources/Images/ring3.jpg" alt="cat1" />
-                    </div>
-                  </div>
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
-                </div>
-              </section>
-              <!-- </div> -->
-            </div>
-            
           </div>
-           
-          </div>
+          <!--shipping-->
+          <div class="collapsible-section">
+            <button class="collapsible-btn">
+              <span class="span-title">Shipping and return policies</span>
+              <i class="fa fa-chevron-down collapsible-icon"></i>
+            </button>
+            <div class="collapsible-content">
+              <ul class="highlight-list">
+                <li>
+                  <i class="fa fa-calendar"></i>Order today to get by<strong
+                    class="underlined-text"
+                  >
+                    Mar 17-Apr 9</strong
+                  >
+                </li>
+                <li>
+                  <i class="fa fa-box-open"></i
+                  ><span class="underlined-text">Returns accepted within </span
+                  ><strong>21 days</strong>
+                </li>
+                <li>
+                  <i class="fa fa-truck"></i> Cost to ship:<strong
+                    >USD 20.00</strong
+                  >
+                </li>
+                <li>
+                  <i class="fa fa-location-dot"></i> Ships from:<strong
+                    >United States</strong
+                  >
+                </li>
+              </ul>
             </div>
+          </div>
+        </div>
+        <!--tabs-->
+        <div class="tabs">
+          <button class="tab active" data-target="item-reviews">
+            Review for this item<span class="count">18</span>
+          </button>
+          <!-- <button class="tab" data-target="vendor-reviews">
+            Reviews for this shop<span class="count">604</span>
+          </button> -->
+        </div>
+        <!--sorting-->
+        <div class="dropdown-container">
+          <div class="custom-dropdown">
+            <button
+              class="custom-dropdown-toggle"
+              type="button"
+              id="sortDropdownButton"
+              data-toggle="dropdown"
+            >
+              <strong>Sort by: Suggested</strong
+              ><i class="fa fa-chevron-down collapsible-icon"></i>
+            </button>
+            <div class="custom-dropdown-menu">
+              <button
+                class="custom-dropdown-item"
+                data-sort="suggested"
+                type="button"
+              >
+                Suggested
+              </button>
+              <button
+                class="custom-dropdown-item"
+                data-sort="recent"
+                type="button"
+              >
+                Most recent
+              </button>
+              <button
+                class="custom-dropdown-item"
+                data-sort="high"
+                type="button"
+              >
+                Highest Rating
+              </button>
+              <button
+                class="custom-dropdown-item"
+                data-sort="low"
+                type="button"
+              >
+                Lowest Rating
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="reviews-list" id="item-reviews"></div>
+        <div class="reviews-list" id="vendor-reviews"></div>
+        <!--pagination for reviews  handled dynamically using javascript-->
+        <div class="pagination"></div>
+        <div class="container-fluid">
+          <!-- <div class="row"> -->
+          <!--container -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper" id="reviewImagesContainer"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+          <!-- </div> -->
         </div>
       </div>
     </div>
-
-    <!-- <script src="../JS/test3.js"></script> -->
-    <!-- <script src="../JS/productDetails-json.js"></script> -->
-    <script src="../JS/productDetails.js"></script>
-    
+    <div id="footer-placeholder"></div>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer-placeholder").innerHTML = data;
+        });
+    </script>
+    <script src="../JS/productDetails.js" type="module"></script>
   </body>
 </html>

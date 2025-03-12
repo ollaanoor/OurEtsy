@@ -1,10 +1,10 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Nunito Sans', 'Inter', system-ui, sans-serif;
   }
   .productImg {
     width: 100%;
     height: 80vh;
-    object-fit: contain;
+    object-fit: cover;
   }
   .views {
     color: red;
@@ -41,6 +41,9 @@
   .productForm {
     margin-top: 20px;
   }
+  .productForm label{
+    padding:5px;
+  }
   #addTocart{
     border-radius: 20px;
     background-color: black;
@@ -69,8 +72,6 @@
   }
   .carousel-inner img{
     border-radius:10px ;
-    width:100%;
-    height: auto;
   }
   .carousel-item{
     width:100%;
@@ -131,6 +132,10 @@
 .star-seller{
   font-size: x-small;
 }
+.productDetails .dropdown{
+  display: block !important;
+}
+
 /* collapsible area for items details*/
 .collapsible{
   max-width: 40%;
@@ -156,6 +161,7 @@
 }
 .collapsible-section .span-title{
   margin-right: 100px;
+  padding:10px;
 }
 .collapsible-icon{
   transition:transform 0.3s ease;
@@ -174,6 +180,7 @@
 }
 .collapsible-content.active{
   display: block;
+  padding:0 18px;
 }
 .rotate{
   transform:rotate(180deg);
