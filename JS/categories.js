@@ -268,15 +268,15 @@ function setupEventListeners() {
       loadModule().then(() => {
         if (fav.classList.contains("active")) {
           dataService.addFavorite(
-            fav.parentElement.getAttribute("product-id"),
+            fav.parentElement.getAttribute("category-id"),
             fav.parentElement.getAttribute("subcategory-id"),
-            fav.parentElement.getAttribute("category-id")
+            fav.parentElement.getAttribute("product-id")
           );
         } else {
           dataService.removeFavorite(
-            fav.parentElement.getAttribute("product-id"),
+            fav.parentElement.getAttribute("category-id"),
             fav.parentElement.getAttribute("subcategory-id"),
-            fav.parentElement.getAttribute("category-id")
+            fav.parentElement.getAttribute("product-id")
           );
         }
       });

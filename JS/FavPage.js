@@ -62,15 +62,17 @@ function displayFavorites(data) {
         var cId = parseInt(item.categoryId);
         var sId = parseInt(item.subcategoryId);
         var pId = parseInt(item.productId);
-        // console.log(typeof cId);
+        // console.log(typeof pId);
 
         // map the above values to get the products from json
         // var product = data.categories[cId].subcategories[sId].products[pId];
         var cat = data.categories.find(cat => cat.id === cId);
+        console.log(cat);
         var sub = cat.subcategories.find(sub => sub.id === sId);
+        console.log(sub);
         var product = sub.products.find(prod => prod.id === pId);
         // var product = data.categories.find(cat => cat.id === cId).subcategories.find(sub => sub.id === sId).products.find(prod => prod.id === pId);
-        // console.log(product);
+        console.log(product);
         
         favoritesList.innerHTML += `
             <div class="grid-item fav-card" data-category-id="${cat.id}" data-subcategory-id="${sub.id}" data-product-id="${product.id}" data-name="${product.name}" data-price="${product.price}">
@@ -79,7 +81,7 @@ function displayFavorites(data) {
                                 <img src="../Resources/Images/fav-icon-2-fill.png" alt="favorites">
                             </button>
                         </div>
-                        <img src="${product.image}" alt="${product.name}">
+                        <img src="${product.image}" alt="${product.name}" style="width: 300px; height: 300px;">
                         <div class="fav-card-info">
                             <h3>
                                 ${product.name}

@@ -31,13 +31,14 @@ function setupEventListeners(data) {
 
         // Check if the clicked element is an edit button inside the .cart-items div
         if (event.target.closest('#edit-cart-item')) {
-            // Handle the click event for the remove button
+            // Handle the click event for the edit button
             // const button = event.target.closest('#edit-cart-item');
             const item = event.target.closest('.cart-product');
             // Remove the item the user want to edit 
             dataService.removeFromCart(item.dataset.productId);
             // Redirect user back to product page so they can edit and re-add the product to cart
-            console.log(item.dataset.productId);
+            window.location.href = `../HTML/productDetails.html?cid=${item.dataset.categoryId}&sid=${item.dataset.subcategoryId}&pid=${item.dataset.productId}`;
+            // console.log(item.dataset.productId);
             displayCartItems(data);
         }
     });
@@ -123,7 +124,7 @@ function displayCartItems(data) {
                         </div>
                     </div>
                     <div class="product-details">
-                        <div class="product-img">
+                        <div class="product-img" style="width: 190px; height: 190px;">
                             <img src="${itemData.image[0]}">
                         </div>
                         <div class="product-details-2">

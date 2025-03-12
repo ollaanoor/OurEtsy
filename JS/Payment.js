@@ -50,8 +50,49 @@ paymentForm.addEventListener("submit", (e) => {
 
     // Submit if no errors
     if (isValid && selectedRadio) {
-        paymentForm.submit();
-        window.location.href = '../HTML/HomePage.html'; // CHANGE THIS TARGET PATH <--
+        // paymentForm.submit();
+        showPopup();
+
+        // Add a canvas element with a high z-index
+        const canvas = document.createElement('canvas');
+        document.body.appendChild(canvas);
+        // Style the canvas to cover the screen and be on top
+        canvas.style.position = 'fixed';
+        canvas.style.top = '0';
+        canvas.style.left = '0';
+        canvas.style.width = '100vw';
+        canvas.style.height = '100vh';
+        canvas.style.pointerEvents = 'none'; // So it doesn’t block clicks
+        canvas.style.zIndex = '9999'; // Super high z-index
+        // Create confetti instance tied to the canvas
+        const confettiInstance = confetti.create(canvas, { resize: true });
+        // Trigger confetti animation
+        confettiInstance({
+            particleCount: 100,
+            spread: 100,
+            origin: { y: 0.6 },
+            colors: ['#ff0', '#f00', '#0f0', '#00f', '#ff69b4']
+        });
+        // window.location.href = '../HTML/HomePage.html'; // CHANGE THIS TARGET PATH <--
     }
     
 });
+
+// document.getElementById('submit-btn').addEventListener('click', function(){
+//     showPopup();
+// });
+
+document.querySelector('.close-popup').addEventListener('click', function(){
+    closePopup();
+});
+
+// Show the popup
+function showPopup() {
+    document.getElementById("popup").style.display = "block";
+}
+
+// Close the popup
+function closePopup() {
+    document.getElementById("popup").style.display = "none";
+    window.location.href = '../HTML/HomePage.html'; // CHANGE THIS TARGET PATH <--
+}

@@ -752,6 +752,7 @@ h2 {
     justify-content: space-around;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 20px;
+    height: 100%;
     width: 100vw; /* Viewport width */
     max-width: 100%; /* Prevents extra space */
     margin-bottom: 50px;
