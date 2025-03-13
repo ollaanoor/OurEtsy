@@ -5455,18 +5455,30 @@
           "products": [
             {
               "id": 421,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
-              "image": [""],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "name": "5-Piece Complete Wizard Costume Set - Robe, Wand, Sweater, Glasses & Tie | Perfect for Cosplay, Halloween, Costume Parties ",
+              "image": [
+                "../../Resources/Images/clothes2-1a.webp",
+                "../../Resources/Images/clothes2-1b.webp"
+              ],
+              "price": "153.00",
+              "discPrice": "170",
+              "discount": "10",
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 1574,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Amazing outfit, perfect for pur occassion!!!!",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5504,8 +5516,8 @@
                   }
                 },
                 {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Very cute and comfy thank you",
                   "author": "Alice James",
                   "date": "2025-01-15",
                   "photoUrl": null,
@@ -5518,7 +5530,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Absolutely love it They are perfect ",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5531,7 +5543,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Item matched the description perfectly- my girlfriend loved it!",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5559,18 +5571,31 @@
             },
             {
               "id": 422,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
-              "image": [""],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "name": "Personalized Kids Patchs Jean Jacket, Custom Girls Toddler Chenille Letter Denim Jacket, Boys Patch Jacket With Name, Birthday Gift For Kids",
+              "image": [
+                "../../Resources/Images/clothes2-2a.webp",
+                "../../Resources/Images/clothes2-2b.webp",
+                "../../Resources/Images/clothes2-2c.webp"
+              ],
+              "price": "94.92",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Golden",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5596,7 +5621,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5604,45 +5629,6 @@
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
                     "customerService": 5
                   }
                 },
@@ -5657,6 +5643,248 @@
                     "itemQuality": 2,
                     "shipping": 3,
                     "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 423,
+              "name": "Warm Linen Dress Goldie with Bishop Sleeves, Full Sleeve Dress, Autumn Dress, Loose Autumn Dress, Dress Gift | Optional Embroidery ",
+              "image": [
+                "../../Resources/Images/clothes2-3a.webp",
+                "../../Resources/Images/clothes2-3b.webp",
+                "../../Resources/Images/clothes2-3c.webp",
+                "../../Resources/Images/clothes2-3d.webp"
+              ],
+              "price": "150.34",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "digitalartkwh",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
+              "reviews": [
+                {
+                  "stars": 4,
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 2,
+                  "text": "Very comfy but not like images",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "IF you know anything or nothing about sewing you have to appreciate the excellent quality of workmanship and Pride of their product. You will even be asked for clarification on your measurements to ensure proper fit. Perfection and such quality!!!!",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 424,
+              "name": "Personalized Kids Jumper, Kids Sweater, Kids Sweatshirt, Baby Jumper, Toddler Name Jumper, Kids Embroidered Jumper, Baby Shower Gifts",
+              "image": [
+                "../../Resources/Images/clothes2-4a.webp",
+                "../../Resources/Images/clothes2-4b.webp",
+                "../../Resources/Images/clothes2-4c.webp"
+              ],
+              "price": "20.97",
+              "discPrice": "41.95",
+              "discount": "50",
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 1258,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 425,
+              "name": "3 piece Teddy Bear Rompers Set, Knitted Newborn Clothes, Coming Home Baby Clothes, Knitted Baby Clothes, Coming Home Hospital Gift",
+              "image": ["../../Resources/Images/clothes2-5.webp"],
+              "price": "48.51",
+              "discPrice": " 150.60",
+              "discount": "68",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 426,
+              "name": "Portugal 2022 Ronaldo Kids Soccer Uniform Jersey Boys Girls,Youth Soccer Fan Ronaldo Jersey Portugal No 7 Sports Jersey Shirt Free Shorts ",
+              "image": [
+                "../../Resources/Images/clothes2-6a.webp",
+                "../../Resources/Images/clothes2-6b.webp"
+              ],
+              "price": "31.92",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 427,
+              "name": "Handcrafted Medieval Suit for Boys, A Unique Halloween Costume for Your Little One, Ideal for Themed Birthdays & Playtime",
+              "image": [
+                "../../Resources/Images/clothes2-7a.webp",
+                "../../Resources/Images/clothes2-7b.webp",
+                "../../Resources/Images/clothes2-7c.webp"
+              ],
+              "price": "83.28",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 1,
+                  "text": "Definitely do not recommend, terrible customer service. The outfit I bought for my baby's birthday has still not been delivered to me in 19 days.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 1,
+                    "customerService": 2
                   }
                 }
               ]
