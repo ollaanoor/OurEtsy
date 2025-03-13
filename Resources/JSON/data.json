@@ -3207,7 +3207,7 @@
               "image": ["../../Resources/Images/art1-3.webp"],
               "price": "34200",
               "discPrice": "38000",
-              "discount": 10,
+              "discount": "10",
               "vendor": "artisticVisions",
               "vendorImg": "../Resources/Images/vendor.png",
               "shipping": {
@@ -3316,7 +3316,7 @@
               "image": ["../../Resources/Images/art1-5.webp"],
               "price": "37800",
               "discPrice": "42000",
-              "discount": 10,
+              "discount": "10",
               "vendor": "oceanArt",
               "vendorImg": "../Resources/Images/vendor.png",
               "shipping": {
@@ -3696,7 +3696,7 @@
               "image": ["../../Resources/Images/art2-3.webp"],
               "price": "342",
               "discPrice": "380",
-              "discount": 10,
+              "discount": "10",
               "vendor": "artisticVisions",
               "vendorImg": "../Resources/Images/vendor.png",
               "shipping": {
@@ -3805,7 +3805,7 @@
               "image": ["../../Resources/Images/art2-5.webp"],
               "price": "378",
               "discPrice": "420",
-              "discount": 10,
+              "discount": "10",
               "vendor": "oceanArt",
               "vendorImg": "../Resources/Images/vendor.png",
               "shipping": {
@@ -4184,17 +4184,13 @@
               ]
             },
             {
-              "id": 333,
-              "name": "4,000+ Mega Sticker Bundle | Printable Digital Sticker Pack | PNG Files for DIY, Scrapbooking & Crafts | Instant Download",
-              "image": [
-                "../../Resources/Images/art3-3.webp",
-                "../../Resources/Images/art3-3b.webp",
-                "../../Resources/Images/art3-3c.webp"
-              ],
-              "price": "2.82",
-              "discPrice": "4.03",
-              "discount": "30",
-              "vendor": "artisticVisions",
+              "id": 343,
+              "name": "Digital Art",
+              "image": ["../../Resources/Images/art4-3.webp"],
+              "price": "51995",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "digitalartkwh",
               "vendorImg": "../Resources/Images/vendor.png",
               "shipping": {
                 "estimatedDelivery": {
@@ -4321,8 +4317,8 @@
               "id": 336,
               "name": "101 pcs | Modern Abstract Geometric Wall Art | Mid-Century Modern Print Set | Minimalist Geometric Shapes | Contemporary Home Decor",
               "image": [
-                "../../Resources/Images/art3-6.webp",
-                "../../Resources/Images/art3-6b.webp"
+                "../../Resources/Images/art4-6a.webp",
+                "../../Resources/Images/art4-6b.webp"
               ],
               "price": "2.28",
               "discPrice": null,
@@ -4502,17 +4498,26 @@
           "products": [
             {
               "id": 341,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
-              "image": [""],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "name": "Black and White Gildan 5000 Shirt Mockup Wedding His Hers Mr Mrs Tshirt Mockup Couples Tshirt Mockup Stock Photo JPG Digital Download",
+              "image": ["../../Resources/Images/art4-1.webp"],
+              "price": "1.16",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 700,
               "reviews": [
                 {
-                  "stars": 3,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
@@ -4551,7 +4556,7 @@
                   }
                 },
                 {
-                  "stars": 4,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Alice James",
                   "date": "2025-01-15",
@@ -4606,18 +4611,27 @@
             },
             {
               "id": 342,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
-              "image": [""],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "name": "Classic Drawing ",
+              "image": ["../../Resources/Images/art4-2.webp"],
+              "price": "50000",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "artLocation",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -4655,45 +4669,6 @@
                   }
                 },
                 {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 5,
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
@@ -4704,6 +4679,195 @@
                     "itemQuality": 2,
                     "shipping": 3,
                     "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 333,
+              "name": "4,000+ Mega Sticker Bundle | Printable Digital Sticker Pack | PNG Files for DIY, Scrapbooking & Crafts | Instant Download",
+              "image": [
+                "../../Resources/Images/art3-3.webp",
+                "../../Resources/Images/art3-3b.webp",
+                "../../Resources/Images/art3-3c.webp"
+              ],
+              "price": "2.82",
+              "discPrice": "4.03",
+              "discount": "30",
+              "vendor": "artisticVisions",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
+              "reviews": [
+                {
+                  "stars": 4,
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "The painting arrived in perfect condition. Very satisfied.",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but the colors are a bit different in person.",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 344,
+              "name": "Mug mockup model blank mug mockups winter white coffee mug mock up blank mug mockups product mock up woman holding mug mockup photos 11 oz",
+              "image": ["../../Resources/Images/art4-4.webp"],
+              "price": "0.07",
+              "discPrice": "0.26",
+              "discount": "75",
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 600,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 345,
+              "name": "30000+ Cartoon Svg Bundle All Files in Entire Shop Svg Png Font Mega Bundle,Whole Shop Svg Bundle,Holiday Svg,Christmas Svg,Halloween Svg",
+              "image": [
+                "../../Resources/Images/art4-5a.webp",
+                "../../Resources/Images/art4-5b.webp",
+                "../../Resources/Images/art4-5c.webp"
+              ],
+              "price": "3.84",
+              "discPrice": "12.80",
+              "discount": "70",
+              "vendor": "animeSlayer",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 346,
+              "name": "Custom Birth Flower Bouquet, Family Birth Month Tattoo Design, Up to 15 Flowers, Flower Bouquet Print, Floral Tattoo Design Digital Download",
+              "image": [
+                "../../Resources/Images/art4-6a.webp",
+                "../../Resources/Images/art4-6b.webp"
+              ],
+              "price": "9.22",
+              "discPrice": "30.76",
+              "discount": "70",
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
                   }
                 }
               ]
