@@ -63,11 +63,13 @@ if (headerContainer) {
         }
     });
 
-    document.addEventListener('DOMContentLoaded', function(){
-        // Initialize the cart badge on page load
-        dataService.updateCartBadge();
-    });
+    // Get the header container
+    // const cartbadge = document.getElementById('cart-badge');
 
+    // Ensure the header container exists before proceeding
+    if (cartbadge) {
+        dataService.updateCartBadge();
+    }
     // var addToCartBtn = document.getElementById('add-to-cart');
     // var removeFromCartBtn = document.getElementById('remove-from-cart');
     // For testing purposes:
@@ -89,6 +91,10 @@ if (headerContainer) {
 } else {
     console.error("Header container element not found.");
 }
+
+// document.addEventListener('DOMContentLoaded', () => {
+//     dataService.updateCartBadge();
+// });
 
 // Function to populate dropdown
 function populateDropdown() {
@@ -209,7 +215,18 @@ function getSuggestions(searchTerm) {
         });
     });
     // console.log(allSuggestions);
-    return allSuggestions.filter(suggestion =>
-        suggestion.name.toLowerCase().startsWith(searchTerm)
-    ).slice(0,5); // Limit to the first 5 suggestions
+    // return allSuggestions.filter(suggestion =>
+    //     suggestion.name.toLowerCase().includes(searchTerm)
+    // ).slice(0,5); // Limit to the first 5 suggestions
+
+    return allSuggestions
+        .filter(suggestion => suggestion.name.toLowerCase().includes(searchTerm.toLowerCase()))
+        .sort((a, b) => {
+            const aStartsWith = a.name.toLowerCase().startsWith(searchTerm.toLowerCase());
+            const bStartsWith = b.name.toLowerCase().startsWith(searchTerm.toLowerCase());
+            if (aStartsWith && !bStartsWith) return -1;
+            if (!aStartsWith && bStartsWith) return 1;
+            return a.name.localeCompare(b.name);
+        })
+        .slice(0, 5);
 }

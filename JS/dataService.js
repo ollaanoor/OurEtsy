@@ -137,18 +137,18 @@ function removeFromCart(pId) {
 function updateCartBadge() {
     var cartBadge = document.getElementById("cart-badge");
     // Load cart count from localStorage (or set to 0 if not found)
-    var cartCount = localStorage.getItem("cartCount")
-        ? parseInt(localStorage.getItem("cartCount"))
-        : 0;
+    var cartCount = localStorage.getItem("cartCount") ? parseInt(localStorage.getItem("cartCount")) : 0;
 
-    if (cartCount > 0) {
-        // cartBadge.style.display = 'inline-block';
+    // if(cartBadge){
+      if (cartCount > 0) {
         cartBadge.style.display = "block";
         cartBadge.textContent = cartCount;
-    } else {
-        // cartBadge.style.display = 'none';
-        cartBadge.style.display = "none";
-    }
+        // cartBadge.classList.add('show');
+      } else {
+          cartBadge.style.display = "none";
+          // cartBadge.classList.remove('show');
+      }
+    // }
 
   // Save the updated count to localStorage
   // localStorage.setItem('cartCount', cartCount);
@@ -178,16 +178,6 @@ function validateField(input, errorElement) {
         }
     }
 }
-
-// function showNotification() {
-//     const popup = document.getElementById('popup');
-//     popup.classList.add('show');
-
-//     // Hide the notification after 3 seconds
-//     setTimeout(() => {
-//         popup.classList.remove('show');
-//     }, 3000);
-// }
 
 function showNotification(message, type) {
     // Create the popup element
@@ -242,17 +232,17 @@ function getPid() {
 
 // makes the function available to the other scripts.
 export default {
-  fetchData,
-  addFavorite,
-  removeFavorite,
-  toggleFav,
-  addToCart,
-  removeFromCart,
-  updateCartBadge,
-  updateQuantity,
-  getCid,
-  getSid,
-  getPid,
-  validateField,
+    fetchData,
+    addFavorite,
+    removeFavorite,
+    toggleFav,
+    addToCart,
+    removeFromCart,
+    updateCartBadge,
+    updateQuantity,
+    getCid,
+    getSid,
+    getPid,
+    validateField,
     showNotification,
 };
