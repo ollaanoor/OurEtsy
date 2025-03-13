@@ -4961,17 +4961,30 @@
           "products": [
             {
               "id": 411,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
-              "image": [""],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "name": "Personalised Arabic Calligraphy Hoodie, Personalized Front Back Print Custom Islamic EID GIFT Sweatshirt, Birthday Gift Hoody Jumpers Tops ",
+              "image": [
+                "../../Resources/Images/clothes1-1a.webp",
+                "../../Resources/Images/clothes1-1b.webp",
+                "../../Resources/Images/clothes1-1c.webp"
+              ],
+              "price": "17.37",
+              "discPrice": "34.76",
+              "discount": "50",
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 700,
               "reviews": [
                 {
-                  "stars": 3,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
@@ -5010,8 +5023,8 @@
                   }
                 },
                 {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Very cute and comfy thank you",
                   "author": "Alice James",
                   "date": "2025-01-15",
                   "photoUrl": null,
@@ -5024,7 +5037,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Absolutely love it They are perfect ",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5037,7 +5050,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Item matched the description perfectly- my girlfriend loved it!",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5065,18 +5078,30 @@
             },
             {
               "id": 412,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
-              "image": [""],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "name": "Mushrooms Embroidered Sweatshirt | Mushrooms Embroidered T-shirt | Mushrooms Embroidered Hoodie | Mushrooms Sweater | Crew Neck Sweatshir",
+              "image": [
+                "../../Resources/Images/clothes1-2a.webp",
+                "../../Resources/Images/clothes1-2b.webp"
+              ],
+              "price": "21.92",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Golden",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5102,7 +5127,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5110,45 +5135,6 @@
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
                     "customerService": 5
                   }
                 },
@@ -5163,6 +5149,238 @@
                     "itemQuality": 2,
                     "shipping": 3,
                     "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 413,
+              "name": "Blue Light wash Denim Jacket with Embroidered mesh, Oversized Boho Floral Lace Fashion Modern jean outfit for women, gift for her, mom gift",
+              "image": ["../../Resources/Images/clothes1-4.webp"],
+              "price": "59.91",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "digitalartkwh",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
+              "reviews": [
+                {
+                  "stars": 4,
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 2,
+                  "text": "Very comfy but not like images",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "IF you know anything or nothing about sewing you have to appreciate the excellent quality of workmanship and Pride of their product. You will even be asked for clarification on your measurements to ensure proper fit. Perfection and such quality!!!!",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 414,
+              "name": "Patchwork Quilted Jackets Cotton Floral Bohemian Style Fall Winter Jacket Coat Streetwear Boho Quilted Reversible Jacket for Women",
+              "image": ["../../Resources/Images/clothes1-3.webp"],
+              "price": "139.40",
+              "discPrice": "170",
+              "discount": "18",
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 600,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 415,
+              "name": "Spring Hooded Coat Cotton Dress Coat Casual Loose Robes Long Sleeves Cardigan Shift Dresses Maxi Coat Hand made Plus Size Clothing",
+              "image": [
+                "../../Resources/Images/clothes1-5a.webp",
+                "../../Resources/Images/clothes1-5b.webp"
+              ],
+              "price": "45.51",
+              "discPrice": " 82.74",
+              "discount": "45",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 416,
+              "name": "Women Long Sleeves Cotton Dress Soft Casual Loose Tunics Shirt Robes Midi Dresses Customized Dress Plus Size Clothing Linen DRESS ",
+              "image": ["../../Resources/Images/clothes1-6a.webp"],
+              "price": "45.48",
+              "discPrice": "113.69",
+              "discount": "60",
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 417,
+              "name": "Summer Plaid Dress Natural Cotton Organic Short sleeve Dress Midi Dresses Soft Homewear Sleepwear Customized Dress Plus Size Clothing ",
+              "image": [
+                "../../Resources/Images/clothes1-7a.webp",
+                "../../Resources/Images/clothes1-7b.webp"
+              ],
+              "price": "83.28",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice Earring Holder , but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
                   }
                 }
               ]
