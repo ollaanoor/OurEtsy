@@ -6307,59 +6307,46 @@
           "products": [
             {
               "id": 441,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
-              "image": [""],
-              "price": "15.40",
-              "discPrice": "22.00",
+              "name": "Personalized gift For Bride Wedding slipper Engagement gift Unique Bridal Shower handmade slippers handmade custom bridal bachelorette party",
+              "image": [
+                "../../Resources/Images/clothes4-1a.webp",
+                "../../Resources/Images/clothes4-1b.webp",
+                "../../Resources/Images/clothes4-1c.webp"
+              ],
+              "price": "127.74",
+              "discPrice": "182.49",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "digitalartkwh",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "mariette",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 3,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 2,
+                  "text": "Very comfy but not like images",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
                   "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
@@ -6369,101 +6356,48 @@
                   }
                 },
                 {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "stars": 4,
+                  "text": "IF you know anything or nothing about sewing you have to appreciate the excellent quality of workmanship and Pride of their product. You will even be asked for clarification on your measurements to ensure proper fit. Perfection and such quality!!!!",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
-                    "itemQuality": 2,
-                    "shipping": 3,
-                    "customerService": 5
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
                   }
                 }
               ]
             },
             {
               "id": 442,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
-              "image": [""],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "name": "Classic Oxford Brogues for Men - Timeless Elegance & Craftsmanship ",
+              "image": [
+                "../../Resources/Images/clothes4-2a.webp",
+                "../../Resources/Images/clothes4-2b.webp"
+              ],
+              "price": "144.0",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "creativeCanvas",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 1258,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "mariette",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 3,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
                   "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
@@ -6474,41 +6408,152 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
                   "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
                   }
+                }
+              ]
+            },
+            {
+              "id": 443,
+              "name": "Crawling shoes with name (personalized leather slippers) with lion all over - baby, child, toddler - handmade gift ",
+              "image": [
+                "../../Resources/Images/clothes4-3a.webp",
+                "../../Resources/Images/clothes4-3b.webp"
+              ],
+              "price": "23.51",
+              "discPrice": " 27.30",
+              "discount": "14",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
                 },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 689,
+              "reviews": [
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
-                    "itemQuality": 2,
-                    "shipping": 3,
+                    "itemQuality": 5,
+                    "shipping": 5,
                     "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 444,
+              "name": "Retro style cognac brown genuine leather flats, t-bar, mary jane shoes, matching mom and daughter shoes, gift for her, lindy hop shoes, ",
+              "image": ["../../Resources/Images/clothes4-4a.webp"],
+              "price": "35.00",
+              "discPrice": "70",
+              "discount": "50",
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 445,
+              "name": "Pearl And Crystal Shoes For The Bride / Wedding Air Force 1 / Personalized Bridal Sneakers",
+              "image": [
+                "../../Resources/Images/clothes4-5a.webp",
+                "../../Resources/Images/clothes4-5b.webp"
+              ],
+              "price": "83.28",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 1700,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 1,
+                  "text": "Definitely do not recommend, terrible customer service. The outfit I bought for my baby's birthday has still not been delivered to me in 19 days.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 1,
+                    "customerService": 2
                   }
                 }
               ]
