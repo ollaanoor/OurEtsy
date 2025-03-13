@@ -3113,9 +3113,9 @@
           "products": [
             {
               "id": 211,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Furniture 1",
               "image": [
-                ""
+                "../Resources/Images/furniture.png"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -3219,9 +3219,9 @@
             },
             {
               "id": 212,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Furniture 2",
               "image": [
-                ""
+                "../Resources/Images/furniture.png"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -3397,9 +3397,9 @@
           "products": [
             {
               "id": 221,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Home Decor 1",
               "image": [
-                ""
+                "../Resources/Images/homeDecor.png"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -3503,9 +3503,9 @@
             },
             {
               "id": 222,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Home Decor 2",
               "image": [
-                ""
+                "../Resources/Images/homeDecor.png"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -3677,9 +3677,9 @@
           "products": [
             {
               "id": 231,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Kitchen & Dining 1",
               "image": [
-                ""
+                "../Resources/Images/kitchen.png"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -3783,9 +3783,9 @@
             },
             {
               "id": 232,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Kitchen & Dining 2",
               "image": [
-                ""
+                "../Resources/Images/kitchen.png"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -3970,9 +3970,9 @@
           "products": [
             {
               "id": 241,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Outdoor & Gardening 1",
               "image": [
-                ""
+                "../Resources/Images/gardening.png"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -4076,9 +4076,9 @@
             },
             {
               "id": 242,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Outdoor & Gardening 2",
               "image": [
-                ""
+                "../Resources/Images/gardening.png"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -8457,7 +8457,7 @@
         {
           "id": 52,
           "name": "Nursery Decor",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/nursery-decor.avif",
           "formFields": {
             "size": {
               "label": "Size",
@@ -8509,11 +8509,9 @@
           "products": [
             {
               "id": 521,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Nursery decor 1",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/nursery-decor.avif"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -8523,9 +8521,9 @@
             },
             {
               "id": 522,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Nursery decor 2",
               "image": [
-                ""
+                "../Resources/Images/nursery-decor1.webp"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -8538,7 +8536,7 @@
         {
           "id": 53,
           "name": "Baby Toys",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/baby-toys1.avif",
           "formFields": {
             "size": {
               "label": "Size",
@@ -8590,11 +8588,9 @@
           "products": [
             {
               "id": 531,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Baby toy 1",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/baby-toys1.avif"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -8698,9 +8694,9 @@
             },
             {
               "id": 532,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Baby toy 2",
               "image": [
-                ""
+                "../Resources/Images/baby-toys1.avif"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -10727,7 +10723,7 @@
         {
           "id": 71,
           "name": "Pet Collars & Leashes",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "",
           "formFields": {
             "size": {
               "label": "Size",

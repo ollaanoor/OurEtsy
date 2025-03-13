@@ -32,7 +32,9 @@
   padding: 4px;
   border-radius: 25%;
   max-width: 100%;
-  height: auto;
+  /* height: auto; */
+  width: 152px;
+  height: 152px;
 }
 .subcat-item img:hover {
   filter: opacity(0.7);
