@@ -188,6 +188,7 @@
   transform:rotate(180deg);
 }
 .highlight-list{
+  max-width:400px;
   list-style:none;
   padding:0;
   margin:0;

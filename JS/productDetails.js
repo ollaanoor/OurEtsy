@@ -517,8 +517,8 @@ function fetchProduct(product, categoryName, subcategoryName) {
     priceElement.innerHTML = `USD ${price.toFixed(2)}`;
   } else {
     discountTag.textContent = product.discount + "%";
-    priceElement.innerHTML = `USD ${discPrice.toFixed(2)}+ 
-      <span class="color-span text-decoration-line-through before-discount">USD ${price.toFixed(
+    priceElement.innerHTML = `USD ${price.toFixed(2)}+ 
+      <span class="color-span text-decoration-line-through before-discount">USD ${discPrice.toFixed(
         2
       )}</span>`;
   }

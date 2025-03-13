@@ -6181,7 +6181,7 @@
         {
           "id": 61,
           "name": "Bath Accessories",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/bath-beauty.webp",
           "formFields": {
             "material": {
               "label": "Material",
@@ -6229,17 +6229,36 @@
           "products": [
             {
               "id": 611,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Wood Toilet Paper Holder Wall Mount for Multiple Rolls, Spare TP Roll Shelving, Floating Wall Display Shelf, Hanging Shelves for Tissue",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/bath-accessories-toilet.avif",
+                "../Resources/Images/bath-accessories-toilet2.webp",
+                "../Resources/Images/bath-accessories-toilet3.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
-              "vendorImg": "../Resources/Images/vendor.png",
+              "vendor": "Ewart",
+              "vendorImg": "../Resources/Images/ewart-vendor.webp",
+              "description": "Organize your bathroom with this wall-mounted wooden toilet paper holder that doubles as a floating wood shelf.",
+              "materials": [
+                "Wood"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": "Brown",
+              "style": "Bath Deco",
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Egypt",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -6337,15 +6356,296 @@
             },
             {
               "id": 612,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Waffle Linen Bath towels / Stonewashed Bath Towels in various sizes and colors / Highly absorbent and hypoallergenic European flax towels",
               "image": [
-                ""
+                "../Resources/Images/waffle-linen.webp",
+                "../Resources/Images/waffle-linen2.webp",
+                "../Resources/Images/waffle-linen3.webp"
               ],
               "price": "11.24",
               "discPrice": "14.99",
               "discount": "25",
-              "vendor": "OuferJewelry",
+              "vendor": "Ewart",
               "vendorImg": "../Resources/Images/vendor.png",
+              "materials": [
+                "Linen",
+                "Waffle linen"
+              ],
+              "gemColor": null,
+              "bandColor": "Stone blue",
+              "style": "Bath Deco",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 5.69,
+                "shipsFrom": "Lithuania",
+                "returnsAcceptedWithinDays": 10
+              },
+              "reviewsNum": 604,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 613,
+              "name": "Hand cream | Handmade in New York | 1oz | cream | skin care",
+              "image": [
+                "../Resources/Images/handcream1.webp",
+                "../Resources/Images/handcream2.webp",
+                "../Resources/Images/handcream3.webp"
+              ],
+              "price": "15.90",
+              "discPrice": "11.13",
+              "discount": "30",
+              "vendor": "CONCREATEdecor",
+              "vendorImg": "../Resources/Images/ewart-vendor.webp",
+              "description": "Ingredients: water, glycerine, coconut oil, shea butter, E wax nf, cetyl alcohol, optiphen, vitamin e oil",
+              "materials": [
+                "Powder painted",
+                "stainless steel",
+                "Water resistant"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Bath Deco",
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 15
+              },
+              "reviewsNum": 604,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 614,
+              "name": "Oak foot bath with handles 25l ( Handmade)",
+              "image": [
+                "../Resources/Images/oak-foot1.webp",
+                "../Resources/Images/oak-foot2.webp",
+                "../Resources/Images/oak-foot3.webp"
+              ],
+              "price": "33.00",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Ewart",
+              "vendorImg": "../Resources/Images/ewart-vendor.webp",
+              "description": "Agate Tissue Box, Agate Stone Bathroom Tissue Box, Elegant Tissue Holder, Handmade Natural Stone Napkin Holder, Kitchen & Bath Accessories",
+              "materials": [
+                "Oak wood",
+                "stainless steel",
+                "plastic inside",
+                "Covered sauna oil",
+                "wood"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Skin Care & Bath Deco",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Australia",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -6494,17 +6794,35 @@
           "products": [
             {
               "id": 621,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Lavender Lip Balm & Hand Cream Combo",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/lp-balm.webp",
+                "../Resources/Images/tissue-box2.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
-              "vendorImg": "../Resources/Images/vendor.png",
+              "price": "33.00",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Ewart",
+              "vendorImg": "../Resources/Images/ewart-vendor.webp",
+              "description": "Agate Tissue Box, Agate Stone Bathroom Tissue Box, Elegant Tissue Holder, Handmade Natural Stone Napkin Holder, Kitchen & Bath Accessories",
+              "materials": [
+                "Lavender"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Skin Care & Bath Deco",
+              "personalized": false,
+              "recycled": false,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "England",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -6602,16 +6920,18 @@
             },
             {
               "id": 622,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Body scrub | Handmade in New York | 7oz | Unscented | scrub",
               "image": [
-                ""
+                "../Resources/Images/body-scrub-1",
+                "../Resources/Images/body-scrub-2",
+                "../Resources/Images/body-scrub-3"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
+              "price": "13.65",
+              "discPrice": "19.50",
               "discount": "25",
-              "vendor": "OuferJewelry",
+              "vendor": "Bath&Body",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "reviewsNum": 60,
               "reviews": [
                 {
                   "stars": 3,
@@ -6705,6 +7025,146 @@
                   }
                 }
               ]
+            },
+            {
+              "id": 623,
+              "name": "Pomegranate Oil Serum | Face and Body Care | Moisturizer | 100 ml | Natural Anti Aging | Pomegranate Oil | Skin Care",
+              "image": [
+                "../Resources/Images/earrings1.webp",
+                "../Resources/Images/earrings2.webp",
+                "../Resources/Images/earrings3.webp"
+              ],
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "30",
+              "vendor": "danceofscents",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Pomegranate Oil Serum | Face and Body Care | Moisturizer | 100 ml | Natural Anti Aging | Pomegranate Oil | Skin Care",
+              "materials": [
+                "Pomegranate Oil"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": "Rose gold",
+              "style": "Art Deco",
+              "personalized": false,
+              "recycled": false,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 60,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
             }
           ]
         },
@@ -6759,17 +7219,36 @@
           "products": [
             {
               "id": 631,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Collectible Perfume Miniature Sauvage Eau Forte 10ml Parfum Alcohol Free Mini Size Bottle (No Spray)",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/sauvage1.webp",
+                "../Resources/Images/sauvage2.webp",
+                "../Resources/Images/sauvage3.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "price": null,
+              "discPrice": "45.56",
+              "discount": null,
+              "vendor": "MiniLuna22",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Collectible Perfume Miniature Sauvage Eau Forte 10ml Parfum Alcohol Free Mini Size Bottle (No Spray)",
+              "materials": [
+                "Parfum Alcohol"
+              ],
+              "gemColor": null,
+              "bandColor": "Black",
+              "style": null,
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Poland",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -6867,15 +7346,35 @@
             },
             {
               "id": 632,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Collectible Perfume Miniature Guilty 5ml Elixir De Parfum pour homme Mini Size Bottle No Spray",
               "image": [
-                ""
+                "../Resources/Images/gucci-guilty-1.webp",
+                "../Resources/Images/gucci-guilty-2.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "30",
+              "vendor": "MiniLuna22",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+              "materials": [
+                "Spray"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": null,
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "France",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7024,17 +7523,36 @@
           "products": [
             {
               "id": 641,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Personalized Initials Portable Makeup Brush Organizer, Cosmetic Brushes Holder, Makeup Organizer Storage Bag, Custom Name Engraved Case",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/brush-organizer-1.webp",
+                "../Resources/Images/brush-organizer-2.webp",
+                "../Resources/Images/brush-organizer-3.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "MyLoveCamp",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Personalized Initials Portable Makeup Brush Organizer, Cosmetic Brushes Holder, Makeup Organizer Storage Bag, Custom Name Engraved Case",
+              "materials": [
+                "leather"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": "Rose gold",
+              "style": "Art Deco",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 15.0,
+                "shipsFrom": "France",
+                "returnsAcceptedWithinDays": 30
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7132,15 +7650,38 @@
             },
             {
               "id": 642,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Natural Lip Colors - Full Collection, Organic Ingredients, Holistic Makeup, Nontoxic Lip and Cheek Color, Nourishing Moisturizing Lipstick",
               "image": [
-                ""
+                "../Resources/Images/lipStick1.webp",
+                "../Resources/Images/lipStick2.webp",
+                "../Resources/Images/lipStick3.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "30",
+              "vendor": "BlinkingOwlAcres",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+              "materials": [
+                "Organic Coconut Oil",
+                "Organic Beeswax",
+                "Organic Jojoba Oil"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "MakeUp",
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "China",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7285,17 +7826,39 @@
           "products": [
             {
               "id": 651,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Weighted Heart Eye Pillow, hand dyed, filled with Flax, Lavender or Unscented, Hot Cold pack, Organic Cotton Mask Aromatherapy, soft tie dye",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/Eye-pillow.webp",
+                "../Resources/Images/Eye-pillow2.webp",
+                "../Resources/Images/Eye-pillow3.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
               "vendor": "LewsinGemstone",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+              "materials": [
+                "Cotton",
+                "Organic Flax seed",
+                "Rice",
+                "Lavender "
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "hand-dyed fabric",
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Bengaladish",
+                "returnsAcceptedWithinDays": 45
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7393,15 +7956,37 @@
             },
             {
               "id": 652,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Handmade Turkish Bath Washcloths with Crochet, Bath Puff, Bath Fiber, Bath Loofah, Personal Care, Traditional Bathroom Gift, Free Shipping",
               "image": [
-                ""
+                "../Resources/Images/wash-cloth-1.avif"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "50",
+              "vendor": "GiftShopByPeri",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Handmade Turkish Bath Washcloths with Crochet, Bath Puff, Bath Fiber, Bath Loofah, Personal Care, Traditional Bathroom Gift, Free Shipping",
+              "materials": [
+                "Crochet",
+                "Bath Puff",
+                "Bath Fiber",
+                "Bath Loofah"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": null,
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Türkiye",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7504,7 +8089,7 @@
     {
       "id": 7,
       "name": "Pet Supplies",
-      "title": "",
+      "title": "Collars, toys and custom portraits for pets. Your little fuzzball deserves it.",
       "subcategories": [
         {
           "id": 71,
@@ -7549,26 +8134,26 @@
           "products": [
             {
               "id": 711,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Dog Harness, Dog Collar and Leash, Dog Bow Tie Collar, Dog Flower Collar, Poop Bag, Dog Collar Custom",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/dog-harness-1.webp",
+                "../Resources/Images/dog-harness-2.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
+              "price": "12.93",
+              "discPrice": "19.90",
+              "discount": "35",
               "vendor": "LewsinGemstone",
               "vendorImg": "../Resources/Images/vendor.png",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+              "description": "Dog Harness, Dog Collar and Leash, Dog Bow Tie Collar, Dog Flower Collar, Poop Bag, Dog Collar Custom",
               "materials": [
-                "Rose gold",
-                "White gold",
-                "Yellow gold"
+                "Hardware gold zinc alloy",
+                "solid brass D ring",
+                "nylon webbing",
+                "cotton"
               ],
               "gemColor": "Colorless",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
+              "bandColor": null,
+              "style": "Pet Cloth",
               "personalized": true,
               "recycled": true,
               "madeToOrder": true,
@@ -7588,7 +8173,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review1.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
@@ -7601,7 +8186,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review2.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 3,
@@ -7614,7 +8199,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review3.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -7640,7 +8225,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review2.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -7653,7 +8238,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review3.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -7666,7 +8251,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review1.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 2,
@@ -7678,15 +8263,38 @@
             },
             {
               "id": 712,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Webbing dog collar personalized, dog collar boy, dog collar girl, dog collar engraved, tribal dog collar, pattern dog collar, 1' width",
               "image": [
-                ""
+                "../Resources/Images/dog-collar-1.webp",
+                "../Resources/Images/dog-collar-2.webp",
+                "../Resources/Images/dog-collar-3.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
+              "price": "12.24",
+              "discPrice": "16.99",
               "discount": "25",
-              "vendor": "OuferJewelry",
+              "vendor": "SoGoodSoWood",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Webbing dog collar personalized, dog collar boy, dog collar girl, dog collar engraved, tribal dog collar, pattern dog collar, 1' width",
+              "materials": [
+                "full metal buckle",
+                "lightweight",
+                "durable"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7831,17 +8439,39 @@
           "products": [
             {
               "id": 721,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Striped Dog Bed in Pink and White | Female Dog Bed | Girl Dog Bed for Maximum Comfort",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/dog-bed-1.webp",
+                "../Resources/Images/dog-bed-2.webp",
+                "../Resources/Images/dog-bed-3.webp",
+                "../Resources/Images/dog-bed-4.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "PillowPilou",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Striped Dog Bed in Pink and White | Female Dog Bed | Girl Dog Bed for Maximum Comfort",
+              "materials": [
+                "Imitation lambswool",
+                "Cotton",
+                "Anti slip bottom"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet bed",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7939,15 +8569,159 @@
             },
             {
               "id": 722,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Pet Bed for Car",
               "image": [
-                ""
+                "../Resources/Images/pet-bed-car.png"
               ],
               "price": "11.24",
               "discPrice": "14.99",
               "discount": "25",
-              "vendor": "OuferJewelry",
+              "vendor": "PillowPilou",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Pet Bed for Car",
+              "materials": [
+                "Handmade"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Australia",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 604,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 723,
+              "name": "Eco Friendly Dog House Pet Furniture Dog Crate Modern Dog Bed Indoor Dog House Personalized Dog House Puppy House Dog Furniture Puppy House",
+              "image": [
+                "../Resources/Images/pet-house.webp"
+              ],
+              "price": "11.24",
+              "discPrice": "14.99",
+              "discount": "25",
+              "vendor": "PillowPilou",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Eco Friendly Dog House Pet Furniture Dog Crate Modern Dog Bed Indoor Dog House Personalized Dog House Puppy House Dog Furniture Puppy House",
+              "materials": [
+                "Plywood"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Australia",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8092,17 +8866,36 @@
           "products": [
             {
               "id": 731,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Embroidered Bone Dog Toy with Squeaker. NATIONAL PUPPY DAY - March 23",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/bone-dog.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "AtelierDamakaFR",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Embroidered Bone Dog Toy with Squeaker. NATIONAL PUPPY DAY - March 23",
+              "materials": [
+                "corduroy",
+                "tarpaulin bag",
+                "piping"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet bone",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8353,17 +9146,37 @@
           "products": [
             {
               "id": 741,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Round Blue Toile Bed Cover, Toile Pattern Dog Bed Duvet, Modern Pet Bed, Sustainable Pet Bedding, Navy Dog Bedding With Name, Large Dog Bed",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/round-bed-dog.webp",
+                "../Resources/Images/round-bed-dog-2.avif",
+                "../Resources/Images/round-bed-dog-3.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "SammysBedsandThreads",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Round Blue Toile Bed Cover, Toile Pattern Dog Bed Duvet, Modern Pet Bed, Sustainable Pet Bedding, Navy Dog Bedding With Name, Large Dog Bed",
+              "materials": [
+                "YKK Gold Zipper",
+                "Sustainable Stuffing"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Bed",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8371,7 +9184,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review1.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
@@ -8384,7 +9197,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review2.avif",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 3,
@@ -8397,7 +9210,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review3.avif",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -8423,7 +9236,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review2.avif",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -8436,7 +9249,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review1.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -8449,7 +9262,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review3.avif",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 2,
@@ -8461,15 +9274,39 @@
             },
             {
               "id": 742,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Beige XLarge Fluffy Dog Snuggle Blanket, Dog Couch Sofa Cuddling Throw, Comfy Cosy Softest Blanket for Puppy, Eco Friendly Dog Accessories",
               "image": [
-                ""
+                "../Resources/Images/dog-blanket-1.webp",
+                "../Resources/Images/dog-blanket-2.webp",
+                "../Resources/Images/dog-blanket-3.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "12.93",
+              "discPrice": "19.90",
+              "discount": "35",
+              "vendor": "OHHECKdogs",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Beige XLarge Fluffy Dog Snuggle Blanket, Dog Couch Sofa Cuddling Throw, Comfy Cosy Softest Blanket for Puppy, Eco Friendly Dog Accessories",
+              "materials": [
+                "Hardware gold",
+                "solid brass D ring",
+                "nylon webbing",
+                "cotton"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 27.0,
+                "shipsFrom": "Argentine",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8477,7 +9314,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
@@ -8490,7 +9327,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 3,
@@ -8503,7 +9340,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -8529,7 +9366,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -8542,7 +9379,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -8555,7 +9392,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 2,
@@ -8618,17 +9455,36 @@
           "products": [
             {
               "id": 751,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Clothes for Cats, Cat Clothing, Dog Clothing, Pet Clothes, Small Pet Apparel, Custom Pet Wear, Handmade, Cat Dress, Pet Sweater, Cat Costume",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/dog-cloth1.webp",
+                "../Resources/Images/dog-cloth2.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
+              "price": "60.40",
+              "discPrice": "75.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "siriuspet",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Dog Harness, Dog Collar and Leash, Dog Bow Tie Collar, Dog Flower Collar, Poop Bag, Dog Collar Custom",
+              "materials": [
+                "cotton",
+                "crochet"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 15.0,
+                "shipsFrom": "Greece",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8726,12 +9582,12 @@
             },
             {
               "id": 752,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Denim Pet Outfit | Durable Pet Vest | Fashionable Animal Wear | Cozy and Comfortable Outerwear | Spring & Autumn Pet Clothes",
               "image": [
-                ""
+                "../Resources/Images/pet-vest.avif"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
+              "price": "48.00",
+              "discPrice": "59.99",
               "discount": "25",
               "vendor": "OuferJewelry",
               "vendorImg": "../Resources/Images/vendor.png",
