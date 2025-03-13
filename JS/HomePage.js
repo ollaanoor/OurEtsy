@@ -256,17 +256,17 @@ function renderProducts(data) {
   var productList2 = document.getElementById("most-popular-section");
   var productList3 = document.getElementById("personalized-gifts-list");
 
-  /* Render Discover Gifts Section */
-  var arrIdx = [];
-  for (let i = 0; i < 6; i++) {
-    var products1 = data.categories[7].subcategories; // make dynamic using find?
-    var randomIndexCat = Math.floor(Math.random() * products1.length);
-
-    if (arrIdx.includes(randomIndexCat)) {
-      i--;
-      continue;
-    }
-    arrIdx.push(randomIndexCat);
+    /* Render Discover Gifts Section */
+    var arrIdx = [];
+    for(let i=0; i<6; i++){
+        var products1 = data.categories[7].subcategories; // make dynamic using find?
+        let randomIndexCat = Math.floor(Math.random() * products1.length);
+        
+        if(arrIdx.includes(randomIndexCat)){
+            i--;
+            continue;
+        }
+        arrIdx.push(randomIndexCat);
 
     var productCard1 = document.createElement("div");
     productCard1.classList = "card col-2 d-flex align-items-center";
@@ -286,10 +286,10 @@ function renderProducts(data) {
     productList1.appendChild(productCard1);
   }
 
-  /* Render Most Popular Categories Section */
-  for (let i = 0; i < 6; i++) {
-    var randomIndexCat = Math.floor(Math.random() * data.categories.length);
-    var products2 = data.categories[randomIndexCat].subcategories;
+    /* Render Most Popular Categories Section */
+    for(let i = 0; i < 6; i++){
+        let randomIndexCat = Math.floor(Math.random() * data.categories.length);
+        var products2 = data.categories[randomIndexCat].subcategories;
 
     // Make sure products has enough elements
     if (i >= products2.length) {
@@ -339,39 +339,33 @@ function renderProducts(data) {
   //     productList2.appendChild(productCard2);
   // });
 
-  /* Render Personalized Gifts Grid Section */
-  // Update: Render it dynamic from any subcategory
-  var favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-
-  for (let i = 0; i < 6; i++) {
-    // var products3 = data.categories[7].subcategories[4].products;
-    var randomIndexCat = Math.floor(Math.random() * data.categories.length);
-    var randomIndexSub = Math.floor(
-      Math.random() * data.categories[randomIndexCat].subcategories.length
-    );
-    var products3 =
-      data.categories[randomIndexCat].subcategories[randomIndexSub].products;
+    /* Render Personalized Gifts Grid Section */
+    // Update: Render it dynamic from any subcategory
+    var favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
     // Make sure products has enough elements
-    if (i >= products3.length) {
-      i--;
-      continue; // Skip this iteration if not
-    }
+    do {
+        // var products3 = data.categories[7].subcategories[4].products;
+        var randomIdxCat = Math.floor(Math.random() * data.categories.length);
+        var randomIdxSub = Math.floor(Math.random() * data.categories[randomIdxCat].subcategories.length);
+        var products3 = data.categories[randomIdxCat].subcategories[randomIdxSub].products;
+    } while (products3.length < 6)
+    
+    for(let i = 0; i < 6; i++){
+        // Used for loop instead of forEach to make sure to render 6 pics
+        // products3.forEach((product,idx) => {
+            var productCard3 = document.createElement('div');
+            productCard3.className = 'grid-item';
 
-    // Used for loop instead of forEach to make sure to render 6 pics
-    // products3.forEach((product,idx) => {
-    var productCard3 = document.createElement("div");
-    productCard3.className = "grid-item";
-
-    // Fill the product card with data
-    productCard3.innerHTML = `
-                <div class="gift-grid-card" data-category-id="${data.categories[randomIndexCat].id}" data-subcategory-id="${data.categories[randomIndexCat].subcategories[randomIndexSub].id}" data-product-id="${products3[i].id}" data-name="${products3[i].name}" data-price="${products3[i].price}"> 
+            // Fill the product card with data
+            productCard3.innerHTML = `
+                <div class="gift-grid-card" data-category-id="${data.categories[randomIdxCat].id}" data-subcategory-id="${data.categories[randomIdxCat].subcategories[randomIdxSub].id}" data-product-id="${products3[i].id}" data-name="${products3[i].name}" data-price="${products3[i].price}"> 
                     <div class="fav-btn">
                         <button href="#" type="button">
                             <img class="favbtn" src="../Resources/Images/fav-icon-2.png" alt="favorites">
                         </button>
                     </div>
-                    <img src="${products3[i].image}" alt="${products3[i].name}">
+                    <img style="width:300px; height:314px" src="${products3[i].image[0]}" alt="${products3[i].name}">
                     <div class="price-badge">
                         <div class="price-badge-2">
                             <span>
@@ -386,10 +380,8 @@ function renderProducts(data) {
     // Append the product card to the list
     productList3.appendChild(productCard3);
 
-    document.getElementById("subcat-name").textContent =
-      data.categories[randomIndexCat].subcategories[randomIndexSub].name;
-    document.getElementById("cat-title").textContent =
-      data.categories[randomIndexCat].title;
+            document.getElementById('subcat-name').textContent = data.categories[randomIdxCat].subcategories[randomIdxSub].name;
+            document.getElementById('cat-title').textContent = data.categories[randomIdxCat].title;
 
     // Keep the hearts red even after refreshing
     if (favorites.find((item) => item.productId == products3[i].id)) {

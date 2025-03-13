@@ -206,20 +206,17 @@ h2 {
 
 .most-pop-categ-content {
     display: flex;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
     gap: 30px;
     padding-top: 18px;
-    /* margin-bottom: 30px; */
 }
 
 .most-popular-card {
     border: none;
-    /* transition: 0.3s; */
-    /* min-width: 130px; */
-    /* padding: 0px; */
+    max-width: 190px;
     height: fit-content;
-    /* margin: 5px; */
     transition: box-shadow 0.3s ease-in-out;
     border-radius: 10px;
 }
@@ -229,7 +226,6 @@ h2 {
     height: 245px;
     border-radius: 10px;
     padding: 0;
-    /* transition: opacity 0.2s ease-out; */
 }
 
 .most-popular-card:hover img {
@@ -295,13 +291,14 @@ h2 {
 
 .grid-item1 {
     grid-column: span 2;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .grid-item {
     justify-self: center;
     align-self: center;
-    width: 100%;
+    /* width: 100%; */
+    /* width: 300px; */
 }
 
 .grid-item img {
@@ -318,7 +315,7 @@ h2 {
     overflow: hidden; /* Prevents image from overflowing */
     /* height: fit-content; */
     height: 314px;
-    width: 100;
+    max-width: 300px; /*fixed for responsive*/
     transition: box-shadow 0.3s ease-in-out;
     border-radius: 12px;
 }
@@ -365,12 +362,12 @@ h2 {
     opacity: 0;
     position: absolute;
     top: 275px;
-    right: 230px;
+    /* right: 230px; */
     border: 1px solid #949494;
     background-color: #fff;
     color: #222;
     word-break: break-word;
-    min-width: 25px;
+    /* min-width: 25px; */
     font-size: 13px;
     font-weight: 400;
     line-height: 1;
@@ -398,4 +395,64 @@ h2 {
 
 .gift-grid-card img:hover {
     transform: scale(1.08); /* Zoom in by 10% */
+}
+
+/* Responsive */
+@media (max-width: 1400px) {
+    /* .card {
+        flex: 1 1 calc(50% - 20px);
+    } */
+
+    .most-pop-categ-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding-top: 18px;
+    }
+}
+
+@media (max-width: 1200px) {
+    
+    #banner-left {
+        width: 100%;
+    }
+
+    #banner-right {
+        display: none;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .grid-item1 {
+        grid-column: span 1;
+        /* width: 100%; */
+    }
+}
+
+@media (max-width: 700px) {
+    
+    #banner-left img {
+        width: 0;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr ;
+    }
+    
+    .grid-item1 {
+        grid-column: span 1;
+        /* width: 100%; */
+    }
+
+    .personalized-gifts-text {
+        text-align: center;
+    }
+
+    .personalized-gifts-text p {
+        padding-right: 0;
+    }
 }

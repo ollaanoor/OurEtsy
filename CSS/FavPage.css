@@ -109,3 +109,22 @@
 #empty-fav {
     display: none;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 1280px) {
+    .grid-container {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media (max-width: 960px) {
+    .grid-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width: 655px) {
+    .grid-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+}

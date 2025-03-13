@@ -139,3 +139,8 @@ footer {
 .notification button:hover {
     background-color: #ffffffb8;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 700px) {
+    
+}

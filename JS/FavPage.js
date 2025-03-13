@@ -87,7 +87,7 @@ function displayFavorites(data) {
                                 <img src="../Resources/Images/fav-icon-2-fill.png" alt="favorites">
                             </button>
                         </div>
-                        <img src="${product.image}" alt="${product.name}" style="width: 300px; height: 300px;">
+                        <img src="${product.image[0]}" alt="${product.name}" style="width: 300px; height: 300px;">
                         <div class="fav-card-info">
                             <h3>
                                 ${product.name}

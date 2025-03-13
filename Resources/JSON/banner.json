@@ -21,7 +21,8 @@
             "title": "A birthday revival",
             "text": "We're making birthdays more meaningful",
             "image": [ "../Resources/Images/banner-left-bd.png",
-                        "../Resources/Images/banner-left-bd-1.png" ],
+                        "../Resources/Images/banner-left-bd-1.png",
+                        "../Resources/Images/banner-left-bd-2.png" ],
             "bgcolor": "#8C8AF0",
             "btnText": "Find special gifts",
             "category": "Gifts"

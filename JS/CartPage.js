@@ -101,6 +101,7 @@ function displayCartItems(data) {
     var subtotal = 0;
     var shipping = 18.08; // default shipping value
     var totalQty = 0;
+    var itemDiscPrice = 0;
 
     cartItems.forEach((item, index) => {
         // console.log(index);
@@ -123,7 +124,9 @@ function displayCartItems(data) {
         }
 
         var itemTotal = parseFloat(itemData.price) * quantity;
-        var itemDiscPrice = (parseFloat(itemData.discPrice) -  parseFloat(itemData.price)) * quantity;
+        if(itemData.discPrice != null) {
+            itemDiscPrice = (parseFloat(itemData.discPrice) -  parseFloat(itemData.price)) * quantity;
+        }
         
         itemSTotal += itemTotal;
         totalDisc += itemDiscPrice;
@@ -193,7 +196,7 @@ function displayCartItems(data) {
                                     </div>
                                 </div>
                                 <div class="product-price">
-                                    <div class="badge-text"><span>${itemData.discount}% off</span></div>
+                                    <div id="discount" class="badge-text"><span>${itemData.discount}% off</span></div>
                                     <div class="current-price">
                                         <span class="money">
                                             <span class="currency-symbol">USD</span>
@@ -215,6 +218,10 @@ function displayCartItems(data) {
         cartItemsdiv.appendChild(itemElement);
 
         document.getElementsByClassName("select-element")[index].value = quantity;
+        if(itemData.discount == null) {
+            document.getElementById("discount").style.display = 'none';
+            document.querySelector(".old-price").style.display = 'none';
+        }
 
     });
 

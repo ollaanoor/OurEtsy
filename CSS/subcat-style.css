@@ -66,3 +66,6 @@
   color: rgba(33, 37, 41, 0.75);
   text-decoration: none;
 }
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}
