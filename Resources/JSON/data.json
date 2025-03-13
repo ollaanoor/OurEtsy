@@ -7560,6 +7560,27 @@
               "discount": "30",
               "vendor": "LewsinGemstone",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+              "materials": [
+                "Rose gold",
+                "White gold",
+                "Yellow gold"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": "Rose gold",
+              "style": "Art Deco",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
