@@ -6978,7 +6978,7 @@
         {
           "id": 51,
           "name": "Baby Clothes",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/baby-cloth.webp",
           "formFields": {
             "size": {
               "label": "Size",
@@ -7042,17 +7042,15 @@
           "products": [
             {
               "id": 511,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Winter Muslin Baby Pants & Long Sleeve T-shirt Set , Unisex,Baby Shower Gift,muslin baby clothes,baby jumpsuit, organic baby clothes",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/baby-cloth.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
               "vendor": "LewsinGemstone",
-              "vendorImg": "../Resources/Images/vendor.png",
+              "vendorImg": "../Resources/Images/baby-cloth.webp",
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7150,9 +7148,9 @@
             },
             {
               "id": 512,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Winter Muslin Baby Pants & Long Sleeve T-shirt Set , Unisex,Baby Shower Gift,muslin baby clothes,baby jumpsuit, organic baby clothes",
               "image": [
-                ""
+                "../Resources/Images/baby-cloth.webp"
               ],
               "price": "11.24",
               "discPrice": "14.99",
