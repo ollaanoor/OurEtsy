@@ -3994,17 +3994,26 @@
           "products": [
             {
               "id": 331,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
-              "image": [""],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "name": "Emerald Green Abstract People Art, Woman With Flowers Minimal Japandi Female Abstract Painting, Female Portrait Art Abstract Eclectic Prints",
+              "image": ["../../Resources/Images/art3-1.webp"],
+              "price": "21.74",
+              "discPrice": "28.23",
+              "discount": "23",
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 700,
               "reviews": [
                 {
-                  "stars": 3,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
@@ -4043,7 +4052,7 @@
                   }
                 },
                 {
-                  "stars": 4,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Alice James",
                   "date": "2025-01-15",
@@ -4098,18 +4107,31 @@
             },
             {
               "id": 332,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
-              "image": [""],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "name": "Plant A Flower Art Print, Gardening Wall Art, Flower Wall Art, Botanical Art Print, Nursery Art, Cottage Core, Kids Room, Gift for mum",
+              "image": [
+                "../../Resources/Images/art3-2a.webp",
+                "../../Resources/Images/art3-2b.webp",
+                "../../Resources/Images/art3-2c.webp"
+              ],
+              "price": "21.92",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Golden",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -4147,45 +4169,6 @@
                   }
                 },
                 {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 5,
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
@@ -4196,6 +4179,242 @@
                     "itemQuality": 2,
                     "shipping": 3,
                     "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 333,
+              "name": "4,000+ Mega Sticker Bundle | Printable Digital Sticker Pack | PNG Files for DIY, Scrapbooking & Crafts | Instant Download",
+              "image": [
+                "../../Resources/Images/art3-3.webp",
+                "../../Resources/Images/art3-3b.webp",
+                "../../Resources/Images/art3-3c.webp"
+              ],
+              "price": "2.82",
+              "discPrice": "4.03",
+              "discount": "30",
+              "vendor": "artisticVisions",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
+              "reviews": [
+                {
+                  "stars": 4,
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "The painting arrived in perfect condition. Very satisfied.",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but the colors are a bit different in person.",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 334,
+              "name": "Cute Capybara SVG Bundle | Kawaii Capybara Clipart | Capybara Digital Stickers & Designs ",
+              "image": ["../../Resources/Images/art3-4.webp"],
+              "price": "1.49",
+              "discPrice": "3.00",
+              "discount": "50",
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 600,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 335,
+              "name": "Disco Ball Print, Kitchen Print, Kitchen Wall Art, Sushi Print, Preppy Wall Art, Bar Cart Art Print,Aesthetic Kitchen Decor,Retro food print",
+              "image": ["../../Resources/Images/art3-5.webp"],
+              "price": "4.14",
+              "discPrice": "518",
+              "discount": "20",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 336,
+              "name": "101 pcs | Modern Abstract Geometric Wall Art | Mid-Century Modern Print Set | Minimalist Geometric Shapes | Contemporary Home Decor",
+              "image": [
+                "../../Resources/Images/art3-6.webp",
+                "../../Resources/Images/art3-6b.webp"
+              ],
+              "price": "2.28",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 337,
+              "name": "Numbered Edition BANKSY Girl With the Balloon Signed - certificate - Wall Art, Graffiti Art, Lithograph, Stencil Art ",
+              "image": [
+                "../../Resources/Images/art3-7a.webp",
+                "../../Resources/Images/art3-7b.webp"
+              ],
+              "price": "241.46",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice Earring Holder , but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
                   }
                 }
               ]
