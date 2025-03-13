@@ -3240,7 +3240,7 @@
                   "author": "David Lee",
                   "date": "2025-03-15",
                   "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
@@ -3729,7 +3729,7 @@
                   "author": "David Lee",
                   "date": "2025-03-15",
                   "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
@@ -4222,7 +4222,7 @@
                   "author": "David Lee",
                   "date": "2025-03-15",
                   "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
@@ -4726,7 +4726,7 @@
                   "author": "David Lee",
                   "date": "2025-03-15",
                   "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
@@ -5192,7 +5192,7 @@
                   "author": "David Lee",
                   "date": "2025-03-15",
                   "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
@@ -5691,7 +5691,7 @@
                   "author": "David Lee",
                   "date": "2025-03-15",
                   "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/David_Lee.jpg",
+                  "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
@@ -5859,7 +5859,7 @@
                 "shipsFrom": "United States",
                 "returnsAcceptedWithinDays": 21
               },
-              "reviewsNum": 200,
+              "reviewsNum": 1700,
               "reviews": [
                 {
                   "stars": 5,
@@ -5898,18 +5898,27 @@
           "products": [
             {
               "id": 431,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
-              "image": [""],
-              "price": "15.40",
-              "discPrice": "22.00",
+              "name": "Tote Bag Mockup Natural Canvas Bag Mockup White Canvas Bag Flatlay Boho Totebag Mock Sand Canvas Tote Boho Mockup Girly Organic Bag Mockup ",
+              "image": ["../Resources/Images/clothes3-1.webp"],
+              "price": "1.30",
+              "discPrice": "4.33",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "Golden",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5935,7 +5944,85 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 432,
+              "name": "CROCHET PATTERN FERRARA Light 2 Handles Bag Crochet Bag Pattern Wool Bag crochet purse woman bag, handbag, tote",
+              "image": [
+                "../../Resources/Images/clothes3-2a.webp",
+                "../../Resources/Images/clothes3-2b.webp",
+                "../../Resources/Images/clothes3-2c.webp"
+              ],
+              "price": "4.50",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-04-17",
+                  "end": "2025-05-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 877,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 2,
+                  "text": "take along time before shipping",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5948,7 +6035,7 @@
                 },
                 {
                   "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you",
                   "author": "Alice James",
                   "date": "2025-01-15",
                   "photoUrl": null,
@@ -5961,7 +6048,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5974,7 +6061,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "High quilty",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -6001,14 +6088,27 @@
               ]
             },
             {
-              "id": 432,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
-              "image": [""],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
+              "id": 433,
+              "name": "leather bag, handmade leather bag, handbag, woman leather bag, elegant leather bag, made in Italy handbag ",
+              "image": [
+                "../../Resources/Images/clothes3-3a.webp",
+                "../../Resources/Images/clothes3-3b.webp",
+                "../../Resources/Images/clothes3-3c.webp"
+              ],
+              "price": "288.50",
+              "discPrice": "577.00",
+              "discount": "50",
               "vendor": "OuferJewelry",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-04-17",
+                  "end": "2025-05-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
