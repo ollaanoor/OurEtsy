@@ -42,7 +42,6 @@
     <!--Subcategori Css-->
     <link rel="stylesheet" href="../CSS/subcat-style.css" />
     <!--footer nav-->
-    <link rel="stylesheet" href="../CSS/header.css" />
   </head>
   <body>
     <!--Header-->
@@ -240,9 +239,7 @@
         // speed: 600,----> Dont need it
       });
     </script>
-    <!-- Page Java script-->
-    <script src="../JS/categories.js"></script>
-    <script src="../JS/header.js" type="module"></script>
+    
     <div id="footer-placeholder"></div>
     <script>
       fetch("footer.html")
@@ -251,5 +248,8 @@
           document.getElementById("footer-placeholder").innerHTML = data;
         });
     </script>
+    <!-- Page Java script-->
+    <script src="../JS/categories.js"></script>
+    <script src="../JS/header.js" type="module"></script>
   </body>
 </html>
