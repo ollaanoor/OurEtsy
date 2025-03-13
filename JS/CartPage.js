@@ -158,12 +158,12 @@ function displayCartItems(data) {
                                     <div class="product-details-4">
                                         <div class="cart-item-details">
                                             <div class="cart-item-badge">
-                                                <span class="badge-text">Style: <span>
-                                                Satellite 16" +2" Ex [USD 26.18]
+                                                <span class="badge-text">${Object.keys(item.options)[0]}: <span>
+                                                ${Object.values(item.options)[0]}
                                                 </span></span>
                                             </div>
                                             <div class="cart-item-badge">
-                                                <span class="badge-text">Initial: <span>O</span></span>
+                                                <span class="badge-text">${Object.keys(item.options)[1]}: <span>${Object.values(item.options)[1]}</span></span>
                                             </div>
                                         </div>
                                         <div class="product-details-5">

@@ -27,7 +27,9 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <title>Product Details</title>
     <link rel="stylesheet" href="../CSS/productDetails.css" />
+    <link href="../CSS/header.css" rel="stylesheet">
     <link href="../CSS/HomePage.css" rel="stylesheet" />
+    <link href="../CSS/footer.css" rel="stylesheet">
   </head>
   <body class="productDetails">
     <div id="header-placeholder"></div>
@@ -117,14 +119,14 @@
 
           <div class="productForm">
             <form class="position-relative">
-              <label></label>
+              <label id="dropdown1-label"></label>
               <div class="dropdown">
                 <select class="form-control" required>
                   <option value="" disabled selected>Select an option</option>
                 </select>
                 <i class="fa fa-chevron-down arrow-icon arrow-gemstone"></i>
               </div>
-              <label></label>
+              <label id="dropdown2-label"></label>
               <div class="dropdown">
                 <select class="form-control" required>
                   <option value="" disabled selected>Select an option</option>
@@ -317,6 +319,7 @@
           document.getElementById("footer-placeholder").innerHTML = data;
         });
     </script>
+    <script src="../JS/header.js" type="module"></script>
     <script src="../JS/productDetails.js" type="module"></script>
   </body>
 </html>
