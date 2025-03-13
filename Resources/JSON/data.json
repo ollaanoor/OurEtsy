@@ -7616,7 +7616,7 @@
         {
           "id": 61,
           "name": "Bath Accessories",
-          "image": "../Resources/Images/bath-beauty.webp",
+          "image": "../Resources/Images/handcream3.webp",
           "formFields": {
             "material": {
               "label": "Material",
@@ -8181,7 +8181,7 @@
         {
           "id": 62,
           "name": "Skin Care",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/lp-balm.webp",
           "formFields": {
             "skinType": {
               "label": "Skin Type",
@@ -8231,8 +8231,7 @@
               "id": 621,
               "name": "Lavender Lip Balm & Hand Cream Combo",
               "image": [
-                "../Resources/Images/lp-balm.webp",
-                "../Resources/Images/tissue-box2.webp"
+                "../Resources/Images/lp-balm.webp"
               ],
               "price": "33.00",
               "discPrice": null,
@@ -8357,9 +8356,9 @@
               "id": 622,
               "name": "Body scrub | Handmade in New York | 7oz | Unscented | scrub",
               "image": [
-                "../Resources/Images/body-scrub-1",
-                "../Resources/Images/body-scrub-2",
-                "../Resources/Images/body-scrub-3"
+                "../Resources/Images/body-scrub-1.webp",
+                "../Resources/Images/body-scrub-2.webp",
+                "../Resources/Images/body-scrub-3.webp"
               ],
               "price": "13.65",
               "discPrice": "19.50",
@@ -8606,7 +8605,7 @@
         {
           "id": 63,
           "name": "Fragrances",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/sauvage1.avif",
           "formFields": {
             "scentType": {
               "label": "Scent Type",
@@ -8656,9 +8655,9 @@
               "id": 631,
               "name": "Collectible Perfume Miniature Sauvage Eau Forte 10ml Parfum Alcohol Free Mini Size Bottle (No Spray)",
               "image": [
-                "../Resources/Images/sauvage1.webp",
-                "../Resources/Images/sauvage2.webp",
-                "../Resources/Images/sauvage3.webp"
+                "../Resources/Images/sauvage1.avif",
+                "../Resources/Images/sauvage2.avif",
+                "../Resources/Images/sauvage3.avif"
               ],
               "price": null,
               "discPrice": "45.56",
@@ -8910,7 +8909,7 @@
         {
           "id": 64,
           "name": "Makeup & Cosmetics",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/brush-organizer-1.avif",
           "formFields": {
             "makeupType": {
               "label": "Makeup Type",
@@ -8960,9 +8959,9 @@
               "id": 641,
               "name": "Personalized Initials Portable Makeup Brush Organizer, Cosmetic Brushes Holder, Makeup Organizer Storage Bag, Custom Name Engraved Case",
               "image": [
-                "../Resources/Images/brush-organizer-1.webp",
-                "../Resources/Images/brush-organizer-2.webp",
-                "../Resources/Images/brush-organizer-3.webp"
+                "../Resources/Images/brush-organizer-1.avif",
+                "../Resources/Images/brush-organizer-2.avif",
+                "../Resources/Images/brush-organizer-3.avif"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -9087,9 +9086,9 @@
               "id": 642,
               "name": "Natural Lip Colors - Full Collection, Organic Ingredients, Holistic Makeup, Nontoxic Lip and Cheek Color, Nourishing Moisturizing Lipstick",
               "image": [
-                "../Resources/Images/lipStick1.webp",
-                "../Resources/Images/lipStick2.webp",
-                "../Resources/Images/lipStick3.webp"
+                "../Resources/Images/lipStick1.avif",
+                "../Resources/Images/lipStick2.avif",
+                "../Resources/Images/lipStick3.avif"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -9217,7 +9216,7 @@
         {
           "id": 65,
           "name": "Personal Care",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/Eye-pillow.avif",
           "formFields": {
             "productCategory": {
               "label": "Product Category",
@@ -9263,9 +9262,9 @@
               "id": 651,
               "name": "Weighted Heart Eye Pillow, hand dyed, filled with Flax, Lavender or Unscented, Hot Cold pack, Organic Cotton Mask Aromatherapy, soft tie dye",
               "image": [
-                "../Resources/Images/Eye-pillow.webp",
-                "../Resources/Images/Eye-pillow2.webp",
-                "../Resources/Images/Eye-pillow3.webp"
+                "../Resources/Images/Eye-pillow.avif",
+                "../Resources/Images/Eye-pillow2.avif",
+                "../Resources/Images/Eye-pillow3.avif"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -9529,7 +9528,7 @@
         {
           "id": 71,
           "name": "Pet Collars & Leashes",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/dog-harness-1.webp",
           "formFields": {
             "size": {
               "label": "Size",
@@ -9830,7 +9829,7 @@
         {
           "id": 72,
           "name": "Pet Furniture",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/dog-bed-1.webp",
           "formFields": {
             "furnitureType": {
               "label": "Furniture Type",
@@ -10006,7 +10005,7 @@
               "id": 722,
               "name": "Pet Bed for Car",
               "image": [
-                "../Resources/Images/pet-bed-car.png"
+                "../Resources/Images/pet-bed-car.webp"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -10257,7 +10256,7 @@
         {
           "id": 73,
           "name": "Pet Toys",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/bone-dog.webp",
           "formFields": {
             "toyType": {
               "label": "Toy Type",
@@ -10537,7 +10536,7 @@
         {
           "id": 74,
           "name": "Pet Bedding",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/round-bed-dog.webp",
           "formFields": {
             "bedType": {
               "label": "Bed Type",
@@ -10842,7 +10841,7 @@
         {
           "id": 75,
           "name": "Pet Clothing",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/dog-cloth1.webp",
           "formFields": {
             "size": {
               "label": "Size",
@@ -11019,7 +11018,7 @@
               "id": 752,
               "name": "Denim Pet Outfit | Durable Pet Vest | Fashionable Animal Wear | Cozy and Comfortable Outerwear | Spring & Autumn Pet Clothes",
               "image": [
-                "../Resources/Images/pet-vest.avif"
+                "../Resources/Images/dog-vest.avif"
               ],
               "price": "48.00",
               "discPrice": "59.99",
