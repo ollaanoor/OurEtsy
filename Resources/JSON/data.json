@@ -8,7 +8,7 @@
         {
           "id": 11,
           "name": "Earrings",
-          "image": "../Resources/Images/Jewelry/Earrings/earring1.avif",
+          "image": "../Resources/Images/jewelry-earrings.webp",
           "formFields": {
             "gemstone": {
               "label": "Gemstone",
@@ -63,24 +63,24 @@
               "id": 111,
               "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
               "image": [
-                "../Resources/Images/Jewelry/Earrings/earring11.webp",
-                "../Resources/Images/Jewelry/Earrings/earring12.webp",
-                "../Resources/Images/Jewelry/Earrings/earring13.webp",
-                "../Resources/Images/Jewelry/Earrings/earring14.webp"
+                "../Resources/Images/earrings1.webp",
+                "../Resources/Images/earrings2.webp",
+                "../Resources/Images/earrings3.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
               "vendor": "LewsinGemstone",
-              "vendorImg": "../Resources/Images/Vendors/LewsinGemstone.webp",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "materials": [
-                "18k gold",
-                "Silver"
+                "Rose gold",
+                "White gold",
+                "Yellow gold"
               ],
-              "gemColor": "White",
-              "bandColor": null,
-              "style": null,
+              "gemColor": "Colorless",
+              "bandColor": "Rose gold",
+              "style": "Art Deco",
               "personalized": true,
               "recycled": true,
               "madeToOrder": true,
@@ -89,7 +89,7 @@
                   "start": "2025-03-17",
                   "end": "2025-04-09"
                 },
-                "cost": 18.08,
+                "cost": 20.0,
                 "shipsFrom": "United States",
                 "returnsAcceptedWithinDays": 21
               },
@@ -98,7 +98,7 @@
                 {
                   "stars": 3,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Mariette",
+                  "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
                   "reviewerPhotoUrl": null,
@@ -186,29 +186,57 @@
                     "customerService": 5
                   }
                 }
+              ],
+              "vendorReviews": [
+                {
+                  "stars": 5,
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 4,
+                    "customerService": null
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                }
               ]
             },
             {
               "id": 112,
-              "name": "Tiny Stones Hoop Earrings Colorful Cz Hoop Rainbow Huggies Minimalist Multicolor CZ Hoop Earrings Birthstone Huggie Everyday Earrings Gifts",
+              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
               "image": [
-                "../Resources/Images/Jewelry/Earrings/earring21.webp",
-                "../Resources/Images/Jewelry/Earrings/earring22.webp",
-                "../Resources/Images/Jewelry/Earrings/earring23.webp"
+                "../Resources/Images/earrings31.webp",
+                "../Resources/Images/earrings32.webp",
+                "../Resources/Images/earrings33.webp"
               ],
-              "price": "25.19",
-              "discPrice": "35.99",
-              "discount": "30",
-              "vendor": "LeJewelryAtelier",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
+              "price": "11.24",
+              "discPrice": "14.99",
+              "discount": "25",
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
               "materials": [
-                "Silver",
+                "White gold",
                 "Yellow gold"
               ],
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "gemColor": "Colorless",
-              "bandColor": null,
-              "style": null,
+              "bandColor": "Rose gold",
+              "style": "Art Deco",
               "personalized": true,
               "recycled": false,
               "madeToOrder": true,
@@ -217,7 +245,7 @@
                   "start": "2025-02-17",
                   "end": "2025-03-09"
                 },
-                "cost": 20.08,
+                "cost": 20.0,
                 "shipsFrom": "United States",
                 "returnsAcceptedWithinDays": 21
               },
@@ -275,30 +303,57 @@
                     "customerService": 5
                   }
                 }
+              ],
+              "vendorReviews": [
+                {
+                  "stars": 5,
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": "../Resources/Images/Reviews/review4-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 4,
+                    "customerService": null
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                }
               ]
             },
             {
               "id": 113,
               "name": "Dainty Split Star Earrings, Cute Silver Star Earrings, Asymmetrical Star Earrings, Minimalist Earrings, Unique Girls Earrings, Gift for Her",
               "image": [
-                "../Resources/Images/Jewelry/Earrings/earring32.webp",
-                "../Resources/Images/Jewelry/Earrings/earring33.webp",
-                "../Resources/Images/Jewelry/Earrings/earring34.webp",
-                "../Resources/Images/Jewelry/Earrings/earring35.webp"
+                "../Resources/Images/earrings21.webp",
+                "../Resources/Images/earrings22.webp",
+                "../Resources/Images/earrings23.webp"
               ],
               "price": "28.53",
               "discPrice": null,
               "discount": null,
-              "vendor": "LewsinGemstone",
-              "vendorImg": "../Resources/Images/Vendors/LewsinGemstone.webp",
+              "vendor": "LoveandKissesCoSCO",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "materials": [
                 "Rose gold",
                 "Yellow gold"
               ],
               "gemColor": "Blue",
-              "bandColor": null,
-              "style": null,
+              "bandColor": "Rose gold",
+              "style": "Art Deco",
               "personalized": true,
               "recycled": true,
               "madeToOrder": true,
@@ -365,269 +420,28 @@
                     "customerService": 5
                   }
                 }
-              ]
-            },
-            {
-              "id": 114,
-              "name": "Dainty earrings, minimalist earrings, earrings set, gold earrings, small earrings, sterling silver, diamond earrings, stud earrings",
-              "image": [
-                "../Resources/Images/Jewelry/Earrings/earring41.webp",
-                "../Resources/Images/Jewelry/Earrings/earring42.webp",
-                "../Resources/Images/Jewelry/Earrings/earring43.webp"
               ],
-              "price": "18.42",
-              "discPrice": "26.31",
-              "discount": "30",
-              "vendor": "PetiteVagabonde",
-              "vendorImg": "../Resources/Images/vendor.png",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "materials": [
-                "Rose gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Multiple",
-              "bandColor": null,
-              "style": null,
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 6.14,
-                "shipsFrom": "France",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviewsNum": 56,
-              "reviews": [
+              "vendorReviews": [
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 4,
+                    "customerService": null
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
                   "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 115,
-              "name": "Dainty Leave Earrings, Open Huggie Hoop Earrings in Gold, Spiral Earrings, Minimalist Jewelry, Perfect Birthday Present, E81",
-              "image": [
-                "../Resources/Images/Jewelry/Earrings/earring51.webp",
-                "../Resources/Images/Jewelry/Earrings/earring52.webp",
-                "../Resources/Images/Jewelry/Earrings/earring53.webp",
-                "../Resources/Images/Jewelry/Earrings/earring54.webp"
-              ],
-              "price": "30.25",
-              "discPrice": "50.42",
-              "discount": "40",
-              "vendor": "LeJewelryAtelier",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "materials": [
-                "Gold",
-                "Silver"
-              ],
-              "gemColor": "Multiple",
-              "bandColor": null,
-              "style": null,
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 2.99,
-                "shipsFrom": "United States",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviewsNum": 56,
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 116,
-              "name": "Dainty & Minimalist Pave CZ Double Band Conch Ear Cuff Earrings",
-              "image": [
-                "../Resources/Images/Jewelry/Earrings/earring61.webp",
-                "../Resources/Images/Jewelry/Earrings/earring62.webp",
-                "../Resources/Images/Jewelry/Earrings/earring63.webp",
-                "../Resources/Images/Jewelry/Earrings/earring64.webp"
-              ],
-              "price": "14.03",
-              "discPrice": "16.51",
-              "discount": "15",
-              "vendor": "LeJewelryAtelier",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "materials": [
-                "Rose gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Multiple",
-              "bandColor": null,
-              "style": null,
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 6.72,
-                "shipsFrom": "Spain",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviewsNum": 56,
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-earring.avif",
-                  "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
@@ -641,7 +455,7 @@
         {
           "id": 12,
           "name": "Necklaces",
-          "image": "../Resources/Images/Jewelry/Necklaces/necklaces.webp",
+          "image": "../Resources/Images/jewelry-necklaces.webp",
           "formFields": {
             "gemstone": {
               "label": "Gemstone",
@@ -694,18 +508,15 @@
           "products": [
             {
               "id": 121,
-              "name": "Sun and Moon Necklace, Sunshine and Moonlight Necklace, Gold Sun Necklace, Silver Moon Necklace, Couple Matching Jewelry, Best Gift for Her",
+              "name": "Pendant Necklace, 18K Gold Necklace, Wedding Necklace, Anniversary Gift, Bridal Gift, Grandma Gift, Christmas Gift for Her",
               "image": [
-                "../Resources/Images/Jewelry/Necklaces/necklace11.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace12.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace13.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace14.webp"
+                "../Resources/Images/neck1.png"
               ],
-              "price": "16.39",
-              "discPrice": "23.41",
+              "price": "15.40",
+              "discPrice": "22.00",
               "discount": "30",
-              "vendor": "helloMiaMeilleur",
-              "vendorImg": "../Resources/Images/Vendors/LewsinGemstone.webp",
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "materials": [
                 "Rose gold",
@@ -722,8 +533,8 @@
                   "start": "2025-05-17",
                   "end": "2025-06-09"
                 },
-                "cost": 35.08,
-                "shipsFrom": "United Kingdom",
+                "cost": 35.0,
+                "shipsFrom": "France",
                 "returnsAcceptedWithinDays": 21
               },
               "reviewsNum": 305,
@@ -780,23 +591,47 @@
                     "customerService": 5
                   }
                 }
+              ],
+              "vendorReviews": [
+                {
+                  "stars": 5,
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": "../Resources/Images/Reviews/review3-necklace.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 4,
+                    "customerService": null
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                }
               ]
             },
             {
               "id": 122,
-              "name": "Custom Birthflower Necklace with Birthstone, Family Birth Flower Necklacce, Birth Month Necklace, Bridesmaids Gift for Her, Mothers Day Gift",
+              "name": "Butterfly Birthstone Necklace, 18K Gold Necklace, Wedding Necklace, Anniversary Gift, Bridal Gift, Grandma Gift, Christmas Gift for Her",
               "image": [
-                "../Resources/Images/Jewelry/Necklaces/necklace21.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace22.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace23.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace24.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace25.webp"
+                "../Resources/Images/neck2.png"
               ],
-              "price": "13.52",
-              "discPrice": "27.04",
-              "discount": "50",
-              "vendor": "EliteBiBiGlam",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
+              "price": "19.68",
+              "discPrice": "26.24",
+              "discount": "25",
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "reviewsNum": 45,
               "materials": [
@@ -815,8 +650,8 @@
                   "start": "2025-03-17",
                   "end": "2025-04-09"
                 },
-                "cost": 33.83,
-                "shipsFrom": "United Kingdom",
+                "cost": 20.0,
+                "shipsFrom": "United States",
                 "returnsAcceptedWithinDays": 21
               },
               "reviews": [
@@ -872,23 +707,47 @@
                     "customerService": 5
                   }
                 }
+              ],
+              "vendorReviews": [
+                {
+                  "stars": 5,
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": "../Resources/Images/Reviews/review2-necklace.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 4,
+                    "customerService": null
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "photoUrl": "../Resources/Images/Reviews/review3-necklace.webp",
+                  "reviewerPhotoUrl": null,
+                  "date": "2025-02-05",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                }
               ]
             },
             {
               "id": 123,
-              "name": "Dainty Floral Pendant Necklace, Minimal Flower Charm, Birth Month Necklace, Bridal Gifts | 14k Gold Fill, Sterling Silver, Rose Gold | LN209",
+              "name": "Sun and Moon Necklace, Sunshine and Moonlight Necklace, Gold Sun Necklace, Silver Moon Necklace, Couple Matching Jewelry, Best Gift for Her",
               "image": [
-                "../Resources/Images/Jewelry/Necklaces/necklace31.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace32.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace33.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace34.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace35.webp"
+                "../Resources/Images/neck3.png"
               ],
-              "price": "60.00",
-              "discPrice": null,
-              "discount": null,
-              "vendor": "GLDNxLayeredAndLong",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
+              "price": "87.74",
+              "discPrice": "116.99",
+              "discount": "25",
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "reviewsNum": 10,
               "materials": [
@@ -906,8 +765,8 @@
                   "start": "2025-05-17",
                   "end": "2025-06-09"
                 },
-                "cost": 7.95,
-                "shipsFrom": "United States",
+                "cost": 35.0,
+                "shipsFrom": "France",
                 "returnsAcceptedWithinDays": 21
               },
               "reviews": [
@@ -963,270 +822,28 @@
                     "customerService": 5
                   }
                 }
-              ]
-            },
-            {
-              "id": 124,
-              "name": "Family Birth Flower Bouquet Necklace, Engraved Birthflower Pendant, Mother‘s day Gift for Grandma, Birthstone Jewelry, Birthday Gift for Her",
-              "image": [
-                "../Resources/Images/Jewelry/Necklaces/necklace41.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace42.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace43.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace44.webp"
               ],
-              "price": "19.49",
-              "discPrice": "48.71",
-              "discount": "60",
-              "vendor": "MonyJewelryStudio",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 10,
-              "materials": [
-                "Rose gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Blue",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 7.95,
-                "shipsFrom": "United Kingdom",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
+              "vendorReviews": [
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-necklace.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
                   "photoUrl": null,
-                  "reviewerPhotoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
                   "ratings": {
                     "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
+                    "shipping": 4,
+                    "customerService": null
                   }
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review2-necklace.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 125,
-              "name": "Lovers Birthstone Matching Heart Necklace, Minimalist Birthstone Necklace, Wedding Necklace, Anniversary Gift for Girlfriend, Love Gift",
-              "image": [
-                "../Resources/Images/Jewelry/Necklaces/necklace51.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace52.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace53.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace54.webp"
-              ],
-              "price": "26.73",
-              "discPrice": "53.45",
-              "discount": "50",
-              "vendor": "AuroraSparkleStudio",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 10,
-              "materials": [
-                "Rose gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Blue",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 33.83,
-                "shipsFrom": "United Kingdom",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-necklace.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
                   "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review2-necklace.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 126,
-              "name": "Gold Heart Necklace - Handmade Heart Pendant - Simple Heart Pendant - Floating Heart Pendant - Open Heart Necklace - Christmas Gift",
-              "image": [
-                "../Resources/Images/Jewelry/Necklaces/necklace61.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace62.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace63.webp",
-                "../Resources/Images/Jewelry/Necklaces/necklace64.webp"
-              ],
-              "price": "24.99",
-              "discPrice": "83.31",
-              "discount": "70",
-              "vendor": "sunwangemsbysaanvi",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 10,
-              "materials": [
-                "Rose gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Blue",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 7.95,
-                "shipsFrom": "India",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-necklace.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review2-necklace.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
@@ -1240,7 +857,7 @@
         {
           "id": 13,
           "name": "Rings",
-          "image": "../Resources/Images/Jewelry/Rings/ring.webp",
+          "image": "../Resources/Images/jewelry-rings2.webp",
           "formFields": {
             "gemstone": {
               "label": "Gemstone",
@@ -1293,19 +910,17 @@
           "products": [
             {
               "id": 131,
-              "name": "Mini Toi et Moi Birthstone Ring by Caitlyn Minimalist • Custom Baguette & Pear Cut Promise Ring • Couples Jewelry • Gift for Her • RM147",
+              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
               "image": [
-                "../Resources/Images/Jewelry/Rings/ring11.webp",
-                "../Resources/Images/Jewelry/Rings/ring12.webp",
-                "../Resources/Images/Jewelry/Rings/ring13.webp",
-                "../Resources/Images/Jewelry/Rings/ring14.webp",
-                "../Resources/Images/Jewelry/Rings/ring15.webp"
+                "../Resources/Images/earrings1.webp",
+                "../Resources/Images/earrings2.webp",
+                "../Resources/Images/earrings3.webp"
               ],
-              "price": "23.10",
-              "discPrice": "33.00",
+              "price": "15.40",
+              "discPrice": "22.00",
               "discount": "30",
-              "vendor": "CaitlynMinimalist",
-              "vendorImg": "../Resources/Images/Vendors/LewsinGemstone.webp",
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "reviewsNum": 24,
               "materials": [
@@ -1324,7 +939,7 @@
                   "start": "2025-03-17",
                   "end": "2025-04-09"
                 },
-                "cost": 26.99,
+                "cost": 20.0,
                 "shipsFrom": "United States",
                 "returnsAcceptedWithinDays": 21
               },
@@ -1381,112 +996,47 @@
                     "customerService": 5
                   }
                 }
+              ],
+              "vendorReviews": [
+                {
+                  "stars": 5,
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": "../Resources/Images/Reviews/review4-ring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 4,
+                    "customerService": null
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
+                  "photoUrl": "../Resources/Images/Reviews/review1-ring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                }
               ]
             },
             {
               "id": 132,
-              "name": "Custom Heart Birthstone Ring, Pear Cut 2 Birthstone Ring, Custom Stacking Ring, Christmas Gifts, Gift for Mom/Mother, Birthday Gift for Her",
+              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
               "image": [
-                "../Resources/Images/Jewelry/Rings/ring21.webp",
-                "../Resources/Images/Jewelry/Rings/ring22.webp",
-                "../Resources/Images/Jewelry/Rings/ring23.webp"
+                ""
               ],
-              "price": "19.34",
-              "discPrice": "38.67",
-              "discount": "50",
-              "vendor": "CLDaintyJewelry",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 30,
-              "materials": [
-                "Rose gold",
-                "White gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Colorless",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-03-17",
-                  "end": "2025-04-09"
-                },
-                "cost": 20.0,
-                "shipsFrom": "United Kingdom",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-ring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-ring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": null
-                  }
-                }
-              ]
-            },
-            {
-              "id": 133,
-              "name": "Mothers Ring 2, 3, 4 , 5 6 Stone, Birthstone Ring for Mom, Mothers Day Gift, Personalized Birthstone Jewelry Gift for Her, Personalized Ring",
-              "image": [
-                "../Resources/Images/Jewelry/Rings/ring31.webp",
-                "../Resources/Images/Jewelry/Rings/ring32.webp",
-                "../Resources/Images/Jewelry/Rings/ring33.webp",
-                "../Resources/Images/Jewelry/Rings/ring34.webp"
-              ],
-              "price": "31.50",
-              "discPrice": "45.00",
-              "discount": "30",
-              "vendor": "KaliPureGold",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
+              "price": 14.99,
+              "discPrice": 11.24,
+              "discount": 25,
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "reviewsNum": 30,
               "materials": [
@@ -1562,276 +1112,32 @@
                     "customerService": null
                   }
                 }
-              ]
-            },
-            {
-              "id": 134,
-              "name": "14k Gold Emerald Promise Ring, Solitaire Ring with Stacking Bands, Christmas Gift for Women Mom, Gold Jewellery Gift on 925 Sterling Silver",
-              "image": [
-                "../Resources/Images/Jewelry/Rings/ring41.webp",
-                "../Resources/Images/Jewelry/Rings/ring42.webp",
-                "../Resources/Images/Jewelry/Rings/ring43.webp",
-                "../Resources/Images/Jewelry/Rings/ring44.webp"
               ],
-              "price": "71.04",
-              "discPrice": "94.72",
-              "discount": "25",
-              "vendor": "noamare",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 30,
-              "materials": [
-                "Rose gold",
-                "White gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Colorless",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-03-17",
-                  "end": "2025-04-09"
-                },
-                "cost": 20.0,
-                "shipsFrom": "United Kingdom",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
+              "vendorReviews": [
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-ring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Alice_James.jpg",
                   "ratings": {
                     "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
+                    "shipping": 4,
+                    "customerService": null
                   }
                 },
                 {
                   "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
                   "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
                     "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-ring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": null
-                  }
-                }
-              ]
-            },
-            {
-              "id": 135,
-              "name": "Vintage marquise moissanite engagement ring rose gold half eternity vine twisted gold leaf ring diamond Ring twist anniversary promise ring",
-              "image": [
-                "../Resources/Images/Jewelry/Rings/ring51.webp",
-                "../Resources/Images/Jewelry/Rings/ring52.webp",
-                "../Resources/Images/Jewelry/Rings/ring53.webp",
-                "../Resources/Images/Jewelry/Rings/ring54.webp"
-              ],
-              "price": "699.00",
-              "discPrice": null,
-              "discount": null,
-              "vendor": "Nicolajewelryco",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 30,
-              "materials": [
-                "Rose gold",
-                "White gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Colorless",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-03-17",
-                  "end": "2025-04-09"
-                },
-                "cost": 45.25,
-                "shipsFrom": "United States",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-ring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-ring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": null
-                  }
-                }
-              ]
-            },
-            {
-              "id": 136,
-              "name": "Oval cut Moissanite Engagement ring set Vintage Yellow Gold Bridal ring set Diamond wedding ring set for Women Promise Anniversary ring",
-              "image": [
-                "../Resources/Images/Jewelry/Rings/ring61.webp",
-                "../Resources/Images/Jewelry/Rings/ring62.webp",
-                "../Resources/Images/Jewelry/Rings/ring63.webp"
-              ],
-              "price": "318.50",
-              "discPrice": "490.00",
-              "discount": "35",
-              "vendor": "BrucejewelryStore",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 30,
-              "materials": [
-                "Rose gold",
-                "White gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Colorless",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-03-17",
-                  "end": "2025-04-09"
-                },
-                "cost": 20.08,
-                "shipsFrom": "Canada",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-ring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-ring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": null
                   }
                 }
               ]
@@ -1841,7 +1147,7 @@
         {
           "id": 14,
           "name": "Bracelets",
-          "image": "../Resources/Images/Jewelry/Bracelets/bracelet.webp",
+          "image": "../Resources/Images/jewelry-bracelets.webp",
           "formFields": {
             "gemstone": {
               "label": "Gemstone",
@@ -1894,18 +1200,17 @@
           "products": [
             {
               "id": 141,
-              "name": "Real Freshwater Pearl Wreath Bracelet,Pearl beaded charm bracelet,Dainty pearl bracelet,Minimalist gold pearl bracelet,Bracelet for women",
+              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
               "image": [
-                "../Resources/Images/Jewelry/Bracelets/bracelet11.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet12.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet13.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet14.webp"
+                "../Resources/Images/earrings1.webp",
+                "../Resources/Images/earrings2.webp",
+                "../Resources/Images/earrings3.webp"
               ],
-              "price": "18.55",
-              "discPrice": "41.22",
-              "discount": "55",
-              "vendor": "KarabearDesign",
-              "vendorImg": "../Resources/Images/Vendors/LewsinGemstone.webp",
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "30",
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "reviewsNum": 25,
               "materials": [
@@ -1924,7 +1229,7 @@
                   "start": "2025-03-17",
                   "end": "2025-04-09"
                 },
-                "cost": 20.05,
+                "cost": 20.0,
                 "shipsFrom": "United States",
                 "returnsAcceptedWithinDays": 21
               },
@@ -1981,22 +1286,47 @@
                     "customerService": 5
                   }
                 }
+              ],
+              "vendorReviews": [
+                {
+                  "stars": 5,
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": "../Resources/Images/Reviews/review4-bracelet.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 4,
+                    "customerService": null
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": null,
+                    "customerService": 5
+                  }
+                }
               ]
             },
             {
               "id": 142,
-              "name": "Birth Flower Bracelet with Birthstone, Custom Birth Flower Bracelet, Initial Bracelet, Mom Family Birthflower Gift, Birthday Gift for Her",
+              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
               "image": [
-                "../Resources/Images/Jewelry/Bracelets/bracelet21.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet22.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet23.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet24.webp"
+                ""
               ],
-              "price": "13.52",
-              "discPrice": "27.04",
-              "discount": "50",
-              "vendor": "EliteBiBiGlam",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
+              "price": "11.24",
+              "discPrice": "14.99",
+              "discount": "25",
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "reviewsNum": 70,
               "materials": [
@@ -2014,8 +1344,8 @@
                   "start": "2025-05-17",
                   "end": "2025-06-09"
                 },
-                "cost": 33.83,
-                "shipsFrom": "United Kingdom",
+                "cost": 35.0,
+                "shipsFrom": "France",
                 "returnsAcceptedWithinDays": 21
               },
               "reviews": [
@@ -2071,354 +1401,27 @@
                     "customerService": 5
                   }
                 }
-              ]
-            },
-            {
-              "id": 143,
-              "name": "Custom Heart Birthstone Bracelet, 2 Birthstones Bracelet, Mother and Daughter Bracelet, Anniversry Gift, Mothers Gift, Mother's Day Gift",
-              "image": [
-                "../Resources/Images/Jewelry/Bracelets/bracelet31.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet32.webp"
               ],
-              "price": "21.64",
-              "discPrice": "43.27",
-              "discount": "50",
-              "vendor": "AnyaShopStudio",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 70,
-              "materials": [
-                "Rose gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Blue",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 27.06,
-                "shipsFrom": "United Kingdom",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
+              "vendorReviews": [
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
                   "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
+                    "shipping": 4,
+                    "customerService": null
                   }
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-bracelet.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-bracelet.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 144,
-              "name": "Bridesmaids Bracelet Gifts, Adjustable Best friend Personalized initial Bracelet, flower girl Bracelet, Dainty leaf Bracelets,Forest Wedding",
-              "image": [
-                "../Resources/Images/Jewelry/Bracelets/bracelet41.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet42.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet43.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet44.webp"
-              ],
-              "price": "13.16",
-              "discPrice": "20.24",
-              "discount": "35",
-              "vendor": "birdshome",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 70,
-              "materials": [
-                "Rose gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Blue",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 6.99,
-                "shipsFrom": "China",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
                   "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-bracelet.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-bracelet.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 145,
-              "name": "Personalized Birth Flower Bracelet, Birth flower Family Bracelet, Personalized Gifts for Mom, Birthday Gift, Meaningful Gift for Her",
-              "image": [
-                "../Resources/Images/Jewelry/Bracelets/bracelet53.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet54.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet55.webp"
-              ],
-              "price": "21.64",
-              "discPrice": "43.27",
-              "discount": "50",
-              "vendor": "EliteBiBiGlam",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 70,
-              "materials": [
-                "Rose gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Blue",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 33.83,
-                "shipsFrom": "United Kingdom",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-bracelet.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-bracelet.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 146,
-              "name": "Bracelets for Women with Multiple Stones, Personalized Christmas Jewelry, Grandma Gift for Her, Minimalist Best Friend Birthday Gift for Mom",
-              "image": [
-                "../Resources/Images/Jewelry/Bracelets/bracelet61.webp",
-                "../Resources/Images/Jewelry/Bracelets/bracelet63.webp"
-              ],
-              "price": "25.03",
-              "discPrice": "50.07",
-              "discount": "50",
-              "vendor": "FujeJewellery",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 70,
-              "materials": [
-                "Rose gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Blue",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-05-17",
-                  "end": "2025-06-09"
-                },
-                "cost": 6.75,
-                "shipsFrom": "United Kingdom",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-bracelet.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review4-bracelet.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
@@ -2433,7 +1436,7 @@
         {
           "id": 15,
           "name": "Watches",
-          "image": "../Resources/Images/Jewelry/Watches/watch.webp",
+          "image": "../Resources/Images/watch4.png",
           "formFields": {
             "watchType": {
               "label": "Watch Type",
@@ -2490,19 +1493,15 @@
           "products": [
             {
               "id": 151,
-              "name": "Small Gold Wrist Watch, Vintage Watch, Vintage Women's Watch, Handmade, Watch for Women, Minimalist Women's Watch, Women Watch, Gold Watch",
+              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
               "image": [
-                "../Resources/Images/Jewelry/Watches/watch11.webp",
-                "../Resources/Images/Jewelry/Watches/watch12.webp",
-                "../Resources/Images/Jewelry/Watches/watch13.webp",
-                "../Resources/Images/Jewelry/Watches/watch14.webp",
-                "../Resources/Images/Jewelry/Watches/watch15.webp"
+                "../Resources/Images/watch1.png"
               ],
-              "price": "67.28",
-              "discPrice": "96.12",
+              "price": "15.40",
+              "discPrice": "22.00",
               "discount": "30",
-              "vendor": "ARZUERGUN",
-              "vendorImg": "../Resources/Images/Vendors/LewsinGemstone.webp",
+              "vendor": "LewsinGemstone",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "reviewsNum": 50,
               "materials": [
@@ -2520,8 +1519,8 @@
                   "start": "2025-05-17",
                   "end": "2025-06-09"
                 },
-                "cost": 35.04,
-                "shipsFrom": "Turkiye",
+                "cost": 35.0,
+                "shipsFrom": "France",
                 "returnsAcceptedWithinDays": 21
               },
               "reviews": [
@@ -2577,22 +1576,47 @@
                     "customerService": 5
                   }
                 }
+              ],
+              "vendorReviews": [
+                {
+                  "stars": 5,
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": "../Resources/Images/Reviews/review1-bracelet.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 4,
+                    "customerService": null
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
+                  "photoUrl": "../Resources/Images/Reviews/review2-bracelet.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                }
               ]
             },
             {
               "id": 152,
-              "name": "Faux leather watch vintage style gold and brown",
+              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
               "image": [
-                "../Resources/Images/Jewelry/Watches/watch21.webp",
-                "../Resources/Images/Jewelry/Watches/watch22.webp",
-                "../Resources/Images/Jewelry/Watches/watch23.webp",
-                "../Resources/Images/Jewelry/Watches/watch24.webp"
+                "../Resources/Images/watch2.png"
               ],
-              "price": "45.44",
-              "discPrice": null,
-              "discount": null,
-              "vendor": "vintimeless",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
+              "price": "11.24",
+              "discPrice": "14.99",
+              "discount": "25",
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "reviewsNum": 54,
               "materials": [
@@ -2611,8 +1635,8 @@
                   "start": "2025-03-17",
                   "end": "2025-04-09"
                 },
-                "cost": 20.08,
-                "shipsFrom": "France",
+                "cost": 20.0,
+                "shipsFrom": "United States",
                 "returnsAcceptedWithinDays": 21
               },
               "reviews": [
@@ -2668,23 +1692,47 @@
                     "customerService": 5
                   }
                 }
+              ],
+              "vendorReviews": [
+                {
+                  "stars": 5,
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 4,
+                    "customerService": null
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                }
               ]
             },
             {
-              "id": 153,
-              "name": "Small Gold Wrist Watch, Vintage Watch, Vintage Women's Watch, Handmade, Watch for Women, Minimalist Women's Watch, Women Watch, Gold Watch",
+              "id": 152,
+              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
               "image": [
-                "../Resources/Images/Jewelry/Watches/watch31.webp",
-                "../Resources/Images/Jewelry/Watches/watch32.webp",
-                "../Resources/Images/Jewelry/Watches/watch33.avif",
-                "../Resources/Images/Jewelry/Watches/watch34.webp",
-                "../Resources/Images/Jewelry/Watches/watch35.avif"
+                "../Resources/Images/watch4.png"
               ],
-              "price": "61.35",
-              "discPrice": "87.64",
-              "discount": "30",
-              "vendor": "MomentumTimepieces",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
+              "price": "11.24",
+              "discPrice": "14.99",
+              "discount": "25",
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
               "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
               "reviewsNum": 66,
               "materials": [
@@ -2703,7 +1751,7 @@
                   "start": "2025-03-17",
                   "end": "2025-04-09"
                 },
-                "cost": 20.02,
+                "cost": 20.0,
                 "shipsFrom": "United States",
                 "returnsAcceptedWithinDays": 21
               },
@@ -2760,274 +1808,28 @@
                     "customerService": 5
                   }
                 }
-              ]
-            },
-            {
-              "id": 154,
-              "name": "Vintage Pearl Watch, Anniversary Jewelry Gift For Her, Freshwater Pearl Gold Watch Gift, Women Gold Watch Bracelet, Minimalist Jewelry Gift",
-              "image": [
-                "../Resources/Images/Jewelry/Watches/watch41.webp",
-                "../Resources/Images/Jewelry/Watches/watch42.webp",
-                "../Resources/Images/Jewelry/Watches/watch43.webp"
               ],
-              "price": "34.99",
-              "discPrice": "69.98",
-              "discount": "50",
-              "vendor": "MomentumTimepieces",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 66,
-              "materials": [
-                "Rose gold",
-                "White gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Colorless",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-03-17",
-                  "end": "2025-04-09"
-                },
-                "cost": 18.08,
-                "shipsFrom": "United States",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
+              "vendorReviews": [
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "text": "LewsinGemstone always provides excellent service and quality products.",
+                  "author": "Emily Johnson",
+                  "date": "2025-01-20",
+                  "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
+                    "shipping": 4,
+                    "customerService": null
                   }
                 },
                 {
                   "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 155,
-              "name": "Vintage Style Women’s Wristwatch – Black and Brown Leather Strap, Retro Roman Numeral Elegant Watch",
-              "image": [
-                "../Resources/Images/Jewelry/Watches/watch51.webp",
-                "../Resources/Images/Jewelry/Watches/watch52.webp",
-                "../Resources/Images/Jewelry/Watches/watch53.webp",
-                "../Resources/Images/Jewelry/Watches/watch54.avif",
-                "../Resources/Images/Jewelry/Watches/watch55.avif"
-              ],
-              "price": "61.35",
-              "discPrice": "87.64",
-              "discount": "30",
-              "vendor": "ARZUERGUN",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 66,
-              "materials": [
-                "Rose gold",
-                "White gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Colorless",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-03-17",
-                  "end": "2025-04-09"
-                },
-                "cost": 20.02,
-                "shipsFrom": "Turkiye",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "text": "Very satisfied with my purchase. Will buy again!",
+                  "author": "Michael Brown",
+                  "date": "2025-02-05",
+                  "photoUrl": "../Resources/Images/Reviews/review1-necklace.webp",
                   "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                }
-              ]
-            },
-            {
-              "id": 156,
-              "name": "women Watch, Small Gold Watch, Vintage Watch, Minimalist women Watch, Gift For Her, Women Wristwatch, daily Watch, elegant women Watch,'s Watch, Handmade, Watch for Women, Minimalist Women's Watch, Women Watch, Gold Watch",
-              "image": [
-                "../Resources/Images/Jewelry/Watches/watch61.avif",
-                "../Resources/Images/Jewelry/Watches/watch62.avif",
-                "../Resources/Images/Jewelry/Watches/watch63.webp",
-                "../Resources/Images/Jewelry/Watches/watch64.webp",
-                "../Resources/Images/Jewelry/Watches/watch65.webp"
-              ],
-              "price": "61.35",
-              "discPrice": "87.64",
-              "discount": "30",
-              "vendor": "ARZUERGUN",
-              "vendorImg": "../Resources/Images/Vendors/LeJewelryAtelier.webp",
-              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
-              "reviewsNum": 66,
-              "materials": [
-                "Rose gold",
-                "White gold",
-                "Yellow gold"
-              ],
-              "gemColor": "Colorless",
-              "bandColor": "Rose gold",
-              "style": "Art Deco",
-              "personalized": true,
-              "recycled": true,
-              "madeToOrder": true,
-              "shipping": {
-                "estimatedDelivery": {
-                  "start": "2025-03-17",
-                  "end": "2025-04-09"
-                },
-                "cost": 20.02,
-                "shipsFrom": "Turkie",
-                "returnsAcceptedWithinDays": 21
-              },
-              "reviews": [
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/John_Smith.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 5,
@@ -7956,7 +6758,7 @@
               "id": 451,
               "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
               "image": [
-                ""
+                "../Resources/Images/hats.png"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -8062,7 +6864,7 @@
               "id": 452,
               "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
               "image": [
-                ""
+                "../Resources/Images/hats.png"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -8176,7 +6978,7 @@
         {
           "id": 51,
           "name": "Baby Clothes",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/baby-cloth.webp",
           "formFields": {
             "size": {
               "label": "Size",
@@ -8240,17 +7042,15 @@
           "products": [
             {
               "id": 511,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Winter Muslin Baby Pants & Long Sleeve T-shirt Set , Unisex,Baby Shower Gift,muslin baby clothes,baby jumpsuit, organic baby clothes",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/baby-cloth.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
               "vendor": "LewsinGemstone",
-              "vendorImg": "../Resources/Images/vendor.png",
+              "vendorImg": "../Resources/Images/baby-cloth.webp",
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8348,9 +7148,9 @@
             },
             {
               "id": 512,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Winter Muslin Baby Pants & Long Sleeve T-shirt Set , Unisex,Baby Shower Gift,muslin baby clothes,baby jumpsuit, organic baby clothes",
               "image": [
-                ""
+                "../Resources/Images/baby-cloth.webp"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -8810,7 +7610,7 @@
         {
           "id": 61,
           "name": "Bath Accessories",
-          "image": "../Resources/Images/bath-beauty.webp",
+          "image": "../Resources/Images/handcream3.webp",
           "formFields": {
             "material": {
               "label": "Material",
@@ -9375,7 +8175,7 @@
         {
           "id": 62,
           "name": "Skin Care",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/lp-balm.webp",
           "formFields": {
             "skinType": {
               "label": "Skin Type",
@@ -9425,8 +8225,7 @@
               "id": 621,
               "name": "Lavender Lip Balm & Hand Cream Combo",
               "image": [
-                "../Resources/Images/lp-balm.webp",
-                "../Resources/Images/tissue-box2.webp"
+                "../Resources/Images/lp-balm.webp"
               ],
               "price": "33.00",
               "discPrice": null,
@@ -9551,9 +8350,9 @@
               "id": 622,
               "name": "Body scrub | Handmade in New York | 7oz | Unscented | scrub",
               "image": [
-                "../Resources/Images/body-scrub-1",
-                "../Resources/Images/body-scrub-2",
-                "../Resources/Images/body-scrub-3"
+                "../Resources/Images/body-scrub-1.webp",
+                "../Resources/Images/body-scrub-2.webp",
+                "../Resources/Images/body-scrub-3.webp"
               ],
               "price": "13.65",
               "discPrice": "19.50",
@@ -9800,7 +8599,7 @@
         {
           "id": 63,
           "name": "Fragrances",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/sauvage1.avif",
           "formFields": {
             "scentType": {
               "label": "Scent Type",
@@ -9850,9 +8649,9 @@
               "id": 631,
               "name": "Collectible Perfume Miniature Sauvage Eau Forte 10ml Parfum Alcohol Free Mini Size Bottle (No Spray)",
               "image": [
-                "../Resources/Images/sauvage1.webp",
-                "../Resources/Images/sauvage2.webp",
-                "../Resources/Images/sauvage3.webp"
+                "../Resources/Images/sauvage1.avif",
+                "../Resources/Images/sauvage2.avif",
+                "../Resources/Images/sauvage3.avif"
               ],
               "price": null,
               "discPrice": "45.56",
@@ -10104,7 +8903,7 @@
         {
           "id": 64,
           "name": "Makeup & Cosmetics",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/brush-organizer-1.avif",
           "formFields": {
             "makeupType": {
               "label": "Makeup Type",
@@ -10154,9 +8953,9 @@
               "id": 641,
               "name": "Personalized Initials Portable Makeup Brush Organizer, Cosmetic Brushes Holder, Makeup Organizer Storage Bag, Custom Name Engraved Case",
               "image": [
-                "../Resources/Images/brush-organizer-1.webp",
-                "../Resources/Images/brush-organizer-2.webp",
-                "../Resources/Images/brush-organizer-3.webp"
+                "../Resources/Images/brush-organizer-1.avif",
+                "../Resources/Images/brush-organizer-2.avif",
+                "../Resources/Images/brush-organizer-3.avif"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -10281,9 +9080,9 @@
               "id": 642,
               "name": "Natural Lip Colors - Full Collection, Organic Ingredients, Holistic Makeup, Nontoxic Lip and Cheek Color, Nourishing Moisturizing Lipstick",
               "image": [
-                "../Resources/Images/lipStick1.webp",
-                "../Resources/Images/lipStick2.webp",
-                "../Resources/Images/lipStick3.webp"
+                "../Resources/Images/lipStick1.avif",
+                "../Resources/Images/lipStick2.avif",
+                "../Resources/Images/lipStick3.avif"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -10411,7 +9210,7 @@
         {
           "id": 65,
           "name": "Personal Care",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/Eye-pillow.avif",
           "formFields": {
             "productCategory": {
               "label": "Product Category",
@@ -10457,9 +9256,9 @@
               "id": 651,
               "name": "Weighted Heart Eye Pillow, hand dyed, filled with Flax, Lavender or Unscented, Hot Cold pack, Organic Cotton Mask Aromatherapy, soft tie dye",
               "image": [
-                "../Resources/Images/Eye-pillow.webp",
-                "../Resources/Images/Eye-pillow2.webp",
-                "../Resources/Images/Eye-pillow3.webp"
+                "../Resources/Images/Eye-pillow.avif",
+                "../Resources/Images/Eye-pillow2.avif",
+                "../Resources/Images/Eye-pillow3.avif"
               ],
               "price": "15.40",
               "discPrice": "22.00",
@@ -10723,7 +9522,7 @@
         {
           "id": 71,
           "name": "Pet Collars & Leashes",
-          "image": "",
+          "image": "../Resources/Images/dog-harness-1.webp",
           "formFields": {
             "size": {
               "label": "Size",
@@ -11024,7 +9823,7 @@
         {
           "id": 72,
           "name": "Pet Furniture",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/dog-bed-1.webp",
           "formFields": {
             "furnitureType": {
               "label": "Furniture Type",
@@ -11200,7 +9999,7 @@
               "id": 722,
               "name": "Pet Bed for Car",
               "image": [
-                "../Resources/Images/pet-bed-car.png"
+                "../Resources/Images/pet-bed-car.webp"
               ],
               "price": "11.24",
               "discPrice": "14.99",
@@ -11451,7 +10250,7 @@
         {
           "id": 73,
           "name": "Pet Toys",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/bone-dog.webp",
           "formFields": {
             "toyType": {
               "label": "Toy Type",
@@ -11731,7 +10530,7 @@
         {
           "id": 74,
           "name": "Pet Bedding",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/round-bed-dog.webp",
           "formFields": {
             "bedType": {
               "label": "Bed Type",
@@ -12036,7 +10835,7 @@
         {
           "id": 75,
           "name": "Pet Clothing",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/dog-cloth1.webp",
           "formFields": {
             "size": {
               "label": "Size",
@@ -12213,7 +11012,7 @@
               "id": 752,
               "name": "Denim Pet Outfit | Durable Pet Vest | Fashionable Animal Wear | Cozy and Comfortable Outerwear | Spring & Autumn Pet Clothes",
               "image": [
-                "../Resources/Images/pet-vest.avif"
+                "../Resources/Images/dog-vest.avif"
               ],
               "price": "48.00",
               "discPrice": "59.99",
