@@ -64,7 +64,7 @@ if (headerContainer) {
     });
 
     // Get the header container
-    // const cartbadge = document.getElementById('cart-badge');
+    const cartbadge = document.getElementById('cart-badge');
 
     // Ensure the header container exists before proceeding
     if (cartbadge) {
