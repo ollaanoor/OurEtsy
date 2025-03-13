@@ -4253,15 +4253,139 @@
           "products": [
             {
               "id": 311,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "original oil painting 'theOrchid'",
               "image": [
-                ""
+                "../../Resources/Images/art1-1.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "price": "527",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 700,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 312,
+              "name": "Gold Yellow Abstract Wall Art, Minimalist Abstract Watercolor Painting, Large Living Room Art, Modern Wall Art, Light Pastel Color Art",
+              "image": [
+                "../../Resources/Images/art1-2.webp"
+              ],
+              "price": "40.5",
+              "discPrice": "54.00",
+              "discount": "25",
+              "vendor": "Golden",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -4358,62 +4482,45 @@
               ]
             },
             {
-              "id": 312,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "id": 313,
+              "name": "Abstract Landscape Oil Painting",
               "image": [
-                ""
+                "../../Resources/Images/art1-3.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "34200",
+              "discPrice": "38000",
+              "discount": "10",
+              "vendor": "artisticVisions",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "mariette",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 3,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "The painting arrived in perfect condition. Very satisfied.",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
                   "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
@@ -4423,42 +4530,139 @@
                   }
                 },
                 {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "stars": 4,
+                  "text": "Nice painting, but the colors are a bit different in person.",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
-                    "itemQuality": 2,
-                    "shipping": 3,
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 314,
+              "name": "Modern Floral Oil Painting",
+              "image": [
+                "../../Resources/Images/art1-4.webp"
+              ],
+              "price": "28000",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 600,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
                     "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 315,
+              "name": "Seascape Oil Painting on Canvas",
+              "image": [
+                "../../Resources/Images/art1-5.webp"
+              ],
+              "price": "37800",
+              "discPrice": "42000",
+              "discount": "10",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 316,
+              "name": "Cityscape Oil Painting",
+              "image": [
+                "../../Resources/Images/art1-6.webp"
+              ],
+              "price": "35000",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
                   }
                 }
               ]
@@ -4550,15 +4754,139 @@
           "products": [
             {
               "id": 321,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Mini Vintage Metal Cannon Model - Craft Collectible and Elegant Desktop Gift Decoration",
               "image": [
-                ""
+                "../../Resources/Images/art2-1.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "price": "52596",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 700,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 322,
+              "name": "Ancient Greek Coin|LOWER QUALITY|Ancient artifact (300-100BC)|Antique real genuine coin|Mythology|History gift",
+              "image": [
+                "../../Resources/Images/art2-2.webp"
+              ],
+              "price": "40.5",
+              "discPrice": "54.00",
+              "discount": "25",
+              "vendor": "Golden",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -4655,62 +4983,45 @@
               ]
             },
             {
-              "id": 322,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "id": 323,
+              "name": "Business card holder",
               "image": [
-                ""
+                "../../Resources/Images/art2-3.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "342",
+              "discPrice": "380",
+              "discount": "10",
+              "vendor": "artisticVisions",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "mariette",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 3,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "The painting arrived in perfect condition. Very satisfied.",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
                   "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
@@ -4720,42 +5031,190 @@
                   }
                 },
                 {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "stars": 4,
+                  "text": "Nice painting, but the colors are a bit different in person.",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
-                    "itemQuality": 2,
-                    "shipping": 3,
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 324,
+              "name": "Wheatley from Portal - 3D printed model with LED lighting and moving eyelids - 8 cm - Personality core replica",
+              "image": [
+                "../../Resources/Images/art2-4.webp"
+              ],
+              "price": "375",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 600,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
                     "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 325,
+              "name": "Custom Gift Hand Forged Carbon Steel VIKING AXE with Ash Wood Shaft, Wedding Gift, Axe, Axes Best Birthday&Anniversary Gift For Him",
+              "image": [
+                "../../Resources/Images/art2-5.webp"
+              ],
+              "price": "378",
+              "discPrice": "420",
+              "discount": "10",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 326,
+              "name": "2017/18 Ronaldo #7 Real Madrid UEFA Short Sleeve Home Jersey, Real Madrid Jersey, C Ronaldo Barb Football Jersey Set, Ronaldo Jersey, Gift",
+              "image": [
+                "../../Resources/Images/art2-6a.webp",
+                "../../Resources/Images/art2-6b.webp"
+              ],
+              "price": "350",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 327,
+              "name": "Rose Gold Earring Holder Rotatable Ferris Wheel Ring Organizer Stand Jewelry Display Storage Tray Mother Birthday Gift for Her Daughter Wife",
+              "image": [
+                "../../Resources/Images/art2-7.webp"
+              ],
+              "price": "350",
+              "discPrice": "400",
+              "discount": "12.5",
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice Earring Holder , but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
                   }
                 }
               ]
@@ -4835,19 +5294,28 @@
           "products": [
             {
               "id": 331,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Emerald Green Abstract People Art, Woman With Flowers Minimal Japandi Female Abstract Painting, Female Portrait Art Abstract Eclectic Prints",
               "image": [
-                ""
+                "../../Resources/Images/art3-1.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "price": "21.74",
+              "discPrice": "28.23",
+              "discount": "23",
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 700,
               "reviews": [
                 {
-                  "stars": 3,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
@@ -4886,7 +5354,7 @@
                   }
                 },
                 {
-                  "stars": 4,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Alice James",
                   "date": "2025-01-15",
@@ -4941,20 +5409,31 @@
             },
             {
               "id": 332,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Plant A Flower Art Print, Gardening Wall Art, Flower Wall Art, Botanical Art Print, Nursery Art, Cottage Core, Kids Room, Gift for mum",
               "image": [
-                ""
+                "../../Resources/Images/art3-2a.webp",
+                "../../Resources/Images/art3-2b.webp",
+                "../../Resources/Images/art3-2c.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "21.92",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Golden",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -4992,45 +5471,6 @@
                   }
                 },
                 {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 5,
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
@@ -5041,6 +5481,244 @@
                     "itemQuality": 2,
                     "shipping": 3,
                     "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 343,
+              "name": "Digital Art",
+              "image": [
+                "../../Resources/Images/art4-3.webp"
+              ],
+              "price": "51995",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "digitalartkwh",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
+              "reviews": [
+                {
+                  "stars": 4,
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "The painting arrived in perfect condition. Very satisfied.",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but the colors are a bit different in person.",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 334,
+              "name": "Cute Capybara SVG Bundle | Kawaii Capybara Clipart | Capybara Digital Stickers & Designs ",
+              "image": [
+                "../../Resources/Images/art3-4.webp"
+              ],
+              "price": "1.49",
+              "discPrice": "3.00",
+              "discount": "50",
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 600,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 335,
+              "name": "Disco Ball Print, Kitchen Print, Kitchen Wall Art, Sushi Print, Preppy Wall Art, Bar Cart Art Print,Aesthetic Kitchen Decor,Retro food print",
+              "image": [
+                "../../Resources/Images/art3-5.webp"
+              ],
+              "price": "4.14",
+              "discPrice": "518",
+              "discount": "20",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 336,
+              "name": "101 pcs | Modern Abstract Geometric Wall Art | Mid-Century Modern Print Set | Minimalist Geometric Shapes | Contemporary Home Decor",
+              "image": [
+                "../../Resources/Images/art4-6a.webp",
+                "../../Resources/Images/art4-6b.webp"
+              ],
+              "price": "2.28",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 337,
+              "name": "Numbered Edition BANKSY Girl With the Balloon Signed - certificate - Wall Art, Graffiti Art, Lithograph, Stencil Art ",
+              "image": [
+                "../../Resources/Images/art3-7a.webp",
+                "../../Resources/Images/art3-7b.webp"
+              ],
+              "price": "241.46",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice Earring Holder , but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
                   }
                 }
               ]
@@ -5128,19 +5806,28 @@
           "products": [
             {
               "id": 341,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Black and White Gildan 5000 Shirt Mockup Wedding His Hers Mr Mrs Tshirt Mockup Couples Tshirt Mockup Stock Photo JPG Digital Download",
               "image": [
-                ""
+                "../../Resources/Images/art4-1.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "price": "1.16",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 700,
               "reviews": [
                 {
-                  "stars": 3,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
@@ -5179,7 +5866,7 @@
                   }
                 },
                 {
-                  "stars": 4,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Alice James",
                   "date": "2025-01-15",
@@ -5234,20 +5921,29 @@
             },
             {
               "id": 342,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Classic Drawing ",
               "image": [
-                ""
+                "../../Resources/Images/art4-2.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "50000",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "artLocation",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5285,45 +5981,6 @@
                   }
                 },
                 {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 5,
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
@@ -5334,6 +5991,197 @@
                     "itemQuality": 2,
                     "shipping": 3,
                     "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 333,
+              "name": "4,000+ Mega Sticker Bundle | Printable Digital Sticker Pack | PNG Files for DIY, Scrapbooking & Crafts | Instant Download",
+              "image": [
+                "../../Resources/Images/art3-3.webp",
+                "../../Resources/Images/art3-3b.webp",
+                "../../Resources/Images/art3-3c.webp"
+              ],
+              "price": "2.82",
+              "discPrice": "4.03",
+              "discount": "30",
+              "vendor": "artisticVisions",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
+              "reviews": [
+                {
+                  "stars": 4,
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "The painting arrived in perfect condition. Very satisfied.",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but the colors are a bit different in person.",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 344,
+              "name": "Mug mockup model blank mug mockups winter white coffee mug mock up blank mug mockups product mock up woman holding mug mockup photos 11 oz",
+              "image": [
+                "../../Resources/Images/art4-4.webp"
+              ],
+              "price": "0.07",
+              "discPrice": "0.26",
+              "discount": "75",
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 600,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 345,
+              "name": "30000+ Cartoon Svg Bundle All Files in Entire Shop Svg Png Font Mega Bundle,Whole Shop Svg Bundle,Holiday Svg,Christmas Svg,Halloween Svg",
+              "image": [
+                "../../Resources/Images/art4-5a.webp",
+                "../../Resources/Images/art4-5b.webp",
+                "../../Resources/Images/art4-5c.webp"
+              ],
+              "price": "3.84",
+              "discPrice": "12.80",
+              "discount": "70",
+              "vendor": "animeSlayer",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 346,
+              "name": "Custom Birth Flower Bouquet, Family Birth Month Tattoo Design, Up to 15 Flowers, Flower Bouquet Print, Floral Tattoo Design Digital Download",
+              "image": [
+                "../../Resources/Images/art4-6a.webp",
+                "../../Resources/Images/art4-6b.webp"
+              ],
+              "price": "9.22",
+              "discPrice": "30.76",
+              "discount": "70",
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
                   }
                 }
               ]
@@ -5427,19 +6275,30 @@
           "products": [
             {
               "id": 411,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Personalised Arabic Calligraphy Hoodie, Personalized Front Back Print Custom Islamic EID GIFT Sweatshirt, Birthday Gift Hoody Jumpers Tops ",
               "image": [
-                ""
+                "../../Resources/Images/clothes1-1a.webp",
+                "../../Resources/Images/clothes1-1b.webp",
+                "../../Resources/Images/clothes1-1c.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "price": "17.37",
+              "discPrice": "34.76",
+              "discount": "50",
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 700,
               "reviews": [
                 {
-                  "stars": 3,
+                  "stars": 5,
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
@@ -5478,8 +6337,8 @@
                   }
                 },
                 {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Very cute and comfy thank you",
                   "author": "Alice James",
                   "date": "2025-01-15",
                   "photoUrl": null,
@@ -5492,7 +6351,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Absolutely love it They are perfect ",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5505,7 +6364,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Item matched the description perfectly- my girlfriend loved it!",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5533,20 +6392,30 @@
             },
             {
               "id": 412,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Mushrooms Embroidered Sweatshirt | Mushrooms Embroidered T-shirt | Mushrooms Embroidered Hoodie | Mushrooms Sweater | Crew Neck Sweatshir",
               "image": [
-                ""
+                "../../Resources/Images/clothes1-2a.webp",
+                "../../Resources/Images/clothes1-2b.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "21.92",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Golden",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5572,7 +6441,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5580,45 +6449,6 @@
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
                     "customerService": 5
                   }
                 },
@@ -5633,6 +6463,244 @@
                     "itemQuality": 2,
                     "shipping": 3,
                     "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 413,
+              "name": "Blue Light wash Denim Jacket with Embroidered mesh, Oversized Boho Floral Lace Fashion Modern jean outfit for women, gift for her, mom gift",
+              "image": [
+                "../../Resources/Images/clothes1-4.webp"
+              ],
+              "price": "59.91",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "digitalartkwh",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
+              "reviews": [
+                {
+                  "stars": 4,
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 2,
+                  "text": "Very comfy but not like images",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "IF you know anything or nothing about sewing you have to appreciate the excellent quality of workmanship and Pride of their product. You will even be asked for clarification on your measurements to ensure proper fit. Perfection and such quality!!!!",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 414,
+              "name": "Patchwork Quilted Jackets Cotton Floral Bohemian Style Fall Winter Jacket Coat Streetwear Boho Quilted Reversible Jacket for Women",
+              "image": [
+                "../../Resources/Images/clothes1-3.webp"
+              ],
+              "price": "139.40",
+              "discPrice": "170",
+              "discount": "18",
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 600,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 415,
+              "name": "Spring Hooded Coat Cotton Dress Coat Casual Loose Robes Long Sleeves Cardigan Shift Dresses Maxi Coat Hand made Plus Size Clothing",
+              "image": [
+                "../../Resources/Images/clothes1-5a.webp",
+                "../../Resources/Images/clothes1-5b.webp"
+              ],
+              "price": "45.51",
+              "discPrice": " 82.74",
+              "discount": "45",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 416,
+              "name": "Women Long Sleeves Cotton Dress Soft Casual Loose Tunics Shirt Robes Midi Dresses Customized Dress Plus Size Clothing Linen DRESS ",
+              "image": [
+                "../../Resources/Images/clothes1-6a.webp"
+              ],
+              "price": "45.48",
+              "discPrice": "113.69",
+              "discount": "60",
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 417,
+              "name": "Summer Plaid Dress Natural Cotton Organic Short sleeve Dress Midi Dresses Soft Homewear Sleepwear Customized Dress Plus Size Clothing ",
+              "image": [
+                "../../Resources/Images/clothes1-7a.webp",
+                "../../Resources/Images/clothes1-7b.webp"
+              ],
+              "price": "83.28",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice Earring Holder , but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
                   }
                 }
               ]
@@ -5707,20 +6775,30 @@
           "products": [
             {
               "id": 421,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "5-Piece Complete Wizard Costume Set - Robe, Wand, Sweater, Glasses & Tie | Perfect for Cosplay, Halloween, Costume Parties ",
               "image": [
-                ""
+                "../../Resources/Images/clothes2-1a.webp",
+                "../../Resources/Images/clothes2-1b.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "price": "153.00",
+              "discPrice": "170",
+              "discount": "10",
+              "vendor": "nadyaspace",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 1574,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Amazing outfit, perfect for pur occassion!!!!",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5758,8 +6836,8 @@
                   }
                 },
                 {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Very cute and comfy thank you",
                   "author": "Alice James",
                   "date": "2025-01-15",
                   "photoUrl": null,
@@ -5772,7 +6850,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Absolutely love it They are perfect ",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5785,7 +6863,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Item matched the description perfectly- my girlfriend loved it!",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5813,20 +6891,31 @@
             },
             {
               "id": 422,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Personalized Kids Patchs Jean Jacket, Custom Girls Toddler Chenille Letter Denim Jacket, Boys Patch Jacket With Name, Birthday Gift For Kids",
               "image": [
-                ""
+                "../../Resources/Images/clothes2-2a.webp",
+                "../../Resources/Images/clothes2-2b.webp",
+                "../../Resources/Images/clothes2-2c.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "94.92",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Golden",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5852,7 +6941,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5860,45 +6949,6 @@
                   "ratings": {
                     "itemQuality": 5,
                     "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
-                  "photoUrl": null,
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
                     "customerService": 5
                   }
                 },
@@ -5916,6 +6966,250 @@
                   }
                 }
               ]
+            },
+            {
+              "id": 423,
+              "name": "Warm Linen Dress Goldie with Bishop Sleeves, Full Sleeve Dress, Autumn Dress, Loose Autumn Dress, Dress Gift | Optional Embroidery ",
+              "image": [
+                "../../Resources/Images/clothes2-3a.webp",
+                "../../Resources/Images/clothes2-3b.webp",
+                "../../Resources/Images/clothes2-3c.webp",
+                "../../Resources/Images/clothes2-3d.webp"
+              ],
+              "price": "150.34",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "digitalartkwh",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
+              "reviews": [
+                {
+                  "stars": 4,
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 2,
+                  "text": "Very comfy but not like images",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "IF you know anything or nothing about sewing you have to appreciate the excellent quality of workmanship and Pride of their product. You will even be asked for clarification on your measurements to ensure proper fit. Perfection and such quality!!!!",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 424,
+              "name": "Personalized Kids Jumper, Kids Sweater, Kids Sweatshirt, Baby Jumper, Toddler Name Jumper, Kids Embroidered Jumper, Baby Shower Gifts",
+              "image": [
+                "../../Resources/Images/clothes2-4a.webp",
+                "../../Resources/Images/clothes2-4b.webp",
+                "../../Resources/Images/clothes2-4c.webp"
+              ],
+              "price": "20.97",
+              "discPrice": "41.95",
+              "discount": "50",
+              "vendor": "creativeCanvas",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 1258,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 425,
+              "name": "3 piece Teddy Bear Rompers Set, Knitted Newborn Clothes, Coming Home Baby Clothes, Knitted Baby Clothes, Coming Home Hospital Gift",
+              "image": [
+                "../../Resources/Images/clothes2-5.webp"
+              ],
+              "price": "48.51",
+              "discPrice": " 150.60",
+              "discount": "68",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 550,
+              "reviews": []
+            },
+            {
+              "id": 426,
+              "name": "Portugal 2022 Ronaldo Kids Soccer Uniform Jersey Boys Girls,Youth Soccer Fan Ronaldo Jersey Portugal No 7 Sports Jersey Shirt Free Shorts ",
+              "image": [
+                "../../Resources/Images/clothes2-6a.webp",
+                "../../Resources/Images/clothes2-6b.webp"
+              ],
+              "price": "31.92",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 427,
+              "name": "Handcrafted Medieval Suit for Boys, A Unique Halloween Costume for Your Little One, Ideal for Themed Birthdays & Playtime",
+              "image": [
+                "../../Resources/Images/clothes2-7a.webp",
+                "../../Resources/Images/clothes2-7b.webp",
+                "../../Resources/Images/clothes2-7c.webp"
+              ],
+              "price": "83.28",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 1700,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 1,
+                  "text": "Definitely do not recommend, terrible customer service. The outfit I bought for my baby's birthday has still not been delivered to me in 19 days.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 1,
+                    "customerService": 2
+                  }
+                }
+              ]
             }
           ]
         },
@@ -5926,20 +7220,29 @@
           "products": [
             {
               "id": 431,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Tote Bag Mockup Natural Canvas Bag Mockup White Canvas Bag Flatlay Boho Totebag Mock Sand Canvas Tote Boho Mockup Girly Organic Bag Mockup ",
               "image": [
-                ""
+                "../Resources/Images/clothes3-1.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
+              "price": "1.30",
+              "discPrice": "4.33",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "Golden",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "stars": 5,
+                  "text": "Absolutely love it.",
                   "author": "mariette",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -5965,7 +7268,85 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 432,
+              "name": "CROCHET PATTERN FERRARA Light 2 Handles Bag Crochet Bag Pattern Wool Bag crochet purse woman bag, handbag, tote",
+              "image": [
+                "../../Resources/Images/clothes3-2a.webp",
+                "../../Resources/Images/clothes3-2b.webp",
+                "../../Resources/Images/clothes3-2c.webp"
+              ],
+              "price": "4.50",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "OuferJewelry",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-04-17",
+                  "end": "2025-05-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 877,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 2,
+                  "text": "take along time before shipping",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -5978,7 +7359,7 @@
                 },
                 {
                   "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you",
                   "author": "Alice James",
                   "date": "2025-01-15",
                   "photoUrl": null,
@@ -5991,7 +7372,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "Very cute and comfy thank you.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
@@ -6004,7 +7385,7 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "text": "High quilty",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
                   "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
@@ -6031,16 +7412,27 @@
               ]
             },
             {
-              "id": 432,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "id": 433,
+              "name": "leather bag, handmade leather bag, handbag, woman leather bag, elegant leather bag, made in Italy handbag ",
               "image": [
-                ""
+                "../../Resources/Images/clothes3-3a.webp",
+                "../../Resources/Images/clothes3-3b.webp",
+                "../../Resources/Images/clothes3-3c.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
+              "price": "288.50",
+              "discPrice": "577.00",
+              "discount": "50",
               "vendor": "OuferJewelry",
               "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-04-17",
+                  "end": "2025-05-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -6239,61 +7631,46 @@
           "products": [
             {
               "id": 441,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Personalized gift For Bride Wedding slipper Engagement gift Unique Bridal Shower handmade slippers handmade custom bridal bachelorette party",
               "image": [
-                ""
+                "../../Resources/Images/clothes4-1a.webp",
+                "../../Resources/Images/clothes4-1b.webp",
+                "../../Resources/Images/clothes4-1c.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
+              "price": "127.74",
+              "discPrice": "182.49",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "digitalartkwh",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 450,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "mariette",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 3,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
+                  "text": "Beautiful colors and texture. A great addition to my collection.",
+                  "author": "Emily Carter",
+                  "date": "2025-03-01",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 2,
+                  "text": "Very comfy but not like images",
+                  "author": "David Lee",
+                  "date": "2025-03-15",
                   "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
@@ -6303,103 +7680,48 @@
                   }
                 },
                 {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "stars": 4,
+                  "text": "IF you know anything or nothing about sewing you have to appreciate the excellent quality of workmanship and Pride of their product. You will even be asked for clarification on your measurements to ensure proper fit. Perfection and such quality!!!!",
+                  "author": "Sarah Jones",
+                  "date": "2025-03-20",
+                  "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
-                    "itemQuality": 2,
-                    "shipping": 3,
-                    "customerService": 5
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
                   }
                 }
               ]
             },
             {
               "id": 442,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Classic Oxford Brogues for Men - Timeless Elegance & Craftsmanship ",
               "image": [
-                ""
+                "../../Resources/Images/clothes4-2a.webp",
+                "../../Resources/Images/clothes4-2b.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "144.0",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "creativeCanvas",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 1258,
               "reviews": [
                 {
-                  "stars": 3,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "mariette",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
                   "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
-                  "reviewerPhotoUrl": null,
-                  "ratings": {
-                    "itemQuality": 3,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 2,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 4,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Alice James",
-                  "date": "2025-01-15",
+                  "text": "Vibrant colors and excellent detail. Love it!",
+                  "author": "Susan Davis",
+                  "date": "2025-04-15",
                   "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
@@ -6410,41 +7732,154 @@
                 },
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Nada Ameen",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "text": "A bit smaller than expected, but still beautiful.",
+                  "author": "William Martinez",
+                  "date": "2025-04-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/William_Martinez.jpg",
                   "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
+                    "itemQuality": 4,
+                    "shipping": 4,
+                    "customerService": 4
                   }
+                }
+              ]
+            },
+            {
+              "id": 443,
+              "name": "Crawling shoes with name (personalized leather slippers) with lion all over - baby, child, toddler - handmade gift ",
+              "image": [
+                "../../Resources/Images/clothes4-3a.webp",
+                "../../Resources/Images/clothes4-3b.webp"
+              ],
+              "price": "23.51",
+              "discPrice": " 27.30",
+              "discount": "14",
+              "vendor": "oceanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
                 },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 689,
+              "reviews": [
                 {
                   "stars": 5,
-                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
-                  "author": "Jane Doe",
-                  "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
-                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
-                  "ratings": {
-                    "itemQuality": 5,
-                    "shipping": 5,
-                    "customerService": 5
-                  }
-                },
-                {
-                  "stars": 5,
-                  "text": "Great quality and fast shipping. Highly recommend!",
-                  "author": "John Smith",
-                  "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-01-20",
+                  "photoUrl": null,
                   "reviewerPhotoUrl": null,
                   "ratings": {
-                    "itemQuality": 2,
-                    "shipping": 3,
+                    "itemQuality": 5,
+                    "shipping": 5,
                     "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 444,
+              "name": "Retro style cognac brown genuine leather flats, t-bar, mary jane shoes, matching mom and daughter shoes, gift for her, lindy hop shoes, ",
+              "image": [
+                "../../Resources/Images/clothes4-4a.webp"
+              ],
+              "price": "35.00",
+              "discPrice": "70",
+              "discount": "50",
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 200,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Nice painting, but it took a while to arrive.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 4,
+                    "shipping": 3,
+                    "customerService": 4
+                  }
+                }
+              ]
+            },
+            {
+              "id": 445,
+              "name": "Pearl And Crystal Shoes For The Bride / Wedding Air Force 1 / Personalized Bridal Sneakers",
+              "image": [
+                "../../Resources/Images/clothes4-5a.webp",
+                "../../Resources/Images/clothes4-5b.webp"
+              ],
+              "price": "83.28",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "urbanArt",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 1700,
+              "reviews": [
+                {
+                  "stars": 5,
+                  "text": "Amazing detail and captures the city perfectly.",
+                  "author": "Kevin Turner",
+                  "date": "2025-05-20",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 1,
+                  "text": "Definitely do not recommend, terrible customer service. The outfit I bought for my baby's birthday has still not been delivered to me in 19 days.",
+                  "author": "Nicole Hill",
+                  "date": "2025-05-25",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nicole_Hill.jpg",
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 1,
+                    "customerService": 2
                   }
                 }
               ]
@@ -7379,7 +8814,7 @@
         {
           "id": 61,
           "name": "Bath Accessories",
-          "image": "../Resources/Images/jewelry-watches.webp",
+          "image": "../Resources/Images/bath-beauty.webp",
           "formFields": {
             "material": {
               "label": "Material",
@@ -7427,17 +8862,36 @@
           "products": [
             {
               "id": 611,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Wood Toilet Paper Holder Wall Mount for Multiple Rolls, Spare TP Roll Shelving, Floating Wall Display Shelf, Hanging Shelves for Tissue",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/bath-accessories-toilet.avif",
+                "../Resources/Images/bath-accessories-toilet2.webp",
+                "../Resources/Images/bath-accessories-toilet3.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
-              "vendorImg": "../Resources/Images/vendor.png",
+              "vendor": "Ewart",
+              "vendorImg": "../Resources/Images/ewart-vendor.webp",
+              "description": "Organize your bathroom with this wall-mounted wooden toilet paper holder that doubles as a floating wood shelf.",
+              "materials": [
+                "Wood"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": "Brown",
+              "style": "Bath Deco",
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Egypt",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7535,15 +8989,296 @@
             },
             {
               "id": 612,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Waffle Linen Bath towels / Stonewashed Bath Towels in various sizes and colors / Highly absorbent and hypoallergenic European flax towels",
               "image": [
-                ""
+                "../Resources/Images/waffle-linen.webp",
+                "../Resources/Images/waffle-linen2.webp",
+                "../Resources/Images/waffle-linen3.webp"
               ],
               "price": "11.24",
               "discPrice": "14.99",
               "discount": "25",
-              "vendor": "OuferJewelry",
+              "vendor": "Ewart",
               "vendorImg": "../Resources/Images/vendor.png",
+              "materials": [
+                "Linen",
+                "Waffle linen"
+              ],
+              "gemColor": null,
+              "bandColor": "Stone blue",
+              "style": "Bath Deco",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 5.69,
+                "shipsFrom": "Lithuania",
+                "returnsAcceptedWithinDays": 10
+              },
+              "reviewsNum": 604,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 613,
+              "name": "Hand cream | Handmade in New York | 1oz | cream | skin care",
+              "image": [
+                "../Resources/Images/handcream1.webp",
+                "../Resources/Images/handcream2.webp",
+                "../Resources/Images/handcream3.webp"
+              ],
+              "price": "15.90",
+              "discPrice": "11.13",
+              "discount": "30",
+              "vendor": "CONCREATEdecor",
+              "vendorImg": "../Resources/Images/ewart-vendor.webp",
+              "description": "Ingredients: water, glycerine, coconut oil, shea butter, E wax nf, cetyl alcohol, optiphen, vitamin e oil",
+              "materials": [
+                "Powder painted",
+                "stainless steel",
+                "Water resistant"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Bath Deco",
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 15
+              },
+              "reviewsNum": 604,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 614,
+              "name": "Oak foot bath with handles 25l ( Handmade)",
+              "image": [
+                "../Resources/Images/oak-foot1.webp",
+                "../Resources/Images/oak-foot2.webp",
+                "../Resources/Images/oak-foot3.webp"
+              ],
+              "price": "33.00",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Ewart",
+              "vendorImg": "../Resources/Images/ewart-vendor.webp",
+              "description": "Agate Tissue Box, Agate Stone Bathroom Tissue Box, Elegant Tissue Holder, Handmade Natural Stone Napkin Holder, Kitchen & Bath Accessories",
+              "materials": [
+                "Oak wood",
+                "stainless steel",
+                "plastic inside",
+                "Covered sauna oil",
+                "wood"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Skin Care & Bath Deco",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Australia",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7692,17 +9427,35 @@
           "products": [
             {
               "id": 621,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Lavender Lip Balm & Hand Cream Combo",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/lp-balm.webp",
+                "../Resources/Images/tissue-box2.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
-              "vendorImg": "../Resources/Images/vendor.png",
+              "price": "33.00",
+              "discPrice": null,
+              "discount": null,
+              "vendor": "Ewart",
+              "vendorImg": "../Resources/Images/ewart-vendor.webp",
+              "description": "Agate Tissue Box, Agate Stone Bathroom Tissue Box, Elegant Tissue Holder, Handmade Natural Stone Napkin Holder, Kitchen & Bath Accessories",
+              "materials": [
+                "Lavender"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Skin Care & Bath Deco",
+              "personalized": false,
+              "recycled": false,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "England",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -7800,16 +9553,18 @@
             },
             {
               "id": 622,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Body scrub | Handmade in New York | 7oz | Unscented | scrub",
               "image": [
-                ""
+                "../Resources/Images/body-scrub-1",
+                "../Resources/Images/body-scrub-2",
+                "../Resources/Images/body-scrub-3"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
+              "price": "13.65",
+              "discPrice": "19.50",
               "discount": "25",
-              "vendor": "OuferJewelry",
+              "vendor": "Bath&Body",
               "vendorImg": "../Resources/Images/vendor.png",
-              "reviewsNum": 604,
+              "reviewsNum": 60,
               "reviews": [
                 {
                   "stars": 3,
@@ -7903,6 +9658,146 @@
                   }
                 }
               ]
+            },
+            {
+              "id": 623,
+              "name": "Pomegranate Oil Serum | Face and Body Care | Moisturizer | 100 ml | Natural Anti Aging | Pomegranate Oil | Skin Care",
+              "image": [
+                "../Resources/Images/earrings1.webp",
+                "../Resources/Images/earrings2.webp",
+                "../Resources/Images/earrings3.webp"
+              ],
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "30",
+              "vendor": "danceofscents",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Pomegranate Oil Serum | Face and Body Care | Moisturizer | 100 ml | Natural Anti Aging | Pomegranate Oil | Skin Care",
+              "materials": [
+                "Pomegranate Oil"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": "Rose gold",
+              "style": "Art Deco",
+              "personalized": false,
+              "recycled": false,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 60,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
             }
           ]
         },
@@ -7957,17 +9852,36 @@
           "products": [
             {
               "id": 631,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Collectible Perfume Miniature Sauvage Eau Forte 10ml Parfum Alcohol Free Mini Size Bottle (No Spray)",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/sauvage1.webp",
+                "../Resources/Images/sauvage2.webp",
+                "../Resources/Images/sauvage3.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
-              "vendor": "LewsinGemstone",
+              "price": null,
+              "discPrice": "45.56",
+              "discount": null,
+              "vendor": "MiniLuna22",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Collectible Perfume Miniature Sauvage Eau Forte 10ml Parfum Alcohol Free Mini Size Bottle (No Spray)",
+              "materials": [
+                "Parfum Alcohol"
+              ],
+              "gemColor": null,
+              "bandColor": "Black",
+              "style": null,
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Poland",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8065,15 +9979,35 @@
             },
             {
               "id": 632,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Collectible Perfume Miniature Guilty 5ml Elixir De Parfum pour homme Mini Size Bottle No Spray",
               "image": [
-                ""
+                "../Resources/Images/gucci-guilty-1.webp",
+                "../Resources/Images/gucci-guilty-2.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "30",
+              "vendor": "MiniLuna22",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+              "materials": [
+                "Spray"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": null,
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "France",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8222,17 +10156,36 @@
           "products": [
             {
               "id": 641,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Personalized Initials Portable Makeup Brush Organizer, Cosmetic Brushes Holder, Makeup Organizer Storage Bag, Custom Name Engraved Case",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/brush-organizer-1.webp",
+                "../Resources/Images/brush-organizer-2.webp",
+                "../Resources/Images/brush-organizer-3.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "MyLoveCamp",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Personalized Initials Portable Makeup Brush Organizer, Cosmetic Brushes Holder, Makeup Organizer Storage Bag, Custom Name Engraved Case",
+              "materials": [
+                "leather"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": "Rose gold",
+              "style": "Art Deco",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 15.0,
+                "shipsFrom": "France",
+                "returnsAcceptedWithinDays": 30
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8330,15 +10283,38 @@
             },
             {
               "id": 642,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Natural Lip Colors - Full Collection, Organic Ingredients, Holistic Makeup, Nontoxic Lip and Cheek Color, Nourishing Moisturizing Lipstick",
               "image": [
-                ""
+                "../Resources/Images/lipStick1.webp",
+                "../Resources/Images/lipStick2.webp",
+                "../Resources/Images/lipStick3.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "30",
+              "vendor": "BlinkingOwlAcres",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+              "materials": [
+                "Organic Coconut Oil",
+                "Organic Beeswax",
+                "Organic Jojoba Oil"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "MakeUp",
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "China",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8483,17 +10459,39 @@
           "products": [
             {
               "id": 651,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Weighted Heart Eye Pillow, hand dyed, filled with Flax, Lavender or Unscented, Hot Cold pack, Organic Cotton Mask Aromatherapy, soft tie dye",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/Eye-pillow.webp",
+                "../Resources/Images/Eye-pillow2.webp",
+                "../Resources/Images/Eye-pillow3.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
               "vendor": "LewsinGemstone",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Minimalist Diamond Curved Wedding Band - Rose Gold Round Moissanite Promise Ring - Unique Matching Stacking Ring by Manhattan Box",
+              "materials": [
+                "Cotton",
+                "Organic Flax seed",
+                "Rice",
+                "Lavender "
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "hand-dyed fabric",
+              "personalized": false,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Bengaladish",
+                "returnsAcceptedWithinDays": 45
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8591,15 +10589,37 @@
             },
             {
               "id": 652,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Handmade Turkish Bath Washcloths with Crochet, Bath Puff, Bath Fiber, Bath Loofah, Personal Care, Traditional Bathroom Gift, Free Shipping",
               "image": [
-                ""
+                "../Resources/Images/wash-cloth-1.avif"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "15.40",
+              "discPrice": "22.00",
+              "discount": "50",
+              "vendor": "GiftShopByPeri",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Handmade Turkish Bath Washcloths with Crochet, Bath Puff, Bath Fiber, Bath Loofah, Personal Care, Traditional Bathroom Gift, Free Shipping",
+              "materials": [
+                "Crochet",
+                "Bath Puff",
+                "Bath Fiber",
+                "Bath Loofah"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": null,
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Türkiye",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8702,7 +10722,7 @@
     {
       "id": 7,
       "name": "Pet Supplies",
-      "title": "",
+      "title": "Collars, toys and custom portraits for pets. Your little fuzzball deserves it.",
       "subcategories": [
         {
           "id": 71,
@@ -8747,17 +10767,38 @@
           "products": [
             {
               "id": 711,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Dog Harness, Dog Collar and Leash, Dog Bow Tie Collar, Dog Flower Collar, Poop Bag, Dog Collar Custom",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/dog-harness-1.webp",
+                "../Resources/Images/dog-harness-2.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
-              "discount": "30",
+              "price": "12.93",
+              "discPrice": "19.90",
+              "discount": "35",
               "vendor": "LewsinGemstone",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Dog Harness, Dog Collar and Leash, Dog Bow Tie Collar, Dog Flower Collar, Poop Bag, Dog Collar Custom",
+              "materials": [
+                "Hardware gold zinc alloy",
+                "solid brass D ring",
+                "nylon webbing",
+                "cotton"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -8765,7 +10806,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review1.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
@@ -8778,7 +10819,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review2.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 3,
@@ -8791,7 +10832,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review3.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -8817,7 +10858,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review2.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -8830,7 +10871,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review3.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -8843,7 +10884,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-harness-review1.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 2,
@@ -8855,15 +10896,38 @@
             },
             {
               "id": 712,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Webbing dog collar personalized, dog collar boy, dog collar girl, dog collar engraved, tribal dog collar, pattern dog collar, 1' width",
               "image": [
-                ""
+                "../Resources/Images/dog-collar-1.webp",
+                "../Resources/Images/dog-collar-2.webp",
+                "../Resources/Images/dog-collar-3.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
+              "price": "12.24",
+              "discPrice": "16.99",
               "discount": "25",
-              "vendor": "OuferJewelry",
+              "vendor": "SoGoodSoWood",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Webbing dog collar personalized, dog collar boy, dog collar girl, dog collar engraved, tribal dog collar, pattern dog collar, 1' width",
+              "materials": [
+                "full metal buckle",
+                "lightweight",
+                "durable"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -9008,17 +11072,39 @@
           "products": [
             {
               "id": 721,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Striped Dog Bed in Pink and White | Female Dog Bed | Girl Dog Bed for Maximum Comfort",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/dog-bed-1.webp",
+                "../Resources/Images/dog-bed-2.webp",
+                "../Resources/Images/dog-bed-3.webp",
+                "../Resources/Images/dog-bed-4.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "PillowPilou",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Striped Dog Bed in Pink and White | Female Dog Bed | Girl Dog Bed for Maximum Comfort",
+              "materials": [
+                "Imitation lambswool",
+                "Cotton",
+                "Anti slip bottom"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet bed",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -9116,15 +11202,159 @@
             },
             {
               "id": 722,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Pet Bed for Car",
               "image": [
-                ""
+                "../Resources/Images/pet-bed-car.png"
               ],
               "price": "11.24",
               "discPrice": "14.99",
               "discount": "25",
-              "vendor": "OuferJewelry",
+              "vendor": "PillowPilou",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Pet Bed for Car",
+              "materials": [
+                "Handmade"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Australia",
+                "returnsAcceptedWithinDays": 21
+              },
+              "reviewsNum": 604,
+              "reviews": [
+                {
+                  "stars": 3,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "mariette",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 3,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 2,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 4,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Alice James",
+                  "date": "2025-01-15",
+                  "photoUrl": null,
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Nada Ameen",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Absolutely love these earrings! They are perfect for everyday wear.",
+                  "author": "Jane Doe",
+                  "date": "2025-01-15",
+                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
+                  "ratings": {
+                    "itemQuality": 5,
+                    "shipping": 5,
+                    "customerService": 5
+                  }
+                },
+                {
+                  "stars": 5,
+                  "text": "Great quality and fast shipping. Highly recommend!",
+                  "author": "John Smith",
+                  "date": "2025-02-10",
+                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "reviewerPhotoUrl": null,
+                  "ratings": {
+                    "itemQuality": 2,
+                    "shipping": 3,
+                    "customerService": 5
+                  }
+                }
+              ]
+            },
+            {
+              "id": 723,
+              "name": "Eco Friendly Dog House Pet Furniture Dog Crate Modern Dog Bed Indoor Dog House Personalized Dog House Puppy House Dog Furniture Puppy House",
+              "image": [
+                "../Resources/Images/pet-house.webp"
+              ],
+              "price": "11.24",
+              "discPrice": "14.99",
+              "discount": "25",
+              "vendor": "PillowPilou",
+              "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Eco Friendly Dog House Pet Furniture Dog Crate Modern Dog Bed Indoor Dog House Personalized Dog House Puppy House Dog Furniture Puppy House",
+              "materials": [
+                "Plywood"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "Australia",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -9269,17 +11499,36 @@
           "products": [
             {
               "id": 731,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Embroidered Bone Dog Toy with Squeaker. NATIONAL PUPPY DAY - March 23",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/bone-dog.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "AtelierDamakaFR",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Embroidered Bone Dog Toy with Squeaker. NATIONAL PUPPY DAY - March 23",
+              "materials": [
+                "corduroy",
+                "tarpaulin bag",
+                "piping"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet bone",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -9530,17 +11779,37 @@
           "products": [
             {
               "id": 741,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Round Blue Toile Bed Cover, Toile Pattern Dog Bed Duvet, Modern Pet Bed, Sustainable Pet Bedding, Navy Dog Bedding With Name, Large Dog Bed",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/round-bed-dog.webp",
+                "../Resources/Images/round-bed-dog-2.avif",
+                "../Resources/Images/round-bed-dog-3.webp"
               ],
               "price": "15.40",
               "discPrice": "22.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "SammysBedsandThreads",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Round Blue Toile Bed Cover, Toile Pattern Dog Bed Duvet, Modern Pet Bed, Sustainable Pet Bedding, Navy Dog Bedding With Name, Large Dog Bed",
+              "materials": [
+                "YKK Gold Zipper",
+                "Sustainable Stuffing"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Bed",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 20.0,
+                "shipsFrom": "United States",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -9548,7 +11817,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review1.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
@@ -9561,7 +11830,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review2.avif",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 3,
@@ -9574,7 +11843,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review3.avif",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -9600,7 +11869,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review2.avif",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -9613,7 +11882,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review1.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -9626,7 +11895,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/round-bed-review3.avif",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 2,
@@ -9638,15 +11907,39 @@
             },
             {
               "id": 742,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Beige XLarge Fluffy Dog Snuggle Blanket, Dog Couch Sofa Cuddling Throw, Comfy Cosy Softest Blanket for Puppy, Eco Friendly Dog Accessories",
               "image": [
-                ""
+                "../Resources/Images/dog-blanket-1.webp",
+                "../Resources/Images/dog-blanket-2.webp",
+                "../Resources/Images/dog-blanket-3.webp"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
-              "discount": "25",
-              "vendor": "OuferJewelry",
+              "price": "12.93",
+              "discPrice": "19.90",
+              "discount": "35",
+              "vendor": "OHHECKdogs",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Beige XLarge Fluffy Dog Snuggle Blanket, Dog Couch Sofa Cuddling Throw, Comfy Cosy Softest Blanket for Puppy, Eco Friendly Dog Accessories",
+              "materials": [
+                "Hardware gold",
+                "solid brass D ring",
+                "nylon webbing",
+                "cotton"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 27.0,
+                "shipsFrom": "Argentine",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -9654,7 +11947,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "mariette",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 5,
@@ -9667,7 +11960,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 3,
@@ -9680,7 +11973,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -9706,7 +11999,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Nada Ameen",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review3-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Nada_Ameen.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -9719,7 +12012,7 @@
                   "text": "Absolutely love these earrings! They are perfect for everyday wear.",
                   "author": "Jane Doe",
                   "date": "2025-01-15",
-                  "photoUrl": "../Resources/Images/Reviews/review1-earring.avif",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": "../Resources/Images/Users/Jane_Doe.jpg",
                   "ratings": {
                     "itemQuality": 5,
@@ -9732,7 +12025,7 @@
                   "text": "Great quality and fast shipping. Highly recommend!",
                   "author": "John Smith",
                   "date": "2025-02-10",
-                  "photoUrl": "../Resources/Images/Reviews/review2-earring.webp",
+                  "photoUrl": "../Resources/Images/Reviews/dog-blanket-review.webp",
                   "reviewerPhotoUrl": null,
                   "ratings": {
                     "itemQuality": 2,
@@ -9795,17 +12088,36 @@
           "products": [
             {
               "id": 751,
-              "name": "Sterling Silver Minimalist Set: Earring Jacket, Huggies Hoop, Ear Climber for Multi Piercings, Dainty Everyday Ear Stack, Ready to Gift Set",
+              "name": "Clothes for Cats, Cat Clothing, Dog Clothing, Pet Clothes, Small Pet Apparel, Custom Pet Wear, Handmade, Cat Dress, Pet Sweater, Cat Costume",
               "image": [
-                "../Resources/Images/earrings1.webp",
-                "../Resources/Images/earrings2.webp",
-                "../Resources/Images/earrings3.webp"
+                "../Resources/Images/dog-cloth1.webp",
+                "../Resources/Images/dog-cloth2.webp"
               ],
-              "price": "15.40",
-              "discPrice": "22.00",
+              "price": "60.40",
+              "discPrice": "75.00",
               "discount": "30",
-              "vendor": "LewsinGemstone",
+              "vendor": "siriuspet",
               "vendorImg": "../Resources/Images/vendor.png",
+              "description": "Dog Harness, Dog Collar and Leash, Dog Bow Tie Collar, Dog Flower Collar, Poop Bag, Dog Collar Custom",
+              "materials": [
+                "cotton",
+                "crochet"
+              ],
+              "gemColor": "Colorless",
+              "bandColor": null,
+              "style": "Pet Cloth",
+              "personalized": true,
+              "recycled": true,
+              "madeToOrder": true,
+              "shipping": {
+                "estimatedDelivery": {
+                  "start": "2025-03-17",
+                  "end": "2025-04-09"
+                },
+                "cost": 15.0,
+                "shipsFrom": "Greece",
+                "returnsAcceptedWithinDays": 21
+              },
               "reviewsNum": 604,
               "reviews": [
                 {
@@ -9903,12 +12215,12 @@
             },
             {
               "id": 752,
-              "name": "16/18/20G Threadless Butterfly Push-In Labret/Tragus/Cartilage/Conch/Forward Helix Stud/Nose Piercing/Push Pin Flat Back Earring Silver Gold",
+              "name": "Denim Pet Outfit | Durable Pet Vest | Fashionable Animal Wear | Cozy and Comfortable Outerwear | Spring & Autumn Pet Clothes",
               "image": [
-                ""
+                "../Resources/Images/pet-vest.avif"
               ],
-              "price": "11.24",
-              "discPrice": "14.99",
+              "price": "48.00",
+              "discPrice": "59.99",
               "discount": "25",
               "vendor": "OuferJewelry",
               "vendorImg": "../Resources/Images/vendor.png",

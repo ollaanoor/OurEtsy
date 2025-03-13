@@ -12,7 +12,8 @@ function filterProduct(
   subcategoryId = null,
   minPrice = 0,
   maxPrice = 100000,
-  discountprice = false
+  discountprice = false,
+  bestseller = false
 ) {
   // Clear the current products display
   const mainPag = document.getElementById("productsec");
@@ -92,12 +93,22 @@ function filterProduct(
         (product) => product.discount != null
       );
     }
-
+    if (bestseller) {
+      filteredProducts = filteredProducts.filter((product) => {
+        const starsNumber =
+          product.reviews.length != 0 //may be there with no element in there
+            ? product.reviews.reduce((sum, rev) => sum + rev.stars, 0) /
+              product.reviews.length
+            : 0;
+        return starsNumber == 5.0;
+      });
+    }
     // Render the filtered products
     filteredProducts.forEach((product) => {
       renderProductCard(mainPag, categoryIndex, subcategory, product);
     });
   });
+
   setupEventListeners();
 }
 
@@ -138,11 +149,7 @@ function renderProductCard(container, categoryIndex, subcategory, product) {
   imgContain.src = imgCard;
   cardText.innerText = namCard;
   cardRev.innerHTML = `<span class="star"
-                ><span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star checked"></span>
-                <span class="fa fa-star"></span
+                >${generateStars(Math.round(starsNumber))}</span
               ></span>
               <span class="number">(${viewNumber})</span>`;
   cardVendor.innerText = `ad by ${vendorCard}`;
@@ -229,7 +236,7 @@ onload = function () {
 
         document.getElementById(
           "breadpath"
-        ).innerHTML = `<nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
+        ).innerHTML = `<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
       <ol class="breadcrumb col-12">
         <li class="breadcrumb-item" id="breadcrumb-item-head"><a href="#">${categoryName}</a></li>
         <li class="breadcrumb-item active" aria-current="page">${subCategoryName}</li>
@@ -253,7 +260,6 @@ onload = function () {
     //Set up show prodct, and git element to sort
 
     var card = setupFilterControls();
-    setupEventListeners();
   }
 };
 function setupEventListeners() {
@@ -343,6 +349,7 @@ function setupFilterControls() {
   const minPriceInput = document.getElementById("min-price");
   const maxPriceInput = document.getElementById("max-price");
   const discountinput = document.getElementById("on-sale");
+  const bestsellerinput = document.getElementById("star");
   const filterButton = document.getElementById("btn-apply");
 
   /* Drop down*/
@@ -392,7 +399,15 @@ function setupFilterControls() {
       const minPrice = parseFloat(minPriceInput.value) || 0;
       const maxPrice = parseFloat(maxPriceInput.value) || 100000;
       const discount = discountinput.checked;
-      filterProduct(categoryId, subcategoryId, minPrice, maxPrice, discount);
+      const bestseller = bestsellerinput.checked;
+      filterProduct(
+        categoryId,
+        subcategoryId,
+        minPrice,
+        maxPrice,
+        discount,
+        bestseller
+      );
       const offcanvasElement = document.getElementById("offcanvasExample");
       const offcanvas = bootstrap.Offcanvas.getInstance(offcanvasElement);
       offcanvas.hide();
@@ -489,4 +504,13 @@ function sortProduct(sortelement, poductpContainer) {
   productArray.forEach((product) => {
     poductpContainer.appendChild(product);
   });
+}
+function generateStars(starCount) {
+  let starsHtml = "";
+  for (let i = 0; i < 5; i++) {
+    starsHtml += `<i class="${
+      i < starCount ? "fa fa-star checked" : "fa fa-star"
+    }"></i>`;
+  }
+  return starsHtml;
 }
