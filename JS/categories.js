@@ -253,6 +253,7 @@ onload = function () {
     //Set up show prodct, and git element to sort
 
     var card = setupFilterControls();
+    setupEventListeners();
   }
 };
 function setupEventListeners() {
